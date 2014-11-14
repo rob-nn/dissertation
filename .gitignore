@@ -55,4 +55,5 @@ target/
 
 
 
+*.swp
 .DS_Store
