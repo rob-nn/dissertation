@@ -1,4 +1,9 @@
-\documentclass{book}
+\documentclass[a4paper, 12pt] {report}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{enumerate}
+\usepackage{multind}
+
 
 
 \title{Viabilidade de uso de uma Rede CMAC para controle de pr\'oteses trasnfemurais}
@@ -8,4 +13,135 @@
 	FGA - FACULDADE GAMA\\
 	PROGRAMA DE P\'OS- GRADUA\c{C}\~AO EM ENGENHARIA BIOM\'EDICA
 	\maketitle
+	
+	\chapter{Introdução}
+		\section {CONTEXTUALIZAÇÃO E FORMULAÇÃO DO PROBLEMA}
+
+No campo da reabilitação humana, há o subcampo que trata da construção de próteses. Estas têm como objetivo substituir a função de algum membro do corpo humano. Em especial existem próteses que substituem a função de parte das pernas, abaixo ou acima do joelho, também chamadas de próteses transtibiais para aquelas e transfemurais, para estas.
+
+	As próteses também podem ser classificadas como passivas ou ativas. As passivas são compostas inerentemente por componentes mecânicos como molas e alavancas. Já as próteses ativas possuem mecanismos eletro-eletrônicos, que têm como principal função injetar energia no sistema para compensar o gasto metabólico extra, exigido por uma prótese passiva. Para as próteses ativas, faz-se necessárioa criação de mecanismos de controle para as mesmas. Este mecanismo pode ser criado, usando-se engenharia de controle tradicional e ou adaptativa, ou sistemas inteligentes.
+
+	As técnicas de engenharia de controle exigem que se crie modelos cinéticos e ou cinemáticos para se resolver o problema em questão. Geralmente estes modelos são criados analiticamente, usando-se leis da física bem compreendidas. Este não é um trabalho fácil, podendo demandar muito tempo para construção e às vezes devido a grande complexidade do sistema, exige um grau maior de simplificação. Isso pode se tornar um problema sério, até mesmo inviabilizando a solução.
+
+	Sistemas inteligentes abrangem vários tipos de tecnologias. Dentre elas, sistemas fuzzy, sistemas especialistas, agentes lógicos, redes neurais artificiais, etc. Esta classe de sistemas, dentre outras coisas, pode facilitar bastante a gestão da complexidade, pois dependendo do caso, os modelos são bastante simples de serem construídos, pois não exigiriam toda a complexidade física e matemática da engenharia de controle.
+
+	Sistemas fuzzy, por exemplo, usam como componentes de modelagem variáveis linguísticas. Estas num sistema para controle da velocidade de um ventilador, poderiam ser resumidas em rápida, média e lenta, exemplificando.
+
+	Já sistemas como Redes Neurais Artificiais (RNA), “aprendem” o comportamento do sistema a partir de dados obtidos anteriormente. Por exemplo partir da coleta de dígitos escritos por várias pessoas, é possível desenvolver um sistema que identifique qualquer dígito escrito num papel por qualquer pessoas. O número de acertos pode até não ser 100%, mas certamente será algo próximo
+
+	No caso de próteses transfemurais ativas, o uso de uma RNA é bastante interessante, pois estas próteses para funcionarem o mais próximo possível do que seria um membro sadio, necessitam executar sua função dentro do ciclo de marchar humana, que definitivamente é de bastante complexidade física e matemática, conforme a literatura (Refs...........). Usando-se uma RNA para esta finalidade, consiste-se em passar dados obtidos a partir de um sujeito sadio, e este “aprenderia” como fazer agir a prótese num sujeito amputado transfermural.
+
+	Porém, o ciclo de marcha possui muitas variações. Por exemplo, o ciclo natural, acelerado, subindo aclives, subindo escadas, descendo, etc. Aparentemente é possível criar RNAs para todas estas situações, mas mesmo assim, este é um trabalho hercúleo e que provavelmente exigiria muito poder computacional, o que não seria adequado para uma prótose transfemural ativa, que exige um sistema embarcado eficiente energeticamente. Com isso em mente, e inspirando-se no trabalho de Sauborin(Ref.........), nota-se que seria possível, modelar sistemas fuzzy para alterar a saída do sistema conforme a necessidade do ciclo de marchar. A vantagem de tal configuração é que um sistema fuzzy geralmente vai exigir menos cálculos que uma RNA num sistema complexo.
+
+	Existem vários tipos de RNA, sendo a mais popular na literatura a Multi Layer Perceptron (MLP). Esta é um tipo de rede que tem sua aplicabilidade e eficiência já comprovadas em várias soluções. A MLP, porém, tem uma desvantagem para sistemas de grande complexidade. Ela exige poder computacional considerável, pois necessita fazer muitos cálculos até definir sua saída. Uma promessa em relação a este tipo de RNA, e que inclusive já possui aplicações no mundo real, é a Cerebellar Model Articulation Controller (CMAC). Esta é uma RNA baseada no cerebelum dos mamíferos. Sua vantagem em relação a MLP é que na sua forma final, ela pode ser resumida a acesso a tabelas e cálculos triviais e simples para gerar sua saída.
+
+	Neste sentido este trabalho, demonstra simulações desenvolvidas a partir de uma RNA CMAC, mostrando que com tão enfoque é possível controlar uma prótese transfemural ativa.
+	\section{OBJETIVOS}
+		\subsection{Objetivo geral}
+			O presente trabalho tem como objetivo criar um controlador para uma prótese transfemural ativa baseada em sistemas Fuzzy e na RNA CMAC. 
+
+		\subsection{Objetivos específicos}
+			Os objetivos específicos são:
+			\begin{itemize}
+				\item Definir os sinais de entrada para o controlador;
+				\item Definir os sinais de saídas do controlador;
+				\item Definir uma arquitetura de RNA adequada ao CMAC;
+				\item Construir um controlador CMAC com vistas ao ciclo confortável de marcha;
+				\item Selecionar comportamentos de exceção do ciclo de marcha confortável
+				\item Modelar variações do ciclo de marcha através de vários sistemas Fuzzy;
+				\item Criar simulações virtuais do controlador, baseados em dados reais, nos diferentes ciclos de marchas selecionados.
+			\end{itemize}
+
+	\section{REVISÃO DA LITERATURA}
+		Lin [Refff] demonstra a efetividade do modelo CMAC, através de estudos preliminares de controle cinemático e síntese de marcha. Depois de treinar uma RNA, baseada no CMAC, para aprender relações multivariáveis e não lineares, da cinemática da marcha, a RNA foi utilizada para controle de caminhada em linha reta e aclives de robôs quadrúpedes.
+
+	Em [Refff], demonstra-se a robustez de uma CMAC em um robô bípede em condições de marcha apresentando distúrbios. Em [Refff] são apresentadas as estratégias para o uso da CMAC no mesmo tipo de robô.
+
+	\chapter{FUNDAMENTAÇÃO TEÓRICA}
+		\section{O CICLO DE MARCHA}
+			\subsection{Conhecimentos básicos}
+			\subsection{Marcha confotável}
+			\subsection{Dinâmica da marcha}
+			\subsection{Cinemática da marcha}
+		\section{PRÓTESES TRANSFEMURAIS}
+			\subsection {Tipos de próteses}
+				As próteses constituem uma importante contribuição da engenharia na área da reabilitação humana. Existem próteses para substituição da função de membros exteriores como braços e pernas, até a substituição de secções de esôfagos ou intestinos.
+
+As próteses para substituir as funções das pernas, em especial, têm evoluído bastante ao longo do tempo. Existem próteses ativas e passivas para este fim. Próteses passivas são constituídas intrinsecamente, por elementos mecânicos que não possuem qualquer tipo de suporte energético externo. Já próteses ativas, são constituídas por elementos mecânicos e eletrônicos, sendo que partes mecânicas da prótese recebem auxílio de energia externa para atuar na função que está sendo substituída, por exemplo, a flexão de um joelho. A principal vantagem das próteses ativas, sobre as passivas, está na compensação do débito energético que ocorre nas passivas. Esta compensação garante um ciclo de marcha mais confortável, suave e natural ao usuário da prótese ativa.
+			\subsection {próteses ativas}
+		\section{REDES NEURAIS ARTIFICIAIS}
+			\subsection{Contextualização}
+			\subsection{\emph{Multi Layer Perceptrons}}
+
+		\section{\emph{CEREBELLAR MODEL ARTICULATION CONTROLLER}\ CMAC}
+			\subsection{Descrição}
+A Cerebellar Model Articulation Controller (CMAC) foi criada por James Sacra Albus (Ref........). Ele se inspirou no cerebellum dos mamíferos para criá-la. O mesmo autor havia feito um extenso trabalho sobre o funcionamento do cerebellum. Trabalho este que resultou numa tese de Doutorado em 1972 (Reff.)
+
+A ideia da CMAC é ser ativada a partir de limiares de ativação, baseados na conversão de um vetor de sinais de entradas para um conjunto mínimo de pesos sinápticos, que quando somados, resultam na saída desejada.
+
+	Conforme a figura 1, é possível ver o funcionamento Básico da CMAC. Os sinais entram no sistema, que mapeia o mesmo para um conjunto de pesos que devem ser somados para ativação. Note que apenas uma pequena fração de pesos é realmente selecionada para participar na ativação. O conjunto de pesos disponíveis na CMAC geralmente é bem maior que o número de pesos ativados..
+
+	Os pesos não são ativados aleatoriamente, na verdade, para vetores de entradas semelhantes, conjuntos de pesos semelhantes são ativados. Esta característica é que confere a CMAC seu poder de generalização. Quando vetores de entradas muito diferentes são apresentados à CMAC o conjunto de pesos ativados tende a ser bastante dissemelhante. Estas características conferem a CMAC sua aplicabilidade no controle de próteses ativas transfemurais, pois, por exemplo, um joelho não muda sua velocidade angular em valores muito grandes instantaneamente, ele vai acelerando de uma velocidade a outra de uma forma biomecanicamente plausível, alterando-se de tempos em tempos. De acordo com a CMAC isto quer dizer que num ciclo de marcha confortável, a cada nova entrada, pelo menos alguns pesos da entrada anterior serão ativados. Figura abaixo (REFFFF)
+
+	Outro ponto fundamental da CMAC é que depois de treinada, pode-se transformar o vetor de entradas num endereçador de uma tabela de pesos. Veja na figura 2:	
+
+Computacionalmente isto equivale a calcular um valor hash, com base no vetor de entradas e fazer o lookup (recuperar o conteúdo) dos endereços calculados pelo código hash. Parece fácil, mas na verdade o maior problema de se implementar uma CMCA é desenvolver um algoritmo para cálculo deste endereçamento. Dependendo do enfoque do programador da CMAC, isto pode ser feito desenvolvendo-se fórmulas matemáticas diretas(Reff para artigos, não pretendo reproduzí-los aqui), ou seja, vetor de entrada aplicado a fórmula gera endereço X. Este enfoque é elegante, mas dependendo do background matemático do programador, pode levar muito tempo analisando-se uma solução que gere esta fórmula. Outro enfoque é criar estruturas de dados baseadas no artigo original de Albus(Ref....). Neste artigo, o autor propõe a criação de um hiperplano. A conjunção dos valores de entrada neste hiperplano, isto é, cada um correspondendo a uma dimensão do hiperplano como se fosse um no mesmo. Este vetor contém os endereços dos pesos a serem ativados. Este enfoque tem dois problemas: i) ele demanda muita memória, a frente será explicado; ii) ele requer muito processamento para se chegar no vetor de saída. A principal vantagem, porém, é que neste enfoque depois de gerado todos os vetores possíveis no hiperplano para o modelo de CMAC escolhido, necessita-se apenas criar uma hash table para funcionar no sistema final, ou seja, atingi-se o objetivo do primeiro enfoque. Mas ao invés de se utilizar análise matemática pura, o programador pode descrever algoritmos funcionais mais ineficientes e com a ajuda de ferramentas de profiler e de testes de uma linguagem de programação qualquer, ir otimizando este algoritmo, até encontrar uma solução computacionalmente viável para o problema em questão.
+
+	Para entender os hiperplanos de Albus veja as tabelas abaixo:
+
+
+	Primeiro define-se o número de ativações, ou seja, o número de pesos que serão somados na saída. Para cada espaço de entrada, defini-se o número de valores possíveis, o menor valor e o maior valor. Por exemplo para s1, existem 5 valores sendo o primeiro 1 e o último 5. No caso a distancia entre um valor e outro é 1. Depois para cada valor do espaço de entrada em questão, defini-se um vetor de número de ativações dimensões, no caso 4. Para cada valor defini-se os componentes do vetor. No exemplo está A, B, C, D, no segundo valor E, B, C, D e assim por diante ver (Albus 1975 Reff). Cada espaço de entrada passa por este processo.
+	Para um hiperplano de apenas 2 espaços de entrada, faz-se um produto catersiano dos espaços de entrada, combinando-se cada componente do vetor. Veja figura abaixo:
+
+
+
+O produto carteziano os espços de entradas criaram novos vetores de 4 componentes. Só que agora um componente é a combinação de 2 letras. Para mais um espço de entrada, transformar a matriz acima numa matriz coluna e faze-se o produto carteziano novamente, agora com o novo espaço de entrada, o resultado seriam vetores de 4 itens, mas agora cada item teria 3 letras.
+
+	A elegância desta solução está no fato de que cada vetor final, compartilha com vetores adjacentes alguns valores de componentes. Cada um dos componentes do vetor na verdade é um endereço para um peso. Por exemplo o valor Ai é um endereço, Fb é outro. Ver figura acima.
+
+	O processo de ativação se dá, primeiro definindo qual o vetor de cada espaço de entrada, fará a composição para o endereço dos pesos. No exemplo em questão se s1 for 2 e s2 for 3, o vetor de ativação será [Ee, Fb,Cc Dd], esses 4 componentes definem quais pesos serão ativados. Esse endereções são obtidos usando um técnica de hashing que será descrita adiante.
+
+	Fazendo-se uma pequena análise, nota-se que esse processo é um pouco oneroso, pois para cada espaço de entrada, necessita-se criar o vetor equivalente a cada entrada (vetor com componentes para ativação), depois disto faz-se o produto carteziando de cada espaço de entrada e no final, gera-se uma hashtable que representará os pesos. Há dois problemas, quanto mais espaços de entradas, mais memória deverá ser usada. O outro problema é que quanto maior o número de valores válidos para um espaço de entrada, o mesmo problema ocorrerá. No final isso traduz-se em muito processamento e uso de muita memória. A boa notícia é que nem todo problema no mundo necessita dessas características, por exemplo, existem sistuações que com poucos parâmetros compondo os espaços de entrada, e um número pequeno de valores discretos entre estes espaços de entreda, são suficientes para gerar saídas satisfatórias do sistema. O presente trabalho demonstrará esta situação mais a frente
+
+Outra vantagem que deve ser menciondada, é que depois de treinada, só é necessário armazenar a hashtable no sistema final. Hastables, são estruturas bastante eficientes para lookups de informção.
+
+			\subsection{\emph{Hashing} baseado em hiperplanos para a CMAC.}
+
+			\subsection{Treinamento}
+
+O treinamento da CMAC é bastante simples. Primeiro defini-se quais pesos são ativados para o teste em questão, então para cada peso ativado aplica-se a fórmula acima. Alpha é a taxa de aprendizado, D é a saída desejada, y e a saída obtida pela rede e num\_active\_cells é o número de células ativas na configurácão da CMAC
+
+
+			\subsection{Otimização de parâmetros}
+
+São apenas 4 parâmentro que realmente precisam ser otimizados para uma CMAC:
+				\begin{itemize}
+					\item O número de valores possíveis para cada espaço de entradas;
+					\item O número de ativações;
+					\item O número de iterações;
+					\item A taxa de aprendizado;
+				\end{itemize}
+Os 3 primeiros parametros são números inteiros positivos e conforme já foi visto não necessitam de grandes valores para o problema em questão.
+
+A solução então é fazer a permutação entre os valores e verificar os parâmetros que atingem o menor erro quadrado médio num total de 100 iterações.
+
+O espaço de entrada consistirá nos componentes de da velocidade instântanea do joelho e variará de 3 a 100 valores possíveis.
+
+O número de ativações variará de 1 a 50 ativações.
+
+A taxa de aprendizado variará de 0 até 1, de 0.1 a 0.1 .
+
+Este algoritimo ficará rondando por XXX dias e armazenará todas as simulacões realizadas que serão um total de: 97*5*10 =  4840 simulações
+
+			\subsection{Implementação}
+A implementação do sistema foi realizada em linguagem Python 2.7, usando sistemas operacionais Mac OS X 10.8 ou Ubuntu 14.07. Foi usado o PDB do prórprio Python para debuging, a biblioteca unittest do próprio python e cProfile do próprio python. Para desenvolvimento de interfaces gráficas foram uados o Matplotlib 1.4.2 e o Tkinter do próprio python. Como editor de texto utilizou-se o Vim 7.3. Todo o projeto foi desenvolvido com ferramentas open-source. Além disso todo o código desenvolvido foi disponibilizado no Github no endereço: https://github.com/rob-nn/motus. 
+
+Além do software de manipulação da CMAC também foi desenvolvido um software de estração de dados escrito em Octave que tabém está no github no endereço: http://github.com/rob-nn/gait\_data\_loader.
+
+	\chapter{METODOLOGOIA}
+		\section{COLETA E ANÁLISE DE DADOS}
+Os dados para o treinamento da RNA CMAC são dados cinemáticos, capturado através de motion capture, utilizando-se de várias câmeras Qualisys Oqus MRI, com marcadores passivos e pacote de software QTM 3.2 da Qualisys. Os dados foram convertidos para formato adequado à linguagem Octave. Foram usados dados capturados de um sujeito, no Laboratório de Desempenho Humano da Faculdade Ceilândia da UnB. Foi selecionado um voluntário sadio, do gênero masculino. O referido voluntário repetiu um ciclo de marcha de aproximadamente 5 segundos, por 5 vezes. Os dados trazem variáveis espaciais, com respeito a posição dos marcadores. Os marcadores estão distribuídos em 34 posições nas duas pernas. Como só a flexão e a extensão dos joelhos fez parte deste trabalho, utilizaram-se somente os marcadores das tíbias, joelhos e trocânteres. Com estes dados foram possíveis cálculos de angulações, velocidades angulares e acelerações angulares dos joelhos. Como para o presente trabalho só interessava a velocidade de conforto de marcha, parte dos dados iniciais e finais de cada amostra teve que ser eliminado, pois se constituam no início e na parada da velocidade de conforto da marcha. O projeto no qual ocorreu a coleta foi aprovado pelo Comitê de Ética da Faculdade de Saúde da UnB, processo N11911/12.
+
+		\section{PROPOSTA INICIAL}
 \end{document}
+
