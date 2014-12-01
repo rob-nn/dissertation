@@ -57,3 +57,5 @@ target/
 
 *.swp
 .DS_Store
+octave-workspace
+
