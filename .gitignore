@@ -59,4 +59,5 @@ target/
 .DS_Store
 .~*
 octave-workspace
-
+~*
+*.tmp
