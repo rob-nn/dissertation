@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2014-12-03T14:45:05" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2014-12-03T15:05:22" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -43,6 +43,7 @@
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="RDiNR4WMg4N9" name="Tíbia Esquerda"/>
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="hUjLW4U9lBnk" name="Início Corte"/>
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="ujaKipyLz2cB" name="Fim Corte"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="j849WT08KPuP" name="Nome do Arquivo de Coleta"/>
        </UML:Classifier.feature>
       </UML:Class>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="o9Y68MZpzVGy" name="new_class"/>
@@ -219,6 +220,13 @@
          </assocwidget>
         </associations>
        </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="Dados Para Carga" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="784" canvaswidth="1260" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="yLecwmwAROPr" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="0" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-1451" showattsigs="601" showstereotype="1" y="-831" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" localid="wvyJfeIbzxDu" width="195" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="8KpES25elM54" showscope="1" height="161" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
       </diagrams>
      </XMI.extension>
     </UML:Model>
@@ -242,7 +250,7 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="Extração e Coleta de Dados" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="647" canvaswidth="743" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="XAruauuDJMEZ" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="Extração e Coleta de Dados" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="647" canvaswidth="743" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="17" xmi.id="XAruauuDJMEZ" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
         <widgets>
          <actorwidget width="83" showstereotype="1" x="-900" usesdiagramusefillcolor="0" y="-512" usesdiagramfillcolor="0" isinstance="0" localid="Ed8llsWXOev1" fillcolor="#ffff00" height="59" linecolor="none" xmi.id="ezJxJYVJta9W" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <usecasewidget width="341" showstereotype="1" x="-700" usesdiagramusefillcolor="0" y="-579" usesdiagramfillcolor="0" isinstance="0" localid="PemGCvmQXs9G" fillcolor="#ffff00" height="49" linecolor="none" xmi.id="0pAVZEZDBt9S" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
@@ -280,18 +288,19 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="XAruauuDJMEZ" uniqueid="s6I724qgNkh1" documentation=""/>
+  <docsettings viewid="yLecwmwAROPr" uniqueid="j849WT08KPuP" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
     <listitem open="1" type="827" id="Deployment View"/>
     <listitem open="1" type="836" id="Entity Relationship Model"/>
     <listitem open="1" type="801" id="Logical View">
-     <listitem open="0" type="813" id="8KpES25elM54">
+     <listitem open="1" type="813" id="8KpES25elM54">
       <listitem open="0" type="814" id="ujaKipyLz2cB"/>
       <listitem open="0" type="814" id="hUjLW4U9lBnk"/>
       <listitem open="0" type="814" id="kXTUB7ROFf42"/>
       <listitem open="0" type="814" id="5QtVGeeqWaYW"/>
+      <listitem open="0" type="814" id="j849WT08KPuP"/>
       <listitem open="0" type="814" id="uh7QGeuQg4gg"/>
       <listitem open="0" type="814" id="RDiNR4WMg4N9"/>
       <listitem open="0" type="814" id="8PbiIEOYQsl8"/>
@@ -301,6 +310,7 @@
      <listitem open="0" type="813" id="arTldY8OqYrD">
       <listitem open="0" type="814" id="0y3cX5AqMeia"/>
      </listitem>
+     <listitem open="0" type="807" id="yLecwmwAROPr" label="Dados Para Carga"/>
      <listitem open="0" type="807" id="ZzMl58pUDugl" label="DadosQTM"/>
      <listitem open="1" type="813" id="Q5SwQOvHvNZi"/>
      <listitem open="0" type="830" id="Datatypes">
