@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2014-12-06T21:34:34" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2014-12-07T19:20:28" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -15,7 +15,7 @@
     <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
     <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Estrutura de Dados" name="Estrutura de Dados"/>
     <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="interface" name="interface"/>
-    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Matriz de 3 DimensÃµes" name="Matriz de 3 Dimensões"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Matriz de 3 DimensÃÂµes" name="Matriz de 3 Dimensões"/>
     <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
      <UML:Namespace.ownedElement>
       <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
@@ -56,7 +56,7 @@
       </UML:Class>
       <UML:Class stereotype="Estrutura de Dados" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="GmOneBeE07xd" name="Trajectories"/>
       <UML:Class stereotype="Estrutura de Dados" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="tXUImi30F18i" name="Undefined"/>
-      <UML:Class stereotype="Matriz de 3 DimensÃµes" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Q5SwQOvHvNZi" name="Data"/>
+      <UML:Class stereotype="Matriz de 3 DimensÃÂµes" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Q5SwQOvHvNZi" name="Data"/>
       <UML:Association visibility="public" isSpecification="false" namespace="Logical View" xmi.id="zntYg2P55r1V" name="Trajectories">
        <UML:Association.connection>
         <UML:AssociationEnd changeability="changeable" visibility="public" isNavigable="false" isSpecification="false" multiplicity="1" xmi.id="Fun9IKrMtXhU" type="arTldY8OqYrD" name="" aggregation="none"/>
@@ -407,6 +407,56 @@
          </assocwidget>
         </associations>
        </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="Visão geral Treinamento" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="492" canvaswidth="1018" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="Ti2S6znRmOnr" documentation="" showscope="1" snapgrid="0" showatts="1" type="6">
+        <widgets>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-337" showstereotype="1" y="-426" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="boTngUwQB9Va" width="15" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="" xmi.id="pVy6YcA1KCUP" postcondition="" documentation="" activitytype="0" height="15" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-414" showstereotype="1" y="-298" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="9FqucblDNF04" width="179" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Recupera Dados da Coleta" xmi.id="jwSs3yRsRPwy" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-533" showstereotype="1" y="-214" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="14zKHRjOfXIH" width="416" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Seleciona 30% dos dados para treinamento e 70% para validação" xmi.id="84SWHQYyM0pN" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-411" showstereotype="1" y="-370" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="wEDMd9KdDHxS" width="165" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Cria Dicionário de Pesos" xmi.id="hepMB7bJ93nO" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-377" showstereotype="1" y="-120" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="RLNnKA8EOLYz" width="89" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Treina Rede" xmi.id="Uscf8X6pBv9M" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-393" showstereotype="1" y="-33" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="2ieAjRYAltv3" width="119" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Plota Resultados" xmi.id="33FPOoPqezTm" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-324" showstereotype="1" y="51" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="VZZgUg1VOdd7" width="15" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="" xmi.id="2BHl3Cm4D2Ub" postcondition="" documentation="" activitytype="2" height="15" precondition=""/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="hepMB7bJ93nO" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="pVy6YcA1KCUP" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-337" starty="-411"/>
+           <endpoint endx="-337" endy="-370"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="63" widgetbid="jwSs3yRsRPwy" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="hepMB7bJ93nO" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="none" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-336" starty="-346"/>
+           <endpoint endx="-336" endy="-298"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="84SWHQYyM0pN" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="jwSs3yRsRPwy" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-335" starty="-274"/>
+           <endpoint endx="-335" endy="-214"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="Uscf8X6pBv9M" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="84SWHQYyM0pN" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-333" starty="-190"/>
+           <endpoint endx="-333" endy="-120"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="33FPOoPqezTm" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="42" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="Uscf8X6pBv9M" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-333" starty="-96"/>
+           <endpoint endx="-333" endy="-33"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="2BHl3Cm4D2Ub" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="106" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="33FPOoPqezTm" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="-318" starty="-9"/>
+           <endpoint endx="-318" endy="51"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
       </diagrams>
      </XMI.extension>
     </UML:Model>
@@ -473,7 +523,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="ZzMl58pUDugl" uniqueid="iQmEmQPSUKU7" documentation=""/>
+  <docsettings viewid="Ti2S6znRmOnr" uniqueid="2BHl3Cm4D2Ub" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
@@ -587,8 +637,9 @@
       <listitem open="0" type="815" id="eh0FvaUr3zSs"/>
      </listitem>
      <listitem open="1" type="813" id="tXUImi30F18i"/>
+     <listitem open="0" type="809" id="Ti2S6znRmOnr" label="Visão geral Treinamento"/>
     </listitem>
-    <listitem open="1" type="802" id="Use Case View">
+    <listitem open="0" type="802" id="Use Case View">
      <listitem open="0" type="805" id="bROqJS6DN3U0" label="Aproximação de sinais"/>
      <listitem open="1" type="812" id="0pAVZEZDBt9S"/>
      <listitem open="0" type="805" id="XAruauuDJMEZ" label="Extração e Coleta de Dados"/>
