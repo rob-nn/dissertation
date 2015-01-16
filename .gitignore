@@ -55,9 +55,9 @@ target/
 
 
 
-*.swp
+*swp
 .DS_Store
 .~*
 octave-workspace
 ~*
-*.tmp
+*tmp
