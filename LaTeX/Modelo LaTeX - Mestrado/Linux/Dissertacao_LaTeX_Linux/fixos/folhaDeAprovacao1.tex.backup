@@ -1,0 +1,25 @@
+\begin{folhadeaprovacao}
+    \center
+    \vspace*{0in}
+	{\textbf{\imprimirinstituicao}}
+	\par
+	{\textbf{\imprimirdepartamento}}
+
+	\vspace{2.1 in}
+	{\ABNTEXchapterfont\bfseries\large\imprimirtitulo}
+    	\vspace{0.25 in}
+    	\par
+         {\ABNTEXchapterfont\bfseries\large\imprimirautor}
+    	\vspace{2.1 in}
+
+	    \textbf{ORIENTADOR(A): Dr(a).}\\
+    	    \textbf{CO-ORIENTADOR(A): Dr(a).}\\
+   	    \vspace{0.25 in}
+	    \textbf{QUALIFICAÇÃO DE MESTRADO EM ENGENHARIA BIOMÉDICA}
+		
+    \vspace*{.5in}
+    \textbf{BRASÍLIA/DF: MÊS - ANO}
+    
+    \vspace*{1.0in}
+    
+    \end{folhadeaprovacao}

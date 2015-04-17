@@ -1,0 +1,43 @@
+% Configurações de aparência do PDF final
+% alterando o aspecto da cor azul
+\definecolor{black}{RGB}{0,0,0}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          		% color of internal links
+    	citecolor=black,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=black,
+		bookmarksdepth=4
+}
+\makeatother
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.25cm} % Controle do espaçamento entre um parágrafo e outro.
+
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Remova o comentário abaixo para espaçamento simples
+%\SingleSpacing
+
+%\setlength{\mathindent}{0.6cm} % Altera o recuo das equações de tiver o pacote fleqn em documentclass
+
+\counterwithout{equation}{chapter} %Faz com que as equações sejam numeradas 1,2,3,...
+
+\counterwithout{table}{chapter} %Faz com que as equações sejam numeradas 1,2,3,...
+
+
+\counterwithout{footnote}{chapter} %Faz com que as notas de rodapé sejam numeradas 1,2,3,...
+
+%\setlength\afterchapskip{\baselineskip} % Espaçamento entre o título e o texto
+
+\renewcommand{\ABNTEXchapterfontsize}{\fontsize{14}{14}\selectfont} %Letra e tamnaho da fonte do sumário
+\renewcommand{\ABNTEXsectionfontsize}{\fontsize{14}{14}\selectfont}
+\renewcommand{\ABNTEXsubsectionfontsize}{\fontsize{14}{14}\selectfont}

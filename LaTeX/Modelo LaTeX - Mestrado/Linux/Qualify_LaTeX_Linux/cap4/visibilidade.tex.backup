@@ -1,0 +1,58 @@
+\chapter{\textbf {metodologia}}
+
+\section{coleta e análise de dados}
+
+\section{Cromograma}
+
+As atividades previstas e executadas constam na Tabela \ref{tabtreta}.
+
+
+\begin{table}[htb]
+\caption{Cronograma de Atividades}
+
+\label{tabtreta}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Atividades  & Mar & Mai & Jul & Set & Nov & Jan & Mar & Jul& Set & Nov  \\
+\hline 
+1	& x & x & x & x & x & x & x &   &   &   \\ \hline
+2	& x & x & x &   &   &   &   &   &   &   \\ \hline
+3	& x & x & x &   &   &   &   &   &   &   \\ \hline
+4 	&   & x & x & x & x &   &   &   &   &   \\ \hline
+5	&   &   & x & x & x & x &   &   &   &   \\ \hline
+6	&   &   &   &   &   & x & x & x & x & x \\ \hline
+7 	&   &   &   &   &   &   &   & x & x & x \\ \hline
+8	&   &   &   &   &   & x & x & x & x &   \\ \hline
+9 	&   &   &   &   &   &   &   &   &   & x \\ \hline
+\end{tabular}\\
+\end{table}
+
+Poderá ser que o estudante já tenha algumas publicações, então, sugere-
+se o exemplo a seguir:
+
+Publicações 2006 e 2007
+
+BALANIUK, R., COSTA, I., F., MELO, J. Cosmetic Breast Surgery Simulation. In: VIII
+Symposium on Virtual Reality - SVR2006, 2006, Belém - PA. Anais do VIII Symposium on
+Virtual Reality - SVR2006, 2006.\\
+19MELO, J., BALANIUK, R., BRASIL, L. Ambiente de Realidade Virtual para Visualização de
+Objetos Tridimensionais Aplicados à Área Médica. In: VIII Symposium on Virtual Reality -
+WICSVR2006, 2006, Belém - PA. Anais do VIII Symposium on Virtual Reality - WICSVR2006,
+2006.\\
+MELO, J., BALANIUK, R; BRASIL, L. Ambiente de Simulação Médica para Web. In: VIII
+Symposium on Virtual Reality - SVR2007, 2007, Rio de Janeiro - RJ. Anais do VIII Symposium
+on Virtual Reality - SVR2007, 2007.\\
+MELO, J., BALANIUK, R., BRASIL, L. Training of Medical Procedures in an WEB
+Environment of Virtual Reality. In: World Congress on Medical Physics and Biomedical
+Engineering 2006(WC 2006), 2006, Seoul. Proceedings of the World Congress on Medical Physics
+and Biomedical Engineering 2006 (WC 2006).\\
+MELO, J., ABREU, C., BRASIL, L., BALANIUK, R. Ambiente Web Para Visualização,
+Navegação E Interação De Estruturas Anatômicas. In: CBEB'2006 - XX Congresso Brasileiro
+de Engenharia Biomédica, 2006, São Pedro. Anais do XX Congresso Brasileiro de Engenharia
+Biomédica.\\
+BALANIUK, R., COSTA, I., F., MELO, J. 3D Dynamic Simulation of the Breast. Anais do VII
+Workshop de Informática Médica (WIM2007), 2007, Porto de Galinhas – PE (In Press).\\
+BITTENCOURT, I et al. Um Sistema Tutor baseado em Agentes no domínio da Medicina.
+Anais do XIII Workshop de Informática na Educação (WIE2007), 2007, Rio de Janeiro – RJ (In
+Press).

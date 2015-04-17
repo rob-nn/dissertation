@@ -1,0 +1,22 @@
+% Dados pessoais
+\autor{NOME}
+\departamento{PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA \\ BIOMÉDICA}
+\instituicao{UnB - UNIVERSIDADE DE BRASÍLIA 
+		\par
+		FGA - FACULDADE UNB GAMA}
+		
+\local{BRASÍLIA/DF }
+\data{2015}
+\mes{MÊS }
+\dia{DIA }
+\publicacao{NUMERAÇÃO }
+
+% Dados do trabalho
+\titulo{TÍTULO}
+
+
+
+\orientador{Dr(a).}
+\membroCoorientador{Dr(a).}
+\membroConvidadoUm{Dr(a).}
+\membroConvidadoDois{Dr(a).}

@@ -1,0 +1,66 @@
+\begin{fichacatalografica}
+\flushleft
+    \textbf{\imprimirlocal, \imprimirdia DE \imprimirmes DE \imprimirdata} \\
+       	    \vspace{0.25 in}
+	\textbf{FICHA CATALOGRÁFICA}\\
+	% Conteúdo
+	% Altere somente os textos necessários. Não tire os '~', pois eles forçam o espaçamento na esquerda.
+	% Para adicionar novas linhas, use o texto a seguir para cada nova linha:
+	% & & ~~~ Texto \\
+	\begin{tabular}{c|p{0,0cm}p{13.5cm}|}
+	\multicolumn{3}{l}{~~~ } \\ \cline{2-3} 
+	& & \\
+	& & \imprimirautor \\
+	& & \imprimirtitulo, [Distrito Federal] \imprimirdata.\\
+	& & \imprimirpublicacao. \pageref{LastPage} p., 210 x 297 mm (FGA/UnB Gama, Mestre, Engenharia Biomédica, \imprimirdata).
+	Dissertação de Mestrado - Universidade de Brasília. 
+	Faculdade Gama. Programa de Pós- Graduação em Engenharia Biomédica.\\
+	& & 1. \imprimirpalavrachaveum. ~~~2. \imprimirpalavrachavedois \\
+	& & 3. \imprimirpalavrachavetres. ~~~4. \imprimirpalavrachavequatro \\
+	& & I. FGA UnB Gama/ UnB. ~~~II.\imprimirtitulo \\
+	% Altere apenas do CDU: ####
+	& & ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CDU: \nomecdu \\ \cline{2-3}
+	\multicolumn{3}{l}{~~~ } \\
+	\end{tabular}
+\end{fichacatalografica}
+
+
+\begin{flushleft}
+\textbf{REFERÊNCIA BIBLIOGRÁFICA}\\
+\end{flushleft}
+CICLANO, P. B. L. (ANO). TÍTULO. Dissertação de Mestrado em Engenharia
+Biomédica, Publicação NO./ANO, Programa de Pós-Graduação em Engenharia
+Biomédica, Faculdade Gama, Universidade de Brasília, Brasília, DF, \pageref{LastPage} p.
+
+\begin{flushleft}
+ \textbf{CESSÃO DE DIREITOS}
+ 
+AUTOR: \imprimirautor \\
+TÍTULO: \imprimirtitulo\\
+\vspace{0.25 in}
+
+GRAU: Mestre\\
+ANO: \imprimirdata
+
+\end{flushleft}
+É concedida à Universidade de Brasília permissão para reproduzir cópias desta dissertação
+de mestrado e para emprestar ou vender tais cópias somente para propósitos acadêmicos e
+científicos. O autor reserva outros direitos de publicação e nenhuma parte desta dissertação
+de mestrado pode ser reproduzida sem a autorização por escrito do autor.
+
+\flushleft
+\vspace{0.25 in}
+\imprimirdata.\\
+\imprimirendereco.\\
+\imprimirCEP, Brasília, DF -- Brasil\\
+\newpage
+
+
+
+
+
+
+
+
+
+
