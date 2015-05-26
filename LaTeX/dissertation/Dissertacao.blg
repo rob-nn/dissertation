@@ -13,11 +13,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+Repeated entry---line 2164 of file bibliografia.bib
+ : @misc{Albus1971
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3972 of file bibliografia.bib
+ : @article{Sup2008
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3989 of file bibliografia.bib
+ : @book{Lilly2010
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4015 of file bibliografia.bib
+ : @book{Poole2011
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4036 of file bibliografia.bib
+ : @article{Vallery2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4109 of file bibliografia.bib
+ : @book{Russel2010
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4119 of file bibliografia.bib
+ : @book{Golnaraghi2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4143 of file bibliografia.bib
+ : @book{Edwards2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4153 of file bibliografia.bib
+ : @book{Haykin2009
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "grimes"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--faltando school em Borjian2008
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
@@ -25,43 +62,43 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 17 entries,
             6711 wiz_defined-function locations,
-            1327 strings with 12137 characters,
-and the built_in function-call counts, 22218 in all, are:
-= -- 2597
+            1327 strings with 12126 characters,
+and the built_in function-call counts, 22217 in all, are:
+= -- 2596
 > -- 381
 < -- 524
 + -- 684
 - -- 117
-* -- 1367
-:= -- 2819
+* -- 1369
+:= -- 2818
 add.period$ -- 77
 call.type$ -- 17
 change.case$ -- 142
 chr.to.int$ -- 43
-cite$ -- 16
-duplicate$ -- 2135
-empty$ -- 986
+cite$ -- 17
+duplicate$ -- 2134
+empty$ -- 985
 format.name$ -- 548
-if$ -- 4521
+if$ -- 4519
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 308
 newline$ -- 97
 num.names$ -- 80
-pop$ -- 371
+pop$ -- 372
 preamble$ -- 1
 purify$ -- 59
 quote$ -- 0
 skip$ -- 2168
 stack$ -- 1
 substring$ -- 938
-swap$ -- 810
+swap$ -- 811
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
-warning$ -- 0
+warning$ -- 1
 while$ -- 116
 width$ -- 0
-write$ -- 274
-(There was 1 warning)
+write$ -- 273
+(There were 9 error messages)
