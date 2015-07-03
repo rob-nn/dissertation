@@ -5,4 +5,68 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Beynon et al. 2010]{Beynon2010}
+\abntrefinfo{Beynon et al.}{BEYNON et al.}{2010}
+{BEYNON, S. et al. {Correlations of the Gait Profile Score and the Movement
+  Analysis Profile relative to clinical judgments}.
+\emph{Gait and Posture}, Elsevier B.V., v.~32, n.~1, p. 129--132, 2010.
+ISSN 09666362.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.gaitpost.2010.01.010}.}
+
+\bibitem[Duhamel et al. 2004]{Duhamel2004}
+\abntrefinfo{Duhamel et al.}{DUHAMEL et al.}{2004}
+{DUHAMEL, a. et al. {Statistical tools for clinical gait analysis}.
+\emph{Gait and Posture}, v.~20, n.~2, p. 204--212, 2004.
+ISSN 09666362.}
+
+\bibitem[Ferreira, Crisostomo e Coimbra 2009]{Ferreira2009}
+\abntrefinfo{Ferreira, Crisostomo e Coimbra}{FERREIRA; CRISOSTOMO;
+  COIMBRA}{2009}
+{FERREIRA, J.~a.~P.; CRISOSTOMO, M.~M.; COIMBRA, a.~P. {Human gait acquisition
+  and characterization}.
+\emph{IEEE Transactions on Instrumentation and Measurement}, v.~58, n.~9, p.
+  2979--2988, 2009.
+ISSN 00189456.}
+
+\bibitem[Ghoussayni et al. 2004]{Ghoussayni2004}
+\abntrefinfo{Ghoussayni et al.}{GHOUSSAYNI et al.}{2004}
+{GHOUSSAYNI, S. et al. {Assessment and validation of a simple automated method
+  for the detection of gait events and intervals}.
+\emph{Gait and Posture}, v.~20, n.~3, p. 266--272, 2004.
+ISSN 09666362.}
+
+\bibitem[Malas 2010]{Malas}
+\abntrefinfo{Malas}{MALAS}{2010}
+{MALAS, B. \emph{{Book Review - Gait Analysis: Normal and Pathological
+  Function, 2nd Edition}}. 2010.
+Dispon{\'\i}vel em: \url{http://www.oandp.org/reading/gaitfunction.asp}.}
+
+\bibitem[Moraes, Silva e Battistela 2003]{Moraes2003}
+\abntrefinfo{Moraes, Silva e Battistela}{MORAES; SILVA; BATTISTELA}{2003}
+{MORAES, J.; SILVA, S.; BATTISTELA, L. {Comparison of two software packages for
+  data analysis at gait laboratories}.
+\emph{Proceedings of the 25th Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society (IEEE Cat. No.03CH37439)}, v.~2,
+  p. 1780--1783, 2003.
+ISSN 1094-687X.}
+
+\bibitem[Moreno et al. 2009]{Moreno2009}
+\abntrefinfo{Moreno et al.}{MORENO et al.}{2009}
+{MORENO, a. et al. {Development of the spatio-temporal gait parameters of
+  Mexican children between 6 and 13 years old data base to be included in
+  motion analysis softwares}.
+\emph{2009 Pan American Health Care Exchanges - PAHCE 2009}, n.~2, p. 90--93,
+  2009.}
+
+\bibitem[Perry e BurnField 2010]{Perry2010}
+\abntrefinfo{Perry e BurnField}{PERRY; BURNFIELD}{2010}
+{PERRY, J.; BURNFIELD, J.~M. \emph{{Gait Analysis Normal and Pathological
+  Function}}. 2nd. ed. [S.l.]: SLACK Inc., 2010.
+ISBN 978-1-55642-766-4.}
+
+\bibitem[Vieira et al. 2015]{Vieira2015}
+\abntrefinfo{Vieira et al.}{VIEIRA et al.}{2015}
+{VIEIRA, A. et al. {Software for human gait analysis and classification}.
+v.~58, n. February, p.~2988, 2015.}
+
 \end{thebibliography}
