@@ -8,7 +8,7 @@ Estas têm como objetivo substituir a função de algum membro do corpo humano.
 Em especial existem próteses que substituem a função de parte das pernas, abaixo ou acima do joelho, também chamadas de próteses transtibiais para aquelas e transfemurais para estas.
 
 As próteses também podem ser classificadas como passivas ou ativas. As passivas são compostas inerentemente por componentes mecânicos como molas e alavancas. 
-Já as próteses ativas possuem mecanismos eletroeletrônicas, que têm como principal função injetar energia no sistema para compensar o gasto metabólico extra, exigido por uma prótese passiva. 
+Já as próteses ativas possuem mecanismos eletro-eletrônicos, que têm como principal função injetar energia no sistema para compensar o gasto metabólico extra, exigido por uma prótese passiva. 
 Para as próteses ativas, faz-se necessária a criação de mecanismos de controle para as mesmas.
 Este mecanismo pode ser criado, usando-se engenharia de controle tradicional e/ou adaptativa, ou sistemas inteligentes, que permitem visualizar o projeto de controle para próteses \cite{Borjian2008}. 
 
@@ -32,7 +32,7 @@ Por exemplo, é possível desenvolver um sistema baseado em aprendizado de máqu
 As Redes Neurais Artificiais (RNA) \cite{Haykin2009,Bishop2006a,Russel2010} são classificadas como sistemas baseados em aprendizado de máquina e também como sistemas inteligentes. 
 A princípio são sistemas inspirados pela biologia do sistema nervoso central.
 
-O uso de RNAs para controlar próteses transfemurais pode ser um atalho no processo de projeto das mesmas, pois se usando algoritmos de RNAs que já tenham sido especificados e implementados, basta alterá-los para receberem os sinais desejados e produzir as respostas esperadas. 
+O uso de RNAs para controlar próteses transfermurais pode ser um atalho no processo de projeto das mesmas, pois se usando algoritmos de RNAs que já tenham sido especificados e implementados, basta alterá-los para receberem os sinais desejados e produzir as respostas esperadas. 
 
 Porém, o ciclo de marcha possui muitas variações.
 Por exemplo, o ciclo confortável, acelerado, subindo aclives, subindo escadas, descendo, etc. Aparentemente é possível criar RNAs para todas estas situações, mas mesmo assim, este é um trabalho hercúleo e que provavelmente exigiria muito poder computacional, o que não seria adequado para uma prótese transfemural ativa, que exige um sistema embarcado eficiente energeticamente.
@@ -44,7 +44,7 @@ Esta é um tipo de RNA que tem sua aplicabilidade e eficiência já comprovadas 
 A MLP, porém, tem uma desvantagem para sistemas de grande complexidade.
 Ela exige poder computacional considerável, pois necessita fazer muitos cálculos até definir sua saída.
 Uma promessa em relação a este tipo de RNA, e que inclusive já possui aplicações no mundo real, é a \emph{Cerebellar Model Articulation Controller} (CMAC) \cite{Albus1975a}.
-Esta é uma RNA baseada no cerebelo dos mamíferos.
+Esta é uma RNA baseada no cerebelum dos mamíferos.
 Sua vantagem em relação à MLP é que na sua forma final, ela pode ser resumida a acessos a tabelas e cálculos triviais e simples para gerar sua saída.
 
 Neste sentido, este trabalho demonstra simulações desenvolvidas a partir de uma RNA CMAC, mostrando que com esta tecnologia é possível controlar uma prótese transfemural ativa durante o ciclo de marcha confortável.

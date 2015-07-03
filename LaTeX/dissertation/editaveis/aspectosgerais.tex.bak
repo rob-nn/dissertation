@@ -75,7 +75,7 @@ formato padrão A4 (21 cm x 29,7cm), com 75 a 90 g/m2.
 
 Fonte – Deve-se utilizar as fontes Arial ou Times New Roman no tamanho 12 
 pra corpo do texto, com variações para tamanho 10 permitidas para a 
-paginação, legendas e notas de rodapé. Em citações diretas de mais de três 
+wpaginação, legendas e notas de rodapé. Em citações diretas de mais de três 
 linhas utilizar a fonte tamanho 10, sem itálicos, negritos ou aspas. Os 
 tipos itálicos são usados para nomes científicos e expressões estrangeiras, 
 exceto expressões latinas.
@@ -109,7 +109,7 @@ texto principal.
 \subsection{Espaços e alinhamento}
 
 Para a monografia de TCC 01 e 02 o espaço entrelinhas do corpo do texto 
-deve ser de 1,5 cm, exceto RESUMO, CITAÇÕES de mais de três linhas, NOTAS 
+deve ser de 1,5 cm, exceto RESUMO, CITAÇÔES de mais de três linhas, NOTAS 
 de rodapé, LEGENDAS e REFERÊNCIAS que devem possuir espaçamento simples. 
 Ainda, ao se iniciar a primeira linha de cada novo parágrafo se deve 
 tabular a distância de 1,25 cm da margem esquerda.
@@ -142,7 +142,7 @@ evitando-se espaços vazios desnecessários.
 Caso as dimensões de uma figura ou tabela impeçam que a mesma seja 
 posicionada ao final de uma página, o deslocamento para a página seguinte 
 não deve acarretar um vazio na pagina anterior. Para evitar tal ocorrência, 
-deve-se reposicionar os blocos de texto para o preenchimento de vazios. 
+deve-se re-posicionar os blocos de texto para o preenchimento de vazios. 
 
 Tabelas e figuras devem, sempre que possível, utilizar o espaço disponível 
 da página evitando-se a \lq\lq quebra\rq\rq\ da figura ou tabela. 

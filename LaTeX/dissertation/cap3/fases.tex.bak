@@ -148,7 +148,7 @@ Cada coluna equivale às informações, na ordem em que aparecem, da estrutura d
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=7.5cm]{figuras/dados_cinematicos.eps}
-	\caption{Dados Cinemáticos da Marcha}
+	\caption{Dados Ciniemáticos da Marcha}
 	\label{dados_cinematicos}
 \end{figure}
 
@@ -168,13 +168,13 @@ A variável $S$ é o vetor de sinais de entrada.
 Esses sinais são passados para um processo de mapeamento entre a entrada e um conjunto de pesos. 
 Depois apenas os pesos ativados participam da somatória que é o sinal de saída. 
 
-Para se calcular a saída da rede, primeiramente define-se o número de pesos $NW*$ a serem ativados.
+Para se calculuar a saída da rede, primeiramente define-se o número de pesos $NW*$ a serem ativados.
 
-O segundo passo é definir os possíveis valores para cada item do vetor de entradas $S$. A isto chama-se quantização. Por exemplo, se o primeiro item $s1$ de $S$ aceita valores entre $-1$ até $1$ e se quer $5$ valores possíveis, quantiza-se $s1$ conforme a Figura \ref{quantizacao}.
+O segundo passo é definir os possíveis valores para cada item do vetor de entradas $S$. A isto chama-se quatização. Por exemplo, se o primeiro item $s1$ de $S$ aceita valores entre $-1$ até $1$ e se quer $5$ valores possíveis, quatiza-se $s1$ conforme a Figura \ref{quantizacao}.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5cm]{figuras/quatizacao.eps}
-	\caption{Quantização de $s1$}
+	\caption{Quatização de $s1$}
 	\label{quantizacao}
 \end{figure}
 

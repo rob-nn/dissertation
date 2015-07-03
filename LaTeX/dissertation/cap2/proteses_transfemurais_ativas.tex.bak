@@ -19,7 +19,7 @@ Em \cite{Vallery2011} é apresentado um enfoque novo para controle de próteses 
 Este modelo é baseado em regressões estatísticas, que aplicam os sinais de entrada em um modelo estatístico para então produzir um sinal de saída.
 Este é um modelo que pode ser considerado adaptativo.
 
-O terceiro modelo encontrado de projeto de controle para próteses transfemurais ativas, foi o de \cite{Borjian2008}. Ele utilizou um controlador \emph{fuzzy}, especificamente com o modelo Takagi-Sygeno-Kang (TSK) \emph{fuzzy}. Este é um modelo adaptativo.
+O terceiro modelo encontrado de projeto de controle para próteses transfemurais ativas, foi o de \cite{Borjian2008}. Ele utilizou um controlador \emph{fuzzy}, esepecificamente com o modelo Takagi-Sygeno-Kang (TSK) \emph{fuzzy}. Este é um modelo adaptativo.
 
 
 

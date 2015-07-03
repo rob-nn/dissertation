@@ -3,14 +3,14 @@
 \section{Corpo do Texto}
 
 O estilo de redação deve atentar a boa prática da linguagem técnica. Para a 
-terminologia metrológica usar o Vocabulário Internacional de Termos 
+terminologia metrological usar o Vocabulário Internacional de Termos 
 Fundamentais e Gerais de Metrologia\cite{inmetro2003}  (Instituto Nacional de Metrologia, 
 2003).
 
 Grandezas dimensionais devem ser apresentadas em unidades consistentes com 
 o Sistema Internacional de Unidades  (SI). Outras unidades podem ser usadas 
 como unidades secundárias entre parenteses se necessário. Exceções são 
-relacionadas a unidades não - SI usadas como identificadores comerciais como 
+relacionadas a unidades não-SI usadas como identificadores comerciais como 
 pro exemplo \lq\lq disquete de  3$\nicefrac{1}{2}$ polegadas\rq\rq. 
 
 Na apresentação de números ao longo do texto usar virgula para separar a 
@@ -40,13 +40,13 @@ Recomendações de formatação de seções
 
 \section{Notas de rodapé}
 
-Notas eventualmente necessárias devem ser numeradas de forma sequencial ao 
+Notas eventualmente necessárias devem ser numeradas de forma seqüencial ao 
 longo do texto no formato 1, 2, 3... sendo posicionadas no rodapé de cada 
 página na qual a nota é utilizada.\footnote{Como, por exemplo, esta nota}
 
 \section{Equações}
 
-Equações matemáticas devem ser numeradas sequencialmente e alinhadas a 
+Equações matemáticas devem ser numeradas seqüencialmente e alinhadas a 
 esquerda com recuo de 0,6 cm. Usar numerais arábicos entre parênteses, 
 alinhado a direita, no formato Times New Roman de 9 pts. para numerara as 
 equações como mostrado na Eq. (\ref{eqn01}).
@@ -54,9 +54,9 @@ equações como mostrado na Eq. (\ref{eqn01}).
 Referências a equações no corpo do texto devem ser feitas como \lq\lq Eq. 
 (\ref{eqn01})\rq\rq\ quando no meio de uma frase ou como \lq\lq Equação 
 (\ref{eqn01})\rq\rq\ quando no inicio de uma sentença. Um espaçamento de 11 
-pontos deve ser deixado acima, abaixo e entre equações subsequentes. Para uma 
+pontos deve ser deixado acima, abaixo e entre equações subseqüentes. Para uma 
 apresentação compacta das equações deve-se usar os símbolos e expressões 
-matemáticos mais adequados e parênteses para evitar ambiguidades em 
+matemáticos mais adequados e parênteses para evitar ambigüidades em 
 denominadores. Os símbolos usados nas equações citados no texto devem 
 apresentar exatamente a mesma formatação usada nas equações.
 \begin{equation}
@@ -80,7 +80,7 @@ anotações devem estar em português, com todas as grandezas mostradas em
 unidades do SI (Sistema Internacional de unidades).
 
 Todas as figuras, gráficos e fotografias devem ser numeradas e referidas no 
-corpo do texto adotando uma numeração sequencial de identificação. As figuras e 
+corpo do texto adotando uma numeração seqüencial de identificação. As figuras e 
 gráficos devem ser claras e com qualidade adequada para eventual reprodução 
 posterior tanto em cores quanto em preto-e-branco.
 

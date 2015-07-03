@@ -49,8 +49,7 @@
 \bookmarksetup{startatroot} 
 \postextual
 
-\renewcommand{\bibname}{\textbf{REVERENCIE-A BIBLIOGRÁFICAS}\hfill} % Altera o nome da Referêcia para Referêcia Bibliográfica
+\renewcommand{\bibname}{\textbf{REVERENCE BIBLIOGRÁFICAS}\hfill} % Altera o nome da Referêcia para Referêcia Bibliográfica
 \bibliography{bibliografia}
 \printindex
-
 \end{document}
