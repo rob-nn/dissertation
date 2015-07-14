@@ -11,7 +11,7 @@ trabalho proposto é descrito a seguir.
 O processo proposto é composto de fluxos de trabalho e modelos para a construção de
 artefatos que documentam todas as atividades da integração. As atividades do processo
 sugerido são organizadas em cinco etapas, quais sejam: (i) Levantamento de Requisitos;
-(II) Projeto de Integração; (III) Execução da Integração; (IV) Avaliação da Integração e (v)
+(ii) Projeto de Integração; (iii) Execução da Integração; (iv) Avaliação da Integração e (v)
 Treinamento. A Figura 22 ilustra essas etapas e indica que o trabalho contemplou os
 conceitos das tecnologias RIS, PACS e de mamografia digital, além dos padrões DICOM e
 IHE bastante conhecidos e aplicados na indústria médica.
@@ -30,8 +30,8 @@ IHE bastante conhecidos e aplicados na indústria médica.
 
 A primeira etapa do processo de integração é o levantamento de requisitos. Essa etapa tem
 como objetivos: (i) a compreensão das necessidades da unidade de saúde que pratica a
-mamografia digital; (II) a definição dos requisitos e limitações do projeto de integração e
-(III) o entendimento da infraestrutura tecnológica existente. A Figura \ref{fig2} mostra a
-sequencia de atividades desta etapa e sugere alguns artefatos de trabalho.
+mamografia digital; (ii) a definição dos requisitos e limitações do projeto de integração e
+(iii) o entendimento da infraestrutura tecnológica existente. A Figura \ref{fig2} mostra a
+seqüência de atividades desta etapa e sugere alguns artefatos de trabalho.
 
 \end{comment}

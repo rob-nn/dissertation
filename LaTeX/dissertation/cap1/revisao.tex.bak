@@ -8,15 +8,15 @@ Foram usados os seguinte serviços web para o levantamento bibliográfico deste 
 
 Foram utilizadas as seguintes chaves de pesquisa em cada um dos serviços acima: ``\emph{Gait Analysis Software}".
 
-Os artigos considerados mais relevantes para o trabalho foram escolhidos, levando-se em consideração, entre outras coisas, a descrição de características interessantes a serem implementadas no software a ser desenvolvido.
+Os artigos cosiderados mais relevantes para o trabalho foram escolhidos, levando-se em consideração, entre outras coisas, a descrição de características interessantes a serem implementadas no software a ser desenvolvido.
 
 Quando o assunto se trata de análise de marcha, a obra mais aclamada, inclusive citada em muitas das referências abaixo, é \cite{Perry2010}.
 Como sugerido por \cite{Malas}, esta é uma obra obrigatória a qualquer um que deseje estudar análise de marcha.
 
 Em \cite{Vieira2015} um sistema de análise e classificação de marcha é proposto, como alternativa a soluções de mercado mais caras.
-A proposta inicial é coletar dados a partir de marcadores posicionados no corpo do paciente, através de câmeras de vídeo, classificando padrões de marcha com aprendizado de máquina.
+A proposta inicial é coletar dados a partir de marcodores posicionados no corpo do paciente, através de câmeras de vídeo, classificando padrões de marcha com aprendizado de máquina.
 
-Em \cite{Duhamel2004} é apresentada uma ferramenta para melhorar a confiabilidade de curvas para um paciente, classificar pacientes em determinadas populações e comparar populações.
+Em \cite{Duhamel2004} é apresentada uma ferramenta para melhorar a confiabiliade de curvas para um paciente, classificar pacientes em determinadas populações e comparar populações.
 Trata-se de uma ferramenta estatística para análise de marchar.
 
 Detecções de eventos do ciclo de marcha, são características interessantes para um software de análise de marcha. 
@@ -37,4 +37,4 @@ Uma outra funcionalidade inspirada no campo clínico é mostrado em \cite{Cippit
 propõem a automatização do método \emph{Get Up and Go Test}, que é usualmente utilizado em análise de marcha no campo da reabilitação.
 
 
- 
+cazzzza

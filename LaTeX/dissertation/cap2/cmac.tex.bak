@@ -9,8 +9,8 @@
 \subsection[Descrição]{\textbf{Descrição}}
 
 A \emph{Cerebellar Model Articulation Controller} (CMAC) foi criada por James Sacra Albus \cite{Albus1975}. 
-Ele se inspirou no cerebelo dos mamíferos para criá-la. 
-O mesmo autor havia feito um extenso trabalho sobre o funcionamento do cerebelo \cite{Albus1971}.
+Ele se inspirou no cerebellum dos mamíferos para criá-la. 
+O mesmo autor havia feito um extenso trabalho sobre o funcionamento do cerebellum \cite{Albus1971}.
 Trabalho este, que resultou numa tese de doutorado \cite{Albus1972}.
 
 \begin{figure}[ht]
