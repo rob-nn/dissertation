@@ -13,6 +13,12 @@
 ISSN 09666362.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.gaitpost.2010.01.010}.}
 
+\bibitem[Branas 2014]{Branas2014}
+\abntrefinfo{Branas}{BRANAS}{2014}
+{BRANAS, R. \emph{{AgularJS Essentials}}. Birmingham: Packt Publishing Ltd.,
+  2014.
+ISBN 978-1-78398-008-6.}
+
 \bibitem[Cippitelli et al. 2015]{Cippitelli2015}
 \abntrefinfo{Cippitelli et al.}{CIPPITELLI et al.}{2015}
 {CIPPITELLI, E. et al. {Kinect as a Tool for Gait Analysis: Validation of a
@@ -20,6 +26,11 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.gaitpost.2010.01.010}.}
 \emph{Sensors}, v.~15, n.~1, p. 1417--1434, 2015.
 ISSN 1424-8220.
 Dispon{\'\i}vel em: \url{http://www.mdpi.com/1424-8220/15/1/1417/}.}
+
+\bibitem[Cohn 2004]{cohn2004}
+\abntrefinfo{Cohn}{COHN}{2004}
+{COHN, M. \emph{{Users Stories Applied}}. Crawfordsville: Addison Wesley, 2004.
+ISBN 978-0-321-20568-1.}
 
 \bibitem[Duhamel et al. 2004]{Duhamel2004}
 \abntrefinfo{Duhamel et al.}{DUHAMEL et al.}{2004}
@@ -36,12 +47,23 @@ ISSN 09666362.}
   2979--2988, 2009.
 ISSN 00189456.}
 
+\bibitem[Freeman 2014]{Freeman2014}
+\abntrefinfo{Freeman}{FREEMAN}{2014}
+{FREEMAN, A. \emph{{Pro AngularJS}}. [S.l.]: Apress, 2014.
+ISBN 9781430264484.}
+
 \bibitem[Ghoussayni et al. 2004]{Ghoussayni2004}
 \abntrefinfo{Ghoussayni et al.}{GHOUSSAYNI et al.}{2004}
 {GHOUSSAYNI, S. et al. {Assessment and validation of a simple automated method
   for the detection of gait events and intervals}.
 \emph{Gait and Posture}, v.~20, n.~3, p. 266--272, 2004.
 ISSN 09666362.}
+
+\bibitem[Google 2015]{Google2015a}
+\abntrefinfo{Google}{GOOGLE}{2015}
+{GOOGLE. \emph{{Material Design}}. 2015.
+Dispon{\'\i}vel em:
+  \url{www.google.com.br/design/spec/material-design/introduction.html}.}
 
 \bibitem[Malas 2010]{Malas}
 \abntrefinfo{Malas}{MALAS}{2010}
@@ -72,9 +94,15 @@ ISSN 1094-687X.}
   Function}}. 2nd. ed. [S.l.]: SLACK Inc., 2010.
 ISBN 978-1-55642-766-4.}
 
+\bibitem[Shwaber e Beedle 2002]{schwaber2002}
+\abntrefinfo{Shwaber e Beedle}{SHWABER; BEEDLE}{2002}
+{SHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}.
+  [S.l.]: Pearson, 2002.
+ISBN 0-13-067634-9.}
+
 \bibitem[Vieira et al. 2015]{Vieira2015}
 \abntrefinfo{Vieira et al.}{VIEIRA et al.}{2015}
-{VIEIRA, A. et al. {Software for human gait analysis and classification}.
-v.~58, n. February, p.~2988, 2015.}
+{VIEIRA, A. et al. {Software for human gait analysis and classification}. In:
+  \emph{4th Portuguese BioEngineering Meeting}. Porto: [s.n.], 2015.}
 
 \end{thebibliography}
