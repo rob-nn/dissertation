@@ -30,12 +30,14 @@
 \contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{18}{section.3.4}
 \contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{19}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{20}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB}{20}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}ORGANIZA\IeC {\c C}\IeC {\~A}O DO C\IeC {\'O}DIGO FONTE}{20}{subsubsection.3.5.1.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{21}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{22}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{22}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{23}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{23}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{24}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}\hfill }{24}{section*.14}
+\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}\hfill }{25}{section*.14}

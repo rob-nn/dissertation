@@ -1,5 +1,6 @@
 \section[MODELO DE ARQUITETURA]{MODELO DE ARQUITETURA}
-O modelo de arquitetura no seu nível mais elevado, pode ser visto como um modelo de três camdas, conforme a figura \ref{camadas_arquitetura}.
+
+O modelo de arquitetura no seu nível mais elevado, pode ser visto como um modelo de três camadas, conforme a figura \ref{camadas_arquitetura}.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=7cm]{figuras/camadas.eps}
@@ -14,15 +15,39 @@ A camada de base de documentos é responsável pela persistência dos dados da a
 
 \subsection[CAMADA DE APLICAÇÃO WEB] {CAMADA DE APLICAÇÃO WEB}
 Esta camada foi projetada para rodar em \emph{browsers} que suportam HTML 5. 
-Ela é desenvolvida usando-se Javascript, CSS e HTML. Além disso, adotou-se o framework de desenvolvimento web \emph{AngularJS}. \cite{Branas2014} é um guia introdutório conciso no assunto. 
+Ela é desenvolvida usando-se Javascript, CSS e HTML. Além disso, adotou-se o \emph{framework} de desenvolvimento web \emph{AngularJS}. \cite{Branas2014} é um guia introdutório conciso no assunto. 
 Segundo \cite{Freeman2014}, outro guia no assunto, o \emph{AngularJS} se baseia no padrão de projeto \emph{Model-View-Controller} (MVC), e sua enfase é em permitir a criação de aplicações: extensíveis, manuteníveis, testáveis e padronizadas.
 
-Como, até o momento de conclusão deste trabalho, o projeto não conta com um \emph{web designer}, uma solução técnica para minimizar as consequências destre problema teve de ser adotada, pois os usuários finais do software, profissionais da área de saúde, dificilmente se interessariam pelo mesmo sem uma interface atraente e amigável.
+\subsubsection[SOLUÇÃO DE DESIGN WEB]{SOLUÇÃO DE DESIGN WEB}
+Como, até o momento de conclusão deste trabalho, o projeto não conta com um \emph{web designer}, uma solução técnica para minimizar as consequências deste problema, teve de ser adotada. Os usuários finais do software, profissionais da área de saúde, dificilmente se interessariam pelo mesmo sem uma interface atraente e amigável.
 A solução adotada foi utilizar a biblioteca \emph{angular-material}. 
 Esta biblioteca, como indicado pelo seu nome, é construída com o \emph{AngularJS}. 
 Ela disponibiliza serviços e diretivas que podem ser usados para construir a interface gráfica da aplicação. 
-Diretivas são componentes que podem ser inseridos diretamente no códico HTML da aplicação, dando a aparência de extender a própria HTML. 
-Por exemplo a diretiva \emph{md-button} da biblioteca, é um tipo de de botão que não é próprio do HTML. Outros exemplos de diretivas são: caixas de diálogos, barras de ferramentas, barras de progresso, grades, \emph{tooltip}, etc. 
+Diretivas são componentes que podem ser inseridos diretamente no código HTML da aplicação, dando a aparência de estender a própria HTML. 
+Por exemplo a diretiva \emph{md-button} da biblioteca, é um tipo de botão que não é próprio do HTML. 
+Outros exemplos de diretivas são: caixas de diálogos, barras de ferramentas, barras de progresso, grades, \emph{tooltip}, etc. 
 Esta biblioteca é baseada na especificação \emph{Material Design} criada pela empresa Google. 
 A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada no princípio da metáfora de materiais. 
-Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \cite{Google2015}.
+Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \cite{Google2015a}. Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
+
+A figura \ref{material_amostra}, mostra um exemplo de uma tela criada com as diretivas do angular-material.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=9cm]{figuras/material_amostra.eps}
+	\caption[Exemplo de uma tela criada com \emph{angular-material}.]{Exemplo de uma tela criada com \emph{angular-material}. 1) Diretiva \emph{md-toolbar}}; 2) Diretiva \emph{md-input-container}; 3) Diretiva \emph{ng-messages} em conjunto com a \emph{md-input-container}; 4) Diretiva \emph{md-button}.
+	\label{material_amostra}
+\end{figure}
+
+\subsubsection{ORGANIZAÇÃO DO CÓDIGO FONTE}
+A criação de um ambiente de desenvolvimento web, para um software de média para grande complexidade, não é uma tarefa trivial de ser resolvida.
+É necessários criar padrões de organização de arquivos, configurar e instalar pacotes de software para desenvolvimento, testes, implantação, construção de builds, entre outros.
+Para facilitar esta tarefa, optou-se em utilizar o projeto \emph{angular-seed}.
+A idéia deste projeto é servir de esqueleto de projetos web que utilizam o framework \emph{AngularJS}.
+Para usar este projeto basta cloná-lo diretamento do seu repositório \emph{git} no site github.com, conforme o comando abaixo.
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+git clone https://github.com/angular/angular-seed.git
+\end{lstlisting}
+
+Antes de começar a usar o \emph{angular-seed} é necessário instalar o ambiente de execução \emph{Javascript Node.JS}. Este ambiente é utilizado para execução de testes e construção de \emph{builds}. Para uma introdução ao \emph{Node.JS} veja \cite{Syed2014}.
