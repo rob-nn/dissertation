@@ -59,6 +59,13 @@ ISSN 09666362.}
   2979--2988, 2009.
 ISSN 00189456.}
 
+\bibitem[Fox e Patterson 2012]{Fox2012}
+\abntrefinfo{Fox e Patterson}{FOX; PATTERSON}{2012}
+{FOX, A.; PATTERSON, D. \emph{{Engineering Long-Lasting Software: An Agile
+  Approach Using SaaS and Cloud Computing}}. [S.l.]: Strawberry Canyon LLC,
+  2012.
+ISBN 0984881212.}
+
 \bibitem[Freeman 2014]{Freeman2014}
 \abntrefinfo{Freeman}{FREEMAN}{2014}
 {FREEMAN, A. \emph{{Pro AngularJS}}. [S.l.]: Apress, 2014.
@@ -82,11 +89,6 @@ Dispon{\'\i}vel em:
 {GREENE, J.; STELLMAN, A. \emph{{Learn Agile}}. 1. ed. [S.l.]: O'Reilly Media,
   Inc., 2014.
 ISBN 9781449331924.}
-
-\bibitem[{Kristin Runyan} e Ashmore 2014]{KristinRunyan2014}
-\abntrefinfo{{Kristin Runyan} e Ashmore}{{Kristin Runyan}; ASHMORE}{2014}
-{{Kristin Runyan}; ASHMORE, S. \emph{{Introduction to Agile Methods}}. [S.l.]:
-  Addison-Wesley Professional, 2014.}
 
 \bibitem[Layton 2012]{Layton2012}
 \abntrefinfo{Layton}{LAYTON}{2012}
@@ -122,6 +124,29 @@ ISSN 1094-687X.}
 {PERRY, J.; BURNFIELD, J.~M. \emph{{Gait Analysis Normal and Pathological
   Function}}. 2nd. ed. [S.l.]: SLACK Inc., 2010.
 ISBN 978-1-55642-766-4.}
+
+\bibitem[Rubin 2012]{Rubin2012}
+\abntrefinfo{Rubin}{RUBIN}{2012}
+{RUBIN, K.~S. \emph{{Essential Scrum: A Practical Guide to the Most Popular
+  Agile Process}}. [S.l.]: Addison-Wesley Professional, 2012.
+ISBN 9780137043293.}
+
+\bibitem[Runyan e Ashmore 2014]{KristinRunyan2014}
+\abntrefinfo{Runyan e Ashmore}{RUNYAN; ASHMORE}{2014}
+{RUNYAN, K.; ASHMORE, S. \emph{{Introduction to Agile Methods}}. [S.l.]:
+  Addison-Wesley Professional, 2014.}
+
+\bibitem[Schwaber 2004]{Schwaber2004}
+\abntrefinfo{Schwaber}{SCHWABER}{2004}
+{SCHWABER, K. \emph{{Agile Project Management with Scrum}}. [S.l.]: Microsoft
+  Press, 2004.
+ISBN 9780735619937.}
+
+\bibitem[Schwaber e Beedle 2001]{Schwaber2001}
+\abntrefinfo{Schwaber e Beedle}{SCHWABER; BEEDLE}{2001}
+{SCHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}.
+  [S.l.]: Pearson, 2001.
+ISBN 0130676349.}
 
 \bibitem[Shwaber e Beedle 2002]{schwaber2002}
 \abntrefinfo{Shwaber e Beedle}{SHWABER; BEEDLE}{2002}

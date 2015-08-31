@@ -1,6 +1,6 @@
 \section{MÉTODOS ÁGEIS}
 A muito tempo vários métodos para desenvolvimento de software são propostos. 
-Em 2001, um grupo de pessoas muito experientes em desenvolvimento de software, juntaram-se em Salt Lake City,Utah, para resolverem problemas de desenvolvimento de software \cite{Greene2014}.
+Em 2001, um grupo de pessoas muito experientes em desenvolvimento de software, juntaram-se em Salt Lake City, Utah, para resolverem problemas de desenvolvimento de software \cite{Greene2014}.
 Como resultado deste encontro, foi criado o manifesto ágil, que é reproduzido a seguir \cite{Beck2001}:
 
 \begin{citacao}
@@ -69,11 +69,9 @@ Os princípios ágeis são um conjunto de 12 itens com o objetivo de auxiliar na
 		comportamento de acordo. 
 \end{citacao}
 
-
-
-Este manifesto, serviu de marco agregador de métodos e técnicas, que já existiam a época, mas não eram amplamente difundidas como \emph{Scrum}, \emph{Extreme Programming}, \emph{kanban}, \emph{lean}, entre outros. 
+Este manifesto serviu de marco agregador de métodos e técnicas, que já existiam a época, mas não eram amplamente difundidas como \emph{Scrum}, \emph{Extreme Programming}, \emph{kanban}, \emph{lean}, entre outros. 
 Estas técnicas, apesar de anteriores ao manifesto, possuem em seus cernes, muito em comum com os valores ágeis.
-A figura \ref{cap2_valores} tenta ilustrar esta ideia.
+A Figura \ref{cap2_valores} tenta ilustrar esta ideia.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=7cm]{figuras/cap2_valores.eps}
@@ -81,7 +79,26 @@ A figura \ref{cap2_valores} tenta ilustrar esta ideia.
 	\label{cap2_valores}
 \end{figure}
 
-A adoção dos métodos ágeis hoje é praticamente unanimidade. Isto se deve aos modelos de desenvolvimento adotados até a década de 1990. Esses modelos eram na sua grande maioria baseados no modelo \emph{waterfall}, que imitava uma linha de produção onde o software era desenvolvido em fases. A saída de cada fase era a entrada da próxima. A figura \ref{waterfall}, mostra um exemplo de processo baseado no modelo \emph{waterfall}.
+A adoção dos métodos ágeis hoje é praticamente unanimidade. 
+Isto se deve aos modelos de desenvolvimento adotados até a década de 1990. 
+Esses modelos eram na sua grande maioria baseados no modelo \emph{waterfall}, que imitava uma linha de produção onde o software era desenvolvido em fases. 
+A saída de cada fase era a entrada da próxima. 
+A Figura \ref{waterfall} mostra um exemplo de processo baseado no modelo \emph{waterfall}.
+O maior problema do modelo \emph{waterfall}, era que este foi completamente averso a mudanças de requisitos. 
+Hoje, é notório que a grande maioria dos softwares necessitam ser bastante receptivos a mudanças.
+
+\cite{KristinRunyan2014} compara o modelo \emph{waterfall} como o modelo ágil. 
+Esta comparação é resumidamente apresentada na tabela \ref{waterfall_x_agil}.
+
+Como evolução do modelo \emph{waterfall}, surgiram os processos baseados em modelos iterativos. 
+A diferença agora é que o processo de desenvolvimento passa a ser baseado em ciclos. 
+Cada ciclo passa por cada uma das fases do \emph{waterfall}. 
+Este tipo de processo, apresentava melhoras, mas ainda era concebido sob a forma de um processo que visava resolver problemas determinísticos, como o das linhas de produção das fábricas.
+Mas, como descrito em \cite{Beck2004}, o processo de se construir software é mais parecido com o ato de dirigir.
+O motorista sabe o destino a que quer chegar, porém, durante o percurso pode haver um acidente e tem-se que mudar um pouco a rota, ou alguém está passando por uma faixa de pedestre e necessita-se parar, ou ainda um sinal de transito pode ficar vermelho. 
+Esta é a principal motivação para que este trabalho, privilegie métodos ágeis de desenvolvimento.
+
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4cm]{figuras/waterfall.eps}
@@ -89,13 +106,9 @@ A adoção dos métodos ágeis hoje é praticamente unanimidade. Isto se deve ao
 	\label{waterfall}
 \end{figure}
 
-O maior problema do modelo \emph{waterfall}, era que este era completamente averso a mudanças de requisitos. 
-Hoje é notório que a grande maioria dos softwares necessitam ser bastante receptivos a mudanças.
-
-\cite{KristinRunyan2014} compara o modelo \emph{waterfall} como o modelo ágil.
-
-\begin{table}
+\begin{table}[ht]
 	\caption{Comparando Modelos de Desenvolvimento de Software}
+	\label{waterfall_x_agil}
 	\ABNTEXfontereduzida
 	\begin{tabular}{p{8cm}p{8cm}}
 	\toprule
@@ -114,13 +127,3 @@ Hoje é notório que a grande maioria dos softwares necessitam ser bastante rece
 	\cite{KristinRunyan2014}
 \end{table}
 
-
-Como evolução do modelo \emph{waterfall}, surgiram os processos baseados em modelos iterativos. 
-A diferença agora, é que o processo de desenvolvimento passa a ser baseado em ciclos. 
-Cada ciclo passa por cada uma das fases do \emph{waterfall}. 
-Este tipo de processo, apresentava melhoras, mas ainda era concebido sob a forma de um processo que visava resolver problemas determinísticos, como o das linhas de produção das fábricas.
-Mas, como descrito em \cite{Beck2004}, o processo de se construir software é mais parecido com o ato de dirigir.
-O motorista sabe o destino a que quer chegar, porém, durante o percurso pode haver um acidente e tem-se que mudar um pouco a rota, ou alguém está passando por uma faixa de pedestre e necessita-se parar, ou ainda um sinal de transito pode ficar vermelho. 
-Esta é a principal motivação para que este trabalho, privilegie métodos ágeis de desenvolvimento.
-
-\subsection{Scrum}
