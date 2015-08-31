@@ -18,26 +18,27 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}AN\IeC {\'A}LISE DE MARCHA}{16}{section.2.1}
 \contentsline {section}{\numberline {2.2}M\IeC {\'E}TODOS \IeC {\'A}GEIS}{16}{section.2.2}
-\contentsline {section}{\numberline {2.3}SOFTWARE COMO SERVI\IeC {\c C}O}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}SOFTWARE LIVRE}{16}{section.2.4}
-\contentsline {section}{\numberline {2.5}APRENDIZADO DE M\IeC {\'A}QUINA}{16}{section.2.5}
-\contentsline {section}{\numberline {2.6}CMAC}{16}{section.2.6}
+\contentsline {subsection}{\numberline {2.2.1}Scrum}{18}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}SOFTWARE COMO SERVI\IeC {\c C}O}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}SOFTWARE LIVRE}{18}{section.2.4}
+\contentsline {section}{\numberline {2.5}APRENDIZADO DE M\IeC {\'A}QUINA}{18}{section.2.5}
+\contentsline {section}{\numberline {2.6}CMAC}{18}{section.2.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{18}{section.3.3}
-\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{18}{section.3.4}
-\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{19}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{20}{subsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.1.1}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB}{20}{subsubsection.3.5.1.1}
-\contentsline {subsubsection}{\numberline {3.5.1.2}ORGANIZA\IeC {\c C}\IeC {\~A}O DO C\IeC {\'O}DIGO FONTE}{20}{subsubsection.3.5.1.2}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{20}{section.3.3}
+\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{20}{section.3.4}
+\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{21}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{22}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB}{22}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}ORGANIZA\IeC {\c C}\IeC {\~A}O DO C\IeC {\'O}DIGO FONTE}{22}{subsubsection.3.5.1.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{22}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{24}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{23}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{25}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{24}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{26}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}\hfill }{25}{section*.14}
+\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}\hfill }{27}{section*.14}

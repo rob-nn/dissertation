@@ -1,5 +1,7 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Rede LIS}}{17}{figure.3.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Processo de desenvolvimento}}{19}{figure.3.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Camadas arquiteturais}}{19}{figure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{21}{figure.3.4}
+\contentsline {figure}{\numberline {1}{\ignorespaces Valores em comum. Adaptado de \cite {Greene2014}.}}{17}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de processo baseado no modelo \emph {waterfall}}}{18}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Rede LIS}}{19}{figure.3.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Processo de desenvolvimento}}{21}{figure.3.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Camadas arquiteturais}}{21}{figure.3.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{23}{figure.3.6}

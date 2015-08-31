@@ -5,6 +5,18 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Beck 2004]{Beck2004}
+\abntrefinfo{Beck}{BECK}{2004}
+{BECK, K. \emph{{Extreme Programming Explained: Embrace Change}}. 2. ed.
+  [S.l.]: Addison-Wesley Professional, 2004.
+ISBN 9780321278654.}
+
+\bibitem[Beck et al. 2001]{Beck2001}
+\abntrefinfo{Beck et al.}{BECK et al.}{2001}
+{BECK, K. et al. \emph{{Manifesto para Desenvolvimento \'{A}gil de Software}}.
+  2001.
+Dispon{\'\i}vel em: \url{http://www.agilemanifesto.org/iso/ptbr/}.}
+
 \bibitem[Beynon et al. 2010]{Beynon2010}
 \abntrefinfo{Beynon et al.}{BEYNON et al.}{2010}
 {BEYNON, S. et al. {Correlations of the Gait Profile Score and the Movement
@@ -64,6 +76,23 @@ ISSN 09666362.}
 {GOOGLE. \emph{{Material Design}}. 2015.
 Dispon{\'\i}vel em:
   \url{www.google.com.br/design/spec/material-design/introduction.html}.}
+
+\bibitem[Greene e Stellman 2014]{Greene2014}
+\abntrefinfo{Greene e Stellman}{GREENE; STELLMAN}{2014}
+{GREENE, J.; STELLMAN, A. \emph{{Learn Agile}}. 1. ed. [S.l.]: O'Reilly Media,
+  Inc., 2014.
+ISBN 9781449331924.}
+
+\bibitem[{Kristin Runyan} e Ashmore 2014]{KristinRunyan2014}
+\abntrefinfo{{Kristin Runyan} e Ashmore}{{Kristin Runyan}; ASHMORE}{2014}
+{{Kristin Runyan}; ASHMORE, S. \emph{{Introduction to Agile Methods}}. [S.l.]:
+  Addison-Wesley Professional, 2014.}
+
+\bibitem[Layton 2012]{Layton2012}
+\abntrefinfo{Layton}{LAYTON}{2012}
+{LAYTON, M.~C. \emph{{Agile Project Management For Dummies}}. 1. ed. [S.l.]:
+  For Dummies, 2012.
+ISBN 9781118235850.}
 
 \bibitem[Malas 2010]{Malas}
 \abntrefinfo{Malas}{MALAS}{2010}
