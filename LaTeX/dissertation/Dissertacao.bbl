@@ -5,6 +5,44 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Albus 1975]{Albus1975b}
+\abntrefinfo{Albus}{ALBUS}{1975a}
+{ALBUS, J. {A New Approach to Manipulator Control: The Cerebellar Model
+  Articulation Controller (CMAC)}.
+\emph{\ldots Systems, Measurement, and Control}, n. SEPTEMBER, p. 220--227,
+  1975.
+Dispon{\'\i}vel em:
+  \url{http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1402197}.}
+
+\bibitem[Albus 1975]{Albus1975d}
+\abntrefinfo{Albus}{ALBUS}{1975b}
+{ALBUS, J. {Data Storage in The Cerebellar Model Articulation Controller
+  (CMAC)}.
+\emph{\ldots Systems, Measurement, and Control}, 1975.
+Dispon{\'\i}vel em:
+  \url{http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1402199}.}
+
+\bibitem[Albus 1979]{Albus1979}
+\abntrefinfo{Albus}{ALBUS}{1979}
+{ALBUS, J. {Mechanisms of planning and problem solving in the brain}.
+\emph{Mathematical Biosciences}, v.~293, 1979.
+Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/0025556479900634}.}
+
+\bibitem[Albus 1972]{Albus1972a}
+\abntrefinfo{Albus}{ALBUS}{1972}
+{ALBUS, J.~S. {A robot conditioned reflex system modeled after the cerebellum}.
+\emph{Proceedings of the December 5-7, 1972, fall joint computer conference,
+  part II on - AFIPS '72 (Fall, part II)}, ACM Press, New York, New York, USA,
+  p.~1095, 1972.
+Dispon{\'\i}vel em:
+  \url{http://portal.acm.org/citation.cfm?doid=1480083.1480144}.}
+
+\bibitem[Albus 1971]{Albus1971b}
+\abntrefinfo{Albus}{ALBUS}{1971}
+{ALBUS, S. {A Theory of Cerebellar Function}.
+v.~10, p. 25--61, 1971.}
+
 \bibitem[Beck 2004]{Beck2004}
 \abntrefinfo{Beck}{BECK}{2004}
 {BECK, K. \emph{{Extreme Programming Explained: Embrace Change}}. 2. ed.
@@ -43,6 +81,12 @@ Dispon{\'\i}vel em: \url{http://www.mdpi.com/1424-8220/15/1/1417/}.}
 \abntrefinfo{Cohn}{COHN}{2004}
 {COHN, M. \emph{{Users Stories Applied}}. Crawfordsville: Addison Wesley, 2004.
 ISBN 978-0-321-20568-1.}
+
+\bibitem[Dirksen 2015]{Dirksen2015}
+\abntrefinfo{Dirksen}{DIRKSEN}{2015}
+{DIRKSEN, J. \emph{{Learning Three.js - the JavaScript 3D Library for WebGL}}.
+  2. ed. [S.l.]: Packt Publishing, 2015.
+ISBN 9781784392215.}
 
 \bibitem[Duhamel et al. 2004]{Duhamel2004}
 \abntrefinfo{Duhamel et al.}{DUHAMEL et al.}{2004}
@@ -96,6 +140,16 @@ ISBN 9781449331924.}
   For Dummies, 2012.
 ISBN 9781118235850.}
 
+\bibitem[Lin e Song 2002]{Lin2002a}
+\abntrefinfo{Lin e Song}{LIN; SONG}{2002}
+{LIN, J.-n.; SONG, S.-m. {Modeling gait transitions of quadrupeds and their
+  generalization with CMAC neural networks}.
+\emph{IEEE Transactions on Systems, Man and Cybernetics, Part C (Applications
+  and Reviews)}, v.~32, n.~3, p. 177--189, ago. 2002.
+ISSN 1094-6977.
+Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731}.}
+
 \bibitem[Malas 2010]{Malas}
 \abntrefinfo{Malas}{MALAS}{2010}
 {MALAS, B. \emph{{Book Review - Gait Analysis: Normal and Pathological
@@ -136,6 +190,23 @@ ISBN 9780137043293.}
 {RUNYAN, K.; ASHMORE, S. \emph{{Introduction to Agile Methods}}. [S.l.]:
   Addison-Wesley Professional, 2014.}
 
+\bibitem[Sabourin 2006]{Sabourin2006a}
+\abntrefinfo{Sabourin}{SABOURIN}{2006}
+{SABOURIN, C. {Control Strategy for the Robust Dynamic Walk of a Biped Robot}.
+\emph{The International Journal of Robotics Research}, v.~25, n.~9, p.
+  843--860, set. 2006.
+ISSN 0278-3649.
+Dispon{\'\i}vel em:
+  \url{http://ijr.sagepub.com/cgi/doi/10.1177/0278364906069151}.}
+
+\bibitem[Sabourin, Yu e Madani 2012]{Sabourin2012a}
+\abntrefinfo{Sabourin, Yu e Madani}{SABOURIN; YU; MADANI}{2012}
+{SABOURIN, C.; YU, W.; MADANI, K. {Gait Pattern Based on CMAC Neural Network
+  for Robotic Applications}.
+\emph{Neural Processing Letters}, v.~38, n.~2, p. 261--279, nov. 2012.
+ISSN 1370-4621.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s11063-012-9257-6}.}
+
 \bibitem[Schwaber 2004]{Schwaber2004}
 \abntrefinfo{Schwaber}{SCHWABER}{2004}
 {SCHWABER, K. \emph{{Agile Project Management with Scrum}}. [S.l.]: Microsoft
@@ -163,5 +234,11 @@ ISBN 9781484201879.}
 \abntrefinfo{Vieira et al.}{VIEIRA et al.}{2015}
 {VIEIRA, A. et al. {Software for human gait analysis and classification}. In:
   \emph{4th Portuguese BioEngineering Meeting}. Porto: [s.n.], 2015.}
+
+\bibitem[Williamson 2015]{Williamson2015}
+\abntrefinfo{Williamson}{WILLIAMSON}{2015}
+{WILLIAMSON, K. \emph{{Learning AngularJS}}. 1. ed. [S.l.]: O'Reilly Media,
+  Inc., 2015.
+ISBN 9781491916759.}
 
 \end{thebibliography}

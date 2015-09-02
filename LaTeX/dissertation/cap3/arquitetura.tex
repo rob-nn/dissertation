@@ -15,25 +15,8 @@ A camada de base de documentos é responsável pela persistência dos dados da a
 
 \subsection[CAMADA DE APLICAÇÃO WEB] {CAMADA DE APLICAÇÃO WEB}
 Esta camada foi projetada para rodar em \emph{browsers} que suportam \emph{HTML} 5. 
-Ela é desenvolvida usando-se \emph{Javascript}, \emph{CSS} e \emph{HTML}. Além disso, adotou-se o \emph{framework} de desenvolvimento \emph{web} \emph{AngularJS}. \cite{Branas2014} é um guia introdutório conciso no assunto. 
-Segundo \cite{Freeman2014}, outro guia no assunto, o \emph{AngularJS} se baseia no padrão de projeto \emph{Model-View-Controller} (MVC) e sua enfase é em permitir a criação de aplicações: extensíveis, manuteníveis, testáveis e padronizadas.
-
-\textbf{SOLUÇÃO DE DESIGN WEB}
-
-Como, até o momento de conclusão deste trabalho, o projeto não conta com um \emph{web designer}, uma solução técnica para minimizar as consequências deste problema, teve de ser adotada. Os usuários finais do software, profissionais da área de saúde, dificilmente se interessariam pelo mesmo sem uma interface atraente e amigável.
-A solução adotada foi utilizar a biblioteca \emph{angular-material}. 
-Esta biblioteca, como indicado pelo seu nome, é construída com o \emph{AngularJS}. 
-Ela disponibiliza serviços e diretivas que podem ser usados para construir a interface gráfica da aplicação. 
-Diretivas são componentes que podem ser inseridos diretamente no código HTML da aplicação, dando a aparência de estender a própria HTML. 
-Por exemplo, a diretiva \emph{md-button} da biblioteca é um tipo de botão que não é próprio do HTML. 
-Outros exemplos de diretivas são: caixas de diálogos, barras de ferramentas, barras de progresso, grades, \emph{tooltip}, etc. 
-Esta biblioteca é baseada na especificação \emph{Material Design} criada pela empresa \emph{Google}. 
-A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada no princípio da metáfora de materiais. 
-Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \cite{Google2015a}. Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
-
-A Figura \ref{material_amostra}, mostra um exemplo de uma tela criada com as diretivas do angular-material.
-
-\textbf{ORGANIZAÇÃO DO CÓDIGO FONTE}
+Ela é desenvolvida usando-se \emph{Javascript}, \emph{CSS} e \emph{HTML}. 
+Além disso, adotou-se o \emph{framework} de desenvolvimento \emph{web} \emph{AngularJS}. \textbf{ORGANIZAÇÃO DO CÓDIGO FONTE}
 
 A criação de um ambiente de desenvolvimento \emph{web}, para um software de média para grande complexidade, não é uma tarefa trivial de ser resolvida.
 É necessários criar padrões de organização de arquivos, configurar e instalar pacotes de software para desenvolvimento, testes, implantação, construção de builds, entre outros.
@@ -48,10 +31,4 @@ git clone https://github.com/angular/angular-seed.git
 Antes de começar a usar o \emph{angular-seed} é necessário instalar o ambiente de execução \emph{Javascript Node.JS}. 
 Este ambiente é utilizado para execução de testes e construção de \emph{builds}. Para uma introdução ao \emph{Node.JS} veja \cite{Syed2014}.
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=9cm]{figuras/material_amostra.eps}
-	\caption[Exemplo de uma tela criada com \emph{angular-material}.]{Exemplo de uma tela criada com \emph{angular-material}. 1) Diretiva \emph{md-toolbar}}; 2) Diretiva \emph{md-input-container}; 3) Diretiva \emph{ng-messages} em conjunto com a \emph{md-input-container}; 4) Diretiva \emph{md-button}.
-	\label{material_amostra}
-\end{figure}
 

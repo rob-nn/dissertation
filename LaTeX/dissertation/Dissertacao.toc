@@ -21,22 +21,27 @@
 \contentsline {subsection}{\numberline {2.2.1}SCRUM}{17}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}HIST\IeC {\'O}RIAS DO USU\IeC {\'A}RIO}{19}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}SOFTWARE COMO SERVI\IeC {\c C}O}{20}{section.2.3}
-\contentsline {section}{\numberline {2.4}APRENDIZADO DE M\IeC {\'A}QUINA}{21}{section.2.4}
-\contentsline {section}{\numberline {2.5}CMAC}{21}{section.2.5}
+\contentsline {section}{\numberline {2.4}COMPONENTES, FRAMEWORKS E FERRAMENTAS}{21}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}APLICA\IeC {\c C}\IeC {\~O}ES WEB COM ANGULAJS}{21}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph {ANGULAR-MATERIAL}}{22}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph {WEB} COM THREEJS}{23}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}SERVI\IeC {\c C}OS REST}{24}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}CMAC}{24}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{27}{subsection.2.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{23}{section.3.3}
-\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{23}{section.3.4}
-\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{24}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{25}{subsection.3.5.1}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{30}{section.3.2}
+\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{30}{section.3.3}
+\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{30}{section.3.4}
+\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{31}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{32}{subsection.3.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{27}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{33}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{28}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{34}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{29}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{35}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{30}{section*.14}
+\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{36}{section*.14}
