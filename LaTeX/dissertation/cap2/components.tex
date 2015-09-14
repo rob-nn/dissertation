@@ -1,5 +1,6 @@
 \section[COMPONENTES, FRAMEWORKS E FERRAMENTAS]{COMPONENTES, FRAMEWORKS E FERRAMENTAS}
-Neste item serão analisados os components, frameworks e ferramentas que foram selecinadas para construção do \emph{Open Gait Analytics}. Este software será um serviço disponibilizado via \emph{web}, sendo assim, estas teconologias são próprias para este fim. 
+Neste item serão analisados os components, frameworks e ferramentas que foram selecionadas para construção do \emph{Open Gait Analytics}. 
+Este software será um serviço disponibilizado via \emph{web}, sendo assim, estas tecnologias são próprias para este fim. 
 
 \subsection{APLICAÇÕES WEB COM ANGULAJS}
 O AngularJS é um framework de aplicação \emph{web}. 
@@ -18,11 +19,11 @@ A Figura \ref{angularjs_mvc} mostra uma representação de uma aplicação fazen
 	\footnotesize Fonte:
 	\cite{Williamson2015}.
 \end{figure}
-Segundo \cite{Williamson2015}, a Figura \ref{angularjs_mvc} mostra o diagrama de uma aplicação \emph{AngularJS} e os componentes \emph{MVC}.  Uma vez que a apliação é lançada, os componentes \emph{model, view} e \emph{controller}, juntamente com todos os documentos \emph{HTML} são carregados no \emph{desktop} ou \emph{smartphone} do usuário e rodam completamente num destes hardwares.  A apliacação \emph{AngularJS} conversa com o \emph{backend} via o protocolo \emph{http}.  O \emph{backend} é um servidor \emph{web} que mantém chamadas \emph{REST} (explicado na seção \ref{servicos_rest}), sendo responsável pela execução da lógica e de processos de negócio.  
+Segundo \cite{Williamson2015}, a Figura \ref{angularjs_mvc} mostra o diagrama de uma aplicação \emph{AngularJS} e os componentes \emph{MVC}.  Uma vez que a apliação é lançada, os componentes \emph{model, view} e \emph{controller}, juntamente com todos os documentos \emph{HTML} são carregados no \emph{desktop} ou \emph{smartphone} do usuário e rodam completamente num destes hardwares.  A aplicação \emph{AngularJS} conversa com o \emph{backend} via o protocolo \emph{http}.  O \emph{backend} é um servidor \emph{web} que mantém chamadas \emph{REST} (explicado na seção \ref{servicos_rest}), sendo responsável pela execução da lógica e de processos de negócio.  
 Outra característica bastante apreciada pelos desenvolvedores que usam \emph{AngularJS}, é a possibilidade de criar \emph{single-page aplications (SPA)}. 
 \emph{SPAs} são aplicações que tem uma página \emph{HTML} de entrada. 
 Esta página tem seu conteúdo dinamicamente adicionado e removido da mesma.
-Esta abordagem permite criar apliações bastante interativas, lembrando mesmo, aplicações \emph{desktop} escritas em linguagens como \emph{Visual Basic} e \emph{Delphi}.
+Esta abordagem permite criar aplicações bastante interativas, lembrando mesmo, aplicações \emph{desktop} escritas em linguagens como \emph{Visual Basic} e \emph{Delphi}.
 
 
 \subsection{SOLUÇÃO DE DESIGN WEB COM \emph{ANGULAR-MATERIAL}}
@@ -49,7 +50,7 @@ A Figura \ref{material_amostra}, mostra um exemplo de uma tela criada com as dir
 
 
 \subsection{GRÁFICOS E ANIMAÇÕES 3D NA \emph{WEB} COM THREEJS} 
-Os browsers modernos hoje, inclusive os dos \emph{smartphones}, suportom o novo padrão \emph{WebGL}. 
+Os browsers modernos hoje, inclusive os dos \emph{smartphones}, suportam o novo padrão \emph{WebGL}. 
 Este é um padrão \emph{web} multi-plataforma de \emph{application program interface (API)} de baixo nível para gráficos 3D, expostos através de \emph{HTML}. 
 Este padrão suporta o acesso da \emph{API} usando-se a linguagem \emph{GLSL}. 
 Uma vantagem desta API é que ela suporta nativamente \emph{GPUs} disponibilizadas pelo hardware que está executando o cliente \emph{web}. 
@@ -76,22 +77,22 @@ Mais exemplos podem ser vistos no site \emph{threejs.org}.
 \label{servicos_rest}
 
 O \emph{Representational State Transfer (REST)} foi primeiramente descrito por \cite{Fielding2000}. 
-Ele é definodo como um estilo arquitetural de sistemas hipermidia e tem as seguintes características descritas por \cite{Grinberg2014}:
+Ele é definido como um estilo arquitetural de sistemas hipermídia e tem as seguintes características descritas por \cite{Grinberg2014}:
 
 \begin{enumerate}
 	\item Cliente-Servidor. Há uma separação clara entre quem consome, cliente, e quem serve e executa a lógica de negócio, servidor.
 	\item \emph{Stateless}. O cliente precisa incluir nas suas requisições, todas as informações necessárias para o servidor processar o pedido. O servidor não armazena informações de estado do cliente entre as requisições deste.
-	\item Interface Uniforme. O protocolo que os clientes usam para acessar o servidor precisa ser consistente, bem definido e padronizado. O protocolo comumente usado por serviços \emph{REST} é o \emp{HTTP}.
+	\item Interface Uniforme. O protocolo que os clientes usam para acessar o servidor precisa ser consistente, bem definido e padronizado. O protocolo comumente usado por serviços \emph{REST} é o \emph{HTTP}.
 	\item Sistema em Camadas. Servidores \emph{proxy}, \emph{caches} ou \emph{gateways}, podem ser inseridos entre clientes e servidores quando necessários, para melhorar a performance, confiabilidade e escalabilidade.
 	\item Código Sob Demanda. Clientes podem opcionalmente fazer o \emph{download} de código do servidor e executá-lo em seu contexto.
 \end{enumerate}
 
 A principal idéia de serviços \emph{REST} é o fornecimento de recursos. 
-Por exemplo o cliente requere um usário, blog, comentários, entre outros. 
+Por exemplo o cliente requere um usuário, blog, comentários, entre outros. 
 Cada recurso deve possuir uma \emph{URL} que o identifica unicamente, por exemplo http://www.minhaurl.com.br/usuario/123, onde 123 é um identificador único do usuário.
 
 Para que um serviço \emph{REST} funcione, ele precisa ser implementado para suportar requisições \emph{HTTP}, ou seja, ele teria que ser um servidor \emph{web} completo. 
-A biblioteca escolhida para desenpenhar esta função foi a \emph{Flask}. 
+A biblioteca escolhida para desempenhar esta função foi a \emph{Flask}. 
 Esta é uma biblioteca escrita na linguagem \emph{Python} e fornece todos as ferramentas necessárias para criar aplicações \emph{webs}. 
-Segundo \cite{Maia2015}, o \emph{Flask} vem sendo adotado, por sua filosofia minimalista que não impõe uma arquitetura específica de projeto, assim permitindo que um projeto começe pequeno e simples, evoluindo para um modelo mais complexo.
+Segundo \cite{Maia2015}, o \emph{Flask} vem sendo adotado, por sua filosofia minimalista que não impõe uma arquitetura específica de projeto, assim permitindo que um projeto comece pequeno e simples, evoluindo para um modelo mais complexo.
 

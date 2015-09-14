@@ -103,6 +103,15 @@ ISSN 09666362.}
   2979--2988, 2009.
 ISSN 00189456.}
 
+\bibitem[Fielding 2000]{Fielding2000}
+\abntrefinfo{Fielding}{FIELDING}{2000}
+{FIELDING, R.~T.
+\emph{{Architectural Styles and the Design of Network-based Software
+  Architectures}}.
+Tese (Doutorado) --- UNIVERSITY OF CALIFORNIA, 2000.
+Dispon{\'\i}vel em:
+  \url{http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm}.}
+
 \bibitem[Fox e Patterson 2012]{Fox2012}
 \abntrefinfo{Fox e Patterson}{FOX; PATTERSON}{2012}
 {FOX, A.; PATTERSON, D. \emph{{Engineering Long-Lasting Software: An Agile
@@ -134,6 +143,12 @@ Dispon{\'\i}vel em:
   Inc., 2014.
 ISBN 9781449331924.}
 
+\bibitem[Grinberg 2014]{Grinberg2014}
+\abntrefinfo{Grinberg}{GRINBERG}{2014}
+{GRINBERG, M. \emph{{Flask Web Development}}. 1. ed. [S.l.]: O'Reilly Media,
+  Inc., 2014.
+ISBN 9781449372620.}
+
 \bibitem[Layton 2012]{Layton2012}
 \abntrefinfo{Layton}{LAYTON}{2012}
 {LAYTON, M.~C. \emph{{Agile Project Management For Dummies}}. 1. ed. [S.l.]:
@@ -149,6 +164,12 @@ ISBN 9781118235850.}
 ISSN 1094-6977.
 Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731}.}
+
+\bibitem[Maia 2015]{Maia2015}
+\abntrefinfo{Maia}{MAIA}{2015}
+{MAIA, I. \emph{{Building Web Applications with Flask}}. 1. ed. [S.l.]: Packt
+  Publishing, 2015.
+ISBN 9781784396152.}
 
 \bibitem[Malas 2010]{Malas}
 \abntrefinfo{Malas}{MALAS}{2010}

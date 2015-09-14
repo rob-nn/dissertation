@@ -1,6 +1,7 @@
 htfcss: lmmib font_weight:bold;
 htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: lmmib font_weight:bold;
 htfcss: rm-lmbo  font-style: oblique;
 htfcss: rm-lmbx  font-weight: bold;
 htfcss: rm-lmbxi  font-style:italic; font-weight: bold;
@@ -33,9 +34,86 @@ htfcss: rm-lmvtl  font-weight: light; font-family: monospace;
 htfcss: rm-lmvtlo  font-weight: light; font-style: oblique; font-family: monospace;
 htfcss: rm-lmvtt  font-family: monospace;
 htfcss: rm-lmvtto  font-style: oblique; font-family: monospace;
+htfcss: lmmib font_weight:bold;
 File: Dissertacao.html
 File: Dissertacao.tmp
 File: Dissertacao.css
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
+File: Dissertacao.tmp
 File: Dissertacao.tmp
 File: Dissertacao.tmp
 File: Dissertacao.tmp
@@ -425,26 +503,26 @@ Css: .lstinputlisting .label{margin-right:0.5em;}
 --- empty picture --- Dissertacao.idv[85] ---
 --- needs --- Dissertacao.idv[87] ==> Dissertacao57x.png ---
 --- empty picture --- Dissertacao.idv[87] ---
---- needs --- Dissertacao.idv[88] ==> Dissertacao59x.png ---
+--- needs --- Dissertacao.idv[88] ==> Dissertacao58x.png ---
 --- empty picture --- Dissertacao.idv[88] ---
---- needs --- Dissertacao.idv[90] ==> Dissertacao58x.png ---
---- needs --- Dissertacao.idv[92] ==> Dissertacao60x.png ---
---- empty picture --- Dissertacao.idv[92] ---
---- needs --- Dissertacao.idv[93] ==> Dissertacao61x.png ---
---- empty picture --- Dissertacao.idv[93] ---
+--- needs --- Dissertacao.idv[90] ==> Dissertacao59x.png ---
+--- empty picture --- Dissertacao.idv[90] ---
+--- needs --- Dissertacao.idv[91] ==> Dissertacao61x.png ---
+--- empty picture --- Dissertacao.idv[91] ---
+--- needs --- Dissertacao.idv[93] ==> Dissertacao60x.png ---
 --- needs --- Dissertacao.idv[95] ==> Dissertacao62x.png ---
 --- empty picture --- Dissertacao.idv[95] ---
 --- needs --- Dissertacao.idv[96] ==> Dissertacao63x.png ---
 --- empty picture --- Dissertacao.idv[96] ---
 --- needs --- Dissertacao.idv[98] ==> Dissertacao64x.png ---
 --- empty picture --- Dissertacao.idv[98] ---
---- needs --- Dissertacao.idv[99] ==> Dissertacao66x.png ---
+--- needs --- Dissertacao.idv[99] ==> Dissertacao65x.png ---
 --- empty picture --- Dissertacao.idv[99] ---
---- needs --- Dissertacao.idv[101] ==> Dissertacao65x.png ---
---- needs --- Dissertacao.idv[103] ==> Dissertacao67x.png ---
---- empty picture --- Dissertacao.idv[103] ---
---- needs --- Dissertacao.idv[104] ==> Dissertacao68x.png ---
---- empty picture --- Dissertacao.idv[104] ---
+--- needs --- Dissertacao.idv[101] ==> Dissertacao66x.png ---
+--- empty picture --- Dissertacao.idv[101] ---
+--- needs --- Dissertacao.idv[102] ==> Dissertacao68x.png ---
+--- empty picture --- Dissertacao.idv[102] ---
+--- needs --- Dissertacao.idv[104] ==> Dissertacao67x.png ---
 --- needs --- Dissertacao.idv[106] ==> Dissertacao69x.png ---
 --- empty picture --- Dissertacao.idv[106] ---
 --- needs --- Dissertacao.idv[107] ==> Dissertacao70x.png ---
@@ -497,30 +575,30 @@ Css: .lstinputlisting .label{margin-right:0.5em;}
 --- empty picture --- Dissertacao.idv[144] ---
 --- needs --- Dissertacao.idv[146] ==> Dissertacao95x.png ---
 --- empty picture --- Dissertacao.idv[146] ---
---- needs --- Dissertacao.idv[147] ==> Dissertacao97x.png ---
+--- needs --- Dissertacao.idv[147] ==> Dissertacao96x.png ---
 --- empty picture --- Dissertacao.idv[147] ---
---- needs --- Dissertacao.idv[149] ==> Dissertacao96x.png ---
---- needs --- Dissertacao.idv[151] ==> Dissertacao98x.png ---
---- empty picture --- Dissertacao.idv[151] ---
+--- needs --- Dissertacao.idv[149] ==> Dissertacao97x.png ---
+--- empty picture --- Dissertacao.idv[149] ---
+--- needs --- Dissertacao.idv[150] ==> Dissertacao98x.png ---
+--- empty picture --- Dissertacao.idv[150] ---
 --- needs --- Dissertacao.idv[152] ==> Dissertacao99x.png ---
 --- empty picture --- Dissertacao.idv[152] ---
---- needs --- Dissertacao.idv[154] ==> Dissertacao100x.png ---
---- empty picture --- Dissertacao.idv[154] ---
---- needs --- Dissertacao.idv[155] ==> Dissertacao101x.png ---
---- empty picture --- Dissertacao.idv[155] ---
+--- needs --- Dissertacao.idv[153] ==> Dissertacao101x.png ---
+--- empty picture --- Dissertacao.idv[153] ---
+--- needs --- Dissertacao.idv[155] ==> Dissertacao100x.png ---
 --- needs --- Dissertacao.idv[157] ==> Dissertacao102x.png ---
 --- empty picture --- Dissertacao.idv[157] ---
---- needs --- Dissertacao.idv[158] ==> Dissertacao104x.png ---
+--- needs --- Dissertacao.idv[158] ==> Dissertacao103x.png ---
 --- empty picture --- Dissertacao.idv[158] ---
---- needs --- Dissertacao.idv[160] ==> Dissertacao103x.png ---
---- needs --- Dissertacao.idv[162] ==> Dissertacao105x.png ---
---- empty picture --- Dissertacao.idv[162] ---
+--- needs --- Dissertacao.idv[160] ==> Dissertacao104x.png ---
+--- empty picture --- Dissertacao.idv[160] ---
+--- needs --- Dissertacao.idv[161] ==> Dissertacao105x.png ---
+--- empty picture --- Dissertacao.idv[161] ---
 --- needs --- Dissertacao.idv[163] ==> Dissertacao106x.png ---
 --- empty picture --- Dissertacao.idv[163] ---
---- needs --- Dissertacao.idv[165] ==> Dissertacao107x.png ---
---- empty picture --- Dissertacao.idv[165] ---
---- needs --- Dissertacao.idv[166] ==> Dissertacao108x.png ---
---- empty picture --- Dissertacao.idv[166] ---
+--- needs --- Dissertacao.idv[164] ==> Dissertacao108x.png ---
+--- empty picture --- Dissertacao.idv[164] ---
+--- needs --- Dissertacao.idv[166] ==> Dissertacao107x.png ---
 --- needs --- Dissertacao.idv[168] ==> Dissertacao109x.png ---
 --- empty picture --- Dissertacao.idv[168] ---
 --- needs --- Dissertacao.idv[169] ==> Dissertacao110x.png ---
@@ -531,26 +609,173 @@ Css: .lstinputlisting .label{margin-right:0.5em;}
 --- empty picture --- Dissertacao.idv[172] ---
 --- needs --- Dissertacao.idv[174] ==> Dissertacao113x.png ---
 --- empty picture --- Dissertacao.idv[174] ---
---- needs --- Dissertacao.idv[175] ==> Dissertacao114x.png ---
+--- needs --- Dissertacao.idv[175] ==> Dissertacao115x.png ---
 --- empty picture --- Dissertacao.idv[175] ---
---- needs --- Dissertacao.idv[177] ==> Dissertacao115x.png ---
---- empty picture --- Dissertacao.idv[177] ---
---- needs --- Dissertacao.idv[178] ==> Dissertacao116x.png ---
---- empty picture --- Dissertacao.idv[178] ---
+--- needs --- Dissertacao.idv[177] ==> Dissertacao114x.png ---
+--- needs --- Dissertacao.idv[179] ==> Dissertacao116x.png ---
+--- empty picture --- Dissertacao.idv[179] ---
 --- needs --- Dissertacao.idv[180] ==> Dissertacao117x.png ---
 --- empty picture --- Dissertacao.idv[180] ---
---- needs --- Dissertacao.idv[181] ==> Dissertacao118x.png ---
---- empty picture --- Dissertacao.idv[181] ---
+--- needs --- Dissertacao.idv[182] ==> Dissertacao118x.png ---
+--- empty picture --- Dissertacao.idv[182] ---
 --- needs --- Dissertacao.idv[183] ==> Dissertacao119x.png ---
 --- empty picture --- Dissertacao.idv[183] ---
---- needs --- Dissertacao.idv[184] ==> Dissertacao120x.png ---
---- empty picture --- Dissertacao.idv[184] ---
+--- needs --- Dissertacao.idv[185] ==> Dissertacao120x.png ---
+--- empty picture --- Dissertacao.idv[185] ---
 --- needs --- Dissertacao.idv[186] ==> Dissertacao121x.png ---
 --- empty picture --- Dissertacao.idv[186] ---
---- needs --- Dissertacao.idv[187] ==> Dissertacao122x.png ---
---- empty picture --- Dissertacao.idv[187] ---
---- needs --- Dissertacao.idv[189] ==> Dissertacao123x.png ---
+--- needs --- Dissertacao.idv[188] ==> Dissertacao122x.png ---
+--- empty picture --- Dissertacao.idv[188] ---
+--- needs --- Dissertacao.idv[189] ==> Dissertacao124x.png ---
 --- empty picture --- Dissertacao.idv[189] ---
+--- needs --- Dissertacao.idv[191] ==> Dissertacao123x.png ---
+--- needs --- Dissertacao.idv[193] ==> Dissertacao125x.png ---
+--- empty picture --- Dissertacao.idv[193] ---
+--- needs --- Dissertacao.idv[194] ==> Dissertacao126x.png ---
+--- empty picture --- Dissertacao.idv[194] ---
+--- needs --- Dissertacao.idv[196] ==> Dissertacao127x.png ---
+--- empty picture --- Dissertacao.idv[196] ---
+--- needs --- Dissertacao.idv[197] ==> Dissertacao128x.png ---
+--- empty picture --- Dissertacao.idv[197] ---
+--- needs --- Dissertacao.idv[199] ==> Dissertacao129x.png ---
+--- empty picture --- Dissertacao.idv[199] ---
+--- needs --- Dissertacao.idv[200] ==> Dissertacao131x.png ---
+--- empty picture --- Dissertacao.idv[200] ---
+--- needs --- Dissertacao.idv[202] ==> Dissertacao130x.png ---
+--- needs --- Dissertacao.idv[204] ==> Dissertacao132x.png ---
+--- empty picture --- Dissertacao.idv[204] ---
+--- needs --- Dissertacao.idv[205] ==> Dissertacao133x.png ---
+--- empty picture --- Dissertacao.idv[205] ---
+--- needs --- Dissertacao.idv[207] ==> Dissertacao134x.png ---
+--- empty picture --- Dissertacao.idv[207] ---
+--- needs --- Dissertacao.idv[208] ==> Dissertacao135x.png ---
+--- empty picture --- Dissertacao.idv[208] ---
+--- needs --- Dissertacao.idv[210] ==> Dissertacao136x.png ---
+--- empty picture --- Dissertacao.idv[210] ---
+--- needs --- Dissertacao.idv[211] ==> Dissertacao137x.png ---
+--- empty picture --- Dissertacao.idv[211] ---
+--- needs --- Dissertacao.idv[213] ==> Dissertacao138x.png ---
+--- empty picture --- Dissertacao.idv[213] ---
+--- needs --- Dissertacao.idv[214] ==> Dissertacao139x.png ---
+--- empty picture --- Dissertacao.idv[214] ---
+--- needs --- Dissertacao.idv[216] ==> Dissertacao140x.png ---
+--- empty picture --- Dissertacao.idv[216] ---
+--- needs --- Dissertacao.idv[217] ==> Dissertacao141x.png ---
+--- empty picture --- Dissertacao.idv[217] ---
+--- needs --- Dissertacao.idv[219] ==> Dissertacao142x.png ---
+--- empty picture --- Dissertacao.idv[219] ---
+--- needs --- Dissertacao.idv[220] ==> Dissertacao143x.png ---
+--- empty picture --- Dissertacao.idv[220] ---
+--- needs --- Dissertacao.idv[222] ==> Dissertacao144x.png ---
+--- empty picture --- Dissertacao.idv[222] ---
+--- needs --- Dissertacao.idv[223] ==> Dissertacao145x.png ---
+--- empty picture --- Dissertacao.idv[223] ---
+--- needs --- Dissertacao.idv[225] ==> Dissertacao146x.png ---
+--- empty picture --- Dissertacao.idv[225] ---
+--- needs --- Dissertacao.idv[226] ==> Dissertacao147x.png ---
+--- empty picture --- Dissertacao.idv[226] ---
+--- needs --- Dissertacao.idv[228] ==> Dissertacao148x.png ---
+--- empty picture --- Dissertacao.idv[228] ---
+--- needs --- Dissertacao.idv[229] ==> Dissertacao149x.png ---
+--- empty picture --- Dissertacao.idv[229] ---
+--- needs --- Dissertacao.idv[231] ==> Dissertacao150x.png ---
+--- empty picture --- Dissertacao.idv[231] ---
+--- needs --- Dissertacao.idv[232] ==> Dissertacao151x.png ---
+--- empty picture --- Dissertacao.idv[232] ---
+--- needs --- Dissertacao.idv[234] ==> Dissertacao152x.png ---
+--- empty picture --- Dissertacao.idv[234] ---
+--- needs --- Dissertacao.idv[235] ==> Dissertacao154x.png ---
+--- empty picture --- Dissertacao.idv[235] ---
+--- needs --- Dissertacao.idv[237] ==> Dissertacao153x.png ---
+--- needs --- Dissertacao.idv[239] ==> Dissertacao155x.png ---
+--- empty picture --- Dissertacao.idv[239] ---
+--- needs --- Dissertacao.idv[240] ==> Dissertacao156x.png ---
+--- empty picture --- Dissertacao.idv[240] ---
+--- needs --- Dissertacao.idv[242] ==> Dissertacao157x.png ---
+--- empty picture --- Dissertacao.idv[242] ---
+--- needs --- Dissertacao.idv[243] ==> Dissertacao158x.png ---
+--- empty picture --- Dissertacao.idv[243] ---
+--- needs --- Dissertacao.idv[245] ==> Dissertacao159x.png ---
+--- empty picture --- Dissertacao.idv[245] ---
+--- needs --- Dissertacao.idv[246] ==> Dissertacao161x.png ---
+--- empty picture --- Dissertacao.idv[246] ---
+--- needs --- Dissertacao.idv[248] ==> Dissertacao160x.png ---
+--- needs --- Dissertacao.idv[250] ==> Dissertacao162x.png ---
+--- empty picture --- Dissertacao.idv[250] ---
+--- needs --- Dissertacao.idv[251] ==> Dissertacao163x.png ---
+--- empty picture --- Dissertacao.idv[251] ---
+--- needs --- Dissertacao.idv[253] ==> Dissertacao164x.png ---
+--- empty picture --- Dissertacao.idv[253] ---
+--- needs --- Dissertacao.idv[254] ==> Dissertacao165x.png ---
+--- empty picture --- Dissertacao.idv[254] ---
+--- needs --- Dissertacao.idv[256] ==> Dissertacao166x.png ---
+--- empty picture --- Dissertacao.idv[256] ---
+--- needs --- Dissertacao.idv[257] ==> Dissertacao167x.png ---
+--- empty picture --- Dissertacao.idv[257] ---
+--- needs --- Dissertacao.idv[259] ==> Dissertacao168x.png ---
+--- empty picture --- Dissertacao.idv[259] ---
+--- needs --- Dissertacao.idv[260] ==> Dissertacao170x.png ---
+--- empty picture --- Dissertacao.idv[260] ---
+--- needs --- Dissertacao.idv[262] ==> Dissertacao169x.png ---
+--- needs --- Dissertacao.idv[264] ==> Dissertacao171x.png ---
+--- empty picture --- Dissertacao.idv[264] ---
+--- needs --- Dissertacao.idv[265] ==> Dissertacao172x.png ---
+--- empty picture --- Dissertacao.idv[265] ---
+--- needs --- Dissertacao.idv[267] ==> Dissertacao173x.png ---
+--- empty picture --- Dissertacao.idv[267] ---
+--- needs --- Dissertacao.idv[268] ==> Dissertacao174x.png ---
+--- empty picture --- Dissertacao.idv[268] ---
+--- needs --- Dissertacao.idv[270] ==> Dissertacao175x.png ---
+--- empty picture --- Dissertacao.idv[270] ---
+--- needs --- Dissertacao.idv[271] ==> Dissertacao177x.png ---
+--- empty picture --- Dissertacao.idv[271] ---
+--- needs --- Dissertacao.idv[273] ==> Dissertacao176x.png ---
+--- needs --- Dissertacao.idv[275] ==> Dissertacao178x.png ---
+--- empty picture --- Dissertacao.idv[275] ---
+--- needs --- Dissertacao.idv[276] ==> Dissertacao179x.png ---
+--- empty picture --- Dissertacao.idv[276] ---
+--- needs --- Dissertacao.idv[278] ==> Dissertacao180x.png ---
+--- empty picture --- Dissertacao.idv[278] ---
+--- needs --- Dissertacao.idv[279] ==> Dissertacao181x.png ---
+--- empty picture --- Dissertacao.idv[279] ---
+--- needs --- Dissertacao.idv[281] ==> Dissertacao182x.png ---
+--- empty picture --- Dissertacao.idv[281] ---
+--- needs --- Dissertacao.idv[282] ==> Dissertacao183x.png ---
+--- empty picture --- Dissertacao.idv[282] ---
+--- needs --- Dissertacao.idv[284] ==> Dissertacao184x.png ---
+--- empty picture --- Dissertacao.idv[284] ---
+--- needs --- Dissertacao.idv[285] ==> Dissertacao185x.png ---
+--- empty picture --- Dissertacao.idv[285] ---
+--- needs --- Dissertacao.idv[287] ==> Dissertacao186x.png ---
+--- empty picture --- Dissertacao.idv[287] ---
+--- needs --- Dissertacao.idv[288] ==> Dissertacao187x.png ---
+--- empty picture --- Dissertacao.idv[288] ---
+--- needs --- Dissertacao.idv[290] ==> Dissertacao188x.png ---
+--- empty picture --- Dissertacao.idv[290] ---
+--- needs --- Dissertacao.idv[291] ==> Dissertacao189x.png ---
+--- empty picture --- Dissertacao.idv[291] ---
+--- needs --- Dissertacao.idv[293] ==> Dissertacao190x.png ---
+--- empty picture --- Dissertacao.idv[293] ---
+--- needs --- Dissertacao.idv[294] ==> Dissertacao191x.png ---
+--- empty picture --- Dissertacao.idv[294] ---
+--- needs --- Dissertacao.idv[296] ==> Dissertacao192x.png ---
+--- empty picture --- Dissertacao.idv[296] ---
+--- needs --- Dissertacao.idv[297] ==> Dissertacao193x.png ---
+--- empty picture --- Dissertacao.idv[297] ---
+--- needs --- Dissertacao.idv[299] ==> Dissertacao194x.png ---
+--- empty picture --- Dissertacao.idv[299] ---
+--- needs --- Dissertacao.idv[300] ==> Dissertacao195x.png ---
+--- empty picture --- Dissertacao.idv[300] ---
+--- needs --- Dissertacao.idv[302] ==> Dissertacao196x.png ---
+--- empty picture --- Dissertacao.idv[302] ---
+--- needs --- Dissertacao.idv[303] ==> Dissertacao197x.png ---
+--- empty picture --- Dissertacao.idv[303] ---
+--- needs --- Dissertacao.idv[305] ==> Dissertacao198x.png ---
+--- empty picture --- Dissertacao.idv[305] ---
+--- needs --- Dissertacao.idv[306] ==> Dissertacao199x.png ---
+--- empty picture --- Dissertacao.idv[306] ---
+--- needs --- Dissertacao.idv[308] ==> Dissertacao200x.png ---
+--- empty picture --- Dissertacao.idv[308] ---
 --- characters ---
 Font("rm-lmr","12","12","100")
 Font("rm-lmbx","12","12","100")
@@ -558,6 +783,7 @@ Font("rm-lmbx","12","12","120")
 Font("rm-lmbxi","10","10","144")
 Font("rm-lmr","10","10","100")
 Font("rm-lmbx","10","10","100")
+Font("lmmi","10","10","100")
 Font("rm-lmri","10","10","100")
 Font("rm-lmr","10","10","109")
 Font("rm-lmri","12","12","100")
@@ -565,4 +791,6 @@ Font("rm-lmss","12","12","116")
 Font("rm-lmbxi","10","10","120")
 Font("rm-lmr","8","8","100")
 Font("lmmi","12","12","100")
+Font("lmmi","8","8","100")
 Font("lmsy","10","10","120")
+Font("lmsy8","","8","100")

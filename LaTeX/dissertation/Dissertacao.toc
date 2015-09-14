@@ -25,9 +25,9 @@
 \contentsline {subsection}{\numberline {2.4.1}APLICA\IeC {\c C}\IeC {\~O}ES WEB COM ANGULAJS}{21}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph {ANGULAR-MATERIAL}}{22}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph {WEB} COM THREEJS}{23}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}SERVI\IeC {\c C}OS REST}{24}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}CMAC}{24}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{27}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.4.4}SERVI\IeC {\c C}OS REST COM FLASK}{24}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}CMAC}{25}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{28}{subsection.2.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{29}{section.3.1}
