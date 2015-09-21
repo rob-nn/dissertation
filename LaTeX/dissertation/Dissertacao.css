@@ -5,12 +5,15 @@
 .rm-lmbxi-10x-x-144{font-size:120%; font-style:italic; font-weight: bold;}
 .rm-lmr-10{font-size:83%;}
 .rm-lmbx-10{font-size:83%; font-weight: bold;}
+.lmmi-10{font-size:83%;}
 .rm-lmri-10{font-size:83%; font-style:italic;}
 .rm-lmr-10x-x-109{font-size:90%;}
 .rm-lmri-12{ font-style:italic;}
 .rm-lmss-12x-x-116{font-size:116%; font-family: sans-serif;}
 .rm-lmbxi-10x-x-120{ font-style:italic; font-weight: bold;}
 .rm-lmr-8{font-size:66%;}
+.lmmi-8{font-size:66%;}
+.lmsy8-{font-size:66%;}
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
@@ -134,6 +137,7 @@ h1.partHead{text-align: center}
 .poemline {text-align:right; width:6em;}
 .frenchb-nbsp{font-size:75%;}
 .frenchb-thinspace{font-size:75%;}
+sup.french{ vertical-align:super; font-size:70%; }
 dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
 .figure img.graphics {margin-left:10%;}
 .equation td{text-align:center; }
