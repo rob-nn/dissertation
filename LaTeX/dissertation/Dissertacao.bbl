@@ -103,6 +103,15 @@ ISSN 09666362.}
   2979--2988, 2009.
 ISSN 00189456.}
 
+\bibitem[Fielding 2000]{Fielding2000}
+\abntrefinfo{Fielding}{FIELDING}{2000}
+{FIELDING, R.~T.
+\emph{{Architectural Styles and the Design of Network-based Software
+  Architectures}}.
+Tese (Doutorado) --- UNIVERSITY OF CALIFORNIA, 2000.
+Dispon{\'\i}vel em:
+  \url{http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm}.}
+
 \bibitem[Fox e Patterson 2012]{Fox2012}
 \abntrefinfo{Fox e Patterson}{FOX; PATTERSON}{2012}
 {FOX, A.; PATTERSON, D. \emph{{Engineering Long-Lasting Software: An Agile
@@ -122,8 +131,13 @@ ISBN 9781430264484.}
 \emph{Gait and Posture}, v.~20, n.~3, p. 266--272, 2004.
 ISSN 09666362.}
 
+\bibitem[Google 2015]{Google2015b}
+\abntrefinfo{Google}{GOOGLE}{2015a}
+{GOOGLE. \emph{{Angular-Seed}}. 2015.
+Dispon{\'\i}vel em: \url{https://github.com/angular/angular-seed}.}
+
 \bibitem[Google 2015]{Google2015a}
-\abntrefinfo{Google}{GOOGLE}{2015}
+\abntrefinfo{Google}{GOOGLE}{2015b}
 {GOOGLE. \emph{{Material Design}}. 2015.
 Dispon{\'\i}vel em:
   \url{www.google.com.br/design/spec/material-design/introduction.html}.}
@@ -133,6 +147,25 @@ Dispon{\'\i}vel em:
 {GREENE, J.; STELLMAN, A. \emph{{Learn Agile}}. 1. ed. [S.l.]: O'Reilly Media,
   Inc., 2014.
 ISBN 9781449331924.}
+
+\bibitem[Grinberg 2014]{Grinberg2014}
+\abntrefinfo{Grinberg}{GRINBERG}{2014}
+{GRINBERG, M. \emph{{Flask Web Development}}. 1. ed. [S.l.]: O'Reilly Media,
+  Inc., 2014.
+ISBN 9781449372620.}
+
+\bibitem[Hanley 2015]{Hanley2015}
+\abntrefinfo{Hanley}{HANLEY}{2015}
+{HANLEY, J. \emph{{Scrum - User Stories: How to Leverage User Stories For
+  Better Requirements Definition (Scrum Series) (Volume 2)}}. [S.l.]:
+  CreateSpace Independent Publishing Platform, 2015.
+ISBN 978-1512368031.}
+
+\bibitem[Haykin 1998]{Haykin1998}
+\abntrefinfo{Haykin}{HAYKIN}{1998}
+{HAYKIN, S. \emph{{Neural Networks: A Comprehensive Foundation}}. 2. ed.
+  [S.l.]: Prentice Hall, 1998.
+ISBN 978-0132733502.}
 
 \bibitem[Layton 2012]{Layton2012}
 \abntrefinfo{Layton}{LAYTON}{2012}
@@ -150,11 +183,23 @@ ISSN 1094-6977.
 Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731}.}
 
+\bibitem[Maia 2015]{Maia2015}
+\abntrefinfo{Maia}{MAIA}{2015}
+{MAIA, I. \emph{{Building Web Applications with Flask}}. 1. ed. [S.l.]: Packt
+  Publishing, 2015.
+ISBN 9781784396152.}
+
 \bibitem[Malas 2010]{Malas}
 \abntrefinfo{Malas}{MALAS}{2010}
 {MALAS, B. \emph{{Book Review - Gait Analysis: Normal and Pathological
   Function, 2nd Edition}}. 2010.
 Dispon{\'\i}vel em: \url{http://www.oandp.org/reading/gaitfunction.asp}.}
+
+\bibitem[Matsuda e Lea 2013]{Matsuda2013}
+\abntrefinfo{Matsuda e Lea}{MATSUDA; LEA}{2013}
+{MATSUDA, K.; LEA, R. \emph{{WebGL Programming Guide: Interactive 3D Graphics
+  Programming with WebGL (OpenGL)}}. [S.l.]: Addison-Wesley Professional, 2013.
+ISBN 978-0321902924.}
 
 \bibitem[Moraes, Silva e Battistela 2003]{Moraes2003}
 \abntrefinfo{Moraes, Silva e Battistela}{MORAES; SILVA; BATTISTELA}{2003}
@@ -173,11 +218,42 @@ ISSN 1094-687X.}
 \emph{2009 Pan American Health Care Exchanges - PAHCE 2009}, n.~2, p. 90--93,
   2009.}
 
+\bibitem[Ng 2015]{Ng2015}
+\abntrefinfo{Ng}{NG}{2015}
+{NG, A. \emph{{Machine Learning by Stanford University}}. 2015.
+Dispon{\'\i}vel em:
+  \url{https://www.coursera.org/learn/machine-learning/home/welcome}.}
+
+\bibitem[Patton 2014]{Patton2014}
+\abntrefinfo{Patton}{PATTON}{2014}
+{PATTON, J. \emph{{User Story Mapping: Discover the Whole Story, Build the
+  Right Product}}. 1. ed. [S.l.]: O'Reilly Media, 2014.
+ISBN 978-1491904909.}
+
 \bibitem[Perry e BurnField 2010]{Perry2010}
 \abntrefinfo{Perry e BurnField}{PERRY; BURNFIELD}{2010}
 {PERRY, J.; BURNFIELD, J.~M. \emph{{Gait Analysis Normal and Pathological
   Function}}. 2nd. ed. [S.l.]: SLACK Inc., 2010.
 ISBN 978-1-55642-766-4.}
+
+\bibitem[Pressman e Maxim 2014]{Pressman2014}
+\abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2014}
+{PRESSMAN, R.; MAXIM, B. \emph{{Software Engineering: A Practitioner's
+  Approach}}. 8. ed. [S.l.]: McGraw-Hill Education, 2014.
+ISBN 978-0078022128.}
+
+\bibitem[Qualisys 2010]{Qualisys2010}
+\abntrefinfo{Qualisys}{QUALISYS}{2010}
+{QUALISYS. {Qualisys Track Manager – QTM Motion Capture software for tracking
+  all kind of movements}.
+\emph{Qualisys.Com}, 2010.
+Dispon{\'\i}vel em:
+  \url{http://www.qualisys.com/wp-content/uploads/2012/11/pi\\_qtm.pdf}.}
+
+\bibitem[Qualisys 2013]{Qualisys2013}
+\abntrefinfo{Qualisys}{QUALISYS}{2013}
+{QUALISYS. \emph{{Oqus MRI}}. 2013.
+Dispon{\'\i}vel em: \url{http://www.qualisys.com/products/hardware/oqus-mri/}.}
 
 \bibitem[Rubin 2012]{Rubin2012}
 \abntrefinfo{Rubin}{RUBIN}{2012}
@@ -213,17 +289,11 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s11063-012-9257-6}.}
   Press, 2004.
 ISBN 9780735619937.}
 
-\bibitem[Schwaber e Beedle 2001]{Schwaber2001}
+\bibitem[Schwaber e Beedle 2001]{schwaber2001}
 \abntrefinfo{Schwaber e Beedle}{SCHWABER; BEEDLE}{2001}
 {SCHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}.
   [S.l.]: Pearson, 2001.
 ISBN 0130676349.}
-
-\bibitem[Shwaber e Beedle 2002]{schwaber2002}
-\abntrefinfo{Shwaber e Beedle}{SHWABER; BEEDLE}{2002}
-{SHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}.
-  [S.l.]: Pearson, 2002.
-ISBN 0-13-067634-9.}
 
 \bibitem[Syed 2014]{Syed2014}
 \abntrefinfo{Syed}{SYED}{2014}

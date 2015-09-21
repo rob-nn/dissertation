@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Dissertacao.aux
+Case mismatch error between cite keys Schwaber2001 and schwaber2001
+---line 149 of file Dissertacao.aux
+ : \citation{Schwaber2001
+ :                       }
+I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -22,44 +27,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 36 entries,
+You've used 47 entries,
             6711 wiz_defined-function locations,
-            1437 strings with 15639 characters,
-and the built_in function-call counts, 41552 in all, are:
-= -- 4362
-> -- 951
-< -- 758
-+ -- 1097
-- -- 289
-* -- 2687
-:= -- 5317
-add.period$ -- 148
-call.type$ -- 36
-change.case$ -- 336
-chr.to.int$ -- 86
-cite$ -- 35
-duplicate$ -- 3512
-empty$ -- 2164
-format.name$ -- 1380
-if$ -- 8827
-int.to.chr$ -- 1
+            1501 strings with 17162 characters,
+and the built_in function-call counts, 53697 in all, are:
+= -- 5701
+> -- 1138
+< -- 1038
++ -- 1435
+- -- 349
+* -- 3397
+:= -- 6873
+add.period$ -- 197
+call.type$ -- 47
+change.case$ -- 412
+chr.to.int$ -- 111
+cite$ -- 46
+duplicate$ -- 4699
+empty$ -- 2802
+format.name$ -- 1657
+if$ -- 11316
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 657
-newline$ -- 199
-num.names$ -- 175
-pop$ -- 814
+missing$ -- 857
+newline$ -- 257
+num.names$ -- 230
+pop$ -- 1049
 preamble$ -- 1
-purify$ -- 135
+purify$ -- 169
 quote$ -- 0
-skip$ -- 3569
+skip$ -- 4752
 stack$ -- 1
-substring$ -- 1737
-swap$ -- 1399
-text.length$ -- 46
+substring$ -- 2206
+swap$ -- 1830
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1
+type$ -- 3
 warning$ -- 0
-while$ -- 258
+while$ -- 329
 width$ -- 0
-write$ -- 574
+write$ -- 742
+(There was 1 error message)

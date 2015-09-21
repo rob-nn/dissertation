@@ -11,7 +11,11 @@ src="Dissertacao0x.png" alt="PICT" >
 <meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)"> 
 <!-- html,htex4ht --> 
 <meta name="src" content="Dissertacao.tex"> 
+<<<<<<< HEAD
 <meta name="date" content="2015-09-13 20:27:00"> 
+=======
+<meta name="date" content="2015-09-13 20:33:00"> 
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 <link rel="stylesheet" type="text/css" href="Dissertacao.css"> 
 </head><body 
 >
@@ -1643,11 +1647,17 @@ src="Dissertacao117x.png" alt="PICT" >
        <h4 class="subsectionHead"><span class="titlemark">2.4.4   </span> <a 
  id="x1-220002.4.4"></a>SERVIÇOS REST COM FLASK</h4>
 <!--l. 78--><p class="noindent" >O <span 
+<<<<<<< HEAD
 class="rm-lmri-12">Representational State Transfer (REST) </span>foi primeiramente descrito por (<span 
 class="rm-lmbx-12">??</span>). Ele é definodo
 como um estilo arquitetural de sistemas hipermidia e tem as seguintes características descritas
 por (<span 
 class="rm-lmbx-12">??</span>):
+=======
+class="rm-lmri-12">Representational State Transfer (REST) </span>foi primeiramente descrito por (FIELDING, 2000).
+Ele é definido como um estilo arquitetural de sistemas hipermidia e tem as seguintes
+características descritas por (GRINBERG, 2014):
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 <!--l. 82--><p class="indent" >
       <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
    1. </dt><dd 
@@ -1664,7 +1674,12 @@ class="rm-lmri-12">Stateless</span>.  O  cliente  precisa  incluir  nas  suas  r
 class="enumerate-enumitem">Interface Uniforme. O protocolo que os clientes usam para acessar o servidor precisa
       ser consistente, bem definido e padronizado. O protocolo comumente usado por
       serviços <span 
+<<<<<<< HEAD
 class="rm-lmri-12">REST </span>é o HTTP.
+=======
+class="rm-lmri-12">REST </span>é o <span 
+class="rm-lmri-12">HTTP</span>.
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
       </dd><dt class="enumerate-enumitem">
    4. </dt><dd 
 class="enumerate-enumitem">Sistema em Camadas. Servidores <span 
@@ -1693,17 +1708,28 @@ para desenpenhar esta função foi a <span
 class="rm-lmri-12">Flask</span>. Esta é uma biblioteca escrita na linguagem <span 
 class="rm-lmri-12">Python </span>e
 fornece todos as ferramentas necessárias para criar aplicações <span 
+<<<<<<< HEAD
 class="rm-lmri-12">webs</span>. Segundo (<span 
 class="rm-lmbx-12">??</span>), o <span 
 class="rm-lmri-12">Flask </span>vem
+=======
+class="rm-lmri-12">webs</span>. Segundo (MAIA, 2015), o
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
                                                                                        <img 
 src="Dissertacao118x.png" alt="PICT" >
 <img 
 src="Dissertacao119x.png" alt="PICT" >
                                                                                        
+<<<<<<< HEAD
 sendo adotado, por sua filosofia minimalista que não impõe uma arquitetura específica de
 projeto, assim permitindo que um projeto começe pequeno e simples, evoluindo para um
 modelo mais complexo.
+=======
+<span 
+class="rm-lmri-12">Flask </span>vem sendo adotado, por sua filosofia minimalista que não impõe uma arquitetura
+específica de projeto, assim permitindo que um projeto começe pequeno e simples, evoluindo
+para um modelo mais complexo.
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 <!--l. 1--><p class="noindent" >
        <h3 class="sectionHead"><span class="titlemark">2.5   </span> <a 
  id="x1-230002.5"></a>CMAC</h3>
@@ -1800,6 +1826,7 @@ class="lmmi-12">s</span>1</span></div><!--tex4ht:label?: x1-230029 -->
 src="Dissertacao132x.png" alt="PICT" >
 <img 
 src="Dissertacao133x.png" alt="PICT" >
+<<<<<<< HEAD
                                                                                        
 <!--l. 37--><p class="indent" >       </div><hr class="endfigure">
 <!--l. 39--><p class="indent" >       Isto significa que quaisquer que sejam os valores de <span 
@@ -2222,6 +2249,430 @@ src="Dissertacao164x.png" alt="PICT" >
 <img 
 src="Dissertacao165x.png" alt="PICT" >
                                                                                        
+=======
+                                                                                       
+<!--l. 37--><p class="indent" >       </div><hr class="endfigure">
+<!--l. 39--><p class="indent" >       Isto significa que quaisquer que sejam os valores de <span 
+class="lmmi-12">s</span>1 os mesmos devem ser convertidos
+para -1, -0,5, 0, 0,5 e 1. Por exemplo, se o valor de <span 
+class="lmmi-12">s</span>1 for 0,75, será convertido para o valor 1, se
+for -0,75 será o valor 0 e se for 0,25 será o valor 0,5. A esta quantização dá-se o nome de
+resolução da CMAC.
+<!--l. 42--><p class="indent" >       O próximo passo é criar uma tabela para cada um dos sinais discretizados de entrada do
+vetor <span 
+class="lmmi-12">S</span>. Supondo que o vetor <span 
+class="lmmi-12">S </span>possui 2 sinais de entrada <span 
+class="lmmi-12">s</span>1 e <span 
+class="lmmi-12">s</span>2 e um número de ativações
+<span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">* </span>igual a 3, deve-se criar duas tabelas, uma para cada sinal, a Tabela <a 
+href="#x1-230032">2<!--tex4ht:ref: disc_s1 --></a> e a Tabela <a 
+href="#x1-230043">3<!--tex4ht:ref: disc_s2 --></a>. Para
+facilitar o entendimento, irá se considerar os valores possíveis de <span 
+class="lmmi-12">s</span>1 iguais aos inteiros de 1 até
+6 e os valores possíveis de <span 
+class="lmmi-12">s</span>2 iguais aos inteiros de 1 até 4. Cria-se uma coluna com os valores
+do sinal em questão. Para cada valor, cria-se 3 (<span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">*</span>) valores novos. Para o primeiro
+valor do sinal, usa-se os 3 primeiros inteiros não negativos. Para o segundo valor do
+sinal, substitui-se o primeiro dos três itens pelo próximo número após o terceiro item
+do sinal anterior. Para o terceiro sinal, substitui-se o segundo dos três itens pelo
+próximo inteiro não negativo. Assim sucessivamente conforme a Tabela <a 
+href="#x1-230032">2<!--tex4ht:ref: disc_s1 --></a> e Tabela <a 
+href="#x1-230043">3<!--tex4ht:ref: disc_s2 --></a>.
+<div class="table">
+                                                                                       <img 
+src="Dissertacao134x.png" alt="PICT" >
+<img 
+src="Dissertacao135x.png" alt="PICT" >
+                                                                                       
+<!--l. 51--><p class="indent" >       <a 
+ id="x1-230032"></a><hr class="float"><div class="float" 
+>
+                                                                                       <img 
+src="Dissertacao136x.png" alt="PICT" >
+<img 
+src="Dissertacao137x.png" alt="PICT" >
+                                                                                       
+ <div class="caption" 
+><span class="id">Tabela&#x00A0;2: </span><span  
+class="content">Mapeamento de <span 
+class="lmmi-12">s</span>1</span></div><!--tex4ht:label?: x1-230032 -->
+<div class="tabular">_____________________________
+  <span 
+class="rm-lmri-10">Valore de </span><span 
+class="lmmi-10">s</span><span 
+class="rm-lmr-10">1</span>    <span 
+class="rm-lmri-10">Mapeamento </span><span 
+class="lmmi-10">m</span><span 
+class="rm-lmr-10">1</span>__
+         <span 
+class="rm-lmr-10">1</span>                  <span 
+class="rm-lmr-10">0, 1, 2</span>
+         <span 
+class="rm-lmr-10">2</span>                  <span 
+class="rm-lmr-10">3, 1, 2</span>
+         <span 
+class="rm-lmr-10">3</span>                  <span 
+class="rm-lmr-10">3, 4, 2</span>
+         <span 
+class="rm-lmr-10">4</span>                  <span 
+class="rm-lmr-10">3, 4, 5</span>
+         <span 
+class="rm-lmr-10">5</span>                  <span 
+class="rm-lmr-10">6, 4, 5</span>
+         <span 
+class="rm-lmr-10">6</span>                  <span 
+class="rm-lmr-10">6, 7, 5</span>_________
+</div>
+                                                                                       <img 
+src="Dissertacao138x.png" alt="PICT" >
+<img 
+src="Dissertacao139x.png" alt="PICT" >
+                                                                                       
+       </div><hr class="endfloat" />
+       </div>
+       <div class="table">
+                                                                                       <img 
+src="Dissertacao140x.png" alt="PICT" >
+<img 
+src="Dissertacao141x.png" alt="PICT" >
+                                                                                       
+<!--l. 70--><p class="indent" >       <a 
+ id="x1-230043"></a><hr class="float"><div class="float" 
+>
+                                                                                       <img 
+src="Dissertacao142x.png" alt="PICT" >
+<img 
+src="Dissertacao143x.png" alt="PICT" >
+                                                                                       
+ <div class="caption" 
+><span class="id">Tabela&#x00A0;3: </span><span  
+class="content">Mapeamento de <span 
+class="lmmi-12">s</span>2</span></div><!--tex4ht:label?: x1-230043 -->
+<div class="tabular">_____________________________
+  <span 
+class="rm-lmri-10">Valore de </span><span 
+class="lmmi-10">s</span><span 
+class="rm-lmr-10">2</span>    <span 
+class="rm-lmri-10">Mapeamento </span><span 
+class="lmmi-10">m</span><span 
+class="rm-lmr-10">2</span>__
+         <span 
+class="rm-lmr-10">1</span>                  <span 
+class="rm-lmr-10">0, 1, 2</span>
+         <span 
+class="rm-lmr-10">2</span>                  <span 
+class="rm-lmr-10">3, 1, 2</span>
+         <span 
+class="rm-lmr-10">3</span>                  <span 
+class="rm-lmr-10">3, 4, 2</span>
+         <span 
+class="rm-lmr-10">4</span>                  <span 
+class="rm-lmr-10">3, 4, 5</span>_________
+</div>
+                                                                                       <img 
+src="Dissertacao144x.png" alt="PICT" >
+<img 
+src="Dissertacao145x.png" alt="PICT" >
+                                                                                       
+       </div><hr class="endfloat" />
+       </div>
+<!--l. 89--><p class="indent" >       Depois de mapeado cada valor de cada item de entrada, deve-se combinar os
+mapeamentos de acordo com a Tabela <a 
+href="#x1-230054">4<!--tex4ht:ref: wmap --></a>.
+       <div class="table">
+                                                                                       <img 
+src="Dissertacao146x.png" alt="PICT" >
+<img 
+src="Dissertacao147x.png" alt="PICT" >
+                                                                                       
+<!--l. 91--><p class="indent" >       <a 
+ id="x1-230054"></a><hr class="float"><div class="float" 
+>
+                                                                                       <img 
+src="Dissertacao148x.png" alt="PICT" >
+<img 
+src="Dissertacao149x.png" alt="PICT" >
+                                                                                       
+ <div class="caption" 
+><span class="id">Tabela&#x00A0;4: </span><span  
+class="content">Mapeamento para os pesos <span 
+class="lmmi-12">W</span></span></div><!--tex4ht:label?: x1-230054 -->
+<div class="tabular">_________________________________________________________________________________
+ <span 
+class="lmmi-10">s</span><span 
+class="rm-lmr-10">1 </span><span 
+class="rm-lmri-10">/ </span><span 
+class="lmmi-10">s</span><span 
+class="rm-lmr-10">2</span>               <span 
+class="rm-lmri-10">1</span>                         <span 
+class="rm-lmri-10">2</span>                         <span 
+class="rm-lmri-10">3</span>                         <span 
+class="rm-lmri-10">4</span>_____________
+     <span 
+class="rm-lmri-10">1</span>       <span 
+class="rm-lmr-10">(0, 0), (1, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(0, 3), (1, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(0, 3), (1, 4), (2, 2)</span>    <span 
+class="rm-lmr-10">(0, 3), (1, 4), (2, 5)</span>
+      <span 
+class="rm-lmri-10">2</span>       <span 
+class="rm-lmr-10">(3, 0), (1, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (1, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (1, 4), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (1, 4), (2, 5)</span>
+      <span 
+class="rm-lmri-10">3</span>       <span 
+class="rm-lmr-10">(3, 0), (4, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 1), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 4), (2, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 4), (2, 5)</span>
+      <span 
+class="rm-lmri-10">4</span>       <span 
+class="rm-lmr-10">(3, 0), (4, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 4), (5, 2)</span>    <span 
+class="rm-lmr-10">(3, 3), (4, 4), (5, 5)</span>
+      <span 
+class="rm-lmri-10">5</span>       <span 
+class="rm-lmr-10">(6, 0), (4, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (4, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (4, 4), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (4, 4), (5, 5)</span>
+      <span 
+class="rm-lmri-10">6</span>       <span 
+class="rm-lmr-10">(6, 0), (7, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (7, 1), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (7, 4), (5, 2)</span>    <span 
+class="rm-lmr-10">(6, 3), (7, 4), (5, 5)</span>__
+</div>
+                                                                                       <img 
+src="Dissertacao150x.png" alt="PICT" >
+<img 
+src="Dissertacao151x.png" alt="PICT" >
+                                                                                       
+       </div><hr class="endfloat" />
+       </div>
+<!--l. 113--><p class="indent" >       O mapeamento da Tabela <a 
+href="#x1-230054">4<!--tex4ht:ref: wmap --></a> é feito da seguinte forma: Coloca-se cada valor
+quantizado de <span 
+class="lmmi-12">s</span>1 nomeando cada uma das linhas da tabela. Coloca-se cada valor
+discretizado de s2 nomeando cada uma das colunas das tabelas. Cada célula da tabela é
+obtida recuperando-se os itens de s1 e de s2, que estão na Tabela <a 
+href="#x1-230032">2<!--tex4ht:ref: disc_s1 --></a> e na Tabela <a 
+href="#x1-230043">3<!--tex4ht:ref: disc_s2 --></a>, e
+concatenando-se cada item de acordo com sua posição. Por exemplo, para o valor de <span 
+class="lmmi-12">s</span>1 igual
+a 5, recuperam-se os itens (6, 4, 5), para o valor de <span 
+class="lmmi-12">s</span>2 igual a 2, recuperam-se os
+itens (3, 1, 2). Agora é só criar novos itens, na mesma quantidade do valor <span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">*</span>,
+concatenando-se cada item de acordo com sua posição. O lista resultante é ((6, 3), (4, 1), (5,
+2)).
+<!--l. 120--><p class="indent" >       Cada vetor de 2 posições da Tabela <a 
+href="#x1-230054">4<!--tex4ht:ref: wmap --></a>, por exemplo (0, 0), (4, 1), é um rótulo de uma
+entrada na tabela de pesos <span 
+class="lmmi-12">W</span>.
+<!--l. 122--><p class="indent" >       Para se calcular a saída do sistema, suponha que os valores de <span 
+class="lmmi-12">s</span>1 e <span 
+class="lmmi-12">s</span>2, ainda sejam 5 e
+2, respectivamente, e <span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">* </span>ainda seja 3. Neste caso, recupera-se o item da linha 5 e da coluna
+2, que é ((6, 3), (4, 1), (5, 2)). Agora é acessada a tabela de pesos W e são recuperados os pesos
+cujas chaves são (6, 3), (4, 1) e (5, 2). Note-se que serão recuperados exatamente 3 pesos,
+que é exatamente o número de ativações <span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">* </span>desejadas. Os valores recuperados
+constituem um vetor chamado <span 
+class="lmmi-12">W</span><span 
+class="lmsy-10x-x-120">*</span>. A saída é calculada somando-se os valores de
+W*.
+       <h4 class="subsectionHead"><span class="titlemark">2.5.1   </span> <a 
+ id="x1-240002.5.1"></a>TREINAMENTO DA CMAC</h4>
+<!--l. 129--><p class="noindent" >Sendo a CMAC uma RNA com aprendizado supervisionado, seus pesos podem ser atualizados
+simplesmente computando-se o erro e atualizando-se apenas os pesos que participaram do
+computo do sinal <span 
+class="lmmi-12">P</span>. O processo é detalhado nos próximos parágrafos.
+<!--l. 131--><p class="indent" >       Para se treinar a CMAC, primeiro define-se o conjunto de dados para treinamento que
+devem ser usados. Pode ser usado algo entre 20% e 50% dos dados coletados para
+desenvolvimento do sistema. Cada item destes dados deve conter um vetor de sinais de entradas
+<span 
+class="lmmi-12">S </span>e a resposta desejada <span 
+class="lmmi-12">D </span>para estes sinais. A tabela de pesos deve ser inicializada com
+valores randômicos. Para cada vetor <span 
+class="lmmi-12">S </span>deve ser calculado o vetor <span 
+class="lmmi-12">W</span><span 
+class="lmsy-10x-x-120">*</span>, que contém os
+endereços dos pesos a serem ativados. Calcula-se então a saída da rede <span 
+class="lmmi-12">P </span>para o vetor
+<span 
+class="lmmi-12">S</span>, conforme definido no item <a 
+href="#x1-230002.5">2.5<!--tex4ht:ref: cmac_sec --></a>, somando os itens do vetro <span 
+class="lmmi-12">W</span>. Atualizam-se os
+pesos sinápticos conforme a Equação <a 
+href="#x1-24001r1">1<!--tex4ht:ref: write_weight --></a> adaptada de (SABOURIN; YU; MADANI,
+2012).
+       <table 
+class="equation"><tr><td><a 
+ id="x1-24001r1"></a>
+                                                                                       <img 
+src="Dissertacao152x.png" alt="PICT" >
+<img 
+src="Dissertacao154x.png" alt="PICT" >
+                                                                                       
+       <center class="math-display" >
+<img 
+src="Dissertacao153x.png" alt="           &#x03B1;(D----P)-
+wi = wi +    N W *
+" class="math-display" ></center></td><td class="equation-label">(1)</td></tr></table>
+<!--l. 141--><p class="nopar" >
+<!--l. 143--><p class="indent" >       A variável <span 
+class="lmmi-12">w</span><sub><span 
+class="lmmi-8">i</span></sub> é um item qualquer dentro da tabela de pesos <span 
+class="lmmi-12">W</span>. Em cada iteração no
+conjunto de dados para treinamento, deve-se atualizar apenas os pesos descritos em <span 
+class="lmmi-12">W</span><span 
+class="lmsy-10x-x-120">* </span>naquele
+momento. A variável <span 
+class="lmmi-12">&#x03B1; </span>é o coeficiente de aprendizado, deve ser um valor entre 0 e 1. A variável
+<span 
+class="lmmi-12">NW</span><span 
+class="lmsy-10x-x-120">* </span>é o número de valores a serem utilizados para ativação, que consequentemente equivale
+ao número de itens do vetor <span 
+class="lmmi-12">W</span><span 
+class="lmsy-10x-x-120">*</span>.
+<!--l. 148--><p class="indent" >       Deve-se determinar o número de iterações <span 
+class="rm-lmri-12">batch </span>para o sistema. Uma iteração <span 
+class="rm-lmri-12">batch</span>
+consiste no processamento dos pesos para cada item dentro do conjunto de dados para
+treinamento. O sistema deve continuar iterando até atingir o número de iterações
+<span 
+class="rm-lmri-12">batch</span>.
+<!--l. 152--><p class="indent" >       Apesar do número de iterações <span 
+class="rm-lmri-12">batch </span>ser válido como critério de parada para o
+treinamento da CMAC, nada impede o uso de outros critérios, por exemplo, o erro quadrado
+médio da saída <span 
+class="lmmi-12">Y </span>em relação ao desejado <span 
+class="lmmi-12">D</span>.
+                                                                                       <img 
+src="Dissertacao155x.png" alt="PICT" >
+<img 
+src="Dissertacao156x.png" alt="PICT" >
+                                                                                       
+       <h2 class="chapterHead"><span class="titlemark">Capítulo&#x00A0;3</span><br /><a 
+ id="x1-250003"></a><span 
+class="rm-lmbx-12">metodologia</span></h2>
+       <h3 class="sectionHead"><span class="titlemark">3.1   </span> <a 
+ id="x1-260003.1"></a>AMBIENTE DE ESTUDO</h3>
+<!--l. 3--><p class="noindent" >Como este trabalho trata de um projeto de desenvolvimento de software na área de análise
+de marcha, dois ambientes de trabalho distintos foram amplamente utilizados. São
+estes:
+<!--l. 6--><p class="indent" >
+      <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+   1. </dt><dd 
+class="enumerate-enumitem">Laboratório  de  Informática  em  Saúde  (LIS)  na  Faculdade  Gama  (FGA)  da
+      Universidade de Brasília (UnB);
+      </dd><dt class="enumerate-enumitem">
+   2. </dt><dd 
+class="enumerate-enumitem">Laboratório de Performance Humana (LPH) na Faculdade Ceilândia (FCE) da UnB.</dd></dl>
+<!--l. 10--><p class="indent" >       No LIS foram desempenhadas as tarefas relativas a engenharia de software e
+disponibilização do software. Foram utilizadas estações de trabalho do tipo <span 
+class="rm-lmri-12">Power Mac</span>
+com sistema operacional <span 
+class="rm-lmri-12">MAC OS X </span>10.10.3, sendo que uma foi preparada para
+funcionar como servidor de aplicação e roteador de rede. A estação preparada, serve de
+hospedeira de duas máquinas virtuais (<span 
+class="rm-lmri-12">Virtual Machines </span>- VMs) rodando através
+do software <span 
+class="rm-lmri-12">Virtualbox </span>4.3. Cada VM utiliza sistema operacional <span 
+class="rm-lmri-12">Debian Wheezy</span>
+<span 
+class="rm-lmri-12">GNU/Linux</span>. Uma destas VMs foi configurada como roteador e <span 
+class="rm-lmri-12">firewall </span>e a outra
+como servidor de aplicações. Outra estação de trabalho <span 
+class="rm-lmri-12">Power Mac</span>, idêntica, e um
+notebook rodando <span 
+class="rm-lmri-12">Ubuntu 14.04 GNU/Linux </span>foram utilizados como máquinas de
+desenvolvimento e simulação. Um diagrama da rede criada no LIS é mostrado na Figura
+<a 
+href="#x1-2600310">10<!--tex4ht:ref: lis_rede --></a>.
+<!--l. 18--><p class="indent" >       <hr class="figure"><div class="figure" 
+>
+                                                                                       <img 
+src="Dissertacao157x.png" alt="PICT" >
+<img 
+src="Dissertacao158x.png" alt="PICT" >
+                                                                                       
+<a 
+ id="x1-2600310"></a>
+                                                                                       <img 
+src="Dissertacao159x.png" alt="PICT" >
+<img 
+src="Dissertacao161x.png" alt="PICT" >
+                                                                                       
+<!--l. 20--><p class="noindent" ><img 
+src="Dissertacao160x.png" alt="PIC" class="graphics" width="426.79134pt" height="168.82867pt" ><!--tex4ht:graphics  
+name="Dissertacao160x.png" src="figuras/lis_rede.eps"  
+-->
+<br /> <div class="caption" 
+><span class="id">Figura&#x00A0;10: </span><span  
+class="content">Rede LIS</span></div><!--tex4ht:label?: x1-2600310 -->
+                                                                                       <img 
+src="Dissertacao162x.png" alt="PICT" >
+<img 
+src="Dissertacao163x.png" alt="PICT" >
+                                                                                       
+<!--l. 23--><p class="indent" >       </div><hr class="endfigure">
+<!--l. 25--><p class="indent" >       O LPH/FCE foi utilizado para captura de dados de marcha humana. Este laboratório
+está equipado para coletar dados de plataformas de força, eletromiógrafos e de marcadores
+posicionados no corpo do paciente através de câmeras de vídeo (<span 
+class="rm-lmri-12">Motion Capture - MOCAP</span>).
+Para este trabalho foi utilizado o software <span 
+class="rm-lmri-12">QTM 3.2 </span>da <span 
+class="rm-lmri-12">Qualisys</span>, que é responsável pela coleta
+de de dados <span 
+class="rm-lmri-12">MOCAP</span>.
+       <h3 class="sectionHead"><span class="titlemark">3.2   </span> <a 
+ id="x1-270003.2"></a>DELIMITAÇÃO DO ESTUDO</h3>
+<!--l. 3--><p class="noindent" >Este trabalho tem como foco estabelecer uma metodologia de desenvolvimento inicial a um
+sistema de análise e simulação de marcha. Ele não busca ser extensivo o suficiente para criar
+um produto pronto para o mercado, mas pretende, através da implementação de
+funcionalidades reais, estabelecer uma arquitetura mínima e funcional que sirva de
+base para a construção do sistema. Como consequência, o projeto também integra
+os principais componentes desta arquitetura, por exemplo, o serviço de banco de
+documentos, com a <span 
+class="rm-lmri-12">Application Program Interface </span>(API) <span 
+class="rm-lmri-12">web</span>. Um software como este,
+robusto o suficiente para ser viável no mercado, seria muito caro. Por exemplo, um
+desenvolvedor sênior no mercado de Brasília, não custaria menos de R$ 100.000,00 por
+ano.
+<!--l. 1--><p class="noindent" >
+       <h3 class="sectionHead"><span class="titlemark">3.3   </span> <a 
+ id="x1-280003.3"></a>VISÃO</h3>
+<!--l. 2--><p class="noindent" >Apesar deste trabalho ter um objetivo específico e delimitado, dele nasce um projeto maior,
+cuja visão é o desenvolvimento de um software como serviço para análise e simulação de
+marcha, utilizando o estado da arte em técnicas para este fim. O software deve ser construído
+utilizando-se métodos ágeis e terá uma arquitetura adaptável que permita evolução
+contínua.
+<!--l. 5--><p class="indent" >       A estratégia é lançar a versão inicial do software como projeto de código livre, conseguir
+parceiros e procurar um modelo de negócio sustentável para mantê-lo.
+       <h3 class="sectionHead"><span class="titlemark">3.4   </span> <a 
+ id="x1-290003.4"></a>MODELO DE GESTÃO</h3>
+<!--l. 2--><p class="noindent" >O software terá um modelo de gestão baseado no método <span 
+class="rm-lmri-12">SCRUM</span>, como definido por
+(SHWABER; BEEDLE, 2002). O método não é adotado na plenitude, sendo adaptado segundo
+as limitações de recursos do projeto.
+                                                                                       <img 
+src="Dissertacao164x.png" alt="PICT" >
+<img 
+src="Dissertacao165x.png" alt="PICT" >
+                                                                                       
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 <!--l. 5--><p class="indent" >       Nesta fase inicial, o processo conta com um desenvolvedor, que também assume o papel
 de <span 
 class="rm-lmri-12">scrum master</span>, e um <span 
@@ -2497,7 +2948,12 @@ href="#page.44">44</a>
 Joint Extraction AlgorithmWorking in Side View. <span 
 class="rm-lmri-12">Sensors</span>, v.&#x00A0;15, n.&#x00A0;1, p. 1417&#8211;1434,
 2015. ISSN 1424-8220. Disponível em: <a 
+<<<<<<< HEAD
 href="http://www.mdpi.com/1424-8220/15/1/1417/" class="url" >http://www.mdpi.com/1424-8220/15/1/1417/</a>. <a 
+=======
+href="http://www.mdpi.com/1424-8220/15/1/1417/" class="url" >http://www.mdpi.com/1424-_8220/15/1/1417/</a>.
+<a 
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 href="#page.25">25</a>
 </p>
 <p class="bibitem" ><span class="biblabel">
@@ -2537,6 +2993,21 @@ href="#page.25">25</a>
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+<<<<<<< HEAD
+=======
+ id="cite.Fielding2000"></a>   <a 
+ id="XFielding2000"></a> FIELDING, R.&#x00A0;T. <span 
+class="rm-lmri-12">Architectural Styles and the Design of Network-based Software</span>
+<span 
+class="rm-lmri-12">Architectures</span>. Tese (Doutorado) &#8212; UNIVERSITY OF CALIFORNIA, 2000. Disponível
+em: <a 
+href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm" class="url" >http://www.ics.uci.edu/<span 
+class="lmsy8-">~</span>fielding/pubs/dissertation/top.htm</a>. <a 
+href="#page.54">54</a>
+</p>
+<p class="bibitem" ><span class="biblabel">
+<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
  id="cite.Fox2012"></a>      <a 
  id="XFox2012"></a>  FOX,  A.;  PATTERSON,  D.  <span 
 class="rm-lmri-12">Engineering  Long-Lasting  Software:  An  Agile</span>
@@ -2551,6 +3022,14 @@ href="#page.43">43</a>
  id="XFreeman2014"></a> FREEMAN, A. <span 
 class="rm-lmri-12">Pro AngularJS</span>. [S.l.]: Apress, 2014. ISBN 9781430264484. <a 
 href="#page.44">44</a>
+<<<<<<< HEAD
+=======
+                                                                                       <img 
+src="Dissertacao190x.png" alt="PICT" >
+<img 
+src="Dissertacao191x.png" alt="PICT" >
+                                                                                       
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -2572,7 +3051,11 @@ src="Dissertacao191x.png" alt="PICT" >
  id="XGoogle2015a"></a>      GOOGLE.      <span 
 class="rm-lmri-12">Material     Design</span>.      2015.      Disponível      em:
 <a 
+<<<<<<< HEAD
 href="www.google.com.br/design/spec/material-design/introduction.html" class="url" >www.google.com.br/design/spec/material-design/introduction.html</a>. <a 
+=======
+href="www.google.com.br/design/spec/material-design/introduction.html" class="url" >www.google.com.br/design/spec/material-_design/introduction.html</a>. <a 
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 href="#page.48">48</a>
 </p>
 <p class="bibitem" ><span class="biblabel">
@@ -2584,6 +3067,17 @@ ISBN 9781449331924. <a
 href="#page.16">16</a>, <a 
 href="#page.26">26</a>, <a 
 href="#page.29">29</a>
+<<<<<<< HEAD
+=======
+</p>
+<p class="bibitem" ><span class="biblabel">
+<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="cite.Grinberg2014"></a>   <a 
+ id="XGrinberg2014"></a> GRINBERG, M. <span 
+class="rm-lmri-12">Flask Web Development</span>. 1. ed. [S.l.]: O&#8217;Reilly Media, Inc., 2014.
+ISBN 9781449372620. <a 
+href="#page.54">54</a>
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -2605,6 +3099,17 @@ class="rm-lmri-12">Cybernetics, Part C (Applications and Reviews)</span>, v.&#x0
 <a 
 href="http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731" class="url" >http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731</a>. <a 
 href="#page.55">55</a>
+<<<<<<< HEAD
+=======
+</p>
+<p class="bibitem" ><span class="biblabel">
+<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="cite.Maia2015"></a>    <a 
+ id="XMaia2015"></a> MAIA, I. <span 
+class="rm-lmri-12">Building Web Applications with Flask</span>. 1. ed. [S.l.]: Packt Publishing,
+2015. ISBN 9781784396152. <a 
+href="#page.54">54</a>
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -2627,6 +3132,14 @@ class="rm-lmri-12">Conference  of  the  IEEE  Engineering  in  Medicine  and  Bi
 <span 
 class="rm-lmri-12">No.03CH37439)</span>, v.&#x00A0;2, p. 1780&#8211;1783, 2003. ISSN 1094-687X. <a 
 href="#page.24">24</a>
+<<<<<<< HEAD
+=======
+                                                                                       <img 
+src="Dissertacao192x.png" alt="PICT" >
+<img 
+src="Dissertacao193x.png" alt="PICT" >
+                                                                                       
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -2653,11 +3166,14 @@ class="rm-lmri-12">Essential Scrum: A Practical Guide to the Most Popular Agile<
 <span 
 class="rm-lmri-12">Process</span>. [S.l.]: Addison-Wesley Professional, 2012. ISBN 9780137043293. <a 
 href="#page.36">36</a>
+<<<<<<< HEAD
                                                                                        <img 
 src="Dissertacao192x.png" alt="PICT" >
 <img 
 src="Dissertacao193x.png" alt="PICT" >
                                                                                        
+=======
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -2688,7 +3204,11 @@ class="rm-lmri-12">Neural</span>
 <span 
 class="rm-lmri-12">Processing Letters</span>, v.&#x00A0;38, n.&#x00A0;2, p. 261&#8211;279, nov. 2012. ISSN 1370-4621. Disponível em:
 <a 
+<<<<<<< HEAD
 href="http://link.springer.com/10.1007/s11063-012-9257-6" class="url" >http://link.springer.com/10.1007/s11063-012-9257-6</a>. <a 
+=======
+href="http://link.springer.com/10.1007/s11063-012-9257-6" class="url" >http://link.springer.com/10.1007/s11063-_012-_9257-_6</a>. <a 
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 href="#page.70">70</a>
 </p>
 <p class="bibitem" ><span class="biblabel">
@@ -2716,6 +3236,14 @@ href="#page.40">40</a>
 class="rm-lmri-12">Agile Software Development with Scrum</span>. [S.l.]:
 Pearson, 2002. ISBN 0-13-067634-9. <a 
 href="#page.75">75</a>
+<<<<<<< HEAD
+=======
+                                                                                       <img 
+src="Dissertacao194x.png" alt="PICT" >
+<img 
+src="Dissertacao195x.png" alt="PICT" >
+                                                                                       
+>>>>>>> bf20cdb22d94e7b20cf959392ca5fbdaf2d59a3f
 </p>
 <p class="bibitem" ><span class="biblabel">
 <span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
