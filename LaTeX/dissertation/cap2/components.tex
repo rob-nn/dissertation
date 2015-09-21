@@ -1,13 +1,14 @@
-\section[COMPONENTES, FRAMEWORKS E FERRAMENTAS]{COMPONENTES, FRAMEWORKS E FERRAMENTAS}
-Neste item serão analisados os components, frameworks e ferramentas que foram selecionadas para construção do \emph{Open Gait Analytics}. 
+\section[COMPONENTES, FRAMEWORKS E FERRAMENTAS]{COMPONENTES, \emph{FRAMEWORKS} E FERRAMENTAS}
+Neste item serão analisados os components, \emph{frameworks} e ferramentas que foram selecionadas para construção do \emph{Open Gait Analytics}. 
 Este software será um serviço disponibilizado via \emph{web}, sendo assim, estas tecnologias são próprias para este fim. 
 
-\subsection{APLICAÇÕES WEB COM ANGULAJS}
-O AngularJS é um framework de aplicação \emph{web}. 
-Ele foi projetado especificamente para rodar em \emph{browsers que suportam HTML 5}.
+\subsection{APLICAÇÕES WEB COM \emph{ANGULAJS}}
+\label{angularjs}
+O \emph{AngularJS} é um \emph{framework} de aplicação \emph{web}. 
+Ele foi projetado especificamente para rodar em \emph{browsers} que suportam \emph{HTML 5}.
 Ele também é adequado a criação de aplicações \emph{web} que rodam em \emph{smartphones}. 
-É um framework bastante completo e rico para sua finalidade. 
-\cite{Branas2014} é um guia introdutório conciso no assunto.
+É um \emph{framework} bastante completo e rico para sua finalidade. 
+A referência \cite{Branas2014} é um guia introdutório conciso no assunto.
  Segundo \cite{Freeman2014}, outro guia no assunto, o \emph{AngularJS} se baseia no padrão de projeto \emph{Model-View-Controller (MVC)} e sua enfase é em permitir a criação de aplicações: extensíveis, manuteníveis, testáveis e padronizadas. 
 A Figura \ref{angularjs_mvc} mostra uma representação de uma aplicação fazendo uso do \emph{AngularJS}.
 
@@ -25,11 +26,19 @@ Outra característica bastante apreciada pelos desenvolvedores que usam \emph{An
 Esta página tem seu conteúdo dinamicamente adicionado e removido da mesma.
 Esta abordagem permite criar aplicações bastante interativas, lembrando mesmo, aplicações \emph{desktop} escritas em linguagens como \emph{Visual Basic} e \emph{Delphi}.
 
+\subsection{ORGANIZAÇÃO DE PROJETOS WEB COM \emph{ANGULAR-SEED}}.
+\label{angular_seed}
+
+O \emph{angular-seed}, é um \emph{template} para projetos \emph{web} que utilizam o \emph{AngularJS}. 
+Ele facilita bastante o processo de configuração e padronização do projeto. 
+Ele cria um \emph{layout} de diretórios padronizado, préconfigura a ferramentas de \emph{build} e também já préconfigura o ambiente de testes unitários \emph{web/javascript} usando a ferramenta \emph{JASMINE}. 
+Mais informações sobre o \emph{angular-seed} em \cite{Google2015b}.
 
 \subsection{SOLUÇÃO DE DESIGN WEB COM \emph{ANGULAR-MATERIAL}}
+\label{angular_material}
 
-Como até o momento de conclusão deste trabalho, o projeto não conta com um \emph{web designer}, uma solução técnica para minimizar as consequências deste problema, teve de ser adotada. Os usuários finais do software, profissionais da área de saúde, dificilmente se interessariam pelo mesmo sem uma interface atraente e amigável.
-A solução adotada foi utilizar a biblioteca \emph{angular-material}. 
+Os usuários profissionais da área de saúde, dificilmente se interessariam por um software complexo sem uma interface atraente e amigável.
+Uma solução para minimizar este problema é a adoção da  biblioteca \emph{angular-material}. 
 Esta biblioteca, como indicado pelo seu nome, é construída com o \emph{AngularJS}. 
 Ela disponibiliza serviços e diretivas que podem ser usados para construir a interface gráfica da aplicação. 
 Diretivas são componentes que podem ser inseridos diretamente no código HTML da aplicação, dando a aparência de estender a própria HTML. 
@@ -39,22 +48,13 @@ Esta biblioteca é baseada na especificação \emph{Material Design} criada pela
 A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada no princípio da metáfora de materiais. 
 Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \cite{Google2015a}. Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
 
-A Figura \ref{material_amostra}, mostra um exemplo de uma tela criada com as diretivas do angular-material.
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=9cm]{figuras/material_amostra.eps}
-	\caption[Exemplo de uma tela criada com \emph{angular-material}.]{Exemplo de uma tela criada com \emph{angular-material}. 1) Diretiva \emph{md-toolbar}}; 2) Diretiva \emph{md-input-container}; 3) Diretiva \emph{ng-messages} em conjunto com a \emph{md-input-container}; 4) Diretiva \emph{md-button}.
-	\label{material_amostra}
-\end{figure}
-
-
-\subsection{GRÁFICOS E ANIMAÇÕES 3D NA \emph{WEB} COM THREEJS} 
-Os browsers modernos hoje, inclusive os dos \emph{smartphones}, suportam o novo padrão \emph{WebGL}. 
-Este é um padrão \emph{web} multi-plataforma de \emph{application program interface (API)} de baixo nível para gráficos 3D, expostos através de \emph{HTML}. 
+\subsection{GRÁFICOS E ANIMAÇÕES 3D NA \emph{WEB} COM \emph{THREEJS}} 
+Os \emph{browsers} modernos hoje, inclusive os dos \emph{smartphones}, suportam o novo padrão \emph{WebGL}. 
+Este é um padrão \emph{web} multi-plataforma de \emph{API)} de baixo nível para gráficos 3D, expostos através de \emph{HTML}. 
 Este padrão suporta o acesso da \emph{API} usando-se a linguagem \emph{GLSL}. 
 Uma vantagem desta API é que ela suporta nativamente \emph{GPUs} disponibilizadas pelo hardware que está executando o cliente \emph{web}. 
-Isto torna possível até mesmo a criação de jogos de alta definição em 3D que rodam no \emph{browser}.
+Isto torna possível até mesmo a criação de jogos de alta definição em 3D que rodam no \emph{browser} \cite{Matsuda2013}.
 
 O problema com a \emph{WebGL} é que, como dito anteriormente, a \emph{API} é de baixo nível. 
 No contexto de computação gráfica, isto significa que ela fornece primitivas básicas para modelagem 3D e outras opções de otimização do hardware.
@@ -73,23 +73,23 @@ Mais exemplos podem ser vistos no site \emph{threejs.org}.
 \end{figure}
 
 
-\subsection{SERVIÇOS REST COM FLASK}
+\subsection{SERVIÇOS REST COM \emph{FLASK}}
 \label{servicos_rest}
 
 O \emph{Representational State Transfer (REST)} foi primeiramente descrito por \cite{Fielding2000}. 
 Ele é definido como um estilo arquitetural de sistemas hipermídia e tem as seguintes características descritas por \cite{Grinberg2014}:
 
 \begin{enumerate}
-	\item Cliente-Servidor. Há uma separação clara entre quem consome, cliente, e quem serve e executa a lógica de negócio, servidor.
-	\item \emph{Stateless}. O cliente precisa incluir nas suas requisições, todas as informações necessárias para o servidor processar o pedido. O servidor não armazena informações de estado do cliente entre as requisições deste.
-	\item Interface Uniforme. O protocolo que os clientes usam para acessar o servidor precisa ser consistente, bem definido e padronizado. O protocolo comumente usado por serviços \emph{REST} é o \emph{HTTP}.
-	\item Sistema em Camadas. Servidores \emph{proxy}, \emph{caches} ou \emph{gateways}, podem ser inseridos entre clientes e servidores quando necessários, para melhorar a performance, confiabilidade e escalabilidade.
+	\item Cliente-Servidor. Há uma separação clara entre quem consome, cliente, e quem serve e executa a lógica de negócio, servidor;
+	\item \emph{Stateless}. O cliente precisa incluir nas suas requisições, todas as informações necessárias para o servidor processar o pedido. O servidor não armazena informações de estado do cliente entre as requisições deste;
+	\item Interface Uniforme. O protocolo que os clientes usam para acessar o servidor precisa ser consistente, bem definido e padronizado. O protocolo comumente usado por serviços \emph{REST} é o \emph{HTTP};
+	\item Sistema em Camadas. Servidores \emph{proxy}, \emph{caches} ou \emph{gateways}, podem ser inseridos entre clientes e servidores quando necessários, para melhorar a performance, confiabilidade e escalabilidade;
 	\item Código Sob Demanda. Clientes podem opcionalmente fazer o \emph{download} de código do servidor e executá-lo em seu contexto.
 \end{enumerate}
 
-A principal idéia de serviços \emph{REST} é o fornecimento de recursos. 
-Por exemplo o cliente requere um usuário, blog, comentários, entre outros. 
-Cada recurso deve possuir uma \emph{URL} que o identifica unicamente, por exemplo http://www.minhaurl.com.br/usuario/123, onde 123 é um identificador único do usuário.
+A principal ideia de serviços \emph{REST} é o fornecimento de recursos. 
+Por exemplo, o cliente requere um usuário, blog, comentários, entre outros. 
+Cada recurso deve possuir uma \emph{URL} que o identifica unicamente, por exemplo, http://www.minhaurl.com.br/usuario/123, onde 123 é um identificador único do usuário.
 
 Para que um serviço \emph{REST} funcione, ele precisa ser implementado para suportar requisições \emph{HTTP}, ou seja, ele teria que ser um servidor \emph{web} completo. 
 A biblioteca escolhida para desempenhar esta função foi a \emph{Flask}. 

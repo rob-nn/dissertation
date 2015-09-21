@@ -1,13 +1,15 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Valores em comum. Adaptado de \cite {Greene2014}.}}{16}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de processo baseado no modelo \emph {waterfall}}}{17}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Vis\IeC {\~a}o Geral do \emph {Scrum}. Adaptado de \cite {Schwaber2004}.}}{18}{figure.2.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de \emph {story card}.}}{20}{figure.2.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph {MVC} usando \emph {AngularJS}.}}{22}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{23}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {ThreeJS}.}}{24}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite {Albus1975b}.}}{26}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Discretiza\IeC {\c c}\IeC {\~a}o de $s1$}}{26}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Rede LIS}}{29}{figure.3.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Processo de desenvolvimento}}{31}{figure.3.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Camadas arquiteturais}}{31}{figure.3.12}
+\contentsline {figure}{\numberline {1}{\ignorespaces Valores em comum. Adaptado de \cite {Greene2014}.}}{17}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de processo baseado no modelo \emph {waterfall}. Adaptado de \cite {Pressman2014}.}}{18}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Vis\IeC {\~a}o Geral do \emph {Scrum}. Adaptado de \cite {Schwaber2004}.}}{19}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de \emph {story card}. Adaptado de \cite {cohn2004}.}}{21}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph {MVC} usando \emph {AngularJS}.}}{23}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {ThreeJS}.}}{25}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite {Albus1975b}.}}{27}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Quantiza\IeC {\c c}\IeC {\~a}o de $s1$.}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Rede LIS.}}{30}{figure.3.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Camera Oqus MRI.}}{31}{figure.3.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Vis\IeC {\~a}o do QTM.}}{31}{figure.3.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Processo de desenvolvimento.}}{33}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Camadas arquiteturais.}}{34}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{34}{figure.3.14}
