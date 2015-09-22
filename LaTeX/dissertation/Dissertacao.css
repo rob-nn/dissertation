@@ -137,7 +137,6 @@ h1.partHead{text-align: center}
 .poemline {text-align:right; width:6em;}
 .frenchb-nbsp{font-size:75%;}
 .frenchb-thinspace{font-size:75%;}
-sup.french{ vertical-align:super; font-size:70%; }
 dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
 .figure img.graphics {margin-left:10%;}
 .equation td{text-align:center; }

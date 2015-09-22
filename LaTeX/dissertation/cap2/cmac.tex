@@ -15,7 +15,7 @@ A CMAC da Figura \ref{fig1} também pode ser classificada como um sistema \emph{
 Para se produzir uma CMAC \emph{Multiple Input Multiple Output} MIMO, bastaria implementar várias MISOs, compartilhando as mesmas entradas.
 
 
-Os passos para que o sinal seja computado são descritos a seguir. Estes passos são os mesmos descritos em \cite{Albus1975b}.
+Os passos para que o sinal seja computado são descritos a seguir. Estes passos são os mesmos descritos em \citeonline{Albus1975b}.
 
 Primeiramente, define-se o número de pesos $NW*$ a serem ativados para comporem a saída da CMAC.
 
@@ -135,7 +135,7 @@ Cada item destes dados deve conter um vetor de sinais de entradas $S$ e a respos
 A tabela de pesos deve ser inicializada com valores randômicos. 
 Para cada vetor $S$ deve ser calculado o vetor $W*$, que contém os endereços dos pesos a serem ativados. 
 Calcula-se, então, a saída da rede $P$ para o vetor $S$, conforme definido no item \ref{cmac_sec}, somando os itens do vetor $W$. 
-Atualizam-se os pesos sinápticos conforme a Equação \ref{write_weight} adaptada de \cite{Sabourin2012a}.
+Atualizam-se os pesos sinápticos conforme a Equação \ref{write_weight} adaptada de \citeonline{Sabourin2012a}.
 \begin{equation}
 	\label{write_weight}
 	w_{i} = w_{i} + \cfrac{\alpha (D - P)}{NW^{*}}

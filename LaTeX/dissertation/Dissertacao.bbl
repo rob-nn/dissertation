@@ -43,6 +43,13 @@ Dispon{\'\i}vel em:
 {ALBUS, S. {A Theory of Cerebellar Function}.
 v.~10, p. 25--61, 1971.}
 
+\bibitem[Baker 2007]{Baker2007}
+\abntrefinfo{Baker}{BAKER}{2007}
+{BAKER, R. {The history of gait analysis before the advent of modern
+  computers}.
+\emph{Gait and Posture}, v.~26, n.~3, p. 331--342, 2007.
+ISSN 09666362.}
+
 \bibitem[Beck 2004]{Beck2004}
 \abntrefinfo{Beck}{BECK}{2004}
 {BECK, K. \emph{{Extreme Programming Explained: Embrace Change}}. 2. ed.
@@ -154,6 +161,13 @@ ISBN 9781449331924.}
   Inc., 2014.
 ISBN 9781449372620.}
 
+\bibitem[Grip e H\"{a}ger 2013]{Grip2013}
+\abntrefinfo{Grip e H\"{a}ger}{GRIP; H\"{a}GER}{2013}
+{GRIP, H.; H\"{a}GER, C. {A new approach to measure functional stability of the
+  knee based on changes in knee axis orientation}.
+\emph{Journal of Biomechanics}, v.~46, n.~5, p. 855--862, 2013.
+ISSN 00219290.}
+
 \bibitem[Hanley 2015]{Hanley2015}
 \abntrefinfo{Hanley}{HANLEY}{2015}
 {HANLEY, J. \emph{{Scrum - User Stories: How to Leverage User Stories For
@@ -167,11 +181,27 @@ ISBN 978-1512368031.}
   [S.l.]: Prentice Hall, 1998.
 ISBN 978-0132733502.}
 
+\bibitem[{K. Ibrahim} et al. 2012]{K.Ibrahim2012}
+\abntrefinfo{{K. Ibrahim} et al.}{{K. Ibrahim} et al.}{2012}
+{{K. Ibrahim}, B.~K. et al. {An Approach for Dynamic Characterisation of
+  Passive Viscoelasticity and Estimation of Anthropometric Inertia Parameters
+  of Paraplegic’s Knee Joint}. In:  \emph{Viscoelasticity - From Theory to
+  Biological Applications}. InTech, 2012.
+Dispon{\'\i}vel em:
+  \url{http://www.intechopen.com/books/viscoelasticity-from-theory-to-biological-applications/an-approach-for-dynamic-characterisation-of-passive-viscoelasticity-and-estimation-of-anthropometric}.}
+
 \bibitem[Layton 2012]{Layton2012}
 \abntrefinfo{Layton}{LAYTON}{2012}
 {LAYTON, M.~C. \emph{{Agile Project Management For Dummies}}. 1. ed. [S.l.]:
   For Dummies, 2012.
 ISBN 9781118235850.}
+
+\bibitem[Leite et al. 2014]{Leite2014}
+\abntrefinfo{Leite et al.}{LEITE et al.}{2014}
+{LEITE, W.~V. et al. {Avalia\c{c}\~{a}o cinem\'{a}tica comparativa da marcha
+  humana por meio de unidade inercial e sistema de video}. In:  \emph{XXIV
+  Congresso Brasileiro de Engenharia Biom\'{e}dica-CBEB 2014}. Uberl\^{a}ndia:
+  CBEB, 2014. p.~1--4.}
 
 \bibitem[Lin e Song 2002]{Lin2002a}
 \abntrefinfo{Lin e Song}{LIN; SONG}{2002}
@@ -218,6 +248,11 @@ ISSN 1094-687X.}
 \emph{2009 Pan American Health Care Exchanges - PAHCE 2009}, n.~2, p. 90--93,
   2009.}
 
+\bibitem[Muybridge 1885]{Muybridge1885}
+\abntrefinfo{Muybridge}{MUYBRIDGE}{1885}
+{MUYBRIDGE, E. \emph{{The Human Figure In Motion}}. London: Chapman \& Hall,
+  1885.}
+
 \bibitem[Ng 2015]{Ng2015}
 \abntrefinfo{Ng}{NG}{2015}
 {NG, A. \emph{{Machine Learning by Stanford University}}. 2015.
@@ -250,8 +285,14 @@ ISBN 978-0078022128.}
 Dispon{\'\i}vel em:
   \url{http://www.qualisys.com/wp-content/uploads/2012/11/pi\\_qtm.pdf}.}
 
+\bibitem[Qualisys 2013]{Qualisys2013a}
+\abntrefinfo{Qualisys}{QUALISYS}{2013a}
+{QUALISYS. \emph{{Gait analysis \& Rehabilitation}}. 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.qualisys.com/applications/biomechanics/gait-analysis-and-rehabilitation/}.}
+
 \bibitem[Qualisys 2013]{Qualisys2013}
-\abntrefinfo{Qualisys}{QUALISYS}{2013}
+\abntrefinfo{Qualisys}{QUALISYS}{2013b}
 {QUALISYS. \emph{{Oqus MRI}}. 2013.
 Dispon{\'\i}vel em: \url{http://www.qualisys.com/products/hardware/oqus-mri/}.}
 
@@ -289,7 +330,7 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s11063-012-9257-6}.}
   Press, 2004.
 ISBN 9780735619937.}
 
-\bibitem[Schwaber e Beedle 2001]{schwaber2001}
+\bibitem[Schwaber e Beedle 2001]{Schwaber2001}
 \abntrefinfo{Schwaber e Beedle}{SCHWABER; BEEDLE}{2001}
 {SCHWABER, K.; BEEDLE, M. \emph{{Agile Software Development with Scrum}}.
   [S.l.]: Pearson, 2001.
