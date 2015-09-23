@@ -33,6 +33,7 @@
 \contentsline {subsection}{\numberline {2.4.6}SERVI\IeC {\c C}O DE BASE DE DOCUMENTOS COM \emph {MONGODB}}{33}{subsection.2.4.6}
 \contentsline {section}{\numberline {2.5}CMAC}{35}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{38}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}LICEN\IeC {\c C}A MIT}{39}{subsection.2.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{40}{chapter.3}
 \contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{40}{section.3.1}
@@ -45,10 +46,11 @@
 \contentsline {subsection}{\numberline {3.5.3}CAMADA DE BASE DE DOCUMENTOS}{48}{subsection.3.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'o}dulo de An\IeC {\'a}lise}{51}{section.4.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{52}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{61}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{53}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{62}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{54}{section*.14}
+\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{63}{section*.14}
