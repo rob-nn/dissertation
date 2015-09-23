@@ -13,7 +13,7 @@ A Figura \ref{inicio_corrida} dá o tom da obra.
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=15cm]{figuras/inicio_corrida}
+	\includegraphics[width=15cm]{figuras/inicio_corrida.eps}
 	\caption{Atleta iniciando uma corrida. Fonte \cite{Muybridge1885}.}
 	\label{inicio_corrida}
 \end{figure}
@@ -29,7 +29,7 @@ Segundo \citeonline{Perry2010}, para se classificar as diferentes divisões da m
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=15cm]{figuras/fases_marcha}
+	\includegraphics[width=15cm]{figuras/fases_marcha.eps}
 	\caption{Divisões do Ciclo de Marcha. Fonte \cite{Perry2010}.}
 	\label{fases_marcha}
 \end{figure}
@@ -60,9 +60,12 @@ A Figura \ref{fases_marcha} mostra o relacionamento entre as três tarefas e sua
 	\item \emph{Swing Limb Advancement} - Sua função é avançar o membro que está no período de \emph{swing}, até que ele esteja pronto para fazer um \emph{Initial Contact}.
 \end{enumerate}
 
-\subsection{Métodos de Análise}
+\subsection{MÉTODOS DE COLETA DE DADOS PARA ANÁLISE} 
 \label{metodos_analise}
-	Pode-se começar este assunto pelos métodos de mensuração de movimentos espaciais e de ângulos.
+
+\textbf{Captura de dados por câmeras}
+
+Pode-se começar este assunto pelos métodos de mensuração de movimentos espaciais e de ângulos.
 O método mais sofisticado hoje para análise de movimentos é o baseado em câmaras de vídeo. 
 Inclusive \citeonline{Grip2013}, demonstra discorre sobre as vantagens dos sistemas de câmeras ópticas usando marcadores de superfície em detrimento de outras técnicas de captura de movimento. 
 Neste tipo de técnica, os marcadores podem ser ativos ou passivos, a diferença é que os ativos emitem algum tipo de sinal luminoso ou infravermelho, por exemplo. 
@@ -70,6 +73,24 @@ Este método permite visualizar a posição espacial dos marcadores e a partir d
 A Figura \ref{oqus_mri} mostra o modelo \emph{Oqus MRI} da \emph{Qualisys}, está é uma câmera muito utilizada no mercado não só para análise clínica mas também para captura de movimentos para serem inseridos em filmes e jogos de computador. 
 Já a Figura \ref{visao_qtm} mostra o software QTM do mesmo fabricante, já com os dados capturados e animados na tela do computador.
 A Figura \ref{markers} é uma visão de uma possível configuração de câmeras, capturando marcadores de superfície passivos de um paciente.
+
+\textbf{Captura por Unidade de Medida Inercial}
+
+Uma outra alternativa, que está sendo desenvolvida na FGA/UnB, é um dispositivo baseado em uma Unidade de Medida Inercial \emph{(Inertial Measurement Unit - IMU)}. 
+Segundo \citeonline{Leite2014}, esta é uma alternativa não visual para extrair parâmetros cinemáticos da marcha humana, trajetória e velocidade. 
+O trabalho foi realizado comparando-se os resultados fornecidos pelo dispositivo e captura de vídeo.
+A Figura \ref{imu} mostra um experimento onde o vídeo e os dados do \emph{IMU} são coletados ao mesmo tempo.
+
+
+Na Figura \ref{imu2}, é possível visualizar o resultado dos dados coletados do \emph{IMU} e da câmera. 
+Veja que é um resultado bem promissor. 
+Mas a maior vantagem do dispositivo, ainda não foi discutida, seu baixíssimo valor em relação a solução com várias câmeras.
+
+\textbf{Captura por Eletrogoniômetros}
+
+Eletrogoniômetros, também são usados para capturar angulações em articulações, basicamente este aparelho provê uma voltagem que é representativa da mudança de ângulo entre duas superfícies, nas quais o dispositivo é fixado \cite{K.Ibrahim2012}. 
+A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{egn} mostra um exemplo de eletrogoniômetro.
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=7cm]{figuras/oqus-mri.eps}
@@ -92,15 +113,13 @@ A Figura \ref{markers} é uma visão de uma possível configuração de câmeras
 	\centering
 	\includegraphics[width=14cm]{figuras/markers.eps}
 	\caption{Configuração de câmeras para captura de dados de marcadores passivos fixados no paciente. Fonte: \cite{Qualisys2013a}.}
-	\label{visao_qtm}
+	\label{markers}
 	
 \end{figure}
 
 
-Uma outra alternativa, que está sendo desenvolvida na FGA/UnB, é um dispositivo baseado em uma Unidade de Medida Inercial \emph{(Inertial Measurement Unit - IMU)}. 
-Segundo \citeonline(Leite2014), esta é uma alternativa não visual para extrair parâmetros cinemáticos da marcha humana, trajetória e velocidade. 
-O trabalho foi realizado comparando-se os resultados fornecidos pelo dispositivo e captura de vídeo.
-A Figura \ref{imu} mostra um experimento onde o vídeo e os dados do \emph{IMU} são coletados ao mesmo tempo
+
+
 
 \begin{figure}[ht]
 	\centering
@@ -111,10 +130,6 @@ A Figura \ref{imu} mostra um experimento onde o vídeo e os dados do \emph{IMU} 
 \end{figure}
 
 
-Na Figura \ref{imu2}, é possível visualizar o resultado dos dados coletados do \emph{IMU} e da câmera. 
-Veja que é um resultado bem promissor. 
-Mas a maior vantagem do dispositivo, ainda não foi discutida, seu baixíssimo valor em relação a solução com várias câmeras.
-
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=10cm]{figuras/imu2.eps}
@@ -122,9 +137,6 @@ Mas a maior vantagem do dispositivo, ainda não foi discutida, seu baixíssimo v
 	\label{imu2}
 	
 \end{figure}
-
-Eletrogoniômetros, também são usados para capturar angulações em articulações, basicamente este aparelho provê uma voltagem que é representativa da mudança de ângulo entre duas superfícies, nas quais o dispositivo é fixado \cite{K.Ibrahim2012}. 
-A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{egn} mostra um exemplo de eletrogoniômetro.
 
 
 \begin{figure}[ht]

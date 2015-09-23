@@ -20,6 +20,7 @@ A Figura \ref{angularjs_mvc} mostra uma representação de uma aplicação fazen
 	\footnotesize Fonte:
 	\cite{Williamson2015}.
 \end{figure}
+
 Segundo \citeonline{Williamson2015}, a Figura \ref{angularjs_mvc} mostra o diagrama de uma aplicação \emph{AngularJS} e os componentes \emph{MVC}.  Uma vez que a aplicação é lançada, os componentes \emph{model, view} e \emph{controller}, juntamente com todos os documentos \emph{HTML} são carregados no \emph{desktop} ou \emph{smartphone} do usuário e rodam completamente num destes hardwares.  A aplicação \emph{AngularJS} conversa com o \emph{backend} via o protocolo \emph{http}.  O \emph{backend} é um servidor \emph{web} que mantém chamadas \emph{REST} (explicado na seção \ref{servicos_rest}), sendo responsável pela execução da lógica e de processos de negócio.  
 Outra característica bastante apreciada pelos desenvolvedores que usam \emph{AngularJS}, é a possibilidade de criar \emph{single-page aplications (SPA)}. 
 \emph{SPAs} são aplicações que tem uma página \emph{HTML} de entrada. 
@@ -31,9 +32,20 @@ Esta abordagem permite criar aplicações bastante interativas, lembrando mesmo,
 
 O \emph{angular-seed}, é um \emph{template} para projetos \emph{web} que utilizam o \emph{AngularJS}. 
 Ele facilita bastante o processo de configuração e padronização do projeto. 
-Ele cria um \emph{layout} de diretórios padronizado, pré-configura a ferramentas de \emph{build} e também já pré-configura o ambiente de testes unitários \emph{web/javascript} usando a ferramenta \emph{JASMINE}. 
+Ele cria um \emph{layout} de diretórios padronizado, pré-configura as ferramentas de \emph{build} e também já pré-configura o ambiente de testes unitários \emph{web/javascript} usando a ferramenta \emph{JASMINE}. 
 Mais informações sobre o \emph{angular-seed} em \citeonline{Google2015b}.
 
+A Figura \ref{seed} mostra o \emph{layout} inicial de diretórios que a ferramenta gera após ser clonada do \emph{Github}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=14cm]{figuras/seed.eps}
+	\caption{Layout original de um projeto baseado em \emph{angular-seed}. Fonte: \cite{Google2015b}}
+	\label{seed}
+\end{figure}
+
+Antes de começar a usar o \emph{angular-seed} é necessário instalar o ambiente de execução \emph{Javascript Node.JS}. 
+Este ambiente é utilizado para execução de testes e construção de \emph{builds}. Para uma introdução ao \emph{Node.JS} veja \citeonline{Syed2014}.
 \subsection{SOLUÇÃO DE DESIGN WEB COM \emph{ANGULAR-MATERIAL}}
 \label{angular_material}
 
@@ -46,7 +58,18 @@ Por exemplo, a diretiva \emph{md-button} da biblioteca é um tipo de botão que 
 Outros exemplos de diretivas são: caixas de diálogos, barras de ferramentas, barras de progresso, grades, \emph{tooltip}, etc. 
 Esta biblioteca é baseada na especificação \emph{Material Design} criada pela empresa \emph{Google}. 
 A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada no princípio da metáfora de materiais. 
-Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \citeonline{Google2015a}. Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
+Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \citeonline{Google2015a}. 
+Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
+Veja um exemplo de aplicação que usa \emph{angular-material} na Figura \ref{material_1}.
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=14cm]{figuras/material.eps}
+	\caption{Exemplo de aplicação que utiliza \emph{angular-material}. Fonte \cite{Google2015c}.}
+	\label{material_1}
+\end{figure}
+
 
 
 \subsection{GRÁFICOS E ANIMAÇÕES 3D NA \emph{WEB} COM \emph{THREEJS}} 
@@ -63,6 +86,8 @@ Uma opção é o \emph{ThreeJS}, descrito em \citeonline{Dirksen2015}.
 Esta biblioteca apresenta um grande número de funcionalidades e é possível encontrar aplicações e jogos em 3D de nível profissional. 
 Um exemplo de animação renderizada que utiliza \emph{ThreeJS} é mostrada na Figura \ref{evil_eye}.
 Mais exemplos podem ser vistos no site \emph{threejs.org}.
+
+
 
 \begin{figure}[ht]
 	\centering
@@ -95,4 +120,62 @@ Para que um serviço \emph{REST} funcione, ele precisa ser implementado para sup
 A biblioteca escolhida para desempenhar esta função foi a \emph{Flask}. 
 Esta é uma biblioteca escrita na linguagem \emph{Python} e fornece todos as ferramentas necessárias para criar aplicações \emph{webs}. 
 Segundo \citeonline{Maia2015}, o \emph{Flask} vem sendo adotado, por sua filosofia minimalista que não impõe uma arquitetura específica de projeto, assim permitindo que um projeto comece pequeno e simples, evoluindo para um modelo mais complexo.
+
+
+\subsection{SERVIÇO DE BASE DE DOCUMENTOS COM \emph{MONGODB}}
+\label{mongodb_sec}
+
+Conforme \citeonline{Chodorow2013} o \emph{MongoDB} é poderoso, flexível e um banco de dados de propósito geral bastante escalável. Ele combina a habilidade de alta escalabilidade com índices secundários, pesquisas limitadas, ordenamento, agregações e índices geoespaciais.
+
+O \emph{MongoDB} é classificado como um banco \emph{NoSQL}. Segundo \citeonline{Dayley2014} o conceito de \emph{NoSQL} consiste em tecnologias que provêm armazenamento e recuperação sem o amarrado modelo tradicional de bancos de dados Relacionais. A motivação para estas tecnologias é o design simplificado, escalabilidade horizontal e controle fino na disponibilidade dos dados.
+
+O \emph{MongoDB} como toda grande ferramenta de software, foi designado baseado em filosofias próprias, que para os novatos, as vezes pode parecer um contrassenso. 
+\citeonline{Plugge2014} diz que o pináculo das filosofias do \emph{MongoDB} é a noção de que um tamanha não se adéqua a todos. Por muitos anos bancos de dados relacionais foram usados para armazenar conteúdos de todos os tipos. O principal motivo para isso é que ler e escrever em bancos de dados relacionais é muito mais seguro do que fazer o mesmo em arquivos de sistema operacional.
+É comum no uso de bancos de dados relacionais, ter que se criar dezenas de tabelas para se armazenar dados complexos, e ainda tentar fazer todas funcionarem juntas.
+
+Ainda segundo \citeonline{Plugge2014}, a equipe do \emph{MongoDB} decidiu que não ia criar outro banco de dados para resolver todos os problemas do mundo. Eles criaram um banco que trabalha com documentos ao invés de linhas em tabelas. Essa decisão tornou o \emph{MongoDB} muito rápido, altamente escalável e fácil de usar. Por exemplo o \emph{MongoDB} não suporta transações, logo você não irá escrever uma aplicação conta corrente com ele. Sua força está armazenar dados muito complexos. No final o desenvolvedor ainda tem a opção de usar um banco de dados relacional que suporta transação e as vantagens do \emph{MongoDB} para outras partes da aplicação, que se aproveitarão melhor do modelo de documentos.
+
+
+A Figura \ref{mongodb} mostra como os dados são organizados nesta tecnologia.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=7cm]{figuras/mongodb.eps}
+	\caption{Organização dos dados no \emph{MongoDB}. Fonte \cite{Plugge2014}.}
+	\label{mongodb}
+\end{figure}
+
+Segundo a Figura \ref{mongodb} um banco de dados \emph{MongoDB} é composto por coleções de dados. 
+Dentro destas coleções existem documentos. 
+Os documentos dentro de uma coleção não precisam ser do mesmo tipo. 
+Mas esta é uma prática pouco recomendada \cite{Plugge2014}. 
+Os documentos são armazenados no formato \emph{BSON}, um primo muito próximo do \emph{JSON}. 
+O \emph{BSON} é muito parecido com o \emph{JSON}, ele foi criado para ser mais otimizado nas leituras e escritas no banco.
+
+A listagem abaixo retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
+
+\lstset{language=java}
+\begin{lstlisting}[frame=single]
+{
+  name: "New Project",
+  version: 1,
+  languages: ["JavaScript", "HTML", "CSS"],
+  admin: {name: "Brad", password: "****"},
+  paths: {temp: "/tmp", project:"/opt/project", 
+  		html: "/opt/project/html"}
+}
+\end{lstlisting}
+
+Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre {} e pode conter outros documentos, tipos simples e listas.
+O documento possui atributos, no exemplo, \emph{name, version, languages, admin, paths}. Os atributos \emph{name version} são atributos de tipos simples, texto e número no caso. O atributo \emph{languages} é uma lista e os demais são outros objetos.
+
+A questão da normalização dos objetos é sempre uma decisão do desenvolvedor. É perfeitamente possível tratar coleções e documentos, como tabelas. Como cada tabela tem um identificador único gerado pelo sistema é possível inclusive fazer referência entre documentos. Mas o ideal é encontra um meio termo, onde dados muito acessados juntamente, fiquem numa estrutura hierárquica como a da listagem acima \cite{Dayley2014}. A figura \ref{normalizacao} mostra como se pode fazer a referência entre documentos.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/normalizacao.eps}
+	\caption{Definindo documentos normalizado com \emph{MongoDB}. Fonte \cite{Dayley2014}.}
+	\label{normalizacao}
+\end{figure}
+
 

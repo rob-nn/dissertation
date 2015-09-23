@@ -41,5 +41,180 @@ Para usar este projeto basta cloná-lo diretamente do seu repositório \emph{git
 git clone https://github.com/angular/angular-seed.git
 \end{lstlisting}
 
-Antes de começar a usar o \emph{angular-seed} é necessário instalar o ambiente de execução \emph{Javascript Node.JS}. 
-Este ambiente é utilizado para execução de testes e construção de \emph{builds}. Para uma introdução ao \emph{Node.JS} veja \citeonline{Syed2014}.
+\textbf{VISÃO ARQUITETURAL DA CAMADA \emph{WEB}}
+
+A Figura \ref{camda_web} mostra o funcionamento e os padrões mínimos a serem seguidos para implementação da camada \emph{web}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=17cm]{figuras/camada_web.eps}
+	\caption{Camada web}
+	\label{camda_web}
+\end{figure}
+
+Este esquema funciona da seguinte forma: O usuário usando seu \emph{browser}, acessa o site do \emph{Open Gait Analytics}. 
+Ao realizar qualquer evento na aplicação, por exemplo, clicar num botão, ou selecionar um item em uma lista de seleção, a aplicação \emph{angularjs} detecta o evento e seleciona um componente de software chamado controlador. 
+Existem vários destes controladores no sistema, cada evento do usuário é redirecionado para um que seja adequado.
+No controlador é onde a programação pesada acontece, ele é associado a um \emph{template HTML}. 
+Este template funciona de visão, e é o que o controlador manipula para mostrar informações ao usuário.
+Quando o controlador precisa executar lógica de negócio, ou requisitar dados persistidos, ele deve chamar um componente do tipo \emph{Facade}. 
+A aplicação web roda no browser do usuário e não persiste dados nem executa lógica de negócio. 
+Este é um estilo arquitetural escolhido para o projeto.
+A \emph{Facade} é um \emph{proxy} que se comunica com um \emph{backend} via HTTP no estilo \emph{REST} de comunicação via \emph{web}.
+
+
+\subsection{CAMADA \emph{REST WEB API}}
+
+Esta é a camada responsável por expor toda a lógica de negócio e acesso a dados persistidos. Escolheu-se que esta camada fornece suas funções via \emph{web API} no estilo REST.
+Uma das vantagens desta escolha é o alto desacoplamento, entre camada \emph{web} e lógica de negócio. 
+Além disto pode-se integrar mais facilmente a aplicação com outras, já que a lógica de negócio é toda exposta como \emph{API web}. 
+Veja a seção \ref{servicos_rest} para um melhor entendimento deste estilo \emph{REST}.
+
+\textbf{ORGANIZAÇÃO DO CÓDIGO FONTE}
+
+A Figura \ref{dir_api} mostra a configuração básica dos arquivos e diretórios da aplicação.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=15cm]{figuras/dir_api.eps}
+	\caption{Camada web}
+	\label{dir_api}
+\end{figure}
+
+A linguagem de programação \emph{Python} foi escolhida para implementar esta camada. Vários foram os motivos: a biblioteca \emph{Flask} para implementar a \emph{web API}, a biblioteca \emph{NumPy} que é excelente para cálculos, comparável ao Matlab, a biblioteca \emph{Matplotlib} para criação de gráficos científicos, a baixa curva de aprendizado da linguagem, sua fama com desenvolvedores ao redor do mundo e o mais importante, é a linguagem mais divertida que o autor já aprendeu.
+
+Para diminuir os problemas de ambientes, oriundos de um projeto complexo como este, optou-se por utilizar o programa \emph{virtualenv}. Este programa cria um ambiente python virtual, baseado num arquivo de configuração. Isso faz com que todos os desenvolvedores envolvidos no projeto, possuam ambientes muito semelhantes.
+Ao se clonar o projeto basta entrar no diretório da API e digitar o comando:
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+virtualenv env
+\end{lstlisting}
+
+Este comando irá criar uma diretório chamado \emph{env}. Para poder ativar o ambiente virtual é necessário o comado no unix:
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+. env/bin/activate
+\end{lstlisting}
+
+As bibliotecas necessárias a execução da aplicação estão listadas no arquivo \emph{requirements.txt}. Para instalá-las no novo ambiente virtual é necessário o comando:
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+pip install -r requirements.txt
+\end{lstlisting}
+
+Neste ponto o código já pode ser editado e executado. Para facilitar um pouco as coisas, foi criado o programa manage.py. Para rodar um servidor web local respondendo na porta 5000, com fins de desenvolvimento, basta digitar o comando:
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+python manage.py runserver
+\end{lstlisting}
+
+Já para executar testes automatizados:
+\lstset{language=bash}
+\begin{lstlisting}[frame=single]
+python manage.py test
+\end{lstlisting}
+
+Vale lembrar que o servidor \emph{MongoDB}, deve estar configurado, rodando e suas configurações editadas no arquivo \emph{config.py}.
+
+
+\textbf{VISÃO ARQUITETURAL DA CAMADA \emph{REST WEB API}} 
+
+A Figura \ref{camada_api}, mostra um \emph{blueprint} de como funciona e como deve ser desenvolvida esta camada.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=15cm]{figuras/camada_api.eps}
+	\caption{Camada \emph{REST WEB API}.}
+	\label{camada_api}
+\end{figure}
+
+Tudo começa quando um \emph{browser web} faz uma requisição do tipo \emph{HTTP} a um servidor \emph{web}. 
+O servidor web identifica se a requisição é para a aplicação \emph{flask} do sistema em questão. 
+Se for, esta requisição é repassada para a aplicação \emph{flask}. 
+Agora as coisas começam a ficar mais interessantes. 
+A aplicação \emph{flask} analisa a \emph{URL} da requisição, verifica o método da requisição e repassa os dados da requisição, num formato amigável ao \emph{python}, para uma função \emph{python}. 
+Por padrão os parâmetros das requisições via método \emph{``GET"}, são repassadas ao \emph{python} como string. 
+Para os demais métodos, padronizou-se receber o \emph{payload} da requisição \emph{HTTP}, como objetos JSON, que são facilmente convertidos para dicionários \emph{python}.
+
+São nas funções \emph{python}, que tratam as requisições, que a lógica de negócio é executada. 
+Aqui bibliotecas como a \emph{NumPy} podem ser chamadas, ou mesmo bibliotecas criadas pelos desenvolvedores da aplicação. 
+É a partir deste ponto que dados podem ser acessados do banco de documentos pela biblioteca \emph{PyMongo}. 
+Ao final da execução uma resposta é gerada no formato \emph{JSON}, para que seja consumida pela camada \emph{web}.
+
+
+
+\subsection {CAMADA DE BASE DE DOCUMENTOS}
+
+Para esta camada foi escolhido o banco de documentos \emph{MongoDB}, ver a seção \ref{mongodb_sec}. 
+Há várias vantagens no uso desta tecnologia, mas a determinante foi a facilidade de uso e criação de estruturas de dados. 
+No início do projeto, foi usado um banco de dados relacional e um \emph{framework} de mapeamento objeto-relacional. 
+Devido a natureza altamente complexa dos dados, dados espaciais provindos de marcadores de superfície capturados por câmeras, eles são multidimensionais também. 
+Sem dúvida isto ajudou a torna possível criar esta primeira versão do software em tão pouco tempo.
+
+A estrutura do banco da aplicação é mostrada na Figura \ref{mongo_oga}. 
+O banco é composto por duas coleções: os dados dos pacientes na coleção \emph{patients} e os dados recuperados do \emph{QTM} \emph{positionals\_data}.
+
+A listagem abaixo mostra um exemplo de documento da coleção \emph{patients}.
+\lstset{language=java}
+\begin{lstlisting}[frame=single]
+{
+	"\_id" : ObjectId("5601ed9e54bac75828a154e4"),
+	"city" : "Brasilia",
+	"name" : "Beto Jamais",
+	"weight" : 75,
+	"profession" : "Professor",
+	"zipCode" : "70000000",
+	"sex" : "male",
+	"phone" : "61 5555-5555",
+	"state" : "DF",
+	"race" : "white",
+	"birth" : "2000-01-01T02:00:00.000Z",
+	"address" : "Rua da Serra",
+	"martialStatus" : "married",
+	"height" : 1.8
+}
+\end{lstlisting}
+
+A listagem abaixo mostra um exemplo de documento da coleção \emph{positionals\_data}.
+\lstset{language=java}
+\begin{lstlisting}[frame=single]
+{
+	"\_id" : ObjectId("55a8f9874f9336e37084be92"),
+	"patient\_id" : ObjectId("55a8f97654bac7124a76ec4d"),
+	"gait\_sample\_index" : 0,
+	"original\_filename" : "Walk1.mat",
+	"angles" : [
+		{
+			"origin" : "0",
+			"component\_b" : "2",
+			"component\_a" : "1",
+			"description" : "Angulo Joelho Direito"
+		},
+		{
+			"origin" : 4,
+			"component\_b" : 6,
+			"component\_a" : 5,
+			"description" : "teste"
+		}
+	],
+	"initial\_frame" : 300,
+	"number\_markers" : 3,
+	"markers" : [
+		"Joelho Direito",
+		"Tibia Direita",
+		"Trocanter Direito"
+	],
+	"frame\_rate" : 315,
+	"frames" : 1491,
+	"final\_frame" : 1300
+	"trajectories":[ Aqui deveria aperecer uma lista com 
+		milhares de linhas numa matriz de 3 dimensoes]
+}
+\end{lstlisting}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=5cm]{figuras/mongo_oga.eps}
+	\caption{Banco de documentos da aplicação.}
+	\label{mongo_oga}
+\end{figure}
+

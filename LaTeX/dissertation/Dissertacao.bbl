@@ -76,6 +76,12 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.gaitpost.2010.01.010}.}
   2014.
 ISBN 978-1-78398-008-6.}
 
+\bibitem[Chodorow 2013]{Chodorow2013}
+\abntrefinfo{Chodorow}{CHODOROW}{2013}
+{CHODOROW, K. \emph{{MongoDB: The Definitive Guide}}. 2. ed. [S.l.]: O'Reilly
+  Media, Inc., 2013.
+ISBN 9781449344689.}
+
 \bibitem[Cippitelli et al. 2015]{Cippitelli2015}
 \abntrefinfo{Cippitelli et al.}{CIPPITELLI et al.}{2015}
 {CIPPITELLI, E. et al. {Kinect as a Tool for Gait Analysis: Validation of a
@@ -88,6 +94,11 @@ Dispon{\'\i}vel em: \url{http://www.mdpi.com/1424-8220/15/1/1417/}.}
 \abntrefinfo{Cohn}{COHN}{2004}
 {COHN, M. \emph{{Users Stories Applied}}. Crawfordsville: Addison Wesley, 2004.
 ISBN 978-0-321-20568-1.}
+
+\bibitem[Dayley 2014]{Dayley2014}
+\abntrefinfo{Dayley}{DAYLEY}{2014}
+{DAYLEY, B. \emph{{Node.js, MongoDB, and AngularJS Web Development}}. [S.l.]:
+  Addison-Wesley Professional, 2014.}
 
 \bibitem[Dirksen 2015]{Dirksen2015}
 \abntrefinfo{Dirksen}{DIRKSEN}{2015}
@@ -138,13 +149,19 @@ ISBN 9781430264484.}
 \emph{Gait and Posture}, v.~20, n.~3, p. 266--272, 2004.
 ISSN 09666362.}
 
-\bibitem[Google 2015]{Google2015b}
+\bibitem[Google 2015]{Google2015c}
 \abntrefinfo{Google}{GOOGLE}{2015a}
+{GOOGLE. \emph{{Angular Material Demo Grid List}}. 2015.
+Dispon{\'\i}vel em:
+  \url{https://material.angularjs.org/latest/demo/material.components.gridList}.}
+
+\bibitem[Google 2015]{Google2015b}
+\abntrefinfo{Google}{GOOGLE}{2015b}
 {GOOGLE. \emph{{Angular-Seed}}. 2015.
 Dispon{\'\i}vel em: \url{https://github.com/angular/angular-seed}.}
 
 \bibitem[Google 2015]{Google2015a}
-\abntrefinfo{Google}{GOOGLE}{2015b}
+\abntrefinfo{Google}{GOOGLE}{2015c}
 {GOOGLE. \emph{{Material Design}}. 2015.
 Dispon{\'\i}vel em:
   \url{www.google.com.br/design/spec/material-design/introduction.html}.}
@@ -181,11 +198,11 @@ ISBN 978-1512368031.}
   [S.l.]: Prentice Hall, 1998.
 ISBN 978-0132733502.}
 
-\bibitem[{K. Ibrahim} et al. 2012]{K.Ibrahim2012}
-\abntrefinfo{{K. Ibrahim} et al.}{{K. Ibrahim} et al.}{2012}
-{{K. Ibrahim}, B.~K. et al. {An Approach for Dynamic Characterisation of
-  Passive Viscoelasticity and Estimation of Anthropometric Inertia Parameters
-  of Paraplegic’s Knee Joint}. In:  \emph{Viscoelasticity - From Theory to
+\bibitem[Ibrahim et al. 2012]{K.Ibrahim2012}
+\abntrefinfo{Ibrahim et al.}{IBRAHIM et al.}{2012}
+{IBRAHIM, B.~K. et al. {An Approach for Dynamic Characterisation of Passive
+  Viscoelasticity and Estimation of Anthropometric Inertia Parameters of
+  Paraplegic’s Knee Joint}. In:  \emph{Viscoelasticity - From Theory to
   Biological Applications}. InTech, 2012.
 Dispon{\'\i}vel em:
   \url{http://www.intechopen.com/books/viscoelasticity-from-theory-to-biological-applications/an-approach-for-dynamic-characterisation-of-passive-viscoelasticity-and-estimation-of-anthropometric}.}
@@ -270,6 +287,12 @@ ISBN 978-1491904909.}
 {PERRY, J.; BURNFIELD, J.~M. \emph{{Gait Analysis Normal and Pathological
   Function}}. 2nd. ed. [S.l.]: SLACK Inc., 2010.
 ISBN 978-1-55642-766-4.}
+
+\bibitem[Plugge, Membrey e Hows 2014]{Plugge2014}
+\abntrefinfo{Plugge, Membrey e Hows}{PLUGGE; MEMBREY; HOWS}{2014}
+{PLUGGE, E.; MEMBREY, P.; HOWS, D. \emph{{MongoDB Basics MongoDB Basics}}. 1.
+  ed. [S.l.]: Apress, 2014.
+ISBN 9781484208953.}
 
 \bibitem[Pressman e Maxim 2014]{Pressman2014}
 \abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2014}

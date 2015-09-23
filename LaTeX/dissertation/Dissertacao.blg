@@ -13,7 +13,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "("
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -23,45 +22,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 53 entries,
+You've used 57 entries,
             6711 wiz_defined-function locations,
-            1546 strings with 18583 characters,
-and the built_in function-call counts, 63595 in all, are:
-= -- 6869
-> -- 1299
-< -- 1319
-+ -- 1767
-- -- 398
-* -- 4012
-:= -- 8062
-add.period$ -- 222
-call.type$ -- 53
-change.case$ -- 470
-chr.to.int$ -- 122
-cite$ -- 52
-duplicate$ -- 5743
-empty$ -- 3190
-format.name$ -- 1895
-if$ -- 13274
-int.to.chr$ -- 3
+            1563 strings with 18982 characters,
+and the built_in function-call counts, 67800 in all, are:
+= -- 7296
+> -- 1397
+< -- 1393
++ -- 1874
+- -- 428
+* -- 4274
+:= -- 8598
+add.period$ -- 239
+call.type$ -- 57
+change.case$ -- 504
+chr.to.int$ -- 131
+cite$ -- 56
+duplicate$ -- 6104
+empty$ -- 3436
+format.name$ -- 2034
+if$ -- 14176
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 961
-newline$ -- 287
-num.names$ -- 260
-pop$ -- 1176
+missing$ -- 1038
+newline$ -- 306
+num.names$ -- 280
+pop$ -- 1274
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 206
 quote$ -- 0
-skip$ -- 5811
+skip$ -- 6171
 stack$ -- 1
-substring$ -- 2662
-swap$ -- 2215
-text.length$ -- 60
+substring$ -- 2805
+swap$ -- 2352
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 376
+while$ -- 401
 width$ -- 0
-write$ -- 838
-(There was 1 warning)
+write$ -- 898
