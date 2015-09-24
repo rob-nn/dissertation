@@ -32,17 +32,27 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Tela de sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'o}dulos.}}{51}{figure.4.31}
 \contentsline {figure}{\numberline {32}{\ignorespaces Tela com a listagem de pacientes.}}{52}{figure.4.32}
 \contentsline {figure}{\numberline {33}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do paciente.}}{53}{figure.4.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Tela inicial da dados coletados do paciente.}}{54}{figure.4.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{54}{figure.4.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph {MATLAB} proveniente do \emph {QTM}.}}{55}{figure.4.36}
+\contentsline {figure}{\numberline {34}{\ignorespaces Tela inicial da dados coletados do paciente.}}{55}{figure.4.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{55}{figure.4.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph {MATLAB} proveniente do \emph {QTM}.}}{56}{figure.4.36}
 \contentsline {figure}{\numberline {37}{\ignorespaces Dados do arquivo provenientes do \emph {QTM}}}{56}{figure.4.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{56}{figure.4.38}
+\contentsline {figure}{\numberline {38}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{57}{figure.4.38}
 \contentsline {figure}{\numberline {39}{\ignorespaces Controle de perspectivas.}}{57}{figure.4.39}
 \contentsline {figure}{\numberline {40}{\ignorespaces Controle de \emph {zoom}.}}{57}{figure.4.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Controle \emph {pan}.}}{57}{figure.4.41}
+\contentsline {figure}{\numberline {41}{\ignorespaces Controle \emph {pan}.}}{58}{figure.4.41}
 \contentsline {figure}{\numberline {42}{\ignorespaces Controles da anima\IeC {\c c}\IeC {\~a}o.}}{58}{figure.4.42}
 \contentsline {figure}{\numberline {43}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o \emph {markers}.}}{58}{figure.4.43}
 \contentsline {figure}{\numberline {44}{\ignorespaces Progre\IeC {\c c}\IeC {\~a}o espacial de um marcador.}}{59}{figure.4.44}
 \contentsline {figure}{\numberline {45}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o de um marcador pelo \emph {mouse}.}}{59}{figure.4.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Alterando o nome de um marcador}}{59}{figure.4.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{60}{figure.4.47}
+\contentsline {figure}{\numberline {46}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{60}{figure.4.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o de visualiza\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos.}}{60}{figure.4.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Inclus\IeC {\~a}o de um novo \IeC {\^a}ngulo.}}{60}{figure.4.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Angulo de um joelho durante o ciclo de marcha.}}{61}{figure.4.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Velocidades angulares de um joelho durante o ciclo de marcha.}}{61}{figure.4.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces M\IeC {\'o}dulo de simula\IeC {\c c}\IeC {\~a}o.}}{63}{figure.4.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do ciclo de marcha.}}{63}{figure.4.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Sinais de entrada para a \emph {CMAC}. No caso posi\IeC {\c c}\IeC {\~o}es num plano 3D de marcadores.}}{64}{figure.4.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Sinais de entrada para a \emph {CMAC}. \IeC {\^A}ngulos e velocidades angulares.}}{64}{figure.4.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Exemplo de configura\IeC {\c c}\IeC {\~a}o para uma simula\IeC {\c c}\IeC {\~a}o usando \emph {CMAC}.}}{65}{figure.4.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Resultado da simula\IeC {\c c}\IeC {\~a}o.}}{65}{figure.4.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Erro quadrado m\IeC {\'e}dio em cada itera\IeC {\c c}\IeC {\~a}o da simula\IeC {\c c}\IeC {\~a}o}}{66}{figure.4.57}

@@ -1,31 +1,32 @@
 \chapter[DISCUSSÃO E CONCLUSÃO]{\textbf{DISCUSSÃO E CONCLUSÃO}}
 
+Há vários softwares de análise marcha no mercado, mas a idéia de criar um totalmente na \emph{web} tem suas vantagens. 
+A mais óbvia é disponibilidade, já que a aplicação fica num servidor na internet, o usuário só precisa acessar um site com um browser. 
+Outra não tão óbivia e que diz respeito principalmento ao módulo de simulãção, é possibilidade de escalar a aplicação para necessidades de processamento gigantescas, usando infraestrutura como serviço de fornecedores como o \emph{Microsoft Azure} ou \emph{Amazon Webservices}.
+Como a camada \emph{web} se comunica via \emph{HTTP} no estilo \emph{REST}, usando uma \emph{facade} para isto, basta fazer a \emph{facade} do módulo de simulação para uma \emph{web farm} alocada sob demanda num dos serviços mencionados. A vantagem óbvia é que quem serve a aplicação, pode alocar estes serviços sob demanda, não necessitando possuir um CPD caríssimo. O custo é repassado ao cliente que deseja usar os serviços de simulação que demandam muito poder de processamento.
 
-\begin{comment}
+Outro ponto interessante com a implantação da aplicação é a criação de uma base de dados de marcha humana, que pode receber dados de todo o globo. 
+As vantagens para pesquisadores seriam inimagináveis.
+
+Claro que nada disto é gratuito, os responsáveis pelo projeto terão de almejar meios para produzi-lo, achar nichos de mercado e colocá-lo em produção.
+
+Rassalta-se novamente, que o software que está sendo entregue não está pronto para produção, o prazo disponível para desenvolvê-lo, inclusive adquirindo conhecimentos sobre muitas das teconologias adotadas, foi de aproximadamente cinco meses. Isto ocorreu por que durante o programa de mestrado resolveu-se mudar o tema, devido a uma série de intempéries. No entanto, o software foi feliz em mostrar a integração de vários componentes nas diferentes camadas da aplicação. Esse estresse arquitetural é muito importante para se avaliar a viabilidade técnica de um projeto de engenharia de software.
+
+Outro problema com o software entregue, é seu modesto poder de processamento com relação a simulações. 
+Facilmente uma simulação em grande um \emph{Data Center} poder demorar dias. 
+A solução para este problema é desenvolver um método de disparar a simulação assincronamente, e criar uma tela de gestão da execução da mesma. 
+Para isso o software terá de ser integrado a componentes de computação distribuída como \emph{Apache Spark} ou o \emph{Hadoop}, fazendo uso de infraestrutura como serviço como mecionado acima. 
+O potencial para este projeto se tornar algo inovador e principalmente muito útil na área de marcha humana é imenso.
+
+Talvez o objetivo que tenha sido mais prejudicado, foi a implantação do método ágil. 
+Como o método escolhido, foi o \emph{SCRUM} e não foi possível criar as reuniões diárias \emph{(daily scrum)}, a dinâmica da equipe não foi a mesma em que o autor teve a oportunidade de trabalhar com outras equipes.
+Recomenda-se também, que uma equipe de especialistas clínicos e pesquisadores da área da marcha humana sejam adicionados ao projeto e ajudem ao \emph{product owner} do projeto a definir novas funcionalidades para o sistema. 
+Isso certamente vai acelerar a adoção do software por estes profissionais, já que são as necessidades deles que serão atingidas.
+Talvez um projeto de \emph{crowd funding} possa trazer estes profissionais. 
+É comum nestes projesto os clientes pedire funcionaliades para o software.
+O problema é que este é um software para um nicho muito especializado, pode ser que não seja uma boa idéa.
+
+Vale lembra também que o projeto não vai se limitar a análise de movimento, outros métodos de coleta de dados para análise serão inseridos ao longo do tempo.
 
 
-
-Através deste estudo foram realizadas investigações envolvendo o uso de tecnologias e
-padrões para a implantação de um ambiente FFDM integrado. Essas investigações geraram
-como resultado, a proposta de um processo de trabalho para a condução de projetos de
-integração de RIS, PACS e mamógrafos digitais. Da idealização dessa proposta, por sua
-vez, considera-se os seguintes pontos de discussão: (i) a participação de engenheiros
-clínicos e profissionais de TI nos projetos de integração; (II) a complexidade dos projetos
-de integração; (III) a dificuldade de aderência das tecnologias aos padrões DICOM e IHE
-(declaração de conformidade); (IV) a disseminação do padrão DICOM e IHE no Brasil; (v)
-a necessidade de evolução do DICOM e do IHE; e (vi) os cuidados na execução de
-projetos de integração entre RIS, PACS e equipamentos de mamografia.
-
-
-\cite{grimes} em Clinical Engineering: the challenge of change questiona se os
-engenheiros clínicos de hoje estão preparados para as mudanças tecnológicas que estão
-ocorrendo na área médica, especialmente aquelas associadas à necessidade de integração,
-comunicação e distribuição de informações sobre saúde, dentro e fora das unidades
-hospitalares. O estudo realizado pôde comprovar que o esforço de integração é grande,
-conforme afirmado por Grimes (2005), e deve ser distribuído entre todos os funcionários
-que participam do procedimento médico que se deseja aperfeiçoar, sejam eles, médicos,
-profissionais do setor administrativo, gestores, engenheiros clínicos e profissionais de TI.
-
-
-
-\end{comment}
+Concluíndo, os objetivos foram alcançados, foi definida uma metodologia ágil, foi criado um modelo de arquitetura, um software foi construído, integrado com os principais componentes e na medida do possível testados, e mais uma vez, fizando que toda a arquitetura foi extressada.

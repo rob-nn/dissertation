@@ -36,7 +36,38 @@ A Figura \ref{tela3} mostra as informações do paciente que devem ser preenchid
 	\label{tela3}
 \end{figure}
 
-Ao se selecionar um paciente da tela mostrada na Figura \ref{figura2}, a tela da Figura \ref{tela4} aparece. No caso em questão, nenhuma coleta de dados foi carregada para o paciente. Logo o próximo passo é adicionar uma nova amostra de marcha.
+Ao se selecionar um paciente da tela mostrada na Figura \ref{tela2}, a tela da Figura \ref{tela4} aparece. No caso em questão, nenhuma coleta de dados foi carregada para o paciente. Logo o próximo passo é adicionar uma nova amostra de marcha.
+O usuário deve então informar a descrição da coleta e a data que a mesma ocorreu e salvar ests informações, conforme a Figura \ref{tela5}.
+
+
+Depois de salva as informações o sistema pede para que o usuário selecione o arquivo proveniente do \emph{QTM}, conforme a Figura \ref{tela6}.
+Depois de selecionado o arquivo com os dados da marcha, seus dados são mostrados para o usuário, conforme a Figura \ref{tela7}.
+
+
+Neste momento se o usuário quiser visualizar uma animação dos dados, basta clicar na seta negra que aponta para a direita que uma animação será mostra conforme a Figura \ref{animacao1}.
+Esta animação foi construída usando a tecnologia \emph{ThreeJS}, resumida na seção \ref{threejs_sec}. Uma das grandes vantagens desta característica do software em relação ao \emph{QTM}, que também a possui, é o fato de que a animação está rodando num \emph{browser web} moderno, ou seja qualquer um com um \emph{browser} assim pode vê-la sem precisar do \emph{QTM} instalado. 
+Além do mais como o projeto pode continuar, fica a critério dos usuários decidirem que novas características seriam interessantes, não somente nas animações, mas em todo o software.
+
+A tela da animação também possui controle de pespectivas, ver Figura \ref{animacao2}, controle de \emph{zoom}, ver Figura \ref{animacao3}, e controle \emph{pan}, ver Figura \ref{animacao3}.
+Também foram implementados, até o momento, botões de \emph{play, pause}, fechar e um contador de \emph{frames}, ver Figura \emph{animacao4a}.
+
+
+
+
+É de fundamental importância que o usuário configure os parâmetros \emph{Initial Contact} e \emph{Terminal Swing} mostrados na Figura \ref{tela7}. Sem estes parâmetros os gráficos, vão mostrar os sinais nas fases erradas do ciclo de marcha.
+A técnica que se recomenda, é inicializar a animação e quando o usuário perceber o \emph{initial contact}, pressionar o botão pause e anotar o frame. Fazer a mesma coisa para o \emph{terminal swing}.
+
+Outra opção disponível na Figura \ref{tela7}, é a opção \emph{Markers}, esta opção permite nomear os marcadorese visualizar sua progressão espacial. A Figura \ref{tela18} mostra o resultado de se selecionar esta opção.
+Ao clicar no botão ao lado de algum marcador, sua progressão no espaço é mostrada num gráfico como o da Figura \ref{tela19}. O domínio é o percentual do ciclo de marcha, já a imagem são dados espaciais brutos oriundos do \emph{QTM}.
+
+A nomeação dos marcadores, não é uma tarefa trivial. Para isso foi criada uma ferramenta dentro da animação para ajudar com esta tarefa. Primeiro deve-se entrar na animação, depois pausá-la, e posicionar a visualização de uma forma que ajude a detectar o marcador procurado. Veja a figura \ref{tela20}, nela um marcador foi clicado com o \emph{mouse}, o marcador ficou azul e ao seu lado ele mostra o índice 30. 
+Agora é só voltar na opção de marcadores, procurar o índice 30 (\emph{Marker 30}) e colocar o nome desejado. No caso deste marcador o nome é joelho esquerdo (\emph{left knee}), ver a Figura \ref{tela21}.
+Agora para o sistema o marcador 30 é sempre o joelho esquerdo, veja a Figura \ref{tela22}.
+
+Outra funcionalidade importante é o gerador de ângulos. Esta opção está disponível da Figura \ref{tela7}. E após selecionada é mostrada na Figura \ref{tela23}. 
+Para se gerar um ângulo o usuário necessita selecionar a opção de inclusão de ângulo e preencher os dados da Figura \ref{tela24}. O usuário precisa indicar a origem do ângulo, por exemplo o joelho, o componente A, por exemplo algum músculo da coxa, e o componente b, por exemplo a tíbia. Estes pontos poderial representar o ângulo de um joelho por exemplo.
+
+Depois dos ângulos criados é possível ver seus valores durante o ciclo de marcha ou suas velocidades angulares, veja a Figura \ref{tela25} e a Figura \ref{tela26}.
 
 \begin{figure}[ht]
 	\centering
@@ -45,7 +76,6 @@ Ao se selecionar um paciente da tela mostrada na Figura \ref{figura2}, a tela da
 	\label{tela4}
 \end{figure}
 
-O usuário deve então informar a descrição da coleta e a data que a mesma ocorreu e salvar ests informações, conforme a Figura \ref{tela5}.
 
 \begin{figure}[ht]
 	\centering
@@ -55,7 +85,6 @@ O usuário deve então informar a descrição da coleta e a data que a mesma oco
 	\label{tela5}
 \end{figure}
 
-Depois de salva as informações o sistema pede para que o usuário selecione o arquivo proveniente do \emph{QTM}, conforme a Figura \ref{tela6}.
 
 \begin{figure}[ht]
 	\centering
@@ -63,8 +92,6 @@ Depois de salva as informações o sistema pede para que o usuário selecione o 
 	\caption{Seleção do arquivo no formato \emph{MATLAB} proveniente do \emph{QTM}.}
 	\label{tela6}
 \end{figure}
-
-Depois de selecionado o arquivo com os dados da marcha, seus dados são mostrados para o usuário, conforme a Figura \ref{tela7}.
 
 
 \begin{figure}[ht]
@@ -74,13 +101,6 @@ Depois de selecionado o arquivo com os dados da marcha, seus dados são mostrado
 	\label{tela7}
 \end{figure}
 
-
-Neste momento se o usuário quiser visualizar uma animação dos dados, basta clicar na seta negra que aponta para a direita que uma animação será mostra conforme a Figura \ref{animacao1}.
-Esta animação foi construída usando a tecnologia \emph{ThreeJS}, resumida na seção \ref{threejs_sec}. Uma das grandes vantagens desta característica do software em relação ao \emph{QTM}, que também a possui, é o fato de que a animação está rodando num \emph{browser web} moderno, ou seja qualquer um com um \emph{browser} assim pode vê-la sem precisar do \emph{QTM} instalado. 
-Além do mais como o projeto pode continuar, fica a critério dos usuários decidirem que novas características seriam interessantes, não somente nas animações, mas em todo o software.
-
-A tela da animação também possui controle de pespectivas, ver Figura \ref{animacao2}, controle de \emph{zoom}, ver Figura \ref{animacao3}, e controle \emph{pan}, ver Figura \ref{animacao3}.
-Também foram implementados, até o momento, botões de \emph{play, pause}, fechar e um contador de \emph{frames}, ver Figura \emph{animacao4a}.
 
 
 \begin{figure}[ht]
@@ -149,17 +169,6 @@ Também foram implementados, até o momento, botões de \emph{play, pause}, fech
 
 
 
-
-É de fundamental importância que o usuário configure os parâmetros \emph{Initial Contact} e \emph{Terminal Swing} mostrados na Figura \ref{tela7}. Sem estes parâmetros os gráficos, vão mostrar os sinais nas fases erradas do ciclo de marcha.
-A técnica que se recomenda, é inicializar a animação e quando o usuário perceber o \emph{initial contact}, pressionar o botão pause e anotar o frame. Fazer a mesma coisa para o \emph{terminal swing}.
-
-Outra opção disponível na Figura \ref{tela7}, é a opção \emph{Markers}, esta opção permite nomear os marcadorese visualizar sua progressão espacial. A Figura \ref{tela18} mostra o resultado de se selecionar esta opção.
-Ao clicar no botão ao lado de algum marcador, sua progressão no espaço é mostrada num gráfico como o da Figura \ref{tela19}. O domínio é o percentual do ciclo de marcha, já a imagem são dados espaciais brutos oriundos do \emph{QTM}.
-
-A nomeação dos marcadores, não é uma tarefa trivial. Para isso foi criada uma ferramenta dentro da animação para ajudar com esta tarefa. Primeiro deve-se entrar na animação, depois pausá-la, e posicionar a visualização de uma forma que ajude a detectar o marcador procurado. Veja a figura \ref{tela20}, nela um marcador foi clicado com o \emph{mouse}, o marcador ficou azul e ao seu lado ele mostra o índice 30. 
-Agora é só voltar na opção de marcadores, procurar o índice 30 (\emph{Marker 30}) e colocar o nome desejado. No caso deste marcador o nome é joelho esquerdo (\emph{left knee}), ver a Figura \ref{tela21}.
-Agora para o sistema o marcador 30 é sempre o joelho esquerdo, veja a Figura \ref{tela22}.
-
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5cm]{figuras/tela18.eps}
@@ -183,18 +192,114 @@ Agora para o sistema o marcador 30 é sempre o joelho esquerdo, veja a Figura \r
 \end{figure}
 
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=5cm]{figuras/tela21.eps}
-	\caption{Alterando o nome de um marcador}
-\label{tela21}
-\end{figure}
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5cm]{figuras/tela22.eps}
 	\caption{Animação mostrando o marcador renomeado.}
 \label{tela22}
+
 \end{figure}
 
-Outra funcionalidade importante é o gerador de ângulos. Esta opção está disponível da Figura \ref{tela7}. E após selecionada é mostrada na Figura \ref{tela23}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=15cm]{figuras/tela23.eps}
+	\caption{Opção de visualização e criação de ângulos.}
+\label{tela23}
+\end{figure}
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=15cm]{figuras/tela24.eps}
+	\caption{Inclusão de um novo ângulo.}
+\label{tela24}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela25.eps}
+	\caption{Angulo de um joelho durante o ciclo de marcha.}
+\label{tela25}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela26.eps}
+	\caption{Velocidades angulares de um joelho durante o ciclo de marcha.}
+\label{tela26}
+\end{figure}
+
+
+
+
+
+\goodbreak
+\newpage
+\clearpage
+\section{Módulo de Simulação}
+Este módulo é sem dúvida o que mais vai contribuir para os pesquisadores, pois estes contarão com a base integrada gerada pelo módulo de análise e com estas informações será possível realizar simulações de sinais e classificações. 
+A versão atual do software ainda é muito pobre neste quesito, mas o objetivo neste momento é mostra a viabilidade de se usar algoritmos de sistemas inteligentes, integrados na base que vai sendo gerada.
+Acredita-se que a ferramenta vai ser mais apreciada por pesquisadores que tem como formação a área de saúde, pois estes não precisarão da parafernalha técnica exigida para fazer simulações num ambiente como o do \emph{MATLAB}.
+
+O primeira funcionalidade de simulação que foi implentada foi a simulação pela \emph{CMAC}, esta RNA foi descrita na seção \ref{cmac_sec}. 
+Ao se selecionar o módulo simulação a tela da Figura \ref{tela27} é apresentada. 
+A opção \emph{CMAC}, já aparece selecionada. 
+Para efeitos da demonstração das funcionalidades deste módulo será realizada uma simulação das velocidades angulares de um joelho, a partir de outros sinais disponíveis.
+
+Após ser selecionado o nome de um paciente, deve-se selecionar uma amostra de ciclo de marcha, Figura \ref{tela28}.
+Após a seleção do ciclo de marcha, uma lista com vários sinais são mostrados, basicamente os sinais são coordenadas de posições de marcadores, ângulos e velocidades angulares. As Figuras \ref{tela29} e \ref{tela30} mostram uma fração dos sinais possíveis para seleção. Ao se selicionar um sinal de entrada é necessário também informar sua quantização.
+
+A Figura \ref{tela31} mostra uma configuração que gera a saída da figura \ref{tela32}. Infelizmente até o momento de escrita desta obra, não foi possível implementar a saída na aplicação. O gráfico mostrado é a saída de um protótipo desktop da \emph{CMAC} que usa os mesmos parâmetros de entradas mostrados na aplicação \emph{web}.
+A figura \ref{tela33} mostra o erro quadrado médio da execução da simulação ao longo das iterações.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela27.eps}
+	\caption{Módulo de simulação.}
+\label{tela27}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela28.eps}
+	\caption{Seleção do ciclo de marcha.}
+\label{tela28}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=5cm]{figuras/tela29.eps}
+	\caption{Sinais de entrada para a \emph{CMAC}. No caso posições num plano 3D de marcadores.}
+\label{tela29}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=5cm]{figuras/tela30.eps}
+	\caption{Sinais de entrada para a \emph{CMAC}. Ângulos e velocidades angulares.}
+\label{tela30}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela31.eps}
+	\caption{Exemplo de configuração para uma simulação usando \emph{CMAC}.}
+\label{tela31}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela32.eps}
+	\caption{Resultado da simulação.}
+\label{tela32}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/tela33.eps}
+	\caption{Erro quadrado médio em cada iteração da simulação}
+\label{tela33}
+\end{figure}
+
