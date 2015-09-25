@@ -25,17 +25,17 @@ A Figura \ref{material_amostra}, mostra um exemplo de uma tela criada com as dir
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=9cm]{figuras/material_amostra.eps}
-	\caption[Exemplo de uma tela criada com \emph{angular-material}.]{Exemplo de uma tela criada com \emph{angular-material}. 1) Diretiva \emph{md-toolbar}}; 2) Diretiva \emph{md-input-container}; 3) Diretiva \emph{ng-messages} em conjunto com a \emph{md-input-container}; 4) Diretiva \emph{md-button}.
+	\caption[Exemplo de uma tela criada com \emph{angular-material}.]{Exemplo de uma tela criada com \emph{angular-material}. 1) Diretiva \emph{md-toolbar}; 2) Diretiva \emph{md-input-container}; 3) Diretiva \emph{ng-messages} em conjunto com a \emph{md-input-container}; 4) Diretiva \emph{md-button}.}
 	\label{material_amostra}
 \end{figure}
 
 \textbf{ORGANIZAÇÃO DO CÓDIGO FONTE}
 
 A criação de um ambiente de desenvolvimento \emph{web}, para um software de média para grande complexidade, não é uma tarefa trivial de ser resolvida.
-É necessários criar padrões de organização de arquivos, configurar e instalar pacotes de software para desenvolvimento, testes, implantação, construção de \emph{builds}, entre outros.
+É necessário criar padrões de organização de arquivos, configurar e instalar pacotes de software para desenvolvimento, testes, implantação, construção de \emph{builds}, entre outros.
 Para facilitar esta tarefa, optou-se em utilizar o projeto \emph{angular-seed}, ver \ref{angular_seed}.
 A ideia deste projeto é servir de esqueleto de projetos \emph{web} que utilizam o \emph{framework} \emph{AngularJS}.
-Para usar este projeto basta cloná-lo diretamente do seu repositório \emph{git} no \emph{site} github.com, conforme o comando abaixo.
+Para usar este projeto, basta cloná-lo diretamente do seu repositório \emph{git} no \emph{site} github.com, conforme o comando abaixo.
 \lstset{language=bash}
 \begin{lstlisting}[frame=single]
 git clone https://github.com/angular/angular-seed.git
@@ -48,7 +48,7 @@ A Figura \ref{camda_web} mostra o funcionamento e os padrões mínimos a serem s
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=17cm]{figuras/camada_web.eps}
-	\caption{Camada web}
+	\caption{Camada \emph{web}.}
 	\label{camda_web}
 \end{figure}
 
@@ -58,7 +58,7 @@ Existem vários destes controladores no sistema, cada evento do usuário é redi
 No controlador é onde a programação pesada acontece, ele é associado a um \emph{template HTML}. 
 Este template funciona de visão, e é o que o controlador manipula para mostrar informações ao usuário.
 Quando o controlador precisa executar lógica de negócio, ou requisitar dados persistidos, ele deve chamar um componente do tipo \emph{Facade}. 
-A aplicação web roda no browser do usuário e não persiste dados nem executa lógica de negócio. 
+A aplicação \emph{web} roda no \emph{browser} do usuário e não persiste dados nem executa lógica de negócio. 
 Este é um estilo arquitetural escolhido para o projeto.
 A \emph{Facade} é um \emph{proxy} que se comunica com um \emph{backend} via HTTP no estilo \emph{REST} de comunicação via \emph{web}.
 
@@ -77,13 +77,13 @@ A Figura \ref{dir_api} mostra a configuração básica dos arquivos e diretório
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=15cm]{figuras/dir_api.eps}
-	\caption{Camada web}
+	\caption{Organização do arquivos e diretórios da camada \emph{web API}.}
 	\label{dir_api}
 \end{figure}
 
-A linguagem de programação \emph{Python} foi escolhida para implementar esta camada. Vários foram os motivos: a biblioteca \emph{Flask} para implementar a \emph{web API}, a biblioteca \emph{NumPy} que é excelente para cálculos, comparável ao Matlab, a biblioteca \emph{Matplotlib} para criação de gráficos científicos, a baixa curva de aprendizado da linguagem, sua fama com desenvolvedores ao redor do mundo e o mais importante, é a linguagem mais divertida que o autor já aprendeu.
+A linguagem de programação \emph{Python} foi escolhida para implementar esta camada. Vários foram os motivos: a biblioteca \emph{Flask} para implementar a \emph{web API}, a biblioteca \emph{NumPy}, que é excelente para cálculos, comparável ao Matlab, a biblioteca \emph{Matplotlib} para criação de gráficos científicos, a baixa curva de aprendizado da linguagem, sua fama com desenvolvedores ao redor do mundo.
 
-Para diminuir os problemas de ambientes, oriundos de um projeto complexo como este, optou-se por utilizar o programa \emph{virtualenv}. Este programa cria um ambiente python virtual, baseado num arquivo de configuração. Isso faz com que todos os desenvolvedores envolvidos no projeto, possuam ambientes muito semelhantes.
+Para diminuir os problemas de ambientes, oriundos de um projeto complexo como este, optou-se por utilizar o programa \emph{virtualenv}. Este programa cria um ambiente \emph{python} virtual, baseado num arquivo de configuração. Isso faz com que todos os desenvolvedores envolvidos no projeto, possuam ambientes muito semelhantes.
 Ao se clonar o projeto basta entrar no diretório da API e digitar o comando:
 \lstset{language=bash}
 \begin{lstlisting}[frame=single]
@@ -102,7 +102,7 @@ As bibliotecas necessárias a execução da aplicação estão listadas no arqui
 pip install -r requirements.txt
 \end{lstlisting}
 
-Neste ponto o código já pode ser editado e executado. Para facilitar um pouco as coisas, foi criado o programa manage.py. Para rodar um servidor web local respondendo na porta 5000, com fins de desenvolvimento, basta digitar o comando:
+Neste ponto, o código já pode ser editado e executado. Para facilitar um pouco as coisas, foi criado o programa \emph{manage.py}. Para rodar um servidor \emph{web} local respondendo na porta 5000, com fins de desenvolvimento, basta digitar o comando:
 \lstset{language=bash}
 \begin{lstlisting}[frame=single]
 python manage.py runserver
@@ -119,7 +119,7 @@ Vale lembrar que o servidor \emph{MongoDB}, deve estar configurado, rodando e su
 
 \textbf{VISÃO ARQUITETURAL DA CAMADA \emph{REST WEB API}} 
 
-A Figura \ref{camada_api}, mostra um \emph{blueprint} de como funciona e como deve ser desenvolvida esta camada.
+A Figura \ref{camada_api} mostra um \emph{blueprint} de como funciona e como deve ser desenvolvida esta camada.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=15cm]{figuras/camada_api.eps}
@@ -128,17 +128,17 @@ A Figura \ref{camada_api}, mostra um \emph{blueprint} de como funciona e como de
 \end{figure}
 
 Tudo começa quando um \emph{browser web} faz uma requisição do tipo \emph{HTTP} a um servidor \emph{web}. 
-O servidor web identifica se a requisição é para a aplicação \emph{flask} do sistema em questão. 
+O servidor \emph{web} identifica se a requisição é para a aplicação \emph{flask} do sistema em questão. 
 Se for, esta requisição é repassada para a aplicação \emph{flask}. 
 Agora as coisas começam a ficar mais interessantes. 
 A aplicação \emph{flask} analisa a \emph{URL} da requisição, verifica o método da requisição e repassa os dados da requisição, num formato amigável ao \emph{python}, para uma função \emph{python}. 
-Por padrão os parâmetros das requisições via método \emph{``GET"}, são repassadas ao \emph{python} como string. 
+Por padrão os parâmetros das requisições via método \emph{``GET"} são repassadas ao \emph{python} como \emph{string}. 
 Para os demais métodos, padronizou-se receber o \emph{payload} da requisição \emph{HTTP}, como objetos JSON, que são facilmente convertidos para dicionários \emph{python}.
 
 São nas funções \emph{python}, que tratam as requisições, que a lógica de negócio é executada. 
 Aqui bibliotecas como a \emph{NumPy} podem ser chamadas, ou mesmo bibliotecas criadas pelos desenvolvedores da aplicação. 
 É a partir deste ponto que dados podem ser acessados do banco de documentos pela biblioteca \emph{PyMongo}. 
-Ao final da execução uma resposta é gerada no formato \emph{JSON}, para que seja consumida pela camada \emph{web}.
+Ao final da execução uma resposta é gerada no formato \emph{JSON} para que seja consumida pela camada \emph{web}.
 
 
 
@@ -148,7 +148,7 @@ Para esta camada foi escolhido o banco de documentos \emph{MongoDB}, ver a seç�
 Há várias vantagens no uso desta tecnologia, mas a determinante foi a facilidade de uso e criação de estruturas de dados. 
 No início do projeto, foi usado um banco de dados relacional e um \emph{framework} de mapeamento objeto-relacional. 
 Devido a natureza altamente complexa dos dados, dados espaciais provindos de marcadores de superfície capturados por câmeras, eles são multidimensionais também. 
-Sem dúvida isto ajudou a torna possível criar esta primeira versão do software em tão pouco tempo.
+Sem dúvida isto ajudou a tornar possível criar esta primeira versão do software em tão pouco tempo.
 
 A estrutura do banco da aplicação é mostrada na Figura \ref{mongo_oga}. 
 O banco é composto por duas coleções: os dados dos pacientes na coleção \emph{patients} e os dados recuperados do \emph{QTM} \emph{positionals\_data}.

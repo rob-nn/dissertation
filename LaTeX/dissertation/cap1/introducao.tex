@@ -1,52 +1,40 @@
 \chapter[INTRODUÇÃO]{\textbf {Introdução}}
 \section{CONTEXTUALIZAÇÃO E FORMULAÇÃO DO PROBLEMA}
+Quando o autor deparou-se com um problema na área de análise de marcha, 
+ele seguiu toda uma metodologia para resolver este problema. 
+Ao ler artigos desta área, notou que muitas das atividades que ele desempenhou, provavelmente foram desempenhadas por aqueles autores também. 
+Na época o autor estava desenvolvendo um software simulador de um joelho, que poderia ser implantado num sistema embarcado para controle de uma possível prótese transfemural ativa.
+A metodologia usada naquele trabalho pode ser resumida assim:
+\begin{enumerate}
+	\item Coletar dados de movimentos usando marcadores passivos fixados no corpo de um paciente. Os dados eram coletados por uma série de câmeras;
+	\item Usar o software QTM para converter os dados para o formato \emph{MATLAB}, assim era possível manipulá-los;
+	\item Criar um programa para extrair os dados em formatos mais amigáveis à sua manipulação;
+	\item Fazer cálculos de ângulos, velocidades angulares, posicionamentos dos marcadores, velocidades dos marcadores;
+	\item Fazer gráficos de toda essa informação. Lembrando tudo isso usando \emph{MATLAB};
+	\item Persistir toda essa informação para uso futuro;
+	\item Criar um algoritmo complexo, que usa certos dados como entrada e algum outro como saída.
+	\item Executar várias simulações alterando vários parâmetros até achar uma combinação de parâmetros que simule o sinal de uma forma desejada;
+\end{enumerate}
+
+Várias das etapas acima, poderiam ser desenvolvidas num software com interface gráfica, e facilitando e muito o trabalho do pesquisador. Por exemplo, o novo software receberia o arquivo do \emph{QTM} e já criaria, todos os dados de movimentos citados automaticamente, os persistiria numa base de dados e permitiria imprimir gráficos de todos eles.
+
+Este foi o contexto inicial, que impulsionou o desenvolvimento deste trabalho,
+mas além deste problema notou-se um potencial a mais, o \emph{QTM} que é o software 
+de captura de dados, é muito bom mas é de uso genérico, para utilizá-lo como 
+software de análise de marcha, há um trabalho grande a ser feito, o indício disto é 
+que a maioria dos pesquisadores com que o pesquisador teve contato no laboratório, 
+usavam o mesmo processo, coletavam com o \emph{QTM} e processavam com o \emph{MATLAB}. 
+Geralmente a outra opção é usar softwares de análise de marcha específicos como 
+software \emph{Kin Trak} e \emph{Ortho Trak}. Além disso todos esses softwares, inclusive o
+\emph{QTM} são softwares desktop, que possuem licenças caríssimas o que limita o
+uso dos dados pelos pesquisadores, que tem que ir ao laboratório ou ter um computador
+com uma licença válida. Daí surgiu outra oportunidade criar o novo software 
+como um serviço na web, que pode ir evoluindo ao longo do tempo, ou seja,
+recebendo adições de funcionalidades constantemente, até que seja bom o suficiente
+para ser usado por qualquer profissional de saúde no globo.
+
+E não é só isso, com o poder de processamento dos dispositivos móveis de hoje, a nova
+aplicação também pode resolver problemas de mobilidade, pois pode disponibilizar dados de pacientes
+onde e quando o profissional de saúde quiser.
 
 
-\begin{comment}
-No campo da reabilitação humana, há o subcampo que trata da construção de próteses. 
-Estas têm como objetivo substituir a função de algum membro do corpo humano. 
-Em especial existem próteses que substituem a função de parte das pernas, abaixo ou acima do joelho, também chamadas de próteses transtibiais para aquelas e transfemurais para estas.
-
-As próteses também podem ser classificadas como passivas ou ativas. As passivas são compostas inerentemente por componentes mecânicos como molas e alavancas. 
-Já as próteses ativas possuem mecanismos eletroeletrônicas, que têm como principal função injetar energia no sistema para compensar o gasto metabólico extra, exigido por uma prótese passiva. 
-Para as próteses ativas, faz-se necessária a criação de mecanismos de controle para as mesmas.
-Este mecanismo pode ser criado, usando-se engenharia de controle tradicional e/ou adaptativa, ou sistemas inteligentes, que permitem visualizar o projeto de controle para próteses \cite{Borjian2008}. 
-
-As técnicas de engenharia de controle \cite{Golnaraghi2010} exigem que se criem modelos cinéticos e/ou cinemáticos para se resolver o problema em questão. 
-Em \citeonline{Borjian2008} há um exemplo de tal enfoque. 
-Geralmente estes modelos são criados analiticamente, usando-se leis bem compreendidas da física \cite{Garcia2009a}.
-Este não é um trabalho fácil, podendo demandar muito tempo para construção e às vezes devido a grande complexidade do sistema, exige um grau maior de simplificação.
-Isso pode se tornar um problema sério, até mesmo inviabilizando a solução.
-
-Sistemas inteligentes \cite{Russel2010} abrangem vários tipos de tecnologias.
-Dentre elas, sistemas \emph{fuzzy}, sistemas especialistas, agentes lógicos, redes neurais artificiais, etc.
-Esta classe de sistemas, pode facilitar bastante a gestão da complexidade, pois dependendo do caso, os modelos são bastante simples de serem construídos, pois não exigiriam toda a complexidade física e matemática da engenharia de controle.
-
-Sistemas \emph{fuzzy} \cite{Lilly2010}, por exemplo, usam como componentes de modelagem variáveis linguísticas.
-Exemplificando, estas em um sistema para controle da velocidade de um ventilador poderiam ser resumidas em rápida, média e lenta.
-
-Sistemas baseados em aprendizado de máquina (\emph{machine learning}) \cite{Bishop2006a}, assim como sistemas inteligentes, permitem a criação de sistemas mais simples.
-Isto é possível porque estes sistemas não são programados para resolverem um problema, mas sim para “aprenderem” a resolver um problema. 
-Por exemplo, é possível desenvolver um sistema baseado em aprendizado de máquina, que aprenderá a partir da coleta de dígitos escritos por várias pessoas, a reconhecer qualquer dígito escrito num papel por quaisquer outras pessoas.
-
-As Redes Neurais Artificiais (RNA) \cite{Haykin2009,Bishop2006a,Russel2010} são classificadas como sistemas baseados em aprendizado de máquina e também como sistemas inteligentes. 
-A princípio são sistemas inspirados pela biologia do sistema nervoso central.
-
-O uso de RNAs para controlar próteses transfemurais pode ser um atalho no processo de projeto das mesmas, pois se usando algoritmos de RNAs que já tenham sido especificados e implementados, basta alterá-los para receberem os sinais desejados e produzir as respostas esperadas. 
-
-Porém, o ciclo de marcha possui muitas variações.
-Por exemplo, o ciclo confortável, acelerado, subindo aclives, subindo escadas, descendo, etc. Aparentemente é possível criar RNAs para todas estas situações, mas mesmo assim, este é um trabalho hercúleo e que provavelmente exigiria muito poder computacional, o que não seria adequado para uma prótese transfemural ativa, que exige um sistema embarcado eficiente energeticamente.
-Com isso em mente, e inspirando-se no trabalho de \citeonline{Sabourin2012}, nota-se que seria possível modelar sistemas \emph{fuzzy} para alterar a saída do sistema conforme a necessidade do ciclo de marchar.
-A vantagem de tal configuração é que um sistema \emph{fuzzy} geralmente vai exigir menos cálculos que várias RNAs ou uma RNA com muitos milhares de ativações.
-
-Existem vários tipos de RNA, sendo a mais popular na literatura a \emph{Multi Layer Perceptron} (MLP). 
-Esta é um tipo de RNA que tem sua aplicabilidade e eficiência já comprovadas em várias aplicações.
-A MLP, porém, tem uma desvantagem para sistemas de grande complexidade.
-Ela exige poder computacional considerável, pois necessita fazer muitos cálculos até definir sua saída.
-Uma promessa em relação a este tipo de RNA, e que inclusive já possui aplicações no mundo real, é a \emph{Cerebellar Model Articulation Controller} (CMAC) \cite{Albus1975a}.
-Esta é uma RNA baseada no cerebelo dos mamíferos.
-Sua vantagem em relação à MLP é que na sua forma final, ela pode ser resumida a acessos a tabelas e cálculos triviais e simples para gerar sua saída.
-
-Neste sentido, este trabalho demonstra simulações desenvolvidas a partir de uma RNA CMAC, mostrando que com esta tecnologia é possível controlar uma prótese transfemural ativa durante o ciclo de marcha confortável.
-Também é objeto do trabalho, a modificação da saída da RNA CMAC, para que o sistema suporte outros ciclos de marcha através de controladores \emph{fuzzy}.
-\end{comment}

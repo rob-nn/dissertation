@@ -75,7 +75,7 @@ Veja um exemplo de aplicação que usa \emph{angular-material} na Figura \ref{ma
 \subsection{GRÁFICOS E ANIMAÇÕES 3D NA \emph{WEB} COM \emph{THREEJS}} 
 \label{threejs_sec}
 Os \emph{browsers} modernos hoje, inclusive os dos \emph{smartphones}, suportam o novo padrão \emph{WebGL}. 
-Este é um padrão \emph{web} multi-plataforma de \emph{API)} de baixo nível para gráficos 3D, expostos através de \emph{HTML}. 
+Este é um padrão \emph{web} multi-plataforma de \emph{API} de baixo nível para gráficos 3D, expostos através de \emph{HTML}. 
 Este padrão suporta o acesso da \emph{API} usando-se a linguagem \emph{GLSL}. 
 Uma vantagem desta API é que ela suporta nativamente \emph{GPUs} disponibilizadas pelo hardware que está executando o cliente \emph{web}. 
 Isto torna possível até mesmo a criação de jogos de alta definição em 3D que rodam no \emph{browser} \cite{Matsuda2013}.
@@ -128,13 +128,13 @@ Segundo \citeonline{Maia2015}, o \emph{Flask} vem sendo adotado, por sua filosof
 
 Conforme \citeonline{Chodorow2013} o \emph{MongoDB} é poderoso, flexível e um banco de dados de propósito geral bastante escalável. Ele combina a habilidade de alta escalabilidade com índices secundários, pesquisas limitadas, ordenamento, agregações e índices geoespaciais.
 
-O \emph{MongoDB} é classificado como um banco \emph{NoSQL}. Segundo \citeonline{Dayley2014} o conceito de \emph{NoSQL} consiste em tecnologias que provêm armazenamento e recuperação sem o amarrado modelo tradicional de bancos de dados Relacionais. A motivação para estas tecnologias é o design simplificado, escalabilidade horizontal e controle fino na disponibilidade dos dados.
+O \emph{MongoDB} é classificado como um banco \emph{NoSQL}. Segundo \citeonline{Dayley2014}, o conceito de \emph{NoSQL} consiste em tecnologias que provêm armazenamento e recuperação sem o amarrado modelo tradicional de bancos de dados Relacionais. A motivação para estas tecnologias é o design simplificado, escalabilidade horizontal e controle fino na disponibilidade dos dados.
 
-O \emph{MongoDB} como toda grande ferramenta de software, foi designado baseado em filosofias próprias, que para os novatos, as vezes pode parecer um contrassenso. 
-\citeonline{Plugge2014} diz que o pináculo das filosofias do \emph{MongoDB} é a noção de que um tamanha não se adéqua a todos. Por muitos anos bancos de dados relacionais foram usados para armazenar conteúdos de todos os tipos. O principal motivo para isso é que ler e escrever em bancos de dados relacionais é muito mais seguro do que fazer o mesmo em arquivos de sistema operacional.
+O \emph{MongoDB} como toda grande ferramenta de software, foi designado baseado em filosofias próprias, que para os novatos, às vezes pode parecer um contrassenso. 
+\citeonline{Plugge2014} comenta que o pináculo das filosofias do \emph{MongoDB} é a noção de que um tamanha não se adéqua a todos. Por muitos anos bancos de dados relacionais foram usados para armazenar conteúdos de todos os tipos. O principal motivo para isso é que ler e escrever em bancos de dados relacionais é muito mais seguro do que fazer o mesmo em arquivos de sistema operacional.
 É comum no uso de bancos de dados relacionais, ter que se criar dezenas de tabelas para se armazenar dados complexos, e ainda tentar fazer todas funcionarem juntas.
 
-Ainda segundo \citeonline{Plugge2014}, a equipe do \emph{MongoDB} decidiu que não ia criar outro banco de dados para resolver todos os problemas do mundo. Eles criaram um banco que trabalha com documentos ao invés de linhas em tabelas. Essa decisão tornou o \emph{MongoDB} muito rápido, altamente escalável e fácil de usar. Por exemplo o \emph{MongoDB} não suporta transações, logo você não irá escrever uma aplicação conta corrente com ele. Sua força está armazenar dados muito complexos. No final o desenvolvedor ainda tem a opção de usar um banco de dados relacional que suporta transação e as vantagens do \emph{MongoDB} para outras partes da aplicação, que se aproveitarão melhor do modelo de documentos.
+Ainda, segundo \citeonline{Plugge2014}, a equipe do \emph{MongoDB} decidiu que não ia criar outro banco de dados para resolver todos os problemas do mundo. Eles criaram um banco que trabalha com documentos ao invés de linhas em tabelas. Essa decisão tornou o \emph{MongoDB} muito rápido, altamente escalável e fácil de usar. Por exemplo, o \emph{MongoDB} não suporta transações, logo você não irá escrever uma aplicação de conta corrente com ele. Sua força está armazenar dados muito complexos. No final o desenvolvedor ainda tem a opção de usar um banco de dados relacional que suporta transação e as vantagens do \emph{MongoDB} para outras partes da aplicação, que se aproveitarão melhor do modelo de documentos.
 
 
 A Figura \ref{mongodb} mostra como os dados são organizados nesta tecnologia.
@@ -146,12 +146,12 @@ A Figura \ref{mongodb} mostra como os dados são organizados nesta tecnologia.
 	\label{mongodb}
 \end{figure}
 
-Segundo a Figura \ref{mongodb} um banco de dados \emph{MongoDB} é composto por coleções de dados. 
+Segundo a Figura \ref{mongodb}, um banco de dados \emph{MongoDB} é composto por coleções de dados. 
 Dentro destas coleções existem documentos. 
 Os documentos dentro de uma coleção não precisam ser do mesmo tipo. 
 Mas esta é uma prática pouco recomendada \cite{Plugge2014}. 
 Os documentos são armazenados no formato \emph{BSON}, um primo muito próximo do \emph{JSON}. 
-O \emph{BSON} é muito parecido com o \emph{JSON}, ele foi criado para ser mais otimizado nas leituras e escritas no banco.
+O \emph{BSON} é muito parecido com o \emph{JSON}. Ele foi criado para ser mais otimizado nas leituras e escritas no banco.
 
 A listagem abaixo retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
 
@@ -167,10 +167,10 @@ A listagem abaixo retirada de \citeonline{Dayley2014}, mostra como um documento 
 }
 \end{lstlisting}
 
-Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre {} e pode conter outros documentos, tipos simples e listas.
+Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre \{\} e pode conter outros documentos, tipos simples e listas.
 O documento possui atributos, no exemplo, \emph{name, version, languages, admin, paths}. Os atributos \emph{name version} são atributos de tipos simples, texto e número no caso. O atributo \emph{languages} é uma lista e os demais são outros objetos.
 
-A questão da normalização dos objetos é sempre uma decisão do desenvolvedor. É perfeitamente possível tratar coleções e documentos, como tabelas. Como cada tabela tem um identificador único gerado pelo sistema é possível inclusive fazer referência entre documentos. Mas o ideal é encontra um meio termo, onde dados muito acessados juntamente, fiquem numa estrutura hierárquica como a da listagem acima \cite{Dayley2014}. A figura \ref{normalizacao} mostra como se pode fazer a referência entre documentos.
+A questão da normalização dos objetos é sempre uma decisão do desenvolvedor. É perfeitamente possível tratar coleções e documentos, como tabelas. Como cada tabela tem um identificador único gerado pelo sistema é possível inclusive fazer referência entre documentos. Mas o ideal é encontra um meio termo, onde dados muito acessados juntamente, fiquem numa estrutura hierárquica como a da listagem acima \cite{Dayley2014}. A Figura \ref{normalizacao} mostra como se pode fazer a referência entre documentos.
 
 \begin{figure}[ht]
 	\centering

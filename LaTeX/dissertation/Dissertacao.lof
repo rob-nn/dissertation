@@ -1,58 +1,64 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Atleta iniciando uma corrida. Fonte \cite {Muybridge1885}.}}{17}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Divis\IeC {\~o}es do Ciclo de Marcha. Fonte \cite {Perry2010}.}}{18}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces C\IeC {\^a}mera Oqus MRI. Fonte \cite {Qualisys2013}. }}{20}{figure.2.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Vis\IeC {\~a}o do QTM. Fonte: \cite {Qualisys2010}.}}{20}{figure.2.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o de c\IeC {\^a}meras para captura de dados de marcadores passivos fixados no paciente. Fonte: \cite {Qualisys2013a}.}}{21}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Experimento de captura de dados de \emph {IMU} em conjunto com uma c\IeC {\^a}mera. Fonte: \cite {Leite2014}.}}{21}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre \emph {IMU} e a c\IeC {\^a}mera. Fonte: \cite {Leite2014}.}}{22}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Eletrogoni\IeC {\^o}metro. Fonte: \cite {K.Ibrahim2012}.}}{22}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Valores em comum. Adaptado de \cite {Greene2014}.}}{23}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de processo baseado no modelo \emph {waterfall}. Adaptado de \cite {Pressman2014}.}}{24}{figure.2.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Vis\IeC {\~a}o Geral do \emph {Scrum}. Adaptado de \cite {Schwaber2004}.}}{25}{figure.2.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de \emph {story card}. Adaptado de \cite {cohn2004}.}}{27}{figure.2.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph {MVC} usando \emph {AngularJS}.}}{29}{figure.2.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Layout original de um projeto baseado em \emph {angular-seed}. Fonte: \cite {Google2015b}}}{30}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {angular-material}. Fonte \cite {Google2015c}.}}{31}{figure.2.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {ThreeJS}.}}{32}{figure.2.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos dados no \emph {MongoDB}. Fonte \cite {Plugge2014}.}}{34}{figure.2.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Definindo documentos normalizado com \emph {MongoDB}. Fonte \cite {Dayley2014}.}}{35}{figure.2.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite {Albus1975b}.}}{36}{figure.2.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Quantiza\IeC {\c c}\IeC {\~a}o de $s1$.}}{37}{figure.2.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Rede LIS.}}{40}{figure.3.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Processo de coleta de dados.}}{41}{figure.3.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Dados disponibilizados pelo QTM.}}{42}{figure.3.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Processo de desenvolvimento.}}{44}{figure.3.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Camadas arquiteturais.}}{44}{figure.3.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{45}{figure.3.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Camada web}}{46}{figure.3.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Camada web}}{46}{figure.3.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Camada \emph {REST WEB API}.}}{48}{figure.3.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Banco de documentos da aplica\IeC {\c c}\IeC {\~a}o.}}{50}{figure.3.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Tela de sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'o}dulos.}}{51}{figure.4.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Tela com a listagem de pacientes.}}{52}{figure.4.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do paciente.}}{53}{figure.4.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Tela inicial da dados coletados do paciente.}}{55}{figure.4.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{55}{figure.4.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph {MATLAB} proveniente do \emph {QTM}.}}{56}{figure.4.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Dados do arquivo provenientes do \emph {QTM}}}{56}{figure.4.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{57}{figure.4.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Controle de perspectivas.}}{57}{figure.4.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Controle de \emph {zoom}.}}{57}{figure.4.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Controle \emph {pan}.}}{58}{figure.4.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Controles da anima\IeC {\c c}\IeC {\~a}o.}}{58}{figure.4.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o \emph {markers}.}}{58}{figure.4.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Progre\IeC {\c c}\IeC {\~a}o espacial de um marcador.}}{59}{figure.4.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o de um marcador pelo \emph {mouse}.}}{59}{figure.4.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{60}{figure.4.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o de visualiza\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos.}}{60}{figure.4.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Inclus\IeC {\~a}o de um novo \IeC {\^a}ngulo.}}{60}{figure.4.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Angulo de um joelho durante o ciclo de marcha.}}{61}{figure.4.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Velocidades angulares de um joelho durante o ciclo de marcha.}}{61}{figure.4.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces M\IeC {\'o}dulo de simula\IeC {\c c}\IeC {\~a}o.}}{63}{figure.4.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do ciclo de marcha.}}{63}{figure.4.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces Sinais de entrada para a \emph {CMAC}. No caso posi\IeC {\c c}\IeC {\~o}es num plano 3D de marcadores.}}{64}{figure.4.53}
-\contentsline {figure}{\numberline {54}{\ignorespaces Sinais de entrada para a \emph {CMAC}. \IeC {\^A}ngulos e velocidades angulares.}}{64}{figure.4.54}
-\contentsline {figure}{\numberline {55}{\ignorespaces Exemplo de configura\IeC {\c c}\IeC {\~a}o para uma simula\IeC {\c c}\IeC {\~a}o usando \emph {CMAC}.}}{65}{figure.4.55}
-\contentsline {figure}{\numberline {56}{\ignorespaces Resultado da simula\IeC {\c c}\IeC {\~a}o.}}{65}{figure.4.56}
-\contentsline {figure}{\numberline {57}{\ignorespaces Erro quadrado m\IeC {\'e}dio em cada itera\IeC {\c c}\IeC {\~a}o da simula\IeC {\c c}\IeC {\~a}o}}{66}{figure.4.57}
+\contentsline {figure}{\numberline {1}{\ignorespaces Atleta iniciando uma corrida. Fonte \cite {Muybridge1885}.}}{18}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Divis\IeC {\~o}es do Ciclo de Marcha. Fonte \cite {Perry2010}.}}{19}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces C\IeC {\^a}mera Oqus MRI. Fonte \cite {Qualisys2013}. }}{21}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Vis\IeC {\~a}o do QTM. Fonte: \cite {Qualisys2010}.}}{21}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o de c\IeC {\^a}meras para captura de dados de marcadores passivos fixados no paciente. Fonte: \cite {Qualisys2013a}.}}{22}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Experimento de captura de dados de \emph {IMU} em conjunto com uma c\IeC {\^a}mera. Fonte: \cite {Leite2014}.}}{22}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre \emph {IMU} e a c\IeC {\^a}mera. Fonte: \cite {Leite2014}.}}{23}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Eletrogoni\IeC {\^o}metro. Fonte: \cite {K.Ibrahim2012}.}}{23}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Valores em comum. Adaptado de \cite {Greene2014}.}}{24}{figure.2.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de processo baseado no modelo \emph {waterfall}. Adaptado de \cite {Pressman2014}.}}{25}{figure.2.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Vis\IeC {\~a}o Geral do \emph {Scrum}. Adaptado de \cite {Schwaber2004}.}}{26}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de \emph {story card}. Adaptado de \cite {cohn2004}.}}{28}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph {MVC} usando \emph {AngularJS}.}}{30}{figure.2.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Layout original de um projeto baseado em \emph {angular-seed}. Fonte: \cite {Google2015b}}}{31}{figure.2.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {angular-material}. Fonte \cite {Google2015c}.}}{32}{figure.2.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph {ThreeJS}.}}{33}{figure.2.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos dados no \emph {MongoDB}. Fonte \cite {Plugge2014}.}}{35}{figure.2.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Definindo documentos normalizado com \emph {MongoDB}. Fonte \cite {Dayley2014}.}}{36}{figure.2.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite {Albus1975b}.}}{37}{figure.2.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Quantiza\IeC {\c c}\IeC {\~a}o de $s1$.}}{38}{figure.2.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Rede LIS.}}{41}{figure.3.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Processo de coleta de dados.}}{42}{figure.3.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Dados disponibilizados pelo QTM.}}{43}{figure.3.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Processo de desenvolvimento.}}{45}{figure.3.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Camadas arquiteturais.}}{45}{figure.3.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Exemplo de uma tela criada com \emph {angular-material}.}}{46}{figure.3.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Camada \emph {web}.}}{47}{figure.3.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o do arquivos e diret\IeC {\'o}rios da camada \emph {web API}.}}{47}{figure.3.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Camada \emph {REST WEB API}.}}{49}{figure.3.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Banco de documentos da aplica\IeC {\c c}\IeC {\~a}o.}}{51}{figure.3.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Tela de sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'o}dulos.}}{52}{figure.4.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Tela com a listagem de pacientes.}}{53}{figure.4.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do paciente.}}{54}{figure.4.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Tela inicial da dados coletados do paciente.}}{56}{figure.4.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{56}{figure.4.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph {MATLAB} proveniente do \emph {QTM}.}}{57}{figure.4.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Dados do arquivo provenientes do \emph {QTM}}}{57}{figure.4.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{58}{figure.4.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Controle de perspectivas.}}{58}{figure.4.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Controle de \emph {zoom}.}}{58}{figure.4.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Controle \emph {pan}.}}{59}{figure.4.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Controles da anima\IeC {\c c}\IeC {\~a}o.}}{59}{figure.4.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o \emph {markers}.}}{59}{figure.4.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Progress\IeC {\~a}o espacial de um marcador.}}{60}{figure.4.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o de um marcador pelo \emph {mouse}.}}{60}{figure.4.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Renomeando um marcador.}}{60}{figure.4.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{61}{figure.4.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o de visualiza\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos.}}{61}{figure.4.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Inclus\IeC {\~a}o de um novo \IeC {\^a}ngulo.}}{61}{figure.4.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Angulo de um joelho durante o ciclo de marcha.}}{62}{figure.4.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Velocidades angulares de um joelho durante o ciclo de marcha.}}{62}{figure.4.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces M\IeC {\'o}dulo de simula\IeC {\c c}\IeC {\~a}o.}}{64}{figure.4.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do ciclo de marcha.}}{64}{figure.4.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Sinais de entrada para a \emph {CMAC}. No caso posi\IeC {\c c}\IeC {\~o}es num plano 3D de marcadores.}}{65}{figure.4.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Sinais de entrada para a \emph {CMAC}. \IeC {\^A}ngulos e velocidades angulares.}}{65}{figure.4.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Exemplo de configura\IeC {\c c}\IeC {\~a}o para uma simula\IeC {\c c}\IeC {\~a}o usando \emph {CMAC}.}}{66}{figure.4.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Resultado da simula\IeC {\c c}\IeC {\~a}o.}}{66}{figure.4.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Erro quadrado m\IeC {\'e}dio em cada itera\IeC {\c c}\IeC {\~a}o da simula\IeC {\c c}\IeC {\~a}o}}{67}{figure.4.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o \emph {Open Gait Analytics} rodando num \emph {browser Firefox} e dispositivo \emph {Motorola Xoom}.}}{68}{figure.4.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o de uma amostra de marcha rodando num \emph {browser Firefox} e dispositivo \emph {Motorola Xoom}.}}{69}{figure.4.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o rodando num \emph {iPhone 4} com \emph {browser Safari}.}}{69}{figure.4.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces Adapta\IeC {\c c}\IeC {\~a}o da aplica\IeC {\c c}\IeC {\~a}o em telas pequenas.}}{70}{figure.4.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces Processo no comit\IeC {\^e} de \IeC {\'e}tica.}}{80}{figure.anexochapback.1.63}

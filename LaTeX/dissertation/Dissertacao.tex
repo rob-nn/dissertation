@@ -24,7 +24,6 @@
 \input{fixos/indiceAutomatico}
 \input{fixos/listasAutomaticas}
 \input{editaveis/abreviaturas}
-\input{editaveis/simbolos} 
 
 \textual
 
@@ -51,6 +50,34 @@
 
 \renewcommand{\bibname}{\textbf{REFERÊNCIAS BIBLIOGRÁFICAS}} % Altera o nome da Referêcia para Referêcia Bibliográfica
 \bibliography{bibliografia}
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+% ---
+% Inicia os anexos
+% ---
+\begin{anexosenv}
+
+% Imprime uma página indicando o início dos anexos
+\partanexos
+
+% ---
+\chapter{PROCESSO NO COMITÊ DE ÉTICA}
+% ---
+\label{comite_sec}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=15cm]{figuras/comite.eps}
+	\caption{Processo no comitê de ética.}
+\label{comite}
+\end{figure}
+
+
+\end{anexosenv}
+
+
 \printindex
 
 \end{document}
