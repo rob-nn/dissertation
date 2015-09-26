@@ -1,27 +1,29 @@
 \chapter[DISCUSSÃO E CONCLUSÃO]{\textbf{DISCUSSÃO E CONCLUSÃO}}
 
 Há vários softwares de análise marcha no mercado, mas a ideia de criar um totalmente na \emph{web} tem suas vantagens. 
-A mais óbvia é disponibilidade, já que a aplicação fica num servidor na internet, o usuário só precisa acessar um site com um browser. 
-Outra não tão óbvia e que diz respeito principalmente ao módulo de simulação, é possibilidade de escalar a aplicação para necessidades de processamento gigantescas, usando infraestrutura como serviço de fornecedores como o \emph{Microsoft Azure} ou \emph{Amazon Webservices}.
-Como a camada \emph{web} se comunica via \emph{HTTP} no estilo \emph{REST}, usando uma \emph{facade} para isto, basta fazer a \emph{facade} do módulo de simulação para uma \emph{web farm} alocada sob demanda num dos serviços mencionados. A vantagem óbvia é que quem serve a aplicação, pode alocar estes serviços sob demanda, não necessitando possuir um CPD caríssimo. O custo é repassado ao cliente que deseja usar os serviços de simulação que demandam muito poder de processamento.
+A mais óbvia é a disponibilidade, já que a aplicação fica num servidor na \emph{internet}, o usuário só precisa acessar um \emph{site} com um \emph{browser}. 
+Outra não tão óbvia e que diz respeito principalmente ao módulo de simulação, é a possibilidade de escalar a aplicação para necessidades de processamento gigantescas, usando infraestrutura como serviço de fornecedores como o \emph{Microsoft Azure} ou \emph{Amazon Webservices}.
+Como a camada \emph{web} se comunica via \emph{HTTP} no estilo \emph{REST}, usando uma \emph{facade} para isto, basta fazer a \emph{facade} do módulo de simulação para uma \emph{web farm} alocada sob demanda num dos serviços mencionados. 
+A vantagem óbvia é que quem serve a aplicação, pode alocar estes serviços sob demanda, não necessitando possuir um CPD caríssimo. O custo é repassado ao cliente que deseja usar os serviços de simulação que demandam muito poder de processamento.
 
 Outro ponto interessante com a implantação da aplicação é a criação de uma base de dados de marcha humana, que pode receber dados de todo o globo. 
 As vantagens para pesquisadores seriam inimagináveis.
 
 Claro que nada disto é gratuito, os responsáveis pelo projeto terão de almejar meios para produzi-lo, achar nichos de mercado e colocá-lo em produção.
 
-Ressalta-se novamente, que o software que está sendo entregue não está pronto para produção, o prazo disponível para desenvolvê-lo, inclusive adquirindo conhecimentos sobre muitas das tecnologias adotadas, foi de aproximadamente cinco meses. Isto ocorreu por que durante o programa de mestrado resolveu-se mudar o tema, devido a uma série de intempéries. No entanto, o software foi feliz em mostrar a integração de vários componentes nas diferentes camadas da aplicação. Esse estresse arquitetural é muito importante para se avaliar a viabilidade técnica de um projeto de engenharia de software.
+Ressalta-se novamente, que o software que está sendo entregue não está pronto para produção. O prazo disponível para desenvolvê-lo, inclusive adquirindo conhecimentos sobre muitas das tecnologias adotadas, foi de aproximadamente cinco meses. 
+Isto ocorreu porque durante o programa de mestrado resolveu-se mudar o tema, devido a uma série de intempéries. No entanto, o software foi feliz em mostrar a integração de vários componentes nas diferentes camadas da aplicação. O ato de estressar a arquitetura é muito importante para se avaliar a viabilidade técnica de um projeto de engenharia de software.
 
 Outro problema com o software entregue, é seu modesto poder de processamento com relação a simulações. 
-Facilmente uma simulação em grande um \emph{Data Center} poder demorar dias. 
-A solução para este problema é desenvolver um método de disparar a simulação assincronamente, e criar uma tela de gestão da execução da mesma. 
-Para isso o software terá de ser integrado a componentes de computação distribuída como \emph{Apache Spark} ou o \emph{Hadoop}, fazendo uso de infraestrutura como serviço como mencionado acima. 
-O potencial para este projeto se tornar algo inovador e principalmente muito útil na área de marcha humana é imenso.
+Facilmente uma simulação em um grande \emph{Data Center} poder demorar dias. 
+A solução para este problema é desenvolver um método para disparar a simulação assincronamente, e criar uma tela de gestão da execução da mesma. 
+Para isso, o software terá de ser integrado a componentes de computação distribuída como \emph{Apache Spark} ou o \emph{Hadoop}, fazendo uso de infraestrutura como serviço conforme mencionado acima. 
+O potencial para este projeto se tornar algo inovador e, principalmente, muito útil na área de marcha humana é imenso.
 
 Talvez o objetivo que tenha sido mais prejudicado, foi a implantação do método ágil. 
-Como o método escolhido, foi o \emph{SCRUM} e não foi possível criar as reuniões diárias \emph{(daily scrum)}, a dinâmica da equipe não foi a mesma em que o autor teve a oportunidade de trabalhar com outras equipes.
+Como o método escolhido foi o \emph{SCRUM} e não foi possível criar as reuniões diárias \emph{(daily scrum)}, a dinâmica da equipe não foi a mesma em que o autor teve a oportunidade de trabalhar com outras equipes.
 Recomenda-se também, que uma equipe de especialistas clínicos e pesquisadores da área da marcha humana sejam adicionados ao projeto e ajudem ao \emph{product owner} do projeto a definir novas funcionalidades para o sistema. 
-A questão dos testes também foi um pouco prejudicada, mas não abandonada, na verdade esta foi uma escolha do autor, que devido ao pouco tempo para desenvolvimento, preferiu dar ênfase na produção de novas características. Mesmo assim todos os principais componentes, como a \emph{web API} e os componentes de telas da análise de marcha possuem testes automatizados.
+A questão dos testes também foi um pouco prejudicada, mas não abandonada. Na verdade esta foi uma escolha do autor, que devido ao pouco tempo para desenvolvimento, preferiu dar ênfase na produção de novas características. Mesmo assim todos os principais componentes, como a \emph{web API} e os componentes de telas da análise de marcha, possuem testes automatizados.
 A consequência é que \emph{bugs} menores como listas de seleção podem aparecer fora dos locais adequados, o componente de controle de animação as vezes fica com um tamanho inadequado, mas não é nada que com os recursos adequados não se resolva.
 
 Isso certamente vai acelerar a adoção do software por estes profissionais, já que são as necessidades deles que serão atingidas.
@@ -29,9 +31,9 @@ Talvez um projeto de \emph{crowdfunding} possa trazer estes profissionais.
 É comum nestes projetos os clientes pedirem funcionalidades para o software.
 O problema é que este é um software para um nicho muito especializado, pode ser que não seja uma boa ideia.
 
-Vale lembra também que o projeto não vai se limitar a análise de movimento, outros métodos de coleta de dados para análise serão inseridos ao longo do tempo.
+Vale lembra também que o projeto não vai se limitar a análise de movimento. Outros métodos de coleta de dados para análise serão inseridos ao longo do tempo.
 
 
-Concluindo, os objetivos foram alcançados, foi definida uma metodologia ágil, foi criado um modelo de arquitetura, um software foi construído, integrado com os principais componentes e na medida do possível testados, e mais uma vez, frisando que toda a arquitetura foi estressada. 
-Além disso a aplicação ainda apresenta características para serem executadas em dispositivos móveis. 
-Também o código fonte com todo o histórico de desenvolvimento do projeto esta no site \url{https://github.com/rob-nn/open\_gait\_analytics}, lembrando que o código está sob licença MIT, e qualquer um pode usá-lo como bem entendê-lo.
+Concluindo, os objetivos foram alcançados, foi definida uma metodologia ágil, foi criado um modelo de arquitetura, um software foi construído, integrado com os principais componentes e, na medida do possível testados, e mais uma vez, frisando que toda a arquitetura foi estressada. 
+Além disso, a aplicação ainda apresenta características para serem executadas em dispositivos móveis. 
+Também o código fonte com todo o histórico de desenvolvimento do projeto está no emph{site} \url{https://github.com/rob-nn/open\_gait\_analytics}, lembrando que o código está sob licença MIT, e qualquer um pode usá-lo conforme a necessidade.

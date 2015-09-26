@@ -153,63 +153,23 @@ Sem dúvida isto ajudou a tornar possível criar esta primeira versão do softwa
 A estrutura do banco da aplicação é mostrada na Figura \ref{mongo_oga}. 
 O banco é composto por duas coleções: os dados dos pacientes na coleção \emph{patients} e os dados recuperados do \emph{QTM} \emph{positionals\_data}.
 
-A listagem abaixo mostra um exemplo de documento da coleção \emph{patients}.
-\lstset{language=java}
-\begin{lstlisting}[frame=single]
-{
-	"\_id" : ObjectId("5601ed9e54bac75828a154e4"),
-	"city" : "Brasilia",
-	"name" : "Beto Jamais",
-	"weight" : 75,
-	"profession" : "Professor",
-	"zipCode" : "70000000",
-	"sex" : "male",
-	"phone" : "61 5555-5555",
-	"state" : "DF",
-	"race" : "white",
-	"birth" : "2000-01-01T02:00:00.000Z",
-	"address" : "Rua da Serra",
-	"martialStatus" : "married",
-	"height" : 1.8
-}
-\end{lstlisting}
+A Figura \ref{listagem2}  mostra um exemplo de documento da coleção \emph{patients}.
+Já a Figura \ref{listagem3}  mostra um exemplo de documento da coleção \emph{positionals\_data}.
 
-A listagem abaixo mostra um exemplo de documento da coleção \emph{positionals\_data}.
-\lstset{language=java}
-\begin{lstlisting}[frame=single]
-{
-	"\_id" : ObjectId("55a8f9874f9336e37084be92"),
-	"patient\_id" : ObjectId("55a8f97654bac7124a76ec4d"),
-	"gait\_sample\_index" : 0,
-	"original\_filename" : "Walk1.mat",
-	"angles" : [
-		{
-			"origin" : "0",
-			"component\_b" : "2",
-			"component\_a" : "1",
-			"description" : "Angulo Joelho Direito"
-		},
-		{
-			"origin" : 4,
-			"component\_b" : 6,
-			"component\_a" : 5,
-			"description" : "teste"
-		}
-	],
-	"initial\_frame" : 300,
-	"number\_markers" : 3,
-	"markers" : [
-		"Joelho Direito",
-		"Tibia Direita",
-		"Trocanter Direito"
-	],
-	"frame\_rate" : 315,
-	"frames" : 1491,
-	"final\_frame" : 1300
-	"trajectories":[ Aqui deveria aperecer uma lista com 
-		milhares de linhas numa matriz de 3 dimensoes]
-}
-\end{lstlisting}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/listagem2.eps}
+	\caption{Documento da coleção \emph{patients}.}
+	\label{listagem2}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/listagem3.eps}
+	\caption{Documento da coleção \emph{positionals\_data}.}
+	\label{listagem3}
+\end{figure}
+
 
 \begin{figure}[ht]
 	\centering

@@ -1,0 +1,33 @@
+{
+	"\_id" : ObjectId("55a8f9874f9336e37084be92"),
+	"patient\_id" : ObjectId("55a8f97654bac7124a76ec4d"),
+	"gait\_sample\_index" : 0,
+	"original\_filename" : "Walk1.mat",
+	"angles" : [
+		{
+			"origin" : "0",
+			"component\_b" : "2",
+			"component\_a" : "1",
+			"description" : "Angulo Joelho Direito"
+		},
+		{
+			"origin" : 4,
+			"component\_b" : 6,
+			"component\_a" : 5,
+			"description" : "teste"
+		}
+	],
+	"initial\_frame" : 300,
+	"number\_markers" : 3,
+	"markers" : [
+		"Joelho Direito",
+		"Tibia Direita",
+		"Trocanter Direito"
+	],
+	"frame\_rate" : 315,
+	"frames" : 1491,
+	"final\_frame" : 1300
+	"trajectories":[ Aqui deveria aperecer uma lista com 
+		milhares de linhas numa matriz de 3 dimensoes]
+}
+

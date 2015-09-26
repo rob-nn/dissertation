@@ -1,0 +1,8 @@
+{
+  name: "New Project",
+  version: 1,
+  languages: ["JavaScript", "HTML", "CSS"],
+  admin: {name: "Brad", password: "****"},
+  paths: {temp: "/tmp", project:"/opt/project", 
+  		html: "/opt/project/html"}
+}

@@ -47,26 +47,30 @@ Neste momento se o usuário quiser visualizar uma animação dos dados, basta cl
 Esta animação foi construída usando a tecnologia \emph{ThreeJS}, resumida na seção \ref{threejs_sec}. Uma das grandes vantagens desta característica do software em relação ao \emph{QTM}, que também a possui, é o fato de que a animação está rodando num \emph{browser web} moderno, ou seja qualquer um com um \emph{browser} assim pode vê-la sem precisar do \emph{QTM} instalado. 
 Além do mais como o projeto pode continuar, fica a critério dos usuários decidirem que novas características seriam interessantes, não somente nas animações, mas em todo o software.
 
-A tela da animação também possui controle de perspectivas, ver Figura \ref{animacao2}, controle de \emph{zoom}, ver Figura \ref{animacao3}, e controle \emph{pan}, ver Figura \ref{animacao3}.
-Também foram implementados, até o momento, botões de \emph{play, pause}, fechar e um contador de \emph{frames}, ver Figura \emph{animacao4a}.
+A tela da animação também possui controle de perspectivas 
+(Figura \ref{animacao2}), controle de \emph{zoom} (Figura \ref{animacao3}), 
+e controle \emph{pan} (Figura \ref{animacao3}).
+Também foram implementados, até o momento, botões de \emph{play, pause}, fechar e um contador de \emph{frames}, ver Figura \ref{animacao5}.
+
 
 
 
 
 É de fundamental importância que o usuário configure os parâmetros \emph{Initial Contact} e \emph{Terminal Swing} mostrados na Figura \ref{tela7}. Sem estes parâmetros os gráficos, vão mostrar os sinais nas fases erradas do ciclo de marcha.
-A técnica que se recomenda, é inicializar a animação e quando o usuário perceber o \emph{initial contact}, pressionar o botão pause e anotar o frame. Fazer a mesma coisa para o \emph{terminal swing}.
+A técnica que se recomenda é inicializar a animação e quando o usuário perceber o \emph{initial contact}, pressionar o botão \emph{pause} e anotar o \emph{frame}. Fazer a mesma coisa para o \emph{terminal swing}.
 
-Outra opção disponível na Figura \ref{tela7}, é a opção \emph{Markers}, esta opção permite nomear os marcadores e visualizar sua progressão espacial. A Figura \ref{tela18} mostra o resultado de se selecionar esta opção.
+Outra opção disponível na Figura \ref{tela7} é a opção \emph{Markers}, esta opção permite nomear os marcadores e visualizar sua progressão espacial. 
+A Figura \ref{tela18} mostra o resultado de se selecionar esta opção.
 Ao clicar no botão ao lado de algum marcador, sua progressão no espaço é mostrada num gráfico como o da Figura \ref{tela19}. O domínio é o percentual do ciclo de marcha, já a imagem são dados espaciais brutos oriundos do \emph{QTM}.
 
-A nomeação dos marcadores, não é uma tarefa trivial. Para isso foi criada uma ferramenta dentro da animação para ajudar com esta tarefa. Primeiro deve-se entrar na animação, depois pausá-la, e posicionar a visualização de uma forma que ajude a detectar o marcador procurado. Veja a figura \ref{tela20}, nela um marcador foi clicado com o \emph{mouse}, o marcador ficou azul e ao seu lado ele mostra o índice 30. 
-Agora é só voltar na opção de marcadores, procurar o índice 30 (\emph{Marker 30}) e colocar o nome desejado. No caso deste marcador o nome é joelho esquerdo (\emph{left knee}), ver a Figura \ref{tela21}.
-Agora para o sistema o marcador 30 é sempre o joelho esquerdo, veja a Figura \ref{tela22}.
+A nomeação dos marcadores, não é uma tarefa trivial. Para isso foi criada uma ferramenta dentro da animação para ajudar com esta tarefa. Primeiro deve-se entrar na animação, depois pausá-la, e posicionar a visualização de uma forma que ajude a detectar o marcador procurado. Veja a Figura \ref{tela20}, nela um marcador foi clicado com o \emph{mouse}, o marcador ficou azul e ao seu lado ele mostra o índice 30. 
+Agora é só voltar na opção de marcadores, procurar o índice 30 (\emph{Marker 30}) e colocar o nome desejado. No caso deste marcador o nome é joelho esquerdo (\emph{left knee}, Figura \ref{tela21}).
+Agora para o sistema o marcador 30 é sempre o joelho esquerdo (Figura \ref{tela22}).
 
-Outra funcionalidade importante é o gerador de ângulos. Esta opção está disponível da Figura \ref{tela7}. E após selecionada é mostrada na Figura \ref{tela23}. 
-Para se gerar um ângulo o usuário necessita selecionar a opção de inclusão de ângulo e preencher os dados da Figura \ref{tela24}. O usuário precisa indicar a origem do ângulo, por exemplo o joelho, o componente A, por exemplo algum músculo da coxa, e o componente b, por exemplo a tíbia. Estes pontos poderiam representar o ângulo de um joelho por exemplo.
+Outra funcionalidade importante é o gerador de ângulos. Esta opção está disponível na Figura \ref{tela7}. E após selecionada é mostrada na Figura \ref{tela23}. 
+Para se gerar um ângulo o usuário necessita selecionar a opção de inclusão de ângulo e preencher os dados da Figura \ref{tela24}. O usuário precisa indicar a origem do ângulo, por exemplo, o joelho, o componente A, por exemplo, algum músculo da coxa, e o componente b, por exemplo, a tíbia. Estes pontos poderiam representar o ângulo de um joelho, por exemplo.
 
-Depois dos ângulos criados é possível ver seus valores durante o ciclo de marcha ou suas velocidades angulares, veja a Figura \ref{tela25} e a Figura \ref{tela26}.
+Depois dos ângulos criados é possível ver seus valores durante o ciclo de marcha ou suas velocidades angulares, conforme as Figuras \ref{tela25} e \ref{tela26}.
 
 \begin{figure}[ht]
 	\centering
@@ -249,16 +253,17 @@ Este módulo é sem dúvida o que mais vai contribuir para os pesquisadores, poi
 A versão atual do software ainda é muito pobre neste quesito, mas o objetivo neste momento é mostra a viabilidade de se usar algoritmos de sistemas inteligentes, integrados na base que vai sendo gerada.
 Acredita-se que a ferramenta vai ser mais apreciada por pesquisadores que tem como formação a área de saúde, pois estes não precisarão da parafernália técnica exigida para fazer simulações num ambiente como o do \emph{MATLAB}.
 
-A primeira funcionalidade de simulação que foi implantada foi a simulação pela \emph{CMAC}, esta RNA foi descrita na seção \ref{cmac_sec}. 
+A primeira funcionalidade de simulação que foi implantada foi a simulação pela \emph{CMAC}, em que esta RNA foi descrita na seção \ref{cmac_sec}. 
 Ao se selecionar o módulo simulação a tela da Figura \ref{tela27} é apresentada. 
-A opção \emph{CMAC}, já aparece selecionada. 
+A opção \emph{CMAC} já aparece selecionada. 
 Para efeitos da demonstração das funcionalidades deste módulo será realizada uma simulação das velocidades angulares de um joelho, a partir de outros sinais disponíveis.
 
 Após ser selecionado o nome de um paciente, deve-se selecionar uma amostra de ciclo de marcha, Figura \ref{tela28}.
 Após a seleção do ciclo de marcha, uma lista com vários sinais são mostrados, basicamente os sinais são coordenadas de posições de marcadores, ângulos e velocidades angulares. As Figuras \ref{tela29} e \ref{tela30} mostram uma fração dos sinais possíveis para seleção. Ao se selecionar um sinal de entrada é necessário também informar sua quantização.
 
-A Figura \ref{tela31} mostra uma configuração que gera a saída da figura \ref{tela32}. Infelizmente até o momento de escrita desta obra, não foi possível implementar a saída na aplicação. O gráfico mostrado é a saída de um protótipo desktop da \emph{CMAC} que usa os mesmos parâmetros de entradas mostrados na aplicação \emph{web}.
-A figura \ref{tela33} mostra o erro quadrado médio da execução da simulação ao longo das iterações.
+A Figura \ref{tela31} mostra uma configuração que gera a saída da Figura \ref{tela32}.  O gráfico mostrado é a saída de um protótipo desktop da \emph{CMAC} que usa os mesmos parâmetros de entradas mostrados na aplicação \emph{web}. 
+O código fonte desta aplicação \emph{desktop} foi construído pelo autor e está disponível no site \url{https://github.com/rob-nn/motus}.
+A Figura \ref{tela33} mostra o erro quadrado médio da execução da simulação ao longo das iterações.
 
 \begin{figure}[ht]
 	\centering
@@ -284,7 +289,7 @@ A figura \ref{tela33} mostra o erro quadrado médio da execução da simulação
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5cm]{figuras/tela30.eps}
-	\caption{Sinais de entrada para a \emph{CMAC}. Ângulos e velocidades angulares.}
+	\caption{Sinais de entrada para a \emph{CMAC}, ângulos e velocidades angulares.}
 \label{tela30}
 \end{figure}
 
@@ -305,7 +310,7 @@ A figura \ref{tela33} mostra o erro quadrado médio da execução da simulação
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=10cm]{figuras/tela33.eps}
-	\caption{Erro quadrado médio em cada iteração da simulação}
+	\caption{Erro quadrado médio em cada iteração da simulação.}
 \label{tela33}
 \end{figure}
 
@@ -314,9 +319,10 @@ A figura \ref{tela33} mostra o erro quadrado médio da execução da simulação
 \clearpage
 \section{Uso do sistema em dispositivos móveis}
 Uma das maiores vantagens nas tecnologia escolhidas para compor a camada web, é sua total compatibilidade com dispositivos móveis capazes de executar \emph{browsers} modernos como \emph{Firefox, Chrome ou Safari}. O \emph{angular-material} já apresenta comportamentos muito bons em dispositivos de pequenas telas. 
-Veja um exemplo na Figura \ref{tela34} e na Figura \ref{tela35} da aplicação rodando no browser \emph{Firefox}, num dispositivo \emph{Motorola Xoom}. A Figura \ref{tela36} mostra a aplicação rodando em um \emph{iPhone4} com \emph{browser Safari}.
+Veja um exemplo nas Figuras \ref{tela34} e \ref{tela35} da aplicação rodando no \emph{browser} \emph{Firefox}, num dispositivo \emph{Motorola Xoom}. A Figura \ref{tela36} mostra a aplicação rodando em um \emph{iPhone4} com \emph{browser Safari}.
 
-Para frisar como a aplicação se adapta inteligentemente ao dispositivo que está rodando, compare a Figura \ref{tela34} com a figura \ref{comp1}. Veja que a barra lateral desaparece na tela menor do \emph{iPhone 4}. Em cima da tela aparece a opção \emph{open side} que quando clicada mostra a barra lateral por cima do formulário.
+Para frisar como a aplicação se adapta inteligentemente ao dispositivo que está rodando, compare a Figura \ref{tela34} com a Figura \ref{comp1}. 
+Veja que a barra lateral desaparece na tela menor do \emph{iPhone 4}. Em cima da tela aparece a opção \emph{open side} que quando clicada mostra a barra lateral por cima do formulário.
 
 Para o profissional de saúde este é um recurso a mais, pois agora do seu próprio celular e em qualquer lugar, ele poder ver dados dos seus pacientes.
 

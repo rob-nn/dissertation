@@ -27,7 +27,7 @@ Outra característica bastante apreciada pelos desenvolvedores que usam \emph{An
 Esta página tem seu conteúdo dinamicamente adicionado e removido da mesma.
 Esta abordagem permite criar aplicações bastante interativas, lembrando mesmo, aplicações \emph{desktop} escritas em linguagens como \emph{Visual Basic} e \emph{Delphi}.
 
-\subsection{ORGANIZAÇÃO DE PROJETOS WEB COM \emph{ANGULAR-SEED}}.
+\subsection{ORGANIZAÇÃO DE PROJETOS WEB COM \emph{ANGULAR-SEED}}
 \label{angular_seed}
 
 O \emph{angular-seed}, é um \emph{template} para projetos \emph{web} que utilizam o \emph{AngularJS}. 
@@ -60,7 +60,7 @@ Esta biblioteca é baseada na especificação \emph{Material Design} criada pela
 A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada no princípio da metáfora de materiais. 
 Esta metáfora é uma teoria unificada de um espaço racionalizado e sistemas de movimento, isto segundo \citeonline{Google2015a}. 
 Outra vantagem da biblioteca é que ela é projetada para se adaptar a diferentes tipos de dispositivos com telas de tamanhos diferentes.
-Veja um exemplo de aplicação que usa \emph{angular-material} na Figura \ref{material_1}.
+Veja um exemplo de aplicação que usa \emph{angular-material} na Figura~\ref{material_1}.
 
 
 \begin{figure}[ht]
@@ -139,33 +139,12 @@ Ainda, segundo \citeonline{Plugge2014}, a equipe do \emph{MongoDB} decidiu que n
 
 A Figura \ref{mongodb} mostra como os dados são organizados nesta tecnologia.
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=7cm]{figuras/mongodb.eps}
-	\caption{Organização dos dados no \emph{MongoDB}. Fonte \cite{Plugge2014}.}
-	\label{mongodb}
-\end{figure}
-
 Segundo a Figura \ref{mongodb}, um banco de dados \emph{MongoDB} é composto por coleções de dados. 
 Dentro destas coleções existem documentos. 
 Os documentos dentro de uma coleção não precisam ser do mesmo tipo. 
 Mas esta é uma prática pouco recomendada \cite{Plugge2014}. 
 Os documentos são armazenados no formato \emph{BSON}, um primo muito próximo do \emph{JSON}. 
-O \emph{BSON} é muito parecido com o \emph{JSON}. Ele foi criado para ser mais otimizado nas leituras e escritas no banco.
-
-A listagem abaixo retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
-
-\lstset{language=java}
-\begin{lstlisting}[frame=single]
-{
-  name: "New Project",
-  version: 1,
-  languages: ["JavaScript", "HTML", "CSS"],
-  admin: {name: "Brad", password: "****"},
-  paths: {temp: "/tmp", project:"/opt/project", 
-  		html: "/opt/project/html"}
-}
-\end{lstlisting}
+O \emph{BSON} é muito parecido com o \emph{JSON}. Ele foi criado para ser mais otimizado nas leituras e escritas no banco. A Figura \ref{listagem1} retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
 
 Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre \{\} e pode conter outros documentos, tipos simples e listas.
 O documento possui atributos, no exemplo, \emph{name, version, languages, admin, paths}. Os atributos \emph{name version} são atributos de tipos simples, texto e número no caso. O atributo \emph{languages} é uma lista e os demais são outros objetos.
@@ -174,9 +153,21 @@ A questão da normalização dos objetos é sempre uma decisão do desenvolvedor
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=10cm]{figuras/normalizacao.eps}
+	\includegraphics[width=10cm]{figuras/mongodb.eps}
+	\caption{Organização dos dados no \emph{MongoDB}. Fonte \cite{Plugge2014}.}
+	\label{mongodb}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=12cm]{figuras/listagem1.eps}
+	\caption{Listagem de um documento. Fonte \cite{Dayley2014}.}
+	\label{listagem1}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=12cm]{figuras/normalizacao.eps}
 	\caption{Definindo documentos normalizado com \emph{MongoDB}. Fonte \cite{Dayley2014}.}
 	\label{normalizacao}
 \end{figure}
-
-

@@ -1,3 +1,8 @@
+
+\goodbreak
+\newpage
+\clearpage
+
 \section[CMAC]{CMAC}
 \label{cmac_sec}
 
@@ -22,6 +27,21 @@ Primeiramente, define-se o número de pesos $NW*$ a serem ativados para comporem
 O segundo passo é quantizar os possíveis valores para cada item do vetor de entrada $S$.
 Por exemplo, se o primeiro item $s1$ de $S$ aceita valores de -1 até 1 e se quer 5 valores possíveis, quantiza-se então os valores de -1 até 1, conforme Figura \ref{inputs1}.
 
+
+
+Isto significa que quaisquer que sejam os valores de $s1$ os mesmos devem ser convertidos para -1, -0,5, 0, 0,5 e 1. 
+Por exemplo, se o valor de $s1$ for 0,75, será convertido para o valor 1, se for -0,75 será o valor 0 e se for 0,25 será o valor 0,5. A esta quantização dá-se o nome de resolução da CMAC \cite{Albus1975b}.
+
+O próximo passo é criar uma tabela para cada um dos sinais discretizados de entrada do vetor $S$. 
+Supondo que o vetor $S$ possui 2 sinais de entrada $s1$ e $s2$ e um número de ativações $NW*$ igual a 3, deve-se criar duas tabelas, uma para cada sinal, conforme se apresentam na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}. 
+Para facilitar o entendimento, irá se considerar os valores possíveis de $s1$ iguais aos inteiros de 1 até 6 e os valores possíveis de $s2$ iguais aos inteiros de 1 até 4.
+Cria-se uma coluna com os valores do sinal em questão. 
+Para cada valor, cria-se 3 ($NW*$) valores novos. 
+Para o primeiro valor do sinal, usa-se os 3 primeiros inteiros não negativos.
+Para o segundo valor do sinal, substitui-se o primeiro dos três itens pelo próximo número após o terceiro item do sinal anterior. 
+Para o terceiro sinal, substitui-se o segundo dos três itens pelo próximo inteiro não negativo.
+Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \cite{Albus1975b}.
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=15 cm]{figuras/cmac1.eps}
@@ -37,18 +57,6 @@ Por exemplo, se o primeiro item $s1$ de $S$ aceita valores de -1 até 1 e se que
     	\label{inputs1}
 \end{figure}
 
-Isto significa que quaisquer que sejam os valores de $s1$ os mesmos devem ser convertidos para -1, -0,5, 0, 0,5 e 1. 
-Por exemplo, se o valor de $s1$ for 0,75, será convertido para o valor 1, se for -0,75 será o valor 0 e se for 0,25 será o valor 0,5. A esta quantização dá-se o nome de resolução da CMAC \cite{Albus1975b}.
-
-O próximo passo é criar uma tabela para cada um dos sinais discretizados de entrada do vetor $S$. 
-Supondo que o vetor $S$ possui 2 sinais de entrada $s1$ e $s2$ e um número de ativações $NW*$ igual a 3, deve-se criar duas tabelas, uma para cada sinal, conforme se apresentam na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}. 
-Para facilitar o entendimento, irá se considerar os valores possíveis de $s1$ iguais aos inteiros de 1 até 6 e os valores possíveis de $s2$ iguais aos inteiros de 1 até 4.
-Cria-se uma coluna com os valores do sinal em questão. 
-Para cada valor, cria-se 3 ($NW*$) valores novos. 
-Para o primeiro valor do sinal, usa-se os 3 primeiros inteiros não negativos.
-Para o segundo valor do sinal, substitui-se o primeiro dos três itens pelo próximo número após o terceiro item do sinal anterior. 
-Para o terceiro sinal, substitui-se o segundo dos três itens pelo próximo inteiro não negativo.
-Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \cite{Albus1975b}.
 \begin{table}[ht]
 	\centering
 	\caption{Mapeamento de $s1$}
@@ -89,6 +97,23 @@ Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \ci
 
 Depois de mapeado cada valor de cada item de entrada, deve-se combinar os mapeamentos de acordo com a Tabela \ref{wmap}.
 
+O mapeamento da Tabela \ref{wmap} é feito da seguinte forma \cite{Albus1975b}: 
+Coloca-se cada valor quantizado de $s1$ nomeando cada uma das linhas da tabela. 
+Coloca-se cada valor discretizado de $s2$ nomeando cada uma das colunas das tabelas. 
+Cada célula da tabela é obtida recuperando-se os itens de $s1$ e de $s2$, que estão na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}, e concatenando-se cada item de acordo com sua posição. 
+Por exemplo, para o valor de $s1$ igual a 5, recuperam-se os itens (6, 4, 5), para o valor de $s2$ igual a 2, recuperam-se os itens (3, 1, 2). 
+Agora é só criar novos itens, na mesma quantidade do valor $NW*$, concatenando-se cada item de acordo com sua posição. O lista resultante é ((6, 3), (4, 1), (5, 2)). 
+
+Cada vetor de 2 posições da Tabela \ref{wmap}, por exemplo (0, 0), (4, 1), é um rótulo de uma entrada na tabela de pesos $W$.
+
+Para se calcular a saída do sistema, suponha que os valores de $s1$ e $s2$, ainda sejam 5 e 2, respectivamente, e $NW*$ ainda seja 3. 
+Neste caso, recupera-se o item da linha 5 e da coluna 2, que é ((6, 3), (4, 1), (5, 2)). 
+Agora é acessada a tabela de pesos W e são recuperados os pesos cujas chaves são (6, 3), (4, 1) e (5, 2). 
+Note-se que serão recuperados exatamente 3 pesos, que é exatamente o número de ativações $NW*$ desejadas. 
+Os valores recuperados constituem um vetor chamado $W*$. A saída é calculada somando-se os valores de W*.
+
+
+
 \begin{table}[ht]
 	\centering
 	\caption{Mapeamento para os pesos $W$}
@@ -111,20 +136,7 @@ Depois de mapeado cada valor de cada item de entrada, deve-se combinar os mapeam
 	\end{tabular}
 \end{table}
  
-O mapeamento da Tabela \ref{wmap} é feito da seguinte forma \cite{Albus1975b}: 
-Coloca-se cada valor quantizado de $s1$ nomeando cada uma das linhas da tabela. 
-Coloca-se cada valor discretizado de s2 nomeando cada uma das colunas das tabelas. 
-Cada célula da tabela é obtida recuperando-se os itens de s1 e de s2, que estão na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}, e concatenando-se cada item de acordo com sua posição. 
-Por exemplo, para o valor de $s1$ igual a 5, recuperam-se os itens (6, 4, 5), para o valor de $s2$ igual a 2, recuperam-se os itens (3, 1, 2). 
-Agora é só criar novos itens, na mesma quantidade do valor $NW*$, concatenando-se cada item de acordo com sua posição. O lista resultante é ((6, 3), (4, 1), (5, 2)). 
 
-Cada vetor de 2 posições da Tabela \ref{wmap}, por exemplo (0, 0), (4, 1), é um rótulo de uma entrada na tabela de pesos $W$.
-
-Para se calcular a saída do sistema, suponha que os valores de $s1$ e $s2$, ainda sejam 5 e 2, respectivamente, e $NW*$ ainda seja 3. 
-Neste caso, recupera-se o item da linha 5 e da coluna 2, que é ((6, 3), (4, 1), (5, 2)). 
-Agora é acessada a tabela de pesos W e são recuperados os pesos cujas chaves são (6, 3), (4, 1) e (5, 2). 
-Note-se que serão recuperados exatamente 3 pesos, que é exatamente o número de ativações $NW*$ desejadas. 
-Os valores recuperados constituem um vetor chamado $W*$. A saída é calculada somando-se os valores de W*.
 
 \subsection{TREINAMENTO DA CMAC}
 Sendo a CMAC uma Rede Neural Artificial (RNA) com aprendizado supervisionado, seus pesos podem ser atualizados simplesmente computando-se o erro e atualizando-se apenas os pesos que participaram do computo do sinal $P$ \cite{Haykin1998}. O processo é detalhado nos próximos parágrafos.
