@@ -1,5 +1,5 @@
 \section[COMPONENTES, FRAMEWORKS E FERRAMENTAS]{COMPONENTES, \emph{FRAMEWORKS} E FERRAMENTAS}
-Neste item serão analisados os components, \emph{frameworks} e ferramentas que foram selecionadas para construção do \emph{Open Gait Analytics}. 
+Neste item serão analisados os components, \emph{frameworks} e ferramentas que foram selecionadas para construção do software. 
 Este software será um serviço disponibilizado via \emph{web}, sendo assim, estas tecnologias são próprias para este fim. 
 
 \subsection{APLICAÇÕES WEB COM \emph{ANGULAJS}}
@@ -117,6 +117,16 @@ A principal ideia de serviços \emph{REST} é o fornecimento de recursos.
 Por exemplo, o cliente requere um usuário, blog, comentários, entre outros. 
 Cada recurso deve possuir uma \emph{URL} que o identifica unicamente, por exemplo, http://www.minhaurl.com.br/usuario/123, onde 123 é um identificador único do usuário.
 
+O funcionamento de uma \emph{Web API REST} é mostrado na figura \ref{rest_api}. Nesta figura vê-se um cliente, que pode ser um \emph{browser web} ou outra aplicação \emph{mobile} ou uma aplicação web ou qualquer \emph{software} cliente que se comunique pelo protocolo \emph{HTTP}. Este cliente faz requisições para um software servidor, através de uma \emph{API} que foi exposta anteriormente. No lado servidor a chamada a API específica é processada e uma resposta é devolvida ao cliente.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=7cm]{figuras/rest_api.eps}
+	\caption{\emph{Web API REST}. Fonte \cite{Masse2011}.}
+	\label{rest_api}
+\end{figure}
+
+
 Para que um serviço \emph{REST} funcione, ele precisa ser implementado para suportar requisições \emph{HTTP}, ou seja, ele teria que ser um servidor \emph{web} completo. 
 A biblioteca escolhida para desempenhar esta função foi a \emph{Flask}. 
 Esta é uma biblioteca escrita na linguagem \emph{Python} e fornece todos as ferramentas necessárias para criar aplicações \emph{webs}. 
@@ -143,7 +153,7 @@ Segundo a Figura \ref{mongodb}, um banco de dados \emph{MongoDB} é composto por
 Dentro destas coleções existem documentos. 
 Os documentos dentro de uma coleção não precisam ser do mesmo tipo. 
 Mas esta é uma prática pouco recomendada \cite{Plugge2014}. 
-Os documentos são armazenados no formato \emph{BSON}, um primo muito próximo do \emph{JSON}. 
+Os documentos são armazenados no formato \emph{Binary Object Notation (BSON)}, um primo muito próximo do \emph{JavaScript Object Notation (JSON)}. 
 O \emph{BSON} é muito parecido com o \emph{JSON}. Ele foi criado para ser mais otimizado nas leituras e escritas no banco. A Figura \ref{listagem1} retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
 
 Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre \{\} e pode conter outros documentos, tipos simples e listas.

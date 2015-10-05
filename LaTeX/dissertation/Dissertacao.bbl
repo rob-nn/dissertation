@@ -43,6 +43,13 @@ Dispon{\'\i}vel em:
 {ALBUS, S. {A Theory of Cerebellar Function}.
 v.~10, p. 25--61, 1971.}
 
+\bibitem[Andrade et al. 2014]{Andrade2014}
+\abntrefinfo{Andrade et al.}{ANDRADE et al.}{2014}
+{ANDRADE, J. A.~A. et al. {Proposta de estudo de redes neuro- fuzzy para
+  aplica\c{c}\~{o}es em um controle de pr\'{o}tese ativa transtibial}. In:
+  \emph{XXIII Congresso Brasileiro em Engenharia Biom\'{e}dica}. [S.l.]: CBEB,
+  2014.}
+
 \bibitem[Baker 2007]{Baker2007}
 \abntrefinfo{Baker}{BAKER}{2007}
 {BAKER, R. {The history of gait analysis before the advent of modern
@@ -89,6 +96,11 @@ ISBN 9781449344689.}
 \emph{Sensors}, v.~15, n.~1, p. 1417--1434, 2015.
 ISSN 1424-8220.
 Dispon{\'\i}vel em: \url{http://www.mdpi.com/1424-8220/15/1/1417/}.}
+
+\bibitem[Cliparts 2015]{Cliparts2015}
+\abntrefinfo{Cliparts}{CLIPARTS}{2015}
+{CLIPARTS. \emph{{Leg Clip Art}}. 2015.
+Dispon{\'\i}vel em: \url{http://cliparts.co/legs-clip-art}.}
 
 \bibitem[Cohn 2004]{cohn2004}
 \abntrefinfo{Cohn}{COHN}{2004}
@@ -146,6 +158,12 @@ ISBN 0984881212.}
 \abntrefinfo{Freeman}{FREEMAN}{2014}
 {FREEMAN, A. \emph{{Pro AngularJS}}. [S.l.]: Apress, 2014.
 ISBN 9781430264484.}
+
+\bibitem[Garcia 2009]{Garcia2009b}
+\abntrefinfo{Garcia}{GARCIA}{2009}
+{GARCIA, C. \emph{{Modelagem e Simula\c{c}\~{a}o}}. 2. ed. S\~{a}o Paulo:
+  edUSP, 2009.
+ISBN 9788531409042.}
 
 \bibitem[Ghoussayni et al. 2004]{Ghoussayni2004}
 \abntrefinfo{Ghoussayni et al.}{GHOUSSAYNI et al.}{2004}
@@ -255,6 +273,12 @@ Dispon{\'\i}vel em: \url{http://www.oandp.org/reading/gaitfunction.asp}.}
 174~p. Tese (Doutorado) --- UNICAMP, 1999.
 Dispon{\'\i}vel em:
   \url{http://www.bibliotecadigital.unicamp.br/document/?code=vtls000178242\&fd=y}.}
+
+\bibitem[Masse 2011]{Masse2011}
+\abntrefinfo{Masse}{MASSE}{2011}
+{MASSE, M. \emph{{REST API Design Rulebook}}. [S.l.]: O'Reilly Media, Inc.,
+  2011.
+ISBN 9781449310509.}
 
 \bibitem[Matsuda e Lea 2013]{Matsuda2013}
 \abntrefinfo{Matsuda e Lea}{MATSUDA; LEA}{2013}
