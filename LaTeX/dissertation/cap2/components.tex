@@ -17,8 +17,7 @@ A Figura \ref{angularjs_mvc} mostra uma representação de uma aplicação fazen
 	\includegraphics[width=14cm]{figuras/angulajs_mvc.eps}
 	\caption{Diagrama de uma aplicação \emph{MVC} usando \emph{AngularJS}.}
 	\label{angularjs_mvc}
-	\footnotesize Fonte:
-	\cite{Williamson2015}.
+	\footnotesize Fonte: \cite{Williamson2015}.
 \end{figure}
 
 Segundo \citeonline{Williamson2015}, a Figura \ref{angularjs_mvc} mostra o diagrama de uma aplicação \emph{AngularJS} e os componentes \emph{MVC}.  Uma vez que a aplicação é lançada, os componentes \emph{model, view} e \emph{controller}, juntamente com todos os documentos \emph{HTML} são carregados no \emph{desktop} ou \emph{smartphone} do usuário e rodam completamente num destes hardwares.  A aplicação \emph{AngularJS} conversa com o \emph{backend} via o protocolo \emph{http}.  O \emph{backend} é um servidor \emph{web} que mantém chamadas \emph{REST} (explicado na seção \ref{servicos_rest}), sendo responsável pela execução da lógica e de processos de negócio.  
@@ -66,7 +65,7 @@ Veja um exemplo de aplicação que usa \emph{angular-material} na Figura~\ref{ma
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=14cm]{figuras/material.eps}
-	\caption{Exemplo de aplicação que utiliza \emph{angular-material}. Fonte \cite{Google2015c}.}
+	\caption{Exemplo de aplicação que utiliza \emph{angular-material}. Fonte: \cite{Google2015c}.}
 	\label{material_1}
 \end{figure}
 
@@ -90,7 +89,7 @@ Mais exemplos podem ser vistos no site \emph{threejs.org}.
 
 
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=14cm]{figuras/evil_eye.eps}
 	\caption{Exemplo de aplicação que utiliza \emph{ThreeJS}.}
@@ -117,12 +116,12 @@ A principal ideia de serviços \emph{REST} é o fornecimento de recursos.
 Por exemplo, o cliente requere um usuário, blog, comentários, entre outros. 
 Cada recurso deve possuir uma \emph{URL} que o identifica unicamente, por exemplo, http://www.minhaurl.com.br/usuario/123, onde 123 é um identificador único do usuário.
 
-O funcionamento de uma \emph{Web API REST} é mostrado na figura \ref{rest_api}. Nesta figura vê-se um cliente, que pode ser um \emph{browser web} ou outra aplicação \emph{mobile} ou uma aplicação web ou qualquer \emph{software} cliente que se comunique pelo protocolo \emph{HTTP}. Este cliente faz requisições para um software servidor, através de uma \emph{API} que foi exposta anteriormente. No lado servidor a chamada a API específica é processada e uma resposta é devolvida ao cliente.
+O funcionamento de uma \emph{Web API REST} é mostrado na Figura \ref{rest_api}. Nesta figura vê-se um cliente, que pode ser um \emph{browser web} ou outra aplicação \emph{mobile} ou uma aplicação web ou qualquer \emph{software} cliente que se comunique pelo protocolo \emph{HTTP}. Este cliente faz requisições para um software servidor, através de uma \emph{API} que foi exposta anteriormente. No lado servidor a chamada a API específica é processada e uma resposta é devolvida ao cliente.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=7cm]{figuras/rest_api.eps}
-	\caption{\emph{Web API REST}. Fonte \cite{Masse2011}.}
+	\caption{\emph{Web API REST}. Fonte: \cite{Masse2011}.}
 	\label{rest_api}
 \end{figure}
 
@@ -136,7 +135,7 @@ Segundo \citeonline{Maia2015}, o \emph{Flask} vem sendo adotado, por sua filosof
 \subsection{SERVIÇO DE BASE DE DOCUMENTOS COM \emph{MONGODB}}
 \label{mongodb_sec}
 
-Conforme \citeonline{Chodorow2013} o \emph{MongoDB} é poderoso, flexível e um banco de dados de propósito geral bastante escalável. Ele combina a habilidade de alta escalabilidade com índices secundários, pesquisas limitadas, ordenamento, agregações e índices geoespaciais.
+Conforme \citeonline{Chodorow2013}, o \emph{MongoDB} é poderoso, flexível e um banco de dados de propósito geral bastante escalável. Ele combina a habilidade de alta escalabilidade com índices secundários, pesquisas limitadas, ordenamento, agregações e índices geoespaciais.
 
 O \emph{MongoDB} é classificado como um banco \emph{NoSQL}. Segundo \citeonline{Dayley2014}, o conceito de \emph{NoSQL} consiste em tecnologias que provêm armazenamento e recuperação sem o amarrado modelo tradicional de bancos de dados Relacionais. A motivação para estas tecnologias é o design simplificado, escalabilidade horizontal e controle fino na disponibilidade dos dados.
 
@@ -149,12 +148,27 @@ Ainda, segundo \citeonline{Plugge2014}, a equipe do \emph{MongoDB} decidiu que n
 
 A Figura \ref{mongodb} mostra como os dados são organizados nesta tecnologia.
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figuras/mongodb.eps}
+	\caption{Organização dos dados no \emph{MongoDB}. Fonte: \cite{Plugge2014}.}
+	\label{mongodb}
+\end{figure}
+
 Segundo a Figura \ref{mongodb}, um banco de dados \emph{MongoDB} é composto por coleções de dados. 
 Dentro destas coleções existem documentos. 
 Os documentos dentro de uma coleção não precisam ser do mesmo tipo. 
 Mas esta é uma prática pouco recomendada \cite{Plugge2014}. 
 Os documentos são armazenados no formato \emph{Binary Object Notation (BSON)}, um primo muito próximo do \emph{JavaScript Object Notation (JSON)}. 
 O \emph{BSON} é muito parecido com o \emph{JSON}. Ele foi criado para ser mais otimizado nas leituras e escritas no banco. A Figura \ref{listagem1} retirada de \citeonline{Dayley2014}, mostra como um documento se parece.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=12cm]{figuras/listagem1.eps}
+	\caption{Listagem de um documento. Fonte: \cite{Dayley2014}.}
+	\label{listagem1}
+\end{figure}
+
 
 Para quem conhece \emph{JSON}, provavelmente compreendeu todo o documento. Um documento fica entre \{\} e pode conter outros documentos, tipos simples e listas.
 O documento possui atributos, no exemplo, \emph{name, version, languages, admin, paths}. Os atributos \emph{name version} são atributos de tipos simples, texto e número no caso. O atributo \emph{languages} é uma lista e os demais são outros objetos.
@@ -163,21 +177,7 @@ A questão da normalização dos objetos é sempre uma decisão do desenvolvedor
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=10cm]{figuras/mongodb.eps}
-	\caption{Organização dos dados no \emph{MongoDB}. Fonte \cite{Plugge2014}.}
-	\label{mongodb}
-\end{figure}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=12cm]{figuras/listagem1.eps}
-	\caption{Listagem de um documento. Fonte \cite{Dayley2014}.}
-	\label{listagem1}
-\end{figure}
-
-\begin{figure}[ht]
-	\centering
 	\includegraphics[width=12cm]{figuras/normalizacao.eps}
-	\caption{Definindo documentos normalizado com \emph{MongoDB}. Fonte \cite{Dayley2014}.}
+	\caption{Definindo documentos normalizado com \emph{MongoDB}. Fonte: \cite{Dayley2014}.}
 	\label{normalizacao}
 \end{figure}

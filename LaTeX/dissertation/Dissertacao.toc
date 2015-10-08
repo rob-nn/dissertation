@@ -6,79 +6,78 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {INTRODU\IeC {\c C}\IeC {\~A}O}}{15}{chapter.1}
-\contentsline {section}{\numberline {1.1}CONTEXTUALIZA\IeC {\c C}\IeC {\~A}O E FORMULA\IeC {\c C}\IeC {\~A}O DO PROBLEMA}{15}{section.1.1}
-\contentsline {section}{\numberline {1.2}OBJETIVOS}{16}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{16}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Objetivo Espec\IeC {\'\i }ficos}{16}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}REVIS\IeC {\~A}O DA LITERATURA}{16}{section.1.3}
-\contentsline {section}{\numberline {1.4}ORGANIZA\IeC {\c C}\IeC {\~A}O DO TRABALHO}{18}{section.1.4}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {INTRODU\IeC {\c C}\IeC {\~A}O}}{16}{chapter.1}
+\contentsline {section}{\numberline {1.1}CONTEXTUALIZA\IeC {\c C}\IeC {\~A}O E FORMULA\IeC {\c C}\IeC {\~A}O DO PROBLEMA}{16}{section.1.1}
+\contentsline {section}{\numberline {1.2}OBJETIVOS}{17}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{17}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Objetivo Espec\IeC {\'\i }ficos}{17}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}REVIS\IeC {\~A}O DA LITERATURA}{17}{section.1.3}
+\contentsline {section}{\numberline {1.4}ORGANIZA\IeC {\c C}\IeC {\~A}O DO TRABALHO}{19}{section.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}AN\IeC {\'A}LISE DE MARCHA}{19}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}BREVE HIST\IeC {\'O}RICO}{19}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}FUNDAMENTOS}{20}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}M\IeC {\'E}TODOS DE COLETA DE DADOS PARA AN\IeC {\'A}LISE}{21}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}M\IeC {\'E}TODOS \IeC {\'A}GEIS}{25}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}SCRUM}{27}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}HIST\IeC {\'O}RIAS DO USU\IeC {\'A}RIO}{29}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}SOFTWARE COMO SERVI\IeC {\c C}O}{30}{section.2.3}
-\contentsline {section}{\numberline {2.4}COMPONENTES, FRAMEWORKS E FERRAMENTAS}{32}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}APLICA\IeC {\c C}\IeC {\~O}ES WEB COM \emph {ANGULAJS}}{32}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}ORGANIZA\IeC {\c C}\IeC {\~A}O DE PROJETOS WEB COM \emph {ANGULAR-SEED}}{33}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph {ANGULAR-MATERIAL}}{34}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph {WEB} COM \emph {THREEJS}}{35}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}SERVI\IeC {\c C}OS REST COM \emph {FLASK}}{35}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}SERVI\IeC {\c C}O DE BASE DE DOCUMENTOS COM \emph {MONGODB}}{37}{subsection.2.4.6}
-\contentsline {section}{\numberline {2.5}CMAC}{40}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{43}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}LICEN\IeC {\c C}A MIT}{43}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}ALGUNS C\IeC {\'A}LCULOS CINEM\IeC {\'A}TICOS}{44}{section.2.6}
-\contentsline {section}{\numberline {2.7}SIMULA\IeC {\c C}\IeC {\~A}O}{45}{section.2.7}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}AN\IeC {\'A}LISE DE MARCHA}{21}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}BREVE HIST\IeC {\'O}RICO}{21}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}FUNDAMENTOS}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}M\IeC {\'E}TODOS DE COLETA DE DADOS PARA AN\IeC {\'A}LISE}{23}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}M\IeC {\'E}TODOS \IeC {\'A}GEIS}{27}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}SCRUM}{30}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}HIST\IeC {\'O}RIAS DO USU\IeC {\'A}RIO}{32}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}SOFTWARE COMO SERVI\IeC {\c C}O}{33}{section.2.3}
+\contentsline {section}{\numberline {2.4}COMPONENTES, FRAMEWORKS E FERRAMENTAS}{35}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}APLICA\IeC {\c C}\IeC {\~O}ES WEB COM \emph {ANGULAJS}}{35}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}ORGANIZA\IeC {\c C}\IeC {\~A}O DE PROJETOS WEB COM \emph {ANGULAR-SEED}}{36}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph {ANGULAR-MATERIAL}}{37}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph {WEB} COM \emph {THREEJS}}{38}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}SERVI\IeC {\c C}OS REST COM \emph {FLASK}}{39}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}SERVI\IeC {\c C}O DE BASE DE DOCUMENTOS COM \emph {MONGODB}}{40}{subsection.2.4.6}
+\contentsline {section}{\numberline {2.5}CMAC}{43}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}TREINAMENTO DA CMAC}{46}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}ALGUNS C\IeC {\'A}LCULOS CINEM\IeC {\'A}TICOS}{47}{section.2.6}
+\contentsline {section}{\numberline {2.7}SIMULA\IeC {\c C}\IeC {\~A}O}{49}{section.2.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{47}{chapter.3}
-\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{47}{section.3.1}
-\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{49}{section.3.2}
-\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{49}{section.3.3}
-\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{50}{section.3.4}
-\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{51}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{51}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}CAMADA \emph {REST WEB API}}{53}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}CAMADA DE BASE DE DOCUMENTOS}{55}{subsection.3.5.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA}}{50}{chapter.3}
+\contentsline {section}{\numberline {3.1}AMBIENTE DE ESTUDO}{50}{section.3.1}
+\contentsline {section}{\numberline {3.2}DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}{52}{section.3.2}
+\contentsline {section}{\numberline {3.3}VIS\IeC {\~A}O}{52}{section.3.3}
+\contentsline {section}{\numberline {3.4}MODELO DE GEST\IeC {\~A}O}{53}{section.3.4}
+\contentsline {section}{\numberline {3.5}MODELO DE ARQUITETURA}{54}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}{54}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}CAMADA \emph {REST WEB API}}{57}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}CAMADA DE BASE DE DOCUMENTOS}{60}{subsection.3.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{57}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'o}dulo de An\IeC {\'a}lise}{57}{section.4.1}
-\contentsline {section}{\numberline {4.2}M\IeC {\'o}dulo de Simula\IeC {\c c}\IeC {\~a}o}{68}{section.4.2}
-\contentsline {section}{\numberline {4.3}Uso do sistema em dispositivos m\IeC {\'o}veis}{73}{section.4.3}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {RESULTADOS}}{62}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'o}dulo de An\IeC {\'a}lise}{62}{section.4.1}
+\contentsline {section}{\numberline {4.2}M\IeC {\'o}dulo de Simula\IeC {\c c}\IeC {\~a}o}{73}{section.4.2}
+\contentsline {section}{\numberline {4.3}Uso do sistema em dispositivos m\IeC {\'o}veis}{76}{section.4.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{76}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}{80}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{78}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {TRABALHOS FUTUROS}}{82}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{80}{section*.12}
+\contentsline {chapter}{\textbf {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}{84}{section*.12}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{85}{section*.13}
+\contentsline {part}{\uppercase {Ap\^endices}}{89}{section*.13}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Artigo Completo WC2015}}{86}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Artigo Completo WC2015}}{90}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Resumo PAHCE 2014}}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Resumo PAHCE 2014}}{95}{appendix.B}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{93}{section*.14}
+\contentsline {part}{\uppercase {Anexos}}{97}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {PROCESSO NO COMIT\IeC {\^E} DE \IeC {\'E}TICA}}{94}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {PROCESSO NO COMIT\IeC {\^E} DE \IeC {\'E}TICA}}{98}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {LICEN\IeC {\c C}A MIT}}{96}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {LICEN\IeC {\c C}A MIT}}{100}{appendix.anexochapback.2}

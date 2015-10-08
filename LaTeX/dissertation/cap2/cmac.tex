@@ -17,6 +17,14 @@ Na Figura \ref{fig1} é possível ver o funcionamento básico da CMAC. Os sinais
 Note que apenas uma pequena fração de pesos é realmente selecionada para participar na ativação. 
 O conjunto de pesos disponíveis na CMAC é necessariamente maior que o número de pesos ativados $W^*$. 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=15 cm]{figuras/cmac1.eps}
+	\caption{CMAC para controle de uma junta. Fonte: (Alterado de \citeonline{Albus1975b}).}
+    	\label{fig1}
+\end{figure}
+
+
 A CMAC da Figura \ref{fig1} também pode ser classificada como um sistema \emph{Multiple Input Single Output} (MISO), ou seja, suporta a entrada de vários sinais de entrada e processa um sinal de saída.
 Para se produzir uma CMAC \emph{Multiple Input Multiple Output} MIMO, bastaria implementar várias MISOs, compartilhando as mesmas entradas.
 
@@ -26,8 +34,15 @@ Os passos para que o sinal seja computado são descritos a seguir. Estes passos 
 Primeiramente, define-se o número de pesos $NW*$ a serem ativados para comporem a saída da CMAC.
 
 O segundo passo é quantizar os possíveis valores para cada item do vetor de entrada $S$.
-Por exemplo, se o primeiro item $s1$ de $S$ aceita valores de -1 até 1 e se quer 5 valores possíveis, quantiza-se então os valores de -1 até 1, conforme Figura \ref{inputs1}.
+Por exemplo, se o primeiro item $s1$ de $S$ aceita valores de -1 até 1 e se quer 5 valores possíveis, quantiza-se então os valores de -1 até 1, conforme a Figura \ref{inputs1}.
 
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=3 cm]{figuras/input.eps}
+	\caption{Quantização de $s1$.}
+    	\label{inputs1}
+\end{figure}
 
 
 Isto significa que quaisquer que sejam os valores de $s1$ os mesmos devem ser convertidos para -1, -0,5, 0, 0,5 e 1. 
@@ -43,22 +58,7 @@ Para o segundo valor do sinal, substitui-se o primeiro dos três itens pelo pró
 Para o terceiro sinal, substitui-se o segundo dos três itens pelo próximo inteiro não negativo.
 Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \cite{Albus1975b}.
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=15 cm]{figuras/cmac1.eps}
-	\caption{CMAC para controle de uma junta. Adaptado de \cite{Albus1975b}.}
-    	\label{fig1}
-\end{figure}
-
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=3 cm]{figuras/input.eps}
-	\caption{Quantização de $s1$.}
-    	\label{inputs1}
-\end{figure}
-
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Mapeamento de $s1$}
 	\label{disc_s1}
@@ -77,7 +77,7 @@ Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \ci
 		\bottomrule
 	\end{tabular}
 \end{table}
-\begin{table}[ht]
+\begin{table}[H]
 	\centering
 	\caption{Mapeamento de $s2$}
 	\label{disc_s2}
@@ -97,23 +97,6 @@ Assim, sucessivamente conforme a Tabela \ref{disc_s1} e Tabela \ref{disc_s2} \ci
 
 
 Depois de mapeado cada valor de cada item de entrada, deve-se combinar os mapeamentos de acordo com a Tabela \ref{wmap}.
-
-O mapeamento da Tabela \ref{wmap} é feito da seguinte forma \cite{Albus1975b}: 
-Coloca-se cada valor quantizado de $s1$ nomeando cada uma das linhas da tabela. 
-Coloca-se cada valor discretizado de $s2$ nomeando cada uma das colunas das tabelas. 
-Cada célula da tabela é obtida recuperando-se os itens de $s1$ e de $s2$, que estão na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}, e concatenando-se cada item de acordo com sua posição. 
-Por exemplo, para o valor de $s1$ igual a 5, recuperam-se os itens (6, 4, 5), para o valor de $s2$ igual a 2, recuperam-se os itens (3, 1, 2). 
-Agora é só criar novos itens, na mesma quantidade do valor $NW*$, concatenando-se cada item de acordo com sua posição. O lista resultante é ((6, 3), (4, 1), (5, 2)). 
-
-Cada vetor de 2 posições da Tabela \ref{wmap}, por exemplo (0, 0), (4, 1), é um rótulo de uma entrada na tabela de pesos $W$.
-
-Para se calcular a saída do sistema, suponha que os valores de $s1$ e $s2$, ainda sejam 5 e 2, respectivamente, e $NW*$ ainda seja 3. 
-Neste caso, recupera-se o item da linha 5 e da coluna 2, que é ((6, 3), (4, 1), (5, 2)). 
-Agora é acessada a tabela de pesos W e são recuperados os pesos cujas chaves são (6, 3), (4, 1) e (5, 2). 
-Note-se que serão recuperados exatamente 3 pesos, que é exatamente o número de ativações $NW*$ desejadas. 
-Os valores recuperados constituem um vetor chamado $W*$. A saída é calculada somando-se os valores de W*.
-
-
 
 \begin{table}[ht]
 	\centering
@@ -137,6 +120,23 @@ Os valores recuperados constituem um vetor chamado $W*$. A saída é calculada s
 	\end{tabular}
 \end{table}
  
+
+
+O mapeamento da Tabela \ref{wmap} é feito da seguinte forma \cite{Albus1975b}: 
+Coloca-se cada valor quantizado de $s1$ nomeando cada uma das linhas da tabela. 
+Coloca-se cada valor discretizado de $s2$ nomeando cada uma das colunas das tabelas. 
+Cada célula da tabela é obtida recuperando-se os itens de $s1$ e de $s2$, que estão na Tabela \ref{disc_s1} e na Tabela \ref{disc_s2}, e concatenando-se cada item de acordo com sua posição. 
+Por exemplo, para o valor de $s1$ igual a 5, recuperam-se os itens (6, 4, 5), para o valor de $s2$ igual a 2, recuperam-se os itens (3, 1, 2). 
+Agora é só criar novos itens, na mesma quantidade do valor $NW*$, concatenando-se cada item de acordo com sua posição. O lista resultante é ((6, 3), (4, 1), (5, 2)). 
+
+Cada vetor de 2 posições da Tabela \ref{wmap}, por exemplo (0, 0), (4, 1), é um rótulo de uma entrada na tabela de pesos $W$.
+
+Para se calcular a saída do sistema, suponha que os valores de $s1$ e $s2$, ainda sejam 5 e 2, respectivamente, e $NW*$ ainda seja 3. 
+Neste caso, recupera-se o item da linha 5 e da coluna 2, que é ((6, 3), (4, 1), (5, 2)). 
+Agora é acessada a tabela de pesos W e são recuperados os pesos cujas chaves são (6, 3), (4, 1) e (5, 2). 
+Note-se que serão recuperados exatamente 3 pesos, que é exatamente o número de ativações $NW*$ desejadas. 
+Os valores recuperados constituem um vetor chamado $W*$. A saída é calculada somando-se os valores de W*.
+
 
 
 \subsection{TREINAMENTO DA CMAC}

@@ -63,23 +63,52 @@ A Figura \ref{fases_marcha} mostra o relacionamento entre as três tarefas e sua
 \label{metodos_analise}
 
 Esta seção descreve alguns dos dispositivos que podem ser usados para coletar dados de movimentos. 
-Estes podem ser convertidos e usados pelo software desenvolvido, desde que uma adaptção seja feita. 
+Estes podem ser convertidos e usados pelo software desenvolvido, desde que uma adaptação seja feita. 
 No momento de conclusão deste trabalho o único método adaptado é o por captura de dados por câmeras, usando o sistema da \emph{Qualisys}.
 
 \textbf{Captura de dados por câmeras}
 
+\noindent
 Pode-se começar este assunto pelos métodos de mensuração de movimentos espaciais e de ângulos.
 O método mais sofisticado hoje para análise de movimentos é o baseado em câmaras de vídeo. 
 Inclusive \citeonline{Grip2013}, demonstra discorre sobre as vantagens dos sistemas de câmeras ópticas usando marcadores de superfície em detrimento de outras técnicas de captura de movimento. 
 Neste tipo de técnica, os marcadores podem ser ativos ou passivos, a diferença é que os ativos emitem algum tipo de sinal luminoso ou infravermelho, por exemplo. 
 Este método permite visualizar a posição espacial dos marcadores e a partir daí, calcular velocidades, acelerações, ângulos, velocidades angulares, acelerações angulares, etc.
-A Figura \ref{oqus_mri} mostra o modelo \emph{Oqus MRI} da \emph{Qualisys}, está é uma câmera muito utilizada no mercado não só para análise clínica mas também para captura de movimentos para serem inseridos em filmes e jogos de computador. 
+A Figura \ref{oqus_mri} mostra o modelo \emph{Oqus MRI} da \emph{Qualisys}. Esta é uma câmera muito utilizada no mercado não só para análise clínica mas também para captura de movimentos para serem inseridos em filmes e jogos de computador. 
 Já a Figura \ref{visao_qtm} mostra o software QTM do mesmo fabricante, já com os dados capturados e animados na tela do computador.
 A Figura \ref{markers} é uma visão de uma possível configuração de câmeras, capturando marcadores de superfície passivos de um paciente.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=7cm]{figuras/oqus-mri.eps}
+	\caption{Câmera Oqus MRI. Fonte \cite{Qualisys2013}.
+}
+	\label{oqus_mri}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=15cm]{figuras/qtm.eps}
+	\caption{Visão do QTM. Fonte: \cite{Qualisys2010}.}
+	\label{visao_qtm}
+	
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{figuras/markers.eps}
+	\caption{Configuração de câmeras para captura de dados de marcadores passivos fixados no paciente. Fonte: \cite{Qualisys2013a}.}
+	\label{markers}
+	
+\end{figure}
+
+
 \textbf{Captura por Unidade de Medida Inercial}
 
-Uma outra alternativa, que está sendo desenvolvida na FGA/UnB, é um dispositivo baseado em uma Unidade de Medida Inercial \emph{(Inertial Measurement Unit - IMU)}. 
+\noindent
+Uma outra alternativa, que está sendo desenvolvida na FGA/UnB, é um dispositivo baseado em uma Unidade de Medida Inercial \emph{(Inertial Measurement Unit - IMU)}. O IMU é um dispositivo eletrônico provido de acelerômetrose um magnetômetro.
 Segundo \citeonline{Leite2014}, esta é uma alternativa não visual para extrair parâmetros cinemáticos da marcha humana, trajetória e velocidade. 
 O trabalho foi realizado comparando-se os resultados fornecidos pelo dispositivo e captura de vídeo.
 A Figura \ref{imu} mostra um experimento onde o vídeo e os dados do \emph{IMU} são coletados ao mesmo tempo.
@@ -89,42 +118,7 @@ Na Figura \ref{imu2}, é possível visualizar o resultado dos dados coletados do
 Veja que é um resultado bem promissor. 
 Mas a maior vantagem do dispositivo, ainda não foi discutida, seu baixíssimo valor em relação a solução com várias câmeras.
 
-\textbf{Captura por Eletrogoniômetros}
-
-Eletrogoniômetros são também usados para capturar angulações em articulações, basicamente este aparelho provê uma voltagem que é representativa da mudança de ângulo entre duas superfícies, nas quais o dispositivo é fixado \cite{K.Ibrahim2012}. 
-A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{egn} mostra um exemplo de eletrogoniômetro.
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=7cm]{figuras/oqus-mri.eps}
-	\caption{Câmera Oqus MRI. Fonte \cite{Qualisys2013}.
-}
-	\label{oqus_mri}
-\end{figure}
-
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=15cm]{figuras/qtm.eps}
-	\caption{Visão do QTM. Fonte: \cite{Qualisys2010}.}
-	\label{visao_qtm}
-	
-\end{figure}
-
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=14cm]{figuras/markers.eps}
-	\caption{Configuração de câmeras para captura de dados de marcadores passivos fixados no paciente. Fonte: \cite{Qualisys2013a}.}
-	\label{markers}
-	
-\end{figure}
-
-
-
-
-
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=7cm]{figuras/imu.eps}
 	\caption{Experimento de captura de dados de \emph{IMU} em conjunto com uma câmera. Fonte: \cite{Leite2014}.}
@@ -133,7 +127,7 @@ A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{
 \end{figure}
 
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{figuras/imu2.eps}
 	\caption{Comparação entre \emph{IMU} e a câmera. Fonte: \cite{Leite2014}.}
@@ -142,7 +136,17 @@ A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{
 \end{figure}
 
 
-\begin{figure}[ht]
+
+\textbf{Captura por Eletrogoniômetros}
+
+\noindent
+Eletrogoniômetros são também usados para capturar angulações em articulações, basicamente este aparelho provê uma voltagem que é representativa da mudança de ângulo entre duas superfícies, nas quais o dispositivo é fixado \cite{K.Ibrahim2012}. 
+A principal vantagem deste dispositivo é que seu custo é baixo. A Figura \ref{egn} mostra um exemplo de eletrogoniômetro.
+Ele tem como desevantagem sua pouca precisão, mas ainda assim pode ser usado na análise de movimentos por software.
+
+
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=7cm]{figuras/egn.eps}
 	\caption{Eletrogoniômetro. Fonte: \cite{K.Ibrahim2012}.}

@@ -10,122 +10,124 @@
 \doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{1}{x1-70001.2.1}{QQ2-1-9}{Objetivo Geral}}{24}\relax 
 \doTocEntry\tocsubsection{1.2.2}{\csname a:TocLink\endcsname{1}{x1-80001.2.2}{QQ2-1-10}{Objetivo Espec\IeC {\'\i }ficos}}{25}\relax 
 \doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{1}{x1-90001.3}{QQ2-1-11}{REVIS\IeC {\~A}O DA LITERATURA}}{25}\relax 
-\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{1}{x1-90011}{}{\ignorespaces Pesquisa por palavras-chaves}}{table}\relax 
+\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{1}{x1-9001r1}{}{\ignorespaces Pesquisa por palavras-chaves}}{table}\relax 
 \doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{1}{x1-100001.4}{QQ2-1-13}{ORGANIZA\IeC {\c C}\IeC {\~A}O DO TRABALHO}}{29}\relax 
 \doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{1}{x1-110002}{QQ2-1-14}{\textbf  {FUNDAMENTA\IeC {\c C}\IeC {\~A}O TE\IeC {\'O}RICA}}}{30}\relax 
 \doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{1}{x1-120002.1}{QQ2-1-15}{AN\IeC {\'A}LISE DE MARCHA}}{30}\relax 
 \doTocEntry\tocsubsection{2.1.1}{\csname a:TocLink\endcsname{1}{x1-130002.1.1}{QQ2-1-16}{BREVE HIST\IeC {\'O}RICO}}{30}\relax 
-\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-130011}{}{\ignorespaces Atleta iniciando uma corrida. Fonte \cite  {Muybridge1885}.}}{figure}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-13001r1}{}{\ignorespaces Atleta iniciando uma corrida. Fonte \cite  {Muybridge1885}.}}{figure}\relax 
 \doTocEntry\tocsubsection{2.1.2}{\csname a:TocLink\endcsname{1}{x1-140002.1.2}{QQ2-1-18}{FUNDAMENTOS}}{33}\relax 
-\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-140012}{}{\ignorespaces Divis\IeC {\~o}es do Ciclo de Marcha. Fonte \cite  {Perry2010}.}}{figure}\relax 
+\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-14001r2}{}{\ignorespaces Divis\IeC {\~o}es do Ciclo de Marcha. Fonte \cite  {Perry2010}.}}{figure}\relax 
 \doTocEntry\tocsubsection{2.1.3}{\csname a:TocLink\endcsname{1}{x1-150002.1.3}{QQ2-1-20}{M\IeC {\'E}TODOS DE COLETA DE DADOS PARA AN\IeC {\'A}LISE}}{37}\relax 
-\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-150013}{}{\ignorespaces C\IeC {\^a}mera Oqus MRI. Fonte \cite  {Qualisys2013}. }}{figure}\relax 
-\doTocEntry\toclof{4}{\csname a:TocLink\endcsname{1}{x1-150024}{}{\ignorespaces Vis\IeC {\~a}o do QTM. Fonte:{} \cite  {Qualisys2010}.}}{figure}\relax 
-\doTocEntry\toclof{5}{\csname a:TocLink\endcsname{1}{x1-150035}{}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o de c\IeC {\^a}meras para captura de dados de marcadores passivos fixados no paciente. Fonte:{} \cite  {Qualisys2013a}.}}{figure}\relax 
-\doTocEntry\toclof{6}{\csname a:TocLink\endcsname{1}{x1-150046}{}{\ignorespaces Experimento de captura de dados de \emph  {IMU} em conjunto com uma c\IeC {\^a}mera. Fonte:{} \cite  {Leite2014}.}}{figure}\relax 
-\doTocEntry\toclof{7}{\csname a:TocLink\endcsname{1}{x1-150057}{}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre \emph  {IMU} e a c\IeC {\^a}mera. Fonte:{} \cite  {Leite2014}.}}{figure}\relax 
-\doTocEntry\toclof{8}{\csname a:TocLink\endcsname{1}{x1-150068}{}{\ignorespaces Eletrogoni\IeC {\^o}metro. Fonte:{} \cite  {K.Ibrahim2012}.}}{figure}\relax 
-\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{1}{x1-160002.2}{QQ2-1-27}{M\IeC {\'E}TODOS \IeC {\'A}GEIS}}{58}\relax 
-\doTocEntry\toclof{9}{\csname a:TocLink\endcsname{1}{x1-160019}{}{\ignorespaces Valores em comum. Adaptado de \cite  {Greene2014}.}}{figure}\relax 
-\doTocEntry\toclof{10}{\csname a:TocLink\endcsname{1}{x1-1600210}{}{\ignorespaces Exemplo de processo baseado no modelo \emph  {waterfall}. Adaptado de \cite  {Pressman2014}.}}{figure}\relax 
-\doTocEntry\toclot{2}{\csname a:TocLink\endcsname{1}{x1-160032}{}{\ignorespaces Comparando Modelos de Desenvolvimento de Software}}{table}\relax 
-\doTocEntry\tocsubsection{2.2.1}{\csname a:TocLink\endcsname{1}{x1-170002.2.1}{QQ2-1-31}{SCRUM}}{68}\relax 
-\doTocEntry\toclof{11}{\csname a:TocLink\endcsname{1}{x1-1700111}{}{\ignorespaces Vis\IeC {\~a}o Geral do \emph  {Scrum}. Adaptado de \cite  {Schwaber2004}.}}{figure}\relax 
-\doTocEntry\tocsubsection{2.2.2}{\csname a:TocLink\endcsname{1}{x1-180002.2.2}{QQ2-1-33}{HIST\IeC {\'O}RIAS DO USU\IeC {\'A}RIO}}{72}\relax 
-\doTocEntry\toclof{12}{\csname a:TocLink\endcsname{1}{x1-1800112}{}{\ignorespaces Exemplo de \emph  {story card}. Adaptado de \cite  {cohn2004}.}}{figure}\relax 
-\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{1}{x1-190002.3}{QQ2-1-35}{SOFTWARE COMO SERVI\IeC {\c C}O}}{76}\relax 
-\doTocEntry\toclof{13}{\csname a:TocLink\endcsname{1}{x1-1900713}{}{\ignorespaces Vis\IeC {\~o}es arquiteturais de software como servi\IeC {\c c}o. Fonte \cite  {Fox2012}.}}{figure}\relax 
-\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{1}{x1-200002.4}{QQ2-1-37}{COMPONENTES, FRAMEWORKS E FERRAMENTAS}}{80}\relax 
-\doTocEntry\tocsubsection{2.4.1}{\csname a:TocLink\endcsname{1}{x1-210002.4.1}{QQ2-1-38}{APLICA\IeC {\c C}\IeC {\~O}ES WEB COM \emph  {ANGULAJS}}}{80}\relax 
-\doTocEntry\toclof{14}{\csname a:TocLink\endcsname{1}{x1-2100114}{}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph  {MVC} usando \emph  {AngularJS}.}}{figure}\relax 
-\doTocEntry\tocsubsection{2.4.2}{\csname a:TocLink\endcsname{1}{x1-220002.4.2}{QQ2-1-40}{ORGANIZA\IeC {\c C}\IeC {\~A}O DE PROJETOS WEB COM \emph  {ANGULAR-SEED}}}{83}\relax 
-\doTocEntry\toclof{15}{\csname a:TocLink\endcsname{1}{x1-2200115}{}{\ignorespaces Layout original de um projeto baseado em \emph  {angular-seed}. Fonte:{} \cite  {Google2015b}}}{figure}\relax 
-\doTocEntry\tocsubsection{2.4.3}{\csname a:TocLink\endcsname{1}{x1-230002.4.3}{QQ2-1-42}{SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph  {ANGULAR-MATERIAL}}}{86}\relax 
-\doTocEntry\toclof{16}{\csname a:TocLink\endcsname{1}{x1-2300116}{}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph  {angular-material}. Fonte \cite  {Google2015c}.}}{figure}\relax 
-\doTocEntry\tocsubsection{2.4.4}{\csname a:TocLink\endcsname{1}{x1-240002.4.4}{QQ2-1-44}{GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph  {WEB} COM \emph  {THREEJS}}}{89}\relax 
-\doTocEntry\toclof{17}{\csname a:TocLink\endcsname{1}{x1-2400117}{}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph  {ThreeJS}.}}{figure}\relax 
-\doTocEntry\tocsubsection{2.4.5}{\csname a:TocLink\endcsname{1}{x1-250002.4.5}{QQ2-1-46}{SERVI\IeC {\c C}OS REST COM \emph  {FLASK}}}{92}\relax 
-\doTocEntry\toclof{18}{\csname a:TocLink\endcsname{1}{x1-2500618}{}{\ignorespaces \emph  {Web API REST}. Fonte \cite  {Masse2011}.}}{figure}\relax 
-\doTocEntry\tocsubsection{2.4.6}{\csname a:TocLink\endcsname{1}{x1-260002.4.6}{QQ2-1-48}{SERVI\IeC {\c C}O DE BASE DE DOCUMENTOS COM \emph  {MONGODB}}}{96}\relax 
-\doTocEntry\toclof{19}{\csname a:TocLink\endcsname{1}{x1-2600119}{}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos dados no \emph  {MongoDB}. Fonte \cite  {Plugge2014}.}}{figure}\relax 
-\doTocEntry\toclof{20}{\csname a:TocLink\endcsname{1}{x1-2600220}{}{\ignorespaces Listagem de um documento. Fonte \cite  {Dayley2014}.}}{figure}\relax 
-\doTocEntry\toclof{21}{\csname a:TocLink\endcsname{1}{x1-2600321}{}{\ignorespaces Definindo documentos normalizado com \emph  {MongoDB}. Fonte \cite  {Dayley2014}.}}{figure}\relax 
-\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{1}{x1-270002.5}{QQ2-1-52}{CMAC}}{108}\relax 
-\doTocEntry\toclof{22}{\csname a:TocLink\endcsname{1}{x1-2700122}{}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite  {Albus1975b}.}}{figure}\relax 
-\doTocEntry\toclof{23}{\csname a:TocLink\endcsname{1}{x1-2700223}{}{\ignorespaces Quantiza\IeC {\c c}\IeC {\~a}o de $s1$.}}{figure}\relax 
-\doTocEntry\toclot{3}{\csname a:TocLink\endcsname{1}{x1-270033}{}{\ignorespaces Mapeamento de $s1$}}{table}\relax 
-\doTocEntry\toclot{4}{\csname a:TocLink\endcsname{1}{x1-270044}{}{\ignorespaces Mapeamento de $s2$}}{table}\relax 
-\doTocEntry\toclot{5}{\csname a:TocLink\endcsname{1}{x1-270055}{}{\ignorespaces Mapeamento para os pesos $W$}}{table}\relax 
-\doTocEntry\tocsubsection{2.5.1}{\csname a:TocLink\endcsname{1}{x1-280002.5.1}{QQ2-1-58}{TREINAMENTO DA CMAC}}{124}\relax 
-\doTocEntry\tocsubsection{2.5.2}{\csname a:TocLink\endcsname{1}{x1-290002.5.2}{QQ2-1-59}{LICEN\IeC {\c C}A MIT}}{125}\relax 
-\doTocEntry\tocsection{2.6}{\csname a:TocLink\endcsname{1}{x1-300002.6}{QQ2-1-60}{ALGUNS C\IeC {\'A}LCULOS CINEM\IeC {\'A}TICOS}}{125}\relax 
-\doTocEntry\toclof{24}{\csname a:TocLink\endcsname{1}{x1-3000724}{}{\ignorespaces Exemplo hipot\IeC {\'e}tico de um \IeC {\^a}ngulo. Adaptado de \cite  {Cliparts2015}.}}{figure}\relax 
-\doTocEntry\tocsection{2.7}{\csname a:TocLink\endcsname{1}{x1-310002.7}{QQ2-1-62}{SIMULA\IeC {\c C}\IeC {\~A}O}}{131}\relax 
-\doTocEntry\toclof{25}{\csname a:TocLink\endcsname{1}{x1-3100525}{}{\ignorespaces Modelo matem\IeC {\'a}tico simplificado de um processo. Fonte \cite  {Garcia2009b}.}}{figure}\relax 
-\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{1}{x1-320003}{QQ2-1-64}{\textbf  {metodologia}}}{135}\relax 
-\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{1}{x1-330003.1}{QQ2-1-65}{AMBIENTE DE ESTUDO}}{135}\relax 
-\doTocEntry\toclof{26}{\csname a:TocLink\endcsname{1}{x1-3300326}{}{\ignorespaces Rede LIS.}}{figure}\relax 
-\doTocEntry\toclof{27}{\csname a:TocLink\endcsname{1}{x1-3300427}{}{\ignorespaces Processo de coleta de dados.}}{figure}\relax 
-\doTocEntry\toclof{28}{\csname a:TocLink\endcsname{1}{x1-3300528}{}{\ignorespaces Dados disponibilizados pelo QTM.}}{figure}\relax 
-\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{1}{x1-340003.2}{QQ2-1-69}{DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}}{144}\relax 
-\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{1}{x1-350003.3}{QQ2-1-70}{VIS\IeC {\~A}O}}{144}\relax 
-\doTocEntry\tocsection{3.4}{\csname a:TocLink\endcsname{1}{x1-360003.4}{QQ2-1-71}{MODELO DE GEST\IeC {\~A}O}}{145}\relax 
-\doTocEntry\toclof{29}{\csname a:TocLink\endcsname{1}{x1-3600129}{}{\ignorespaces Processo de desenvolvimento.}}{figure}\relax 
-\doTocEntry\tocsection{3.5}{\csname a:TocLink\endcsname{1}{x1-370003.5}{QQ2-1-73}{MODELO DE ARQUITETURA}}{148}\relax 
-\doTocEntry\toclof{30}{\csname a:TocLink\endcsname{1}{x1-3700130}{}{\ignorespaces Camadas arquiteturais.}}{figure}\relax 
-\doTocEntry\tocsubsection{3.5.1}{\csname a:TocLink\endcsname{1}{x1-380003.5.1}{QQ2-1-75}{CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}}{151}\relax 
-\doTocEntry\toclof{31}{\csname a:TocLink\endcsname{1}{x1-3800131}{}{\ignorespaces Exemplo de uma tela criada com \emph  {angular-material}.}}{figure}\relax 
-\doTocEntry\toclof{32}{\csname a:TocLink\endcsname{1}{x1-3800332}{}{\ignorespaces Camada \emph  {web}.}}{figure}\relax 
-\doTocEntry\tocsubsection{3.5.2}{\csname a:TocLink\endcsname{1}{x1-390003.5.2}{QQ2-1-78}{CAMADA \emph  {REST WEB API}}}{157}\relax 
-\doTocEntry\toclof{33}{\csname a:TocLink\endcsname{1}{x1-3900133}{}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o do arquivos e diret\IeC {\'o}rios da camada \emph  {web API}.}}{figure}\relax 
-\doTocEntry\toclof{34}{\csname a:TocLink\endcsname{1}{x1-3900734}{}{\ignorespaces Camada \emph  {REST WEB API}.}}{figure}\relax 
-\doTocEntry\tocsubsection{3.5.3}{\csname a:TocLink\endcsname{1}{x1-400003.5.3}{QQ2-1-81}{CAMADA DE BASE DE DOCUMENTOS}}{164}\relax 
-\doTocEntry\toclof{35}{\csname a:TocLink\endcsname{1}{x1-4000135}{}{\ignorespaces Documento da cole\IeC {\c c}\IeC {\~a}o \emph  {patients}.}}{figure}\relax 
-\doTocEntry\toclof{36}{\csname a:TocLink\endcsname{1}{x1-4000236}{}{\ignorespaces Documento da cole\IeC {\c c}\IeC {\~a}o \emph  {positionals\_data}.}}{figure}\relax 
-\doTocEntry\toclof{37}{\csname a:TocLink\endcsname{1}{x1-4000337}{}{\ignorespaces Banco de documentos da aplica\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
-\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{1}{x1-410004}{QQ2-1-85}{\textbf  {RESULTADOS}}}{174}\relax 
-\doTocEntry\toclof{38}{\csname a:TocLink\endcsname{1}{x1-4100138}{}{\ignorespaces Tela de sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'o}dulos.}}{figure}\relax 
-\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{1}{x1-420004.1}{QQ2-1-87}{M\IeC {\'o}dulo de An\IeC {\'a}lise}}{177}\relax 
-\doTocEntry\toclof{39}{\csname a:TocLink\endcsname{1}{x1-4200139}{}{\ignorespaces Tela com a listagem de pacientes.}}{figure}\relax 
-\doTocEntry\toclof{40}{\csname a:TocLink\endcsname{1}{x1-4200240}{}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do paciente.}}{figure}\relax 
-\doTocEntry\toclof{41}{\csname a:TocLink\endcsname{1}{x1-4200341}{}{\ignorespaces Tela inicial da dados coletados do paciente.}}{figure}\relax 
-\doTocEntry\toclof{42}{\csname a:TocLink\endcsname{1}{x1-4200442}{}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{figure}\relax 
-\doTocEntry\toclof{43}{\csname a:TocLink\endcsname{1}{x1-4200543}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph  {MATLAB} proveniente do \emph  {QTM}.}}{figure}\relax 
-\doTocEntry\toclof{44}{\csname a:TocLink\endcsname{1}{x1-4200644}{}{\ignorespaces Dados do arquivo provenientes do \emph  {QTM}}}{figure}\relax 
-\doTocEntry\toclof{45}{\csname a:TocLink\endcsname{1}{x1-4200745}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{figure}\relax 
-\doTocEntry\toclof{46}{\csname a:TocLink\endcsname{1}{x1-4200846}{}{\ignorespaces Controle de perspectivas.}}{figure}\relax 
-\doTocEntry\toclof{47}{\csname a:TocLink\endcsname{1}{x1-4200947}{}{\ignorespaces Controle de \emph  {zoom}.}}{figure}\relax 
-\doTocEntry\toclof{48}{\csname a:TocLink\endcsname{1}{x1-4201048}{}{\ignorespaces Controle \emph  {pan}.}}{figure}\relax 
-\doTocEntry\toclof{49}{\csname a:TocLink\endcsname{1}{x1-4201149}{}{\ignorespaces Controles da anima\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
-\doTocEntry\toclof{50}{\csname a:TocLink\endcsname{1}{x1-4201250}{}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o \emph  {markers}.}}{figure}\relax 
-\doTocEntry\toclof{51}{\csname a:TocLink\endcsname{1}{x1-4201351}{}{\ignorespaces Progress\IeC {\~a}o espacial de um marcador.}}{figure}\relax 
-\doTocEntry\toclof{52}{\csname a:TocLink\endcsname{1}{x1-4201452}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o de um marcador pelo \emph  {mouse}.}}{figure}\relax 
-\doTocEntry\toclof{53}{\csname a:TocLink\endcsname{1}{x1-4201553}{}{\ignorespaces Renomeando um marcador.}}{figure}\relax 
-\doTocEntry\toclof{54}{\csname a:TocLink\endcsname{1}{x1-4201654}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{figure}\relax 
-\doTocEntry\toclof{55}{\csname a:TocLink\endcsname{1}{x1-4201755}{}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o de visualiza\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos.}}{figure}\relax 
-\doTocEntry\toclof{56}{\csname a:TocLink\endcsname{1}{x1-4201856}{}{\ignorespaces Inclus\IeC {\~a}o de um novo \IeC {\^a}ngulo.}}{figure}\relax 
-\doTocEntry\toclof{57}{\csname a:TocLink\endcsname{1}{x1-4201957}{}{\ignorespaces Angulo de um joelho durante o ciclo de marcha.}}{figure}\relax 
-\doTocEntry\toclof{58}{\csname a:TocLink\endcsname{1}{x1-4202058}{}{\ignorespaces Velocidades angulares de um joelho durante o ciclo de marcha.}}{figure}\relax 
-\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{1}{x1-430004.2}{QQ2-1-108}{M\IeC {\'o}dulo de Simula\IeC {\c c}\IeC {\~a}o}}{240}\relax 
-\doTocEntry\toclof{59}{\csname a:TocLink\endcsname{1}{x1-4300159}{}{\ignorespaces M\IeC {\'o}dulo de simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
-\doTocEntry\toclof{60}{\csname a:TocLink\endcsname{1}{x1-4300260}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do ciclo de marcha.}}{figure}\relax 
-\doTocEntry\toclof{61}{\csname a:TocLink\endcsname{1}{x1-4300361}{}{\ignorespaces Sinais de entrada para a \emph  {CMAC}. No caso posi\IeC {\c c}\IeC {\~o}es num plano 3D de marcadores.}}{figure}\relax 
-\doTocEntry\toclof{62}{\csname a:TocLink\endcsname{1}{x1-4300462}{}{\ignorespaces Sinais de entrada para a \emph  {CMAC}, \IeC {\^a}ngulos e velocidades angulares.}}{figure}\relax 
-\doTocEntry\toclof{63}{\csname a:TocLink\endcsname{1}{x1-4300563}{}{\ignorespaces Exemplo de configura\IeC {\c c}\IeC {\~a}o para uma simula\IeC {\c c}\IeC {\~a}o usando \emph  {CMAC}.}}{figure}\relax 
-\doTocEntry\toclof{64}{\csname a:TocLink\endcsname{1}{x1-4300664}{}{\ignorespaces Resultado da simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
-\doTocEntry\toclof{65}{\csname a:TocLink\endcsname{1}{x1-4300765}{}{\ignorespaces Erro quadrado m\IeC {\'e}dio em cada itera\IeC {\c c}\IeC {\~a}o da simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
-\doTocEntry\tocsection{4.3}{\csname a:TocLink\endcsname{1}{x1-440004.3}{QQ2-1-116}{Uso do sistema em dispositivos m\IeC {\'o}veis}}{263}\relax 
-\doTocEntry\toclof{66}{\csname a:TocLink\endcsname{1}{x1-4400166}{}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o \emph  {Open Gait Analytics} rodando num \emph  {browser Firefox} e dispositivo \emph  {Motorola Xoom}.}}{figure}\relax 
-\doTocEntry\toclof{67}{\csname a:TocLink\endcsname{1}{x1-4400267}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o de uma amostra de marcha rodando num \emph  {browser Firefox} e dispositivo \emph  {Motorola Xoom}.}}{figure}\relax 
-\doTocEntry\toclof{68}{\csname a:TocLink\endcsname{1}{x1-4400368}{}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o rodando num \emph  {iPhone 4} com \emph  {browser Safari}.}}{figure}\relax 
-\doTocEntry\toclof{69}{\csname a:TocLink\endcsname{1}{x1-4400469}{}{\ignorespaces Adapta\IeC {\c c}\IeC {\~a}o da aplica\IeC {\c c}\IeC {\~a}o em telas pequenas.}}{figure}\relax 
-\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{1}{x1-450005}{QQ2-1-121}{\textbf  {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}}{277}\relax 
-\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{1}{x1-460006}{QQ2-1-122}{\textbf  {TRABALHOS FUTUROS}}}{279}\relax 
-\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-470006}{QQ2-1-123}{\textbf  {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}}{282}\relax 
-\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-124}{}{\textbf  {REFER\IeC {\protect \^E}NCIAS BIBLIOGR\IeC {\protect \'A}FICAS}}}{282}\relax 
-\doTocEntry\tocpart{}{\csname a:TocLink\endcsname{1}{Q1-1-125}{}{\uppercase {Ap\^endices}}}{290}\relax 
-\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{1}{x1-48000A}{QQ2-1-126}{Artigo Completo WC2015}}{293}\relax 
-\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{1}{x1-49000B}{QQ2-1-127}{Resumo PAHCE 2014}}{306}\relax 
-\doTocEntry\tocpart{}{\csname a:TocLink\endcsname{1}{Q1-1-128}{}{\uppercase {Anexos}}}{310}\relax 
-\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{1}{x1-50000A}{QQ2-1-129}{PROCESSO NO COMIT\IeC {\^E} DE \IeC {\'E}TICA}}{313}\relax 
-\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{1}{x1-51000B}{QQ2-1-130}{LICEN\IeC {\c C}A MIT}}{317}\relax 
+\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-15001r3}{}{\ignorespaces C\IeC {\^a}mera Oqus MRI. Fonte \cite  {Qualisys2013}. }}{figure}\relax 
+\doTocEntry\toclof{4}{\csname a:TocLink\endcsname{1}{x1-15002r4}{}{\ignorespaces Vis\IeC {\~a}o do QTM. Fonte:{} \cite  {Qualisys2010}.}}{figure}\relax 
+\doTocEntry\toclof{5}{\csname a:TocLink\endcsname{1}{x1-15003r5}{}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o de c\IeC {\^a}meras para captura de dados de marcadores passivos fixados no paciente. Fonte:{} \cite  {Qualisys2013a}.}}{figure}\relax 
+\doTocEntry\toclof{6}{\csname a:TocLink\endcsname{1}{x1-15004r6}{}{\ignorespaces Experimento de captura de dados de \emph  {IMU} em conjunto com uma c\IeC {\^a}mera. Fonte:{} \cite  {Leite2014}.}}{figure}\relax 
+\doTocEntry\toclof{7}{\csname a:TocLink\endcsname{1}{x1-15005r7}{}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre \emph  {IMU} e a c\IeC {\^a}mera. Fonte:{} \cite  {Leite2014}.}}{figure}\relax 
+\doTocEntry\toclof{8}{\csname a:TocLink\endcsname{1}{x1-15006r8}{}{\ignorespaces Eletrogoni\IeC {\^o}metro. Fonte:{} \cite  {K.Ibrahim2012}.}}{figure}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{1}{x1-160002.2}{QQ2-1-27}{M\IeC {\'E}TODOS \IeC {\'A}GEIS}}{57}\relax 
+\doTocEntry\toclof{9}{\csname a:TocLink\endcsname{1}{x1-16001r9}{}{\ignorespaces Valores em comum. Adaptado de \cite  {Greene2014}.}}{figure}\relax 
+\doTocEntry\toclot{2}{\csname a:TocLink\endcsname{1}{x1-16002r2}{}{\ignorespaces Comparando Modelos de Desenvolvimento de Software}}{table}\relax 
+\doTocEntry\toclof{10}{\csname a:TocLink\endcsname{1}{x1-16003r10}{}{\ignorespaces Exemplo de processo baseado no modelo \emph  {waterfall}. Adaptado de \cite  {Pressman2014}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.2.1}{\csname a:TocLink\endcsname{1}{x1-170002.2.1}{QQ2-1-31}{SCRUM}}{67}\relax 
+\doTocEntry\toclof{11}{\csname a:TocLink\endcsname{1}{x1-17001r11}{}{\ignorespaces Vis\IeC {\~a}o Geral do \emph  {Scrum}. Adaptado de \cite  {Schwaber2004}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.2.2}{\csname a:TocLink\endcsname{1}{x1-180002.2.2}{QQ2-1-33}{HIST\IeC {\'O}RIAS DO USU\IeC {\'A}RIO}}{71}\relax 
+\doTocEntry\toclof{12}{\csname a:TocLink\endcsname{1}{x1-18001r12}{}{\ignorespaces Exemplo de \emph  {story card}. Adaptado de \cite  {cohn2004}.}}{figure}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{1}{x1-190002.3}{QQ2-1-35}{SOFTWARE COMO SERVI\IeC {\c C}O}}{75}\relax 
+\doTocEntry\toclof{13}{\csname a:TocLink\endcsname{1}{x1-19007r13}{}{\ignorespaces Vis\IeC {\~o}es arquiteturais de software como servi\IeC {\c c}o. Fonte \cite  {Fox2012}.}}{figure}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{1}{x1-200002.4}{QQ2-1-37}{COMPONENTES, FRAMEWORKS E FERRAMENTAS}}{79}\relax 
+\doTocEntry\tocsubsection{2.4.1}{\csname a:TocLink\endcsname{1}{x1-210002.4.1}{QQ2-1-38}{APLICA\IeC {\c C}\IeC {\~O}ES WEB COM \emph  {ANGULAJS}}}{79}\relax 
+\doTocEntry\toclof{14}{\csname a:TocLink\endcsname{1}{x1-21001r14}{}{\ignorespaces Diagrama de uma aplica\IeC {\c c}\IeC {\~a}o \emph  {MVC} usando \emph  {AngularJS}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.4.2}{\csname a:TocLink\endcsname{1}{x1-220002.4.2}{QQ2-1-40}{ORGANIZA\IeC {\c C}\IeC {\~A}O DE PROJETOS WEB COM \emph  {ANGULAR-SEED}}}{82}\relax 
+\doTocEntry\toclof{15}{\csname a:TocLink\endcsname{1}{x1-22001r15}{}{\ignorespaces Layout original de um projeto baseado em \emph  {angular-seed}. Fonte:{} \cite  {Google2015b}}}{figure}\relax 
+\doTocEntry\tocsubsection{2.4.3}{\csname a:TocLink\endcsname{1}{x1-230002.4.3}{QQ2-1-42}{SOLU\IeC {\c C}\IeC {\~A}O DE DESIGN WEB COM \emph  {ANGULAR-MATERIAL}}}{85}\relax 
+\doTocEntry\toclof{16}{\csname a:TocLink\endcsname{1}{x1-23001r16}{}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph  {angular-material}. Fonte \cite  {Google2015c}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.4.4}{\csname a:TocLink\endcsname{1}{x1-240002.4.4}{QQ2-1-44}{GR\IeC {\'A}FICOS E ANIMA\IeC {\c C}\IeC {\~O}ES 3D NA \emph  {WEB} COM \emph  {THREEJS}}}{88}\relax 
+\doTocEntry\toclof{17}{\csname a:TocLink\endcsname{1}{x1-24001r17}{}{\ignorespaces Exemplo de aplica\IeC {\c c}\IeC {\~a}o que utiliza \emph  {ThreeJS}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.4.5}{\csname a:TocLink\endcsname{1}{x1-250002.4.5}{QQ2-1-46}{SERVI\IeC {\c C}OS REST COM \emph  {FLASK}}}{91}\relax 
+\doTocEntry\toclof{18}{\csname a:TocLink\endcsname{1}{x1-25006r18}{}{\ignorespaces \emph  {Web API REST}. Fonte \cite  {Masse2011}.}}{figure}\relax 
+\doTocEntry\tocsubsection{2.4.6}{\csname a:TocLink\endcsname{1}{x1-260002.4.6}{QQ2-1-48}{SERVI\IeC {\c C}O DE BASE DE DOCUMENTOS COM \emph  {MONGODB}}}{95}\relax 
+\doTocEntry\toclof{19}{\csname a:TocLink\endcsname{1}{x1-26001r19}{}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o dos dados no \emph  {MongoDB}. Fonte \cite  {Plugge2014}.}}{figure}\relax 
+\doTocEntry\toclof{20}{\csname a:TocLink\endcsname{1}{x1-26002r20}{}{\ignorespaces Listagem de um documento. Fonte \cite  {Dayley2014}.}}{figure}\relax 
+\doTocEntry\toclof{21}{\csname a:TocLink\endcsname{1}{x1-26003r21}{}{\ignorespaces Definindo documentos normalizado com \emph  {MongoDB}. Fonte \cite  {Dayley2014}.}}{figure}\relax 
+\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{1}{x1-270002.5}{QQ2-1-52}{CMAC}}{107}\relax 
+\doTocEntry\toclof{22}{\csname a:TocLink\endcsname{1}{x1-27001r22}{}{\ignorespaces CMAC para controle de uma junta. Adaptado de \cite  {Albus1975b}.}}{figure}\relax 
+\doTocEntry\toclof{23}{\csname a:TocLink\endcsname{1}{x1-27002r23}{}{\ignorespaces Quantiza\IeC {\c c}\IeC {\~a}o de $s1$.}}{figure}\relax 
+\doTocEntry\toclot{3}{\csname a:TocLink\endcsname{1}{x1-27003r3}{}{\ignorespaces Mapeamento de $s1$}}{table}\relax 
+\doTocEntry\toclot{4}{\csname a:TocLink\endcsname{1}{x1-27004r4}{}{\ignorespaces Mapeamento de $s2$}}{table}\relax 
+\doTocEntry\toclot{5}{\csname a:TocLink\endcsname{1}{x1-27005r5}{}{\ignorespaces Mapeamento para os pesos $W$}}{table}\relax 
+\doTocEntry\tocsubsection{2.5.1}{\csname a:TocLink\endcsname{1}{x1-280002.5.1}{QQ2-1-58}{TREINAMENTO DA CMAC}}{122}\relax 
+\doTocEntry\tocsubsection{2.5.2}{\csname a:TocLink\endcsname{1}{x1-290002.5.2}{QQ2-1-59}{LICEN\IeC {\c C}A MIT}}{123}\relax 
+\doTocEntry\tocsection{2.6}{\csname a:TocLink\endcsname{1}{x1-300002.6}{QQ2-1-60}{ALGUNS C\IeC {\'A}LCULOS CINEM\IeC {\'A}TICOS}}{124}\relax 
+\doTocEntry\toclof{24}{\csname a:TocLink\endcsname{1}{x1-30004r24}{}{\ignorespaces Exemplo hipot\IeC {\'e}tico de um \IeC {\^a}ngulo. Adaptado de \cite  {Cliparts2015}.}}{figure}\relax 
+\doTocEntry\tocsection{2.7}{\csname a:TocLink\endcsname{1}{x1-310002.7}{QQ2-1-62}{SIMULA\IeC {\c C}\IeC {\~A}O}}{129}\relax 
+\doTocEntry\toclof{25}{\csname a:TocLink\endcsname{1}{x1-31005r25}{}{\ignorespaces Modelo matem\IeC {\'a}tico simplificado de um processo. Fonte \cite  {Garcia2009b}.}}{figure}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{1}{x1-320003}{QQ2-1-64}{\textbf  {metodologia}}}{133}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{1}{x1-330003.1}{QQ2-1-65}{AMBIENTE DE ESTUDO}}{133}\relax 
+\doTocEntry\toclof{26}{\csname a:TocLink\endcsname{1}{x1-33003r26}{}{\ignorespaces Rede LIS.}}{figure}\relax 
+\doTocEntry\toclof{27}{\csname a:TocLink\endcsname{1}{x1-33004r27}{}{\ignorespaces Processo de coleta de dados.}}{figure}\relax 
+\doTocEntry\toclof{28}{\csname a:TocLink\endcsname{1}{x1-33005r28}{}{\ignorespaces Dados disponibilizados pelo QTM.}}{figure}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{1}{x1-340003.2}{QQ2-1-69}{DELIMITA\IeC {\c C}\IeC {\~A}O DO ESTUDO}}{142}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{1}{x1-350003.3}{QQ2-1-70}{VIS\IeC {\~A}O}}{142}\relax 
+\doTocEntry\tocsection{3.4}{\csname a:TocLink\endcsname{1}{x1-360003.4}{QQ2-1-71}{MODELO DE GEST\IeC {\~A}O}}{143}\relax 
+\doTocEntry\toclof{29}{\csname a:TocLink\endcsname{1}{x1-36001r29}{}{\ignorespaces Processo de desenvolvimento.}}{figure}\relax 
+\doTocEntry\tocsection{3.5}{\csname a:TocLink\endcsname{1}{x1-370003.5}{QQ2-1-73}{MODELO DE ARQUITETURA}}{146}\relax 
+\doTocEntry\toclof{30}{\csname a:TocLink\endcsname{1}{x1-37001r30}{}{\ignorespaces Camadas arquiteturais.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.5.1}{\csname a:TocLink\endcsname{1}{x1-380003.5.1}{QQ2-1-75}{CAMADA DE APLICA\IeC {\c C}\IeC {\~A}O WEB}}{149}\relax 
+\doTocEntry\toclof{31}{\csname a:TocLink\endcsname{1}{x1-38001r31}{}{\ignorespaces Exemplo de uma tela criada com \emph  {angular-material}.}}{figure}\relax 
+\doTocEntry\toclof{32}{\csname a:TocLink\endcsname{1}{x1-38003r32}{}{\ignorespaces Camada \emph  {web}.}}{figure}\relax 
+\doTocEntry\toclof{33}{\csname a:TocLink\endcsname{1}{x1-38004r33}{}{\ignorespaces Exemplo de componentes da camada web funcionando juntos.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.5.2}{\csname a:TocLink\endcsname{1}{x1-390003.5.2}{QQ2-1-79}{CAMADA \emph  {REST WEB API}}}{158}\relax 
+\doTocEntry\toclof{34}{\csname a:TocLink\endcsname{1}{x1-39001r34}{}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o do arquivos e diret\IeC {\'o}rios da camada \emph  {web API}.}}{figure}\relax 
+\doTocEntry\toclof{35}{\csname a:TocLink\endcsname{1}{x1-39007r35}{}{\ignorespaces Camada \emph  {REST WEB API}.}}{figure}\relax 
+\doTocEntry\toclof{36}{\csname a:TocLink\endcsname{1}{x1-39008r36}{}{\ignorespaces Exemplo de requisi\IeC {\c c}\IeC {\~a}o sendo tratada pela \emph  {webapi}.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.5.3}{\csname a:TocLink\endcsname{1}{x1-400003.5.3}{QQ2-1-83}{CAMADA DE BASE DE DOCUMENTOS}}{168}\relax 
+\doTocEntry\toclof{37}{\csname a:TocLink\endcsname{1}{x1-40001r37}{}{\ignorespaces Banco de documentos da aplica\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
+\doTocEntry\toclof{38}{\csname a:TocLink\endcsname{1}{x1-40002r38}{}{\ignorespaces Documento da cole\IeC {\c c}\IeC {\~a}o \emph  {patients}.}}{figure}\relax 
+\doTocEntry\toclof{39}{\csname a:TocLink\endcsname{1}{x1-40003r39}{}{\ignorespaces Documento da cole\IeC {\c c}\IeC {\~a}o \emph  {positionals\_data}.}}{figure}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{1}{x1-410004}{QQ2-1-87}{\textbf  {RESULTADOS}}}{178}\relax 
+\doTocEntry\toclof{40}{\csname a:TocLink\endcsname{1}{x1-41001r40}{}{\ignorespaces Tela de sele\IeC {\c c}\IeC {\~a}o dos m\IeC {\'o}dulos.}}{figure}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{1}{x1-420004.1}{QQ2-1-89}{M\IeC {\'o}dulo de An\IeC {\'a}lise}}{181}\relax 
+\doTocEntry\toclof{41}{\csname a:TocLink\endcsname{1}{x1-42001r41}{}{\ignorespaces Tela com a listagem de pacientes.}}{figure}\relax 
+\doTocEntry\toclof{42}{\csname a:TocLink\endcsname{1}{x1-42002r42}{}{\ignorespaces Informa\IeC {\c c}\IeC {\~o}es do paciente.}}{figure}\relax 
+\doTocEntry\toclof{43}{\csname a:TocLink\endcsname{1}{x1-42003r43}{}{\ignorespaces Tela inicial da dados coletados do paciente.}}{figure}\relax 
+\doTocEntry\toclof{44}{\csname a:TocLink\endcsname{1}{x1-42004r44}{}{\ignorespaces Inclus\IeC {\~a}o de amostra de marcha}}{figure}\relax 
+\doTocEntry\toclof{45}{\csname a:TocLink\endcsname{1}{x1-42005r45}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do arquivo no formato \emph  {MATLAB} proveniente do \emph  {QTM}.}}{figure}\relax 
+\doTocEntry\toclof{46}{\csname a:TocLink\endcsname{1}{x1-42006r46}{}{\ignorespaces Dados do arquivo provenientes do \emph  {QTM}}}{figure}\relax 
+\doTocEntry\toclof{47}{\csname a:TocLink\endcsname{1}{x1-42007r47}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o dos marcadores em 3D.}}{figure}\relax 
+\doTocEntry\toclof{48}{\csname a:TocLink\endcsname{1}{x1-42008r48}{}{\ignorespaces Controle de perspectivas.}}{figure}\relax 
+\doTocEntry\toclof{49}{\csname a:TocLink\endcsname{1}{x1-42009r49}{}{\ignorespaces Controle de \emph  {zoom}.}}{figure}\relax 
+\doTocEntry\toclof{50}{\csname a:TocLink\endcsname{1}{x1-42010r50}{}{\ignorespaces Controle \emph  {pan}.}}{figure}\relax 
+\doTocEntry\toclof{51}{\csname a:TocLink\endcsname{1}{x1-42011r51}{}{\ignorespaces Controles da anima\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
+\doTocEntry\toclof{52}{\csname a:TocLink\endcsname{1}{x1-42012r52}{}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o \emph  {markers}.}}{figure}\relax 
+\doTocEntry\toclof{53}{\csname a:TocLink\endcsname{1}{x1-42013r53}{}{\ignorespaces Progress\IeC {\~a}o espacial de um marcador.}}{figure}\relax 
+\doTocEntry\toclof{54}{\csname a:TocLink\endcsname{1}{x1-42014r54}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o de um marcador pelo \emph  {mouse}.}}{figure}\relax 
+\doTocEntry\toclof{55}{\csname a:TocLink\endcsname{1}{x1-42015r55}{}{\ignorespaces Renomeando um marcador.}}{figure}\relax 
+\doTocEntry\toclof{56}{\csname a:TocLink\endcsname{1}{x1-42016r56}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o mostrando o marcador renomeado.}}{figure}\relax 
+\doTocEntry\toclof{57}{\csname a:TocLink\endcsname{1}{x1-42017r57}{}{\ignorespaces Op\IeC {\c c}\IeC {\~a}o de visualiza\IeC {\c c}\IeC {\~a}o e cria\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos.}}{figure}\relax 
+\doTocEntry\toclof{58}{\csname a:TocLink\endcsname{1}{x1-42018r58}{}{\ignorespaces Inclus\IeC {\~a}o de um novo \IeC {\^a}ngulo.}}{figure}\relax 
+\doTocEntry\toclof{59}{\csname a:TocLink\endcsname{1}{x1-42019r59}{}{\ignorespaces \IeC {\^A}ngulo de um joelho durante o ciclo de marcha.}}{figure}\relax 
+\doTocEntry\toclof{60}{\csname a:TocLink\endcsname{1}{x1-42020r60}{}{\ignorespaces Velocidades angulares de um joelho durante o ciclo de marcha.}}{figure}\relax 
+\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{1}{x1-430004.2}{QQ2-1-110}{M\IeC {\'o}dulo de Simula\IeC {\c c}\IeC {\~a}o}}{241}\relax 
+\doTocEntry\toclof{61}{\csname a:TocLink\endcsname{1}{x1-43001r61}{}{\ignorespaces M\IeC {\'o}dulo de simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
+\doTocEntry\toclof{62}{\csname a:TocLink\endcsname{1}{x1-43002r62}{}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do ciclo de marcha.}}{figure}\relax 
+\doTocEntry\toclof{63}{\csname a:TocLink\endcsname{1}{x1-43003r63}{}{\ignorespaces Sinais de entrada para a \emph  {CMAC}. No caso posi\IeC {\c c}\IeC {\~o}es num plano 3D de marcadores.}}{figure}\relax 
+\doTocEntry\toclof{64}{\csname a:TocLink\endcsname{1}{x1-43004r64}{}{\ignorespaces Sinais de entrada para a \emph  {CMAC}, \IeC {\^a}ngulos e velocidades angulares.}}{figure}\relax 
+\doTocEntry\toclof{65}{\csname a:TocLink\endcsname{1}{x1-43005r65}{}{\ignorespaces Exemplo de configura\IeC {\c c}\IeC {\~a}o para uma simula\IeC {\c c}\IeC {\~a}o usando \emph  {CMAC}.}}{figure}\relax 
+\doTocEntry\toclof{66}{\csname a:TocLink\endcsname{1}{x1-43006r66}{}{\ignorespaces Resultado da simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
+\doTocEntry\toclof{67}{\csname a:TocLink\endcsname{1}{x1-43007r67}{}{\ignorespaces Erro quadrado m\IeC {\'e}dio em cada itera\IeC {\c c}\IeC {\~a}o da simula\IeC {\c c}\IeC {\~a}o.}}{figure}\relax 
+\doTocEntry\tocsection{4.3}{\csname a:TocLink\endcsname{1}{x1-440004.3}{QQ2-1-118}{Uso do sistema em dispositivos m\IeC {\'o}veis}}{262}\relax 
+\doTocEntry\toclof{68}{\csname a:TocLink\endcsname{1}{x1-44001r68}{}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o \emph  {Open Gait Analytics} rodando num \emph  {browser Firefox} e dispositivo \emph  {Motorola Xoom}.}}{figure}\relax 
+\doTocEntry\toclof{69}{\csname a:TocLink\endcsname{1}{x1-44002r69}{}{\ignorespaces Anima\IeC {\c c}\IeC {\~a}o de uma amostra de marcha rodando num \emph  {browser Firefox} e dispositivo \emph  {Motorola Xoom}.}}{figure}\relax 
+\doTocEntry\toclof{70}{\csname a:TocLink\endcsname{1}{x1-44003r70}{}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o rodando num \emph  {iPhone 4} com \emph  {browser Safari}.}}{figure}\relax 
+\doTocEntry\toclof{71}{\csname a:TocLink\endcsname{1}{x1-44004r71}{}{\ignorespaces Adapta\IeC {\c c}\IeC {\~a}o da aplica\IeC {\c c}\IeC {\~a}o em telas pequenas.}}{figure}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{1}{x1-450005}{QQ2-1-123}{\textbf  {DISCUSS\IeC {\~A}O E CONCLUS\IeC {\~A}O}}}{275}\relax 
+\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{1}{x1-460006}{QQ2-1-124}{\textbf  {TRABALHOS FUTUROS}}}{277}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-470006}{QQ2-1-125}{\textbf  {REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}}}{279}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-126}{}{\textbf  {REFER\IeC {\protect \^E}NCIAS BIBLIOGR\IeC {\protect \'A}FICAS}}}{279}\relax 
+\doTocEntry\tocpart{}{\csname a:TocLink\endcsname{1}{Q1-1-127}{}{\uppercase {Ap\^endices}}}{287}\relax 
+\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{1}{x1-48000A}{QQ2-1-128}{Artigo Completo WC2015}}{290}\relax 
+\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{1}{x1-49000B}{QQ2-1-129}{Resumo PAHCE 2014}}{303}\relax 
+\doTocEntry\tocpart{}{\csname a:TocLink\endcsname{1}{Q1-1-130}{}{\uppercase {Anexos}}}{307}\relax 
+\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{1}{x1-50000A}{QQ2-1-131}{PROCESSO NO COMIT\IeC {\^E} DE \IeC {\'E}TICA}}{310}\relax 
+\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{1}{x1-51000B}{QQ2-1-132}{LICEN\IeC {\c C}A MIT}}{314}\relax 
