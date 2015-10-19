@@ -453,18 +453,14 @@
 	sistema de captura de movimentos, plotar a progressão espacial destes marcadores,
 	os ângulos, velocidades angulares e acelerações angulares dos marcadores.
 	Além disso é possivel visualizar os marcadores numa animação em 3D.
-	O código fonte é open souce e pode ser modificado e utilizado de forma livre.
+	O código fonte está disponível com software livre e frequentemente recebe novas
+	funcionalidades, sendo que uma nova comunidade está sendo criada em torno do software.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-	Análise de marcha. Software como serviço.
+	Análise de marcha, software como serviço.
 \end{IEEEkeywords}
-
-
-
-
-
 
 % For peer review papers, you can put extra information on the cover
 % page as needed:
@@ -499,7 +495,7 @@ que podem ser implementados e implantados num servidor central e
 disponibilados para qualquer parte do mundo. 
 Além disso, os browsers webs modernos se tornaram uma verdadeira plataforma,
 permitindo a criação de interfaces de usuário ricas, inclusive com apresentação 
-de gráficos em 3D. 
+de gráficos e animações em 3D. 
 
 Estas duas tecnologias, servidores e browsers web, podem ser 
 usadas como base para o que se conhece como software como serviço. 
@@ -513,8 +509,9 @@ Segundo \cite{Baker2007}, apesar dos avanços ocorridos na análise de marcha
 até meados do meio do século
 vinte, foi só após o advento dos computadores modernos 
 que a análise de marcha clínica
-tornou-se amplamente disponível. 
-Até agora no século 21, nenhum fornecedor de software se comprometeu-se
+tornou-se amplamente disponível. Pacotes do software para análise de marcha foram
+implementados \cite{Moraes2003}.
+Mas até agora no século 21, nenhum fornecedor de software comprometeu-se
 a
 entregar um sistema de análise de máquina disponibilizado como serviço,
 em outras palavras, profissionais de saúde ou pesquisadores de análisde de marcha
@@ -526,23 +523,21 @@ novamente, se eles quiserem compartilhar dados terão que copiá-los e enviá-lo
 a seu destinatário. 
 Todos esses problemas são eliminados quando se utiliza Software como Serviço.
 Além disto técnicas de análise de marcha são bem documentadas hoje em dia
-\cite{Perry2010}, o que facilita a escolha de características a serem adotados
+\cite{Perry2010} \cite{Ferreira2009}, o que facilita a escolha de características a serem adotados
 para um software.
 Com isto em mente, o presente trabalho descreve a implementação
 de um software como serviço para análise de marcha, que foi
-concebido em \cite{Lima2015}. 
+inicialmente concebido por \cite{Lima2015}. 
 O software implementado é capaz de recuperar dados gerados por um sistema de
-captura de imagens de marcadores de superfície específico, 
+captura de imagens, no caso dados de  marcadores de superfície, 
 nomear marcadores,
 gerar gráficos de progreção espacial dos marcadores, 
 definir ângulos usando os marcadores, plotar gráficos dos ângulos, 
 velocidades angulares e acelerações angulares, além de exibir uma animação
-em 3D dos marcadores.
+interativa em 3D dos marcadores.
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-
-
 
 \section{Metodologia}
 Dois ambientes de pesquisa foram utilizados, um foi o Laboratório de 
@@ -563,7 +558,7 @@ O processo de coleta é descrito na Fig. \ref{coleta_dados}.
 Para este trabalho um paciente saudável do sexo masculino com idade entre 20 e 30 anos
 foi selecionado.
 Também é necessario definir quais os pontos no corpo do paciente devem
-receber marcadores de superfıcie, neste caso os pontos de interes foram o trocanter esquerdo, joelho esquerdo e tíbia esquerda. 
+receber marcadores de superfıcie, neste caso os pontos de interesse foram o trocanter esquerdo, joelho esquerdo e tíbia esquerda. 
 O proximo passo se refere a coleta dos dados em si. 
 O paciente deve repetir um ciclo de marcha confortavel de aproximadamente 5 segundos,
 por 5 vezes na frente das câmeras.
@@ -709,13 +704,12 @@ Depois de se cadastrar o paciente, o usuário deve incluir uma nova amostra de d
 Para isso ele deve importar o arquivo com a amostra para o sistema. Após o processo de 
 importação a tela descrita na Fig. \ref{qtm_data} é mostrada.
 
-
-\begin{figure}[!t]
+\begin{figure*}[tb]
 	\centering
-	{\includegraphics[width=9cm]{tela7}}
+	{\includegraphics[width=\textwidth]{tela7}}
 	\caption{Dados importados do QTM. }
 	\label{qtm_data}
-\end{figure}
+\end{figure*}
 
 
 A partir desta tela é possível executar uma animação dos dados coletados (Fig. \ref{animacao}).
@@ -766,14 +760,14 @@ acelerações angulares (Fig. \ref{angular_accelerations}).
 
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=9cm]{tela26}}
+	{\includegraphics[width=9.5cm]{tela26}}
 	\caption{Velocidades angulares de um joelho. }
 	\label{va}
 \end{figure}
 
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=9cm]{angular_accelerations}}
+	{\includegraphics[width=9.5cm]{angular_accelerations}}
 	\caption{Acelerações angulares de um joelho.}
 	\label{angular_accelerations}
 \end{figure}
@@ -941,8 +935,8 @@ do LPH FCE/UnB.
 % use section* for acknowledgment
 \section*{Acknowledgment}
 
-O primeiro auto agradece ao apoi concedido pela CAPES para realização do projeto.
-Agradece-se também ao LIS FGA/UnB e ao LPH FCE/UnB.
+O primeiro autor agradece ao apoio financeiro concedido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para realização do projeto.
+Os autores agradecem também ao LIS FGA/UnB e ao LPH FCE/UnB, pela disponibilização de equipamentos e instalações para a execução do projeto.
 
 
 
@@ -990,22 +984,36 @@ Agradece-se também ao LIS FGA/UnB e ao LPH FCE/UnB.
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}{Michael Shell}
-Biography text here.
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{roberto}}]{Roberto Aguiar Lima}
+	Possui graduação na área em Ciência da Computação pela Universidade Católica de Brasília (2000).
+	Atualmente cursa o programa de Mestrado em Engenharia Biomédica da Universidade de Brasília.
+	Possui mais de 20 anos como desenvolvedor de software.
 \end{IEEEbiography}
 
 % if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vera}}]{Vera Regina Da Silva Marães}
+Possui graduação em Fsioterapia pela Universidade Federal de São Carlos (1995), mestrado em Biologia Celular e Estrutural pela Universidade Estadual de Campinas (1999) e doutorado em Fisioterapia pela Universidade Federal de São Carlos (2004). Atualmente é docente adjunto III da Faculdade de Ceilândia; do Programa de Pós-Graduação em Engenharia Biomédica e do Pro-Ensino na Saúde da Universidade de Brasília. Tem experiência na área de Fisioterapia, atuando principalmente nos seguintes temas: ensino na saúde, adaptação de próteses em amputados, funcionalidade humana, fisiologia do exercício, reabilitação cardíaca e variabilidade da frequência cardíaca.
+\end{IEEEbiography}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
 
-\begin{IEEEbiographynophoto}{Jane Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{lourdes}}]{Lourdes Mattos Brasil}
+Lourdes Mattos Brasil possui graduação em Engenharia Elétrica pela Universidade Federal de Santa Catarina (1989), 
+Mestrado em Engenharia Elétrica/Engenharia Biomédica pela Universidade Federal de Santa Catarina (1994) e 
+concluiu o doutorado em Engenharia Elétrica/Sistemas de Informação - Engenharia Biomédica pela Universidade Federal de Santa Catarina em 1999, 
+sendo parte realizado na Facultés Universitaires Notre-Dame de La Paix (FUNDP), Namur  Belgium (1998). 
+Realizou estágio Pós-Doutoral no Programa de Pós-Graduação em Engenharia Biomédica da Universidade Federal da Paraíba (2001-2002). 
+Atualmente é Professor Adjunto da Universidade de Brasília (UnB), 
+Faculdade UnB-Gama (FGA), onde atua na Engenharia Eletrônica, 
+bem como é coordenadora do Lato Sensu em Engenharia Clínica e dos Laboratórios de Informática em Saúde (LIS) e de Nanotecnologia (NTEC-FGA). 
+Também é pesquisadora/docente do Stricto Sensu, Mestrado em Engenharia Biomédica. 
+Tem experiência na área de Engenharia Biomédica, com ênfase em Informática em Saúde, atuando principalmente nos seguintes temas: 
+informática em saúde, inteligência artificial em saúde, engenharia biomédica, redes neurais artificiais, sistemas baseados no conhecimento, descoberta de conhecimento, realidade virtual, sistemas tutores inteligentes, sistemas especialistas híbridos, sistemas inteligentes, processamento de imagens, nanotecnologia e gestão do conhecimento. 
+Suas produções técnicas-científicas permeiam essas áreas, bem como suas publicações de livros, prêmios, palestras/seminários, pareceres, consultorias. 
+Também participa como membro das sociedades brasileira e internacional: SBC, SBEB e IEEE.
+\end{IEEEbiography}
 
 % You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate
