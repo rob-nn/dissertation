@@ -38,6 +38,23 @@ J.~Perry and J.~M. BurnField, \emph{{Gait Analysis Normal and Pathological
 R.~A. Lima, ``{Implementando um Software como Servi{\c{c}}o para An{\'{a}}lise
   e Simula{\c{c}}{\~{a}}o de Marcha Humana},'' 2015.
 
+\bibitem{Schwaber2001}
+K.~Schwaber and M.~Beedle, \emph{{Agile Software Development with Scrum}}, 1,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Pearson, 2001.
+
+\bibitem{Beck2001}
+\BIBentryALTinterwordspacing
+K.~Beck, M.~Beedle, A.~van Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, J.~Kern, B.~Marick, R.~C.
+  Martin, S.~Mellor, K.~Schwaber, J.~Sutherland, and D.~Thomas, ``{Manifesto
+  para Desenvolvimento {\'{A}}gil de Software},'' 2001. [Online]. Available:
+  \url{http://www.agilemanifesto.org/iso/ptbr/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cohn2004}
+M.~Cohn, \emph{{Users Stories Applied}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Crawfordsville: Addison Wesley, 2004.
+
 \bibitem{Branas2014}
 R.~Branas, \emph{{AgularJS Essentials}}.\hskip 1em plus 0.5em minus 0.4em\relax
   Birmingham: Packt Publishing Ltd., 2014.

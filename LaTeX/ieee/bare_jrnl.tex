@@ -577,12 +577,28 @@ MATLAB. Esta opção está disponível no QTM.
 \end{figure}
 
 \subsection{Processo de desenvolvimento}
-O processo de desenvolvimento foi inspirado no scrum \cite{}
+O processo de desenvolvimento foi inspirado no scrum \cite{Schwaber2001}.
+O scrum é um porcesso de desenvolvimento ágil \cite{Beck2001}, que tem como
+principais características ser iterativo e incremental. Estas características
+são essenciais para lidar com a natureza volátil dos requisitos de software.
+
+O arcabouço do processo pode ser visto na Fig. \ref{dev_proc}. O processo
+consiste de iterações, chamadas de sprint, que duram em média duas
+semanas. Um backlog de produto é administrado por um product owner. 
+Este backlog fica sempre em aberto, recebendo adições na forma de
+histórias do usuário \cite{cohn2004}. Antes de cada iteração uma reunião
+com a equipe é feita. Esta reunião é dividida em duas fases. Na primeira
+fase são apresentados os resultados da última iteração. Na segunda fase
+histórias do usuário contidas no backlog do produto são selecionadas.
+Estas histórias compõe o backlog do sprint, que são as funcionalidades a serem implementadas
+durante o sprint. Ao final do sprint
+um incremento é produzido. O incremento consiste num pedaço de software
+funcional pronto para ser implantado.
 
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=4cm]{scurm_projeto}}
-	\caption{Processo de coleta de dados.}
+	{\includegraphics[width=8cm]{scrum_projeto}}
+	\caption{Processo de desenvolvimento.}
 	\label{dev_proc}
 \end{figure}
 
@@ -596,7 +612,7 @@ persistência dos dados da aplicação.
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=4cm]{camadas}}
-	\caption{Visão de alto nível da arquitetura. Fonte \cite{Lima2015}.}
+	\caption{Visão de alto nível da arquitetura.}
 	\label{camadas}
 \end{figure}
 
@@ -635,7 +651,7 @@ usuário.
 \begin{figure*}[tb]
 	\centering
 	{\includegraphics[width=\textwidth]{camada_web}}
-	\caption{Interação dos componentes da camada Web. Fonte \cite{Lima2015}.}
+	\caption{Interação dos componentes da camada Web.  O usuário, usando o seu browser web, interage com a aplicação, clicando num botão por exemplo, o framework AngularJS reconhece o evento e dispara o procedimento corrento para tratá-lo, que está dentro de uma classe controladora. Caso seja necessário recuperar algum dado no backend, o controlador delega esta tarefa para uma classe Facade.}
 	\label{camada_web}
 \end{figure*}
 
@@ -663,7 +679,7 @@ do usuário.
 \begin{figure*}[tb]
 	\centering
 	{\includegraphics[width=\textwidth]{camada_api}}
-	\caption{Interação dos componentes da camada REST Web API. Fonte \cite{Lima2015}.}
+	\caption{Interação dos componentes da camada REST Web API. Quando a aplicação web necessita de dados, ela faz uma requisição HTTP a camada REST Web API. Esta requisição é recebida pelo servidor web que a redireciona para a aplicação Flask. A aplicação Flask identifica a requisição e a encaminha para uma função Python apropriada para ser processada. Esta função tem acesso a diversas bibliotecas para ajudar no processamento, como NumPy, Matplotlib, bibliotecas específicas da aplicação entre outras.  Se algum dado persistido for necessário, também pode-se utilizar a biblioteca PyMongo para buscá-los na base de documentos. Finalmente uma resposta HTTP é criada. O conteúdo desta resposta é um objeto no formato JSON que será consumido pela camada web.}
 	\label{camada_api}
 \end{figure*}
 
@@ -682,7 +698,7 @@ patients e positionals\_data.
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=4cm]{mongo_oga}}
-	\caption{Base de documentos da aplicação. Fonte \cite{Lima2015}.}
+	\caption{Base de documentos da aplicação. }
 	\label{mongo_oga}
 \end{figure}
 
@@ -697,7 +713,7 @@ importação a tela descrita na Fig. \ref{qtm_data} é mostrada.
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=9cm]{tela7}}
-	\caption{Dados importados do QTM. Fonte \cite{Lima2015}.}
+	\caption{Dados importados do QTM. }
 	\label{qtm_data}
 \end{figure}
 
@@ -712,9 +728,9 @@ dados devem ser cadastrados na tela mostrada na Fig. \ref{qtm_data}. Sem este pr
 \begin{figure*}[tb]
 	\centering
 	{\includegraphics[width=\textwidth]{animacao}}
-	\caption{Animação em 3D dos dados coletados. A primeira figura mostra o contato inicial
-	dom membro inferior direito. A segunda figura mostra o membro inferior direito no
-	periodo de balançõ. A terceira figural mostra o balanço terminal. Fonte \cite{Lima2015}.}
+	\caption{Animação em 3D dos dados coletados. A) Contato inicial
+		do membro inferior esquerdo. B) Membro inferior esquerdo no
+	período de balanço. C) Membro inferior esquerdo no balanço terminal. }
 	\label{animacao}
 \end{figure*}
 
@@ -725,36 +741,42 @@ Fig. \ref{progressao}.
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=9cm]{tela19}}
-	\caption{Progressão no espaço do calcâneo esquerdo. Fonte \cite{Lima2015}.}
+	\caption{Progressão no espaço do calcâneo esquerdo. }
 	\label{progressao}
 \end{figure}
 
 Outro recurso importante da aplicação é o cadastramento de ângulos. 
 Este recurso pode ser visto na Fig. \ref{angulos}. 
-A partir desta tela é possível ver os ângulos (Fig. \ref{angulos}) e velocidades angulares (Fig. \ref{va}).
+A partir desta tela é possível ver os ângulos (Fig. \ref{angulos}), velocidades angulares (Fig. \ref{va}) e
+acelerações angulares (Fig. \ref{angular_accelerations}).
 
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=9cm]{tela23}}
-	\caption{Recurso para criação de ângulos. Fonte \cite{Lima2015}.}
+	\caption{Recurso para criação de ângulos. }
 	\label{progressao}
 \end{figure}
 
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=9cm]{tela25}}
-	\caption{Ângulo de um joelho. Fonte \cite{Lima2015}.}
+	\caption{Ângulo de um joelho. }
 	\label{angulos}
 \end{figure}
-
 
 \begin{figure}[!t]
 	\centering
 	{\includegraphics[width=9cm]{tela26}}
-	\caption{Velocidades angulares de um joelho. Fonte \cite{Lima2015}.}
+	\caption{Velocidades angulares de um joelho. }
 	\label{va}
 \end{figure}
 
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=9cm]{angular_accelerations}}
+	\caption{Acelerações angulares de um joelho.}
+	\label{angular_accelerations}
+\end{figure}
 
 \section{Discussão}
 
