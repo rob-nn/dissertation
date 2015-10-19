@@ -441,12 +441,24 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
-The abstract goes here.
+	Este trabalho descreve o desenvolvimento da primeira versão
+	de um software como serviço para análise e simulação de marcha
+	humana. 
+	A principal vantagem deste enfoque é a disponibilização via web
+	do software. Depois de implantado num servidor central, os usuários
+	poderão acessar o software através de um browser recente que suporte HTML 5. 
+	O objetivo do software é minimizar a necessidade de 
+	pesquisadores da área de escrever código em suas pesquisas.
+	O software permite importar dados gerados de marcadores de superfície a partir de um
+	sistema de captura de movimentos, plotar a progressão espacial destes marcadores,
+	os ângulos, velocidades angulares e acelerações angulares dos marcadores.
+	Além disso é possivel visualizar os marcadores numa animação em 3D.
+	O código fonte é open souce e pode ser modificado e utilizado de forma livre.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-IEEEtran, journal, \LaTeX, paper, template.
+	Análise de marcha. Software como serviço.
 \end{IEEEkeywords}
 
 
@@ -563,6 +575,17 @@ MATLAB. Esta opção está disponível no QTM.
 	\caption{Processo de coleta de dados.}
 	\label{coleta_dados}
 \end{figure}
+
+\subsection{Processo de desenvolvimento}
+O processo de desenvolvimento foi inspirado no scrum \cite{}
+
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=4cm]{scurm_projeto}}
+	\caption{Processo de coleta de dados.}
+	\label{dev_proc}
+\end{figure}
+
 
 \subsection{Arquitetura da Aplicação}
 A Fig. \ref{camadas} mostra uma visão de alto nível da
