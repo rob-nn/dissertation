@@ -1,4 +1,3 @@
-
 %% bare_jrnl.tex
 %% V1.4a
 %% 2014/09/17
@@ -117,7 +116,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  \usepackage[pdftex]{graphicx}
+  % \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -127,7 +126,7 @@
   % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
   % will default to the driver specified in the system graphics.cfg if no
   % driver is specified.
-  \usepackage[dvips]{graphicx}
+  % \usepackage[dvips]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../eps/}}
   % and their extensions so you won't have to specify these with
@@ -263,7 +262,7 @@
 % http://www.ctan.org/tex-archive/macros/latex/base/
 
 
-%\usepackage{stfloats}
+\usepackage{stfloats}
 % stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
 % the ability to do double column floats at the bottom of the page as well
 % as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
@@ -335,7 +334,7 @@
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-\usepackage{url}
+%\usepackage{url}
 % url.sty was written by Donald Arseneau. It provides better support for
 % handling and breaking URLs. url.sty is already installed on most LaTeX
 % systems. The latest version and documentation can be obtained at:
@@ -356,11 +355,6 @@
 \hyphenation{op-tical net-works semi-conduc-tor}
 
 
-%RETIRAR DA VERSÃO EM INGLÊS
-%\usepackage[brazil]{babel}
-\usepackage[utf8]{inputenc}		
-
-
 \begin{document}
 %
 % paper title
@@ -369,7 +363,7 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Um Software como Serviço para Análise de Marcha}
+\title{A Gait Analysis Software as a Service}
 %
 %
 % author names and IEEE memberships
@@ -381,11 +375,14 @@
 % was not built to handle multiple paragraphs
 %
 
-\author{Roberto Aguiar Lima,
-	Vera Regina Da Silva Marães,
-        and Lourdes Mattos Brasil 
-\thanks{R. A. Lima e L. M. Brasil são da FGA/UnB}% <-this % stops a space
-\thanks{V. R. S. Marães é da FCE/UnB}}% <-this % stops a space
+\author{
+	Roberto~Aguiar~Lima,
+	Vera~Regina~Da~Silva~Maraes,
+	Jairo Simao Santana Melo,
+        and~Lourdes~Mattos~Brasil,~\IEEEmembership{Member,~IEEE.}
+	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, Faculdade Gama / Universidade de Brasilia, Gama, DF.}
+	\thanks{J. S. S. Melo is whit Tribunal de Justiça do Distrito Federal, Brasilia, DF.}
+\thanks{Manuscript received October 23, 2015; revised December 1, 2015.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -408,7 +405,7 @@
 
 
 % The paper headers
-\markboth{Journal of \LaTeX\ Class Files,~Vol.~13, No.~9, September~2014}%
+\markboth{IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING,~Vol.~??, No.~?, ?????????~201?}%
 {Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
 % The only time the second header will appear is for the odd numbered pages
 % after the title page when using the twoside option.
@@ -441,25 +438,23 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
-	Este trabalho descreve o desenvolvimento da primeira versão
-	de um software como serviço para análise e simulação de marcha
-	humana. 
-	A principal vantagem deste enfoque é a disponibilização via web
-	do software. Depois de implantado num servidor central, os usuários
-	poderão acessar o software através de um browser recente que suporte HTML 5. 
-	O objetivo do software é minimizar a necessidade de 
-	pesquisadores da área de escrever código em suas pesquisas.
-	O software permite importar dados gerados de marcadores de superfície a partir de um
-	sistema de captura de movimentos, plotar a progressão espacial destes marcadores,
-	os ângulos, velocidades angulares e acelerações angulares dos marcadores.
-	Além disso é possivel visualizar os marcadores numa animação em 3D.
-	O código fonte está disponível como software livre e frequentemente recebe novas
-	funcionalidades, sendo que uma nova comunidade está sendo criada em torno do software.
+	This paper describes the first implementation version of a human gait analysis Software as a Service (SaaS).
+	This approach has as advantage, the software availability at web.
+	After the software is implanted at a web server, users can access him from a recent
+	web browser with support to HTML5.
+	The software objective is to minimize the code development necessities by gait analysis researchers, 
+	as well as be a useful tool for health professionals interested in human gait analysis.
+	The software allows import positionals data from a third party motion captures system,
+	that uses surface markers and video cameras, to plot markers spatial progression, 
+	angles, angular velocities and angular accelerations. Furthermore, it is possible
+	to see and to interact with a 3D animation from markers. 
+	The software source code is available as free software,
+	often receive new features and a new community is being created to maintain him.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-	Análise de marcha, software como serviço.
+Gait analysis, software as a service, SaaS.
 \end{IEEEkeywords}
 
 % For peer review papers, you can put extra information on the cover
@@ -490,311 +485,81 @@
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{C}{om} o advento da internet foi possível criar serviços 
-que podem ser implementados e implantados num servidor central e 
-disponibilados para qualquer parte do mundo. 
-Além disso, os browsers webs modernos se tornaram uma verdadeira plataforma,
-permitindo a criação de interfaces de usuário ricas, inclusive com apresentação 
-de gráficos e animações em 3D. 
-
-Estas duas tecnologias, servidores e browsers web, podem ser 
-usadas como base para o que se conhece como software como serviço. 
-Em \cite{Fox2012} são citadas vária vantagens desta abordagem, 
-destacando-se entre elas a fácil disponibilização do software,
-por exemplo, o usuário do software não precisa instalar uma 
-versão do software em seu computador, basta acessá-lo pelo
-browser web que o sistema estará disponível.
-
-Segundo \cite{Baker2007}, apesar dos avanços ocorridos na análise de marcha 
-até meados do meio do século
-vinte, foi só após o advento dos computadores modernos 
-que a análise de marcha clínica
-tornou-se amplamente disponível. Pacotes do software para análise de marcha foram
-implementados \cite{Moraes2003}.
-Mas até agora no século 21, nenhum fornecedor de software comprometeu-se
-a
-entregar um sistema de análise de máquina disponibilizado como serviço na web,
-em outras palavras, profissionais de saúde ou pesquisadores de análisde de marcha
-que querem usar um software para isto, têm que utilizar software instalados
-numa máquina com arquitetura específica e sistema operacional específico. 
-Eles ficam responsáveis por backups dos dados,
-ao surgirem novas funcionalidades no software, os mesmos têm que instalá-lo
-novamente, se eles quiserem compartilhar dados terão que copiá-los e enviá-los
-a seu destinatário. 
-Todos esses problemas são eliminados quando se utiliza Software como Serviço.
-Além disto técnicas de análise de marcha são bem documentadas hoje em dia
-\cite{Perry2010} \cite{Skinner2007} \cite{Ferreira2009}, o que facilita a escolha de características a serem adotados
-para um software.
-Com isto em mente, o presente trabalho descreve a implementação
-de um software como serviço para análise de marcha, que foi
-inicialmente concebido por \cite{Lima2015}. 
-O software implementado é capaz de recuperar dados gerados por um sistema de
-captura de imagens, no caso dados de  marcadores de superfície, 
-nomear marcadores,
-gerar gráficos de progreção espacial dos marcadores, 
-definir ângulos usando os marcadores, plotar gráficos dos ângulos, 
-velocidades angulares e acelerações angulares, além de exibir uma animação
-interativa em 3D dos marcadores.
-
+\IEEEPARstart{W}{ith} the software web advent now is possible to create services,
+put them at central web servers and use them from any part of world.
+Furthermore, modern web browsers have become a truly platform, allowing
+rich interfaces creation, including graphics presentation and 3D animations, 
+without the necessity of plugins installations.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
+These two technologies, web browsers and web servers, can be used to build
+what is known as Software as a Service (SaaS). The SaaS advantages for 
+customers and software developers are \cite{Fox2012}: customers do not need
+to install the application; data associated with the service is kept centralized,
+so it is more protected; data can be collectively accessed by a group of users;
+big datasets and data that is frequently updated, are kept centralized 
+and remote access to them are offered; only a single copy of the server software
+runs in a controlled hardware and operating system environment, which avoids
+compatibility problems, in addition, new versions of the software can be 
+tested with a small fraction of the real customers without disturbing most
+customers.
 
-\section{Metodologia}
-Dois ambientes de pesquisa foram utilizados, um foi o Laboratório de 
-Performance Human (LPH) na Faculdade Ceilândia (FCE) 
-da Universidade de Brasília (UnB), e o Laboratório de Informática em Saúde
-(LIS) na Faculdade Gama (FGA) da UnB.
-No LPH foram coletados os dados e no LIS foi desenvolvido o software.
+Although there was gait analysis advancements by the middle of century XX, 
+clinic gait analysis became broadly available only
+with the modern computer advent \cite{Baker2007}.
+Actually there are a lot of software packages for this finality \cite{Moraes2003},
+but until now at century XXI, no software provider committed to deliver a 
+gait analysis SaaS, in other words, health professionals or gait analysis researchers
+who want use software, have to use software installed at specifics hardware and
+operating systems, they have to be responsible by data backup, if new features are
+incorporated to new software versions, the software must be installed again, if they
+want share data, they must copy and send them to the destiny and others
+security concerns must be addressed too.
+All these problems can be minimized or until eliminated with a SaaS.
 
-O projeto no qual ocorreu a coleta foi aprovado pelo Comitê de Ética
-da Faculdade de Saúde da UnB, processo N11911/12.
-
-\subsection{Coleta de Dados}
-Os dados coletados foram captados através de câmeras Oqus MRI da
-Qualisys usando-se o software QTM do mesmo fabricante. 
-Os dados são referentes a marcadores de superfície
-dispostos ao longo do corpo do paciente.
-O processo de coleta é descrito na Fig. \ref{coleta_dados}.
-Para este trabalho um paciente saudável do sexo masculino com idade entre 20 e 30 anos
-foi selecionado.
-Também é necessario definir quais os pontos no corpo do paciente devem
-receber marcadores de superfıcie, neste caso os pontos de interesse foram o trocanter esquerdo, joelho esquerdo e tíbia esquerda. 
-O proximo passo se refere a coleta dos dados em si. 
-O paciente deve repetir um ciclo de marcha confortavel de aproximadamente 5 segundos,
-por 5 vezes na frente das câmeras.
-Os dados devem ser convertidos para formato adequado à linguagem
-MATLAB. Esta opção está disponível no QTM. 
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=4cm]{coleta_dados}}
-	\caption{Processo de coleta de dados.}
-	\label{coleta_dados}
-\end{figure}
-
-\subsection{Processo de desenvolvimento}
-O processo de desenvolvimento foi inspirado no scrum \cite{Schwaber2001}.
-O scrum é um porcesso de desenvolvimento ágil \cite{Beck2001}, que tem como
-principais características ser iterativo e incremental. Estas características
-são essenciais para lidar com a natureza volátil dos requisitos de software.
-
-O arcabouço do processo pode ser visto na Fig. \ref{dev_proc}. O processo
-consiste de iterações, chamadas de sprint, que duram em média duas
-semanas. Um backlog de produto é administrado por um product owner. 
-Este backlog fica sempre em aberto, recebendo adições na forma de
-histórias do usuário \cite{cohn2004}. Antes de cada iteração uma reunião
-com a equipe é feita. Esta reunião é dividida em duas fases. Na primeira
-fase são apresentados os resultados da última iteração. Na segunda fase
-histórias do usuário contidas no backlog do produto são selecionadas.
-Estas histórias compõe o backlog do sprint, que são as funcionalidades a serem implementadas
-durante o sprint. Ao final do sprint
-um incremento é produzido. O incremento consiste num pedaço de software
-funcional pronto para ser implantado.
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=8cm]{scrum_projeto}}
-	\caption{Processo de desenvolvimento.}
-	\label{dev_proc}
-\end{figure}
-
-
-\subsection{Arquitetura da Aplicação}
-A Fig. \ref{camadas} mostra uma visão de alto nível da
-arquitetura do software. A camada web é responsável pela interação com o usuário. 
-A camada Web API  é responsável pela lógica de negócio. 
-A camada de base de documentos é responsável pela
-persistência dos dados da aplicação.
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=4cm]{camadas}}
-	\caption{Visão de alto nível da arquitetura.}
-	\label{camadas}
-\end{figure}
-
-\subsubsection{Camada Web}
-Esta camada foi projetada para rodar em browsers que suportam HTML 5. Ela é 
-desenvolvida usando-se Javascript, CSS e HTML. Além disso, adotou-se o framework de
-desenvolvimento web AngularJS. Esta tecnologia foi descrita em \cite{Branas2014}.
-Uma das vantagens de se usar o AngularJS é a possibilidade de se criar diretivas.
-Diretivas são componentes que podem ser embutidas num template HTML.
-Neste projeto também foi utilizada a biblioteca de diretivas Angular-Material.
-Esta biblioteca é baseada na especificação Material Design criada pela empresa Google. 
-A especificação discorre sobre padrões de designe gráfico e interação com usuário e é baseada 
-no princípio da metáfora de materiais. 
-Segundo \cite{Google2015a}, esta metáfora é uma teoria unificada de um espaço racionalizado
-e sistemas de movimento. A intenção da escolha desta biblioteca foi a de criar
-uma experiência de usuário aceitável para profissionais da área de sáude.
-
-Para executar animações gráficas em 3D, foi utilizada a biblioteca ThreeJS, descrita em \cite{Dirksen2015}.
-Esta é uma biblioteca de alto nível que se aproveita do padrão WebGL, implementado
-nos broswers webs recentes. O padrão WebGL, ver \cite{Matsuda2013} usa nativamente a GPU do computardor, 
-permitindo assim criar aplicações que necessitam boa performance para gerar
-gráficos. 
-
-A Fig. \ref{camada_web} mostra a interação entre os principais componentes da camada web.
-O usuário ao interagir com a aplicação, através de seu browser, dispara algum evento, 
-por exemplo, um clique num botão. O framework AngularJS detecta o evento e o repassa
-para um controlador desenvolvido especiamente para a aplicação. Caso seja necessária 
-a execução de alguma lógica de negócio e dados da aplicação, o controlador faz uma
-requisição para uma Facade, também desenvolvida para a aplicação. Esta Facade é responsável
-por encapsular a requisição transformado-a numa requisição HTTP para o backend, ou seja, 
-o servidor da aplicação na internet. Despois da resposta, que vem no formato JSON, ser
-enviada pelo backend e recebida pela Facade, esta a encaminha para o Controlador que
-fica responsável por executar a lógica necessária para os dados serem apresentados ao 
-usuário.
-
-\begin{figure*}[tb]
-	\centering
-	{\includegraphics[width=\textwidth]{camada_web}}
-	\caption{Interação dos componentes da camada Web.  O usuário, usando o seu browser web, interage com a aplicação, clicando num botão por exemplo, o framework AngularJS reconhece o evento e dispara o procedimento corrento para tratá-lo, que está dentro de uma classe controladora. Caso seja necessário recuperar algum dado no backend, o controlador delega esta tarefa para uma classe Facade.}
-	\label{camada_web}
-\end{figure*}
-
-\subsubsection{Camada REST Web API}
-
-Esta camada é responsável pela execução da lógica de negócio, como por exemplo,
-fazer cálculos de ângulos e extrair dados do arquivo em formato MATLAB proveniente do QTM.
-Esta camada foi implementada usando-se o estilo arquitetural Representational Estate Transfer (REST),
-descrito por \cite{Grinberg2014}. A maior vantagem desta tecnologia é o alto desacoplamento com a
-camada web. Para implementar este estilo foi escolhido o framework Flask \cite{Maia2015}. Esta é 
-uma biblioteca escrita em Python,  que segundo \cite{Maia2015} é conhecida por sua filosofia minimalista,
-permitindo-se criar um projeto simples no início, mas que permite evolução para modelos
-mais complexos conforme a necessidade do momento.
-
-A Fig. \ref{camada_api} mostra a interação entre alguns componentes da camada REST Web API.
-Depois do browser do usuário encaminhar a requisição HTTP para o servidore web, este o 
-encaminha para a aplicação escrita em Python com o framework Flask, o framework roteia
-a requisição para uma função escrita em Python, esta pode acessar bibliotecas disponíveis
-para a aplicação ou fazer uma consulta ao banco de documentos através da biblioteca PyMongo.
-A lógica de negócio pode ser implementada dentro desta função, ou caso seja muito complexa,
-numa biblioteca escrita especiamente para a funcinalidade.
-Depois de processado o resultado é convertido para o formato JSON e retornado para o browser
-do usuário.
-
-\begin{figure*}[tb]
-	\centering
-	{\includegraphics[width=\textwidth]{camada_api}}
-	\caption{Interação dos componentes da camada REST Web API. Quando a aplicação web necessita de dados, ela faz uma requisição HTTP a camada REST Web API. Esta requisição é recebida pelo servidor web que a redireciona para a aplicação Flask. A aplicação Flask identifica a requisição e a encaminha para uma função Python apropriada para ser processada. Esta função tem acesso a diversas bibliotecas para ajudar no processamento, como NumPy, Matplotlib, bibliotecas específicas da aplicação entre outras.  Se algum dado persistido for necessário, também pode-se utilizar a biblioteca PyMongo para buscá-los na base de documentos. Finalmente uma resposta HTTP é criada. O conteúdo desta resposta é um objeto no formato JSON que será consumido pela camada web.}
-	\label{camada_api}
-\end{figure*}
-
-\subsubsection{Camada de Base de Documentos}
-
-A camada de base de documentos é responsável pela persistência dos dados da aplicação.
-Esta camada basicamente é formada por uma base implementada usando-se a tecnologia
-MongoDB. Uma introdução ao MongoDB é feita em \cite{Plugge2014}.
-A escolha desta tecnologia, em detrimento a um banco de dados relacional que é mais comum,
-foi devido a natureza multidimensional dos dados, que é mais facilmente modelada num
-banco de documento, e também por causa das facilidades relativas a escalabilidade do 
-MongoDB.
-A Fig. \ref{mongo_oga} mostra a base de dados oga, que possui duas coleções de dados 
-patients e positionals\_data.
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=4cm]{mongo_oga}}
-	\caption{Base de documentos da aplicação. }
-	\label{mongo_oga}
-\end{figure}
-
-\section{Resultados}
-O software desenvolvido permite o cadastro de pacientes e de amostras de dados espaciais
-coletadas pelo software QTM. 
-Depois de se cadastrar o paciente, o usuário deve incluir uma nova amostra de dados.
-Para isso ele deve importar o arquivo com a amostra para o sistema. Após o processo de 
-importação a tela descrita na Fig. \ref{qtm_data} é mostrada.
-
-\begin{figure*}[tb]
-	\centering
-	{\includegraphics[width=\textwidth]{tela7}}
-	\caption{Dados importados do QTM. }
-	\label{qtm_data}
-\end{figure*}
-
-
-A partir desta tela é possível executar uma animação dos dados coletados (Fig. \ref{animacao}).
-Nesta tela é possífel acelerar ou desacelerar, aplicar zoom in e zoom out, fazer pan e visualizar
-um quadro específico da animação. O recurso de visualizar o quadro é importante pois é com ele
-que se deve descobrir o quadro referente ao contato inicial e ao balanço terminal. Estes
-dados devem ser cadastrados na tela mostrada na Fig. \ref{qtm_data}. Sem este procedimento não
-é possível visualisar os gráficos de progreção espacial e de ângulos.
-
-\begin{figure*}[tb]
-	\centering
-	{\includegraphics[width=\textwidth]{animacao}}
-	\caption{Animação em 3D dos dados coletados. A) Contato inicial
-		do membro inferior esquerdo. B) Membro inferior esquerdo no
-	período de balanço. C) Membro inferior esquerdo no balanço terminal. }
-	\label{animacao}
-\end{figure*}
-
-O software permite a nomeação dos marcadores vistos na animação. Depois de se nomear um marcador
-específico, por exemplo, o calcâneo esquerdo, é possível ver sua progressão espacial como na 
-Fig. \ref{progressao}.
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=9cm]{tela19}}
-	\caption{Progressão no espaço do calcâneo esquerdo. }
-	\label{progressao}
-\end{figure}
-
-Outro recurso importante da aplicação é o cadastramento de ângulos. 
-Este recurso pode ser visto na Fig. \ref{angulos}. 
-A partir desta tela é possível ver os ângulos (Fig. \ref{angulos}), velocidades angulares (Fig. \ref{va}) e
-acelerações angulares (Fig. \ref{angular_accelerations}).
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=9cm]{tela23}}
-	\caption{Recurso para criação de ângulos. }
-	\label{progressao}
-\end{figure}
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=9cm]{tela25}}
-	\caption{Ângulo de um joelho. }
-	\label{angulos}
-\end{figure}
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=9.5cm]{tela26}}
-	\caption{Velocidades angulares de um joelho. }
-	\label{va}
-\end{figure}
-
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=9.5cm]{angular_accelerations}}
-	\caption{Acelerações angulares de um joelho.}
-	\label{angular_accelerations}
-\end{figure}
-
-\section{Discussão}
-
-A criação de um software específico para análise de marcha totalmente disponível em ambiente web é
-uma inovação na área. A maior vantagem deste enfoque é a fácil disponibilização do software,
-que depois de ter uma versão implantada na internet, pode ser acessado de qualquer parte do mundo,
-desde que o usuário tenha acesso a um browser HTM5 recente.
-Outro tema importante a ser levantado sobre este projeto, é a possibilidade de se formar uma base
-com dados de marcha humana coletados ao redor do globo, isso por si só seria de valor inestimável
-a pesquisadores da área.
-
-O software está disponibilizado como software livre. A intenção da equipe é atrair outros desenvolvedores
-e profissionais de saúde que contribuam e usufruam do mesmo. Também não se descarta a idéia de se
-criar um projeto para crowdfounding e assim permitir que mais pessoas contribuam com o mesmo, além
-é claro de se conseguir recurso para mantê-lo.
-
-Como trabalhos futuros, espera-se que novos métodos de coletas de dados sejam suportados, como por exemplo, plataformas de forças, EMG e IMU. Além disso, um módulo de simulações está sendo desenvolvido e se espera 
-anexar métodos de aprendizado de máquina para classificação e regressão.
+To build a software it is necessary collect requisites, and a certain domain
+of the field must be addressed, at this case gait analysis. 
+Thankfully, nowadays, the theme is quite documented
+\cite{Perry2010}, \cite{Whittle2012}, \cite{Ferreira2009}, \cite{Vieira2015}, 
+\cite{Duhamel2004}, \cite{Ghoussayni2004}, \cite{Moraes2003}, \cite{Ghoussayni2004},
+\cite{Moreno2009}, \cite{Beynon2010}. 
+Moreover, there are health professionals at the development team with much
+experience in gait analysis. With all this in mind, this paper describes the
+first implementation version of a gait analysis SaaS \cite{Lima2015}.
+This software version can import data from a third party motion capture system, at this
+case data collected from video cameras using surface markers, the software
+also can name markers, define angles, using data from the markers, and plot 
+markers progression at space, angles, angular velocities and angular accelerations.
+Moreover, the software presents a 3D animation from data and allows user 
+interact with the animation.
 
 
 % needed in second column of first page if using \IEEEpubid
 %\IEEEpubidadjcol
 
-% An example of a floating figure using the graphicx package.  % Note that \label must occur AFTER (or within) \caption.  % For figures, \caption should occur after the \includegraphics.
+\section{Materials and Methods}
+
+Two researches environments were used to undertake the project. 
+One was the Laboratório de Performance Humana (LPH) at 
+Faculdade Ceilandia (FCE) / Universidade de Brasilia (UnB), 
+and the other was the Laboratório de Informatica em Saude (LIS)
+at Faculdade Gama (FGA) / UnB. At LPH data was collected and at
+LIS the software version was developed.
+
+The next subsections presents the process for data acquisition,
+the development process and the software architecture general
+view.
+
+\subsection{Data Acquisition}
+
+The data are acquired by sixteen Qualisys Oqus MRI cameras, using
+the Qualisy Track Manager Software. 
+The data are relative to surface markers along a patient body.
+Fig. \ref{data_acq_process} summarizes the data acquisition process.
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
 % Note that IEEEtran v1.7 and later has special internal code that
 % is designed to preserve the operation of \label within \caption
 % even when the captionsoff option is in effect. However, because
@@ -888,20 +653,9 @@ anexar métodos de aprendizado de máquina para classificação e regressão.
 
 
 
+
 \section{Conclusion}
-O presente trabalho apresentou o software desenvolvido pelo LIS FGA/UnB em cooperação com o o LPH FCE/UnB.
-O código fonte do projeto foi disponibilizado sob a licença MIT \cite{MIT2015} no endereço web http://github.com/rob-nn/open\_gait\_analytics.
-
-O software conta com recursos para importação de dados oriundos do software QTM da Qualisys.
-Permite fazer a nomeação de marcadores fixados no corpo do paciente no momento da coleta, 
-além de habilitar a visualisação destes dados em gráficos. Também é possível cadastrar ângulos
-e visualizá-los em gráficos assim como suas velocidades angulares.
-Uma animação em 3D com os dados é visualizável. Todos os gráficos são visualizados de acordo com 
-as fase do ciclo de marcha.
-
-O sistema é implantável na internet e é acessível através de um browser HTML5 recente.
-Ele também terá sua continuidade, implantação e adição de novos recursos, sob a tutela do LIS FGA/UnB e 
-do LPH FCE/UnB.
+The conclusion goes here.
 
 
 
@@ -935,10 +689,8 @@ do LPH FCE/UnB.
 % use section* for acknowledgment
 \section*{Acknowledgment}
 
-O primeiro autor agradece ao apoio financeiro concedido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para realização do projeto.
-Os autores agradecem também ao LIS FGA/UnB e ao LPH FCE/UnB, pela disponibilização de equipamentos e instalações para a execução do projeto.
 
-
+The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -971,7 +723,13 @@ Os autores agradecem também ao LIS FGA/UnB e ao LPH FCE/UnB, pela disponibiliza
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
+%\begin{thebibliography}{1}
 
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\end{thebibliography}
 
 % biography section
 % 
@@ -984,36 +742,22 @@ Os autores agradecem também ao LIS FGA/UnB e ao LPH FCE/UnB, pela disponibiliza
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{roberto}}]{Roberto Aguiar Lima}
-	Possui graduação na área em Ciência da Computação pela Universidade Católica de Brasília (2000).
-	Atualmente cursa o programa de Mestrado em Engenharia Biomédica da Universidade de Brasília.
-	Possui mais de 20 anos como desenvolvedor de software.
+\begin{IEEEbiography}{Michael Shell}
+Biography text here.
 \end{IEEEbiography}
 
 % if you will not have a photo at all:
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vera}}]{Vera Regina Da Silva Marães}
-Possui graduação em Fsioterapia pela Universidade Federal de São Carlos (1995), mestrado em Biologia Celular e Estrutural pela Universidade Estadual de Campinas (1999) e doutorado em Fisioterapia pela Universidade Federal de São Carlos (2004). Atualmente é docente adjunto III da Faculdade de Ceilândia; do Programa de Pós-Graduação em Engenharia Biomédica e do Pro-Ensino na Saúde da Universidade de Brasília. Tem experiência na área de Fisioterapia, atuando principalmente nos seguintes temas: ensino na saúde, adaptação de próteses em amputados, funcionalidade humana, fisiologia do exercício, reabilitação cardíaca e variabilidade da frequência cardíaca.
-\end{IEEEbiography}
+\begin{IEEEbiographynophoto}{John Doe}
+Biography text here.
+\end{IEEEbiographynophoto}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
 
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{lourdes}}]{Lourdes Mattos Brasil}
-Lourdes Mattos Brasil possui graduação em Engenharia Elétrica pela Universidade Federal de Santa Catarina (1989), 
-Mestrado em Engenharia Elétrica/Engenharia Biomédica pela Universidade Federal de Santa Catarina (1994) e 
-concluiu o doutorado em Engenharia Elétrica/Sistemas de Informação - Engenharia Biomédica pela Universidade Federal de Santa Catarina em 1999, 
-sendo parte realizado na Facultés Universitaires Notre-Dame de La Paix (FUNDP), Namur  Belgium (1998). 
-Realizou estágio Pós-Doutoral no Programa de Pós-Graduação em Engenharia Biomédica da Universidade Federal da Paraíba (2001-2002). 
-Atualmente é Professor Adjunto da Universidade de Brasília (UnB), 
-Faculdade UnB-Gama (FGA), onde atua na Engenharia Eletrônica, 
-bem como é coordenadora do Lato Sensu em Engenharia Clínica e dos Laboratórios de Informática em Saúde (LIS) e de Nanotecnologia (NTEC-FGA). 
-Também é pesquisadora/docente do Stricto Sensu, Mestrado em Engenharia Biomédica. 
-Tem experiência na área de Engenharia Biomédica, com ênfase em Informática em Saúde, atuando principalmente nos seguintes temas: 
-informática em saúde, inteligência artificial em saúde, engenharia biomédica, redes neurais artificiais, sistemas baseados no conhecimento, descoberta de conhecimento, realidade virtual, sistemas tutores inteligentes, sistemas especialistas híbridos, sistemas inteligentes, processamento de imagens, nanotecnologia e gestão do conhecimento. 
-Suas produções técnicas-científicas permeiam essas áreas, bem como suas publicações de livros, prêmios, palestras/seminários, pareceres, consultorias. 
-Também participa como membro das sociedades brasileira e internacional: SBC, SBEB e IEEE.
-\end{IEEEbiography}
+\begin{IEEEbiographynophoto}{Jane Doe}
+Biography text here.
+\end{IEEEbiographynophoto}
 
 % You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate

@@ -30,9 +30,24 @@ A.~Fox and D.~Patterson, \emph{{Engineering Long-Lasting Software: An Agile
 R.~Baker, ``{The history of gait analysis before the advent of modern
   computers},'' \emph{Gait and Posture}, vol.~26, no.~3, pp. 331--342, 2007.
 
+\bibitem{Moraes2003}
+J.~Moraes, S.~Silva, and L.~Battistela, ``{Comparison of two software packages
+  for data analysis at gait laboratories},'' \emph{Proceedings of the 25th
+  Annual International Conference of the IEEE Engineering in Medicine and
+  Biology Society (IEEE Cat. No.03CH37439)}, vol.~2, pp. 1780--1783, 2003.
+
 \bibitem{Perry2010}
 J.~Perry and J.~M. BurnField, \emph{{Gait Analysis Normal and Pathological
   Function}}, 2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax SLACK Inc., 2010.
+
+\bibitem{Skinner2007}
+H.~Skinner, \emph{{Gait Analysis an Introduction fourth}}, 4th~ed.\hskip 1em
+  plus 0.5em minus 0.4em\relax Elsevier Ltd, 2007.
+
+\bibitem{Ferreira2009}
+J.~P. Ferreira, M.~M. Crisostomo, and a.~P. Coimbra, ``{Human gait acquisition
+  and characterization},'' \emph{IEEE Transactions on Instrumentation and
+  Measurement}, vol.~58, no.~9, pp. 2979--2988, 2009.
 
 \bibitem{Lima2015}
 R.~A. Lima, ``{Implementando um Software como Servi{\c{c}}o para An{\'{a}}lise
