@@ -116,7 +116,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+  \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -126,7 +126,7 @@
   % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
   % will default to the driver specified in the system graphics.cfg if no
   % driver is specified.
-  % \usepackage[dvips]{graphicx}
+  \usepackage[dvips]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../eps/}}
   % and their extensions so you won't have to specify these with
@@ -553,9 +553,50 @@ view.
 \subsection{Data Acquisition}
 
 The data are acquired by sixteen Qualisys Oqus MRI cameras, using
-the Qualisy Track Manager Software. 
+the Qualisys Track Manager Software (QTM). 
 The data are relative to surface markers along a patient body.
-Fig. \ref{data_acq_process} summarizes the data acquisition process.
+
+For this paper a healthy patient, male, with age between 20 and 30 years old
+was selected.
+Fig. \ref{data_acq_proc} summarizes the data acquisition process.
+First   markers positions are defined. 
+For this paper only the left trochanter, left knee and left tibia
+positions were considered. 
+So the surface markers must be fixed at defined positions on patient body.
+The next step is acquire data using the cameras and QTM software. In this
+step the patient executes a comfortable gait cycle in front cameras.
+Five gait samples were acquired.
+The last step is convert the acquired data to MATLAB format using the QTM
+software. It is necessary because this is the pattern of choice for 
+the gait analysis software.
+
+The process for data acquisition was approved by 
+Faculdade de Saude da UnB ethics committee, 
+process number N11911/12.
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2in]{img/data_acq_proc.eps}
+	\caption{Data acquisition process.
+		(a) Positions of markers to be fixed in patient body are defined.
+		(b) Markers are fixed at defined positions.
+		(c) Patient executes some comfortable gait cycles in front of cameras.
+		QTM software is used;
+		(d) Data acquired are converted to MATLAB format using QTM software.
+	}
+	\label{data_acq_proc}
+\end{figure}
+
+
+\subsection{Development Process}
+
+A scrum \cite{Schwaber2001} inspired process for developement was implanted.
+The scrum is a agile method \cite{Beck2001} that has as mainly caracteristics
+be iteractive, icremental and change friendly.
+These caracteristics are essentials to deal with software requirements volatility
+and hence with so common software changes.
+
+The process flux is presented at Fig \ref{dev_proc}.
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.

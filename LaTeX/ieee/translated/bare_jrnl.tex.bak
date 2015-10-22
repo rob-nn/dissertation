@@ -116,7 +116,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+  \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -126,7 +126,7 @@
   % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
   % will default to the driver specified in the system graphics.cfg if no
   % driver is specified.
-  % \usepackage[dvips]{graphicx}
+  \usepackage[dvips]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../eps/}}
   % and their extensions so you won't have to specify these with
@@ -380,8 +380,8 @@
 	Vera~Regina~Da~Silva~Maraes,
 	Jairo Simao Santana Melo,
         and~Lourdes~Mattos~Brasil,~\IEEEmembership{Member,~IEEE.}
-	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, Faculdade Gama / Universidade de Brasília, Gama, DF.}
-	\thanks{J. S. S. Melo is whit Tribunal de Justiça do Distrito Federal, Brasília, DF.}
+	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, Faculdade Gama / Universidade de Brasilia, Gama, DF.}
+	\thanks{J. S. S. Melo is whit Tribunal de Justiça do Distrito Federal, Brasilia, DF.}
 \thanks{Manuscript received October 23, 2015; revised December 1, 2015.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
@@ -539,18 +539,56 @@ interact with the animation.
 
 \section{Materials and Methods}
 
-Two researchs enviromments were used to undertake the project. 
+Two researches environments were used to undertake the project. 
 One was the Laboratório de Performance Humana (LPH) at 
-Falculdade Ceilândia (FCE) / Universidade de Brasília (UnB), 
-and the other was the Laboratório de Informática em Saúde (LIS)
-at Faculdade Gama (FGA) / UnB. At LPH data was colected and at
-LIS these software version was developed.
+Faculdade Ceilandia (FCE) / Universidade de Brasilia (UnB), 
+and the other was the Laboratório de Informatica em Saude (LIS)
+at Faculdade Gama (FGA) / UnB. At LPH data was collected and at
+LIS the software version was developed.
 
 The next subsections presents the process for data acquisition,
-the development proccess and the software arquitecture general
+the development process and the software architecture general
 view.
 
 \subsection{Data Acquisition}
+
+The data are acquired by sixteen Qualisys Oqus MRI cameras, using
+the Qualisy Track Manager Software (QTM). 
+The data are relative to surface markers along a patient body.
+
+For this paper a healthy patient, male, with age between 20 and 30 years old
+was selected.
+Fig. \ref{data_acq_proc} summarizes the data acquisition process.
+First ther markers positions are defined. 
+For this paper only the left trochanter, left knee and left tibia
+positions were considered. 
+So the surface markers must be fixed at defined positions on patient body.
+The next step is aqcuire data using the cameras and QTM software. In this
+step the patient executes a confortable gait cicle in front cameras.
+Five gait samples were acquired.
+The last step is convert the acquired data to MATLAB format using the QTM
+software. It is necessary because this is the pattern of choice for 
+the gait analysis software.
+
+The process for data acquisition was aproved by 
+Faculdade de Saude da UnB ethics commitee, 
+process number N11911/12.
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2in]{img/data_acq_proc.eps}
+	\caption{Data acquisition process.
+		(a) Positions of markers to be fixed in patient body are defined.
+		(b) Markers are fixed at defined positions.
+		(c) Patient executes some confortable gait cicles in front of cameras.
+		QTM software is used;
+		(d) Data acquired are converted to MATLAB format using QTM software.
+	}
+	\label{data_acq_proc}
+\end{figure}
+
+
+\subsection{Developement Process}
 
 
 % An example of a floating figure using the graphicx package.
