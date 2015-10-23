@@ -66,7 +66,7 @@ S.~Ghoussayni, C.~Stevens, S.~Durham, and D.~Ewins, ``{Assessment and
   intervals},'' \emph{Gait and Posture}, vol.~20, no.~3, pp. 266--272, 2004.
 
 \bibitem{Moreno2009}
-a.~Moreno, I.~Qui{\~{n}}ones, G.~Rodr{\'{\i}}guez, L.~N{\'{u}}{\~{n}}ez, and
+A.~Moreno, I.~Qui{\~{n}}ones, G.~Rodr{\'{\i}}guez, L.~N{\'{u}}{\~{n}}ez, and
   a.~I. P{\'{e}}rez, ``{Development of the spatio-temporal gait parameters of
   Mexican children between 6 and 13 years old data base to be included in
   motion analysis softwares},'' \emph{2009 Pan American Health Care Exchanges -
@@ -83,5 +83,58 @@ S.~Beynon, J.~L. McGinley, F.~Dobson, and R.~Baker, ``{Correlations of the Gait
 \bibitem{Lima2015}
 R.~A. Lima, ``{Implementando um Software como Servi{\c{c}}o para An{\'{a}}lise
   e Simula{\c{c}}{\~{a}}o de Marcha Humana},'' 2015.
+
+\bibitem{Schwaber2001}
+K.~Schwaber and M.~Beedle, \emph{{Agile Software Development with Scrum}}, 1,
+  Ed.\hskip 1em plus 0.5em minus 0.4em\relax Pearson, 2001.
+
+\bibitem{Schwaber2004}
+K.~Schwaber, \emph{{Agile Project Management with Scrum}}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Microsoft Press, 2004.
+
+\bibitem{Rubin2012}
+K.~S. Rubin, \emph{{Essential Scrum: A Practical Guide to the Most Popular
+  Agile Process}}.\hskip 1em plus 0.5em minus 0.4em\relax Addison-Wesley
+  Professional, 2012.
+
+\bibitem{Beck2001}
+\BIBentryALTinterwordspacing
+K.~Beck, M.~Beedle, A.~van Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, J.~Kern, B.~Marick, R.~C.
+  Martin, S.~Mellor, K.~Schwaber, J.~Sutherland, and D.~Thomas, ``{Manifesto
+  para Desenvolvimento {\'{A}}gil de Software},'' 2001. [Online]. Available:
+  \url{http://www.agilemanifesto.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cohn2004}
+M.~Cohn, \emph{{Users Stories Applied}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Crawfordsville: Addison Wesley, 2004.
+
+\bibitem{Branas2014}
+R.~Branas, \emph{{AngularJS Essentials}}.\hskip 1em plus 0.5em minus
+  0.4em\relax Birmingham: Packt Publishing Ltd., 2014.
+
+\bibitem{Freeman2014}
+A.~Freeman, \emph{{Pro AngularJS}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Apress, 2014.
+
+\bibitem{Google2015a}
+\BIBentryALTinterwordspacing
+Google, ``{Material Design},'' 2015. [Online]. Available:
+  \url{www.google.com.br/design/spec/material-design/introduction.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Dirksen2015}
+J.~Dirksen, \emph{{Learning Three.js - the JavaScript 3D Library for WebGL}},
+  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Packt Publishing, 2015.
+
+\bibitem{Matsuda2013}
+K.~Matsuda and R.~Lea, \emph{{WebGL Programming Guide: Interactive 3D Graphics
+  Programming with WebGL (OpenGL)}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Addison-Wesley Professional, 2013.
+
+\bibitem{Fowler2002}
+M.~Fowler, \emph{{Patterns of Enterprise Application Architecture}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Addison-Wesley Professional, 2002.
 
 \end{thebibliography}

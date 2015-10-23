@@ -15,45 +15,45 @@ Database file #2: ./IEEE.bib.bib
 Warning--empty note in Lima2015
 
 Done.
-You've used 12 entries,
+You've used 23 entries,
             4039 wiz_defined-function locations,
-            1287 strings with 17404 characters,
-and the built_in function-call counts, 9095 in all, are:
-= -- 726
-> -- 237
-< -- 83
-+ -- 126
-- -- 41
-* -- 455
-:= -- 1366
-add.period$ -- 24
-call.type$ -- 12
-change.case$ -- 11
-chr.to.int$ -- 189
-cite$ -- 13
-duplicate$ -- 641
-empty$ -- 706
-format.name$ -- 51
-if$ -- 2078
+            1345 strings with 18804 characters,
+and the built_in function-call counts, 13571 in all, are:
+= -- 1015
+> -- 362
+< -- 85
++ -- 185
+- -- 71
+* -- 617
+:= -- 2103
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 16
+chr.to.int$ -- 195
+cite$ -- 24
+duplicate$ -- 996
+empty$ -- 1236
+format.name$ -- 84
+if$ -- 3105
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 110
-newline$ -- 61
-num.names$ -- 12
-pop$ -- 252
+int.to.str$ -- 23
+missing$ -- 188
+newline$ -- 98
+num.names$ -- 25
+pop$ -- 498
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 694
+skip$ -- 1058
 stack$ -- 0
-substring$ -- 430
-swap$ -- 531
+substring$ -- 438
+swap$ -- 727
 text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
+type$ -- 23
 warning$ -- 1
-while$ -- 42
-width$ -- 14
-write$ -- 137
+while$ -- 55
+width$ -- 25
+write$ -- 221
 (There was 1 warning)

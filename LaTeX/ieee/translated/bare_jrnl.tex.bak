@@ -380,8 +380,8 @@
 	Vera~Regina~Da~Silva~Maraes,
 	Jairo Simao Santana Melo,
         and~Lourdes~Mattos~Brasil,~\IEEEmembership{Member,~IEEE.}
-	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, Faculdade Gama / Universidade de Brasilia, Gama, DF.}
-	\thanks{J. S. S. Melo is whit Tribunal de Justiça do Distrito Federal, Brasilia, DF.}
+	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, \emph{Faculdade Gama / Universidade de Brasilia}, Gama, DF.}
+	\thanks{J. S. S. Melo is with \emph{Tribunal de Justiça do Distrito Federal}, Brasilia, DF.}
 \thanks{Manuscript received October 23, 2015; revised December 1, 2015.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
@@ -442,8 +442,8 @@
 	This approach has as advantage, the software availability at web.
 	After the software is implanted at a web server, users can access him from a recent
 	web browser with support to HTML5.
-	The software objective is to minimize the code development necessities by gait analysis researchers, 
-	as well as be a useful tool for health professionals interested in human gait analysis.
+	The software objective is to minimize the code development efforts by gait analysis researchers, 
+	as well as to be a useful tool for health professionals interested in human gait analysis.
 	The software allows import positionals data from a third party motion captures system,
 	that uses surface markers and video cameras, to plot markers spatial progression, 
 	angles, angular velocities and angular accelerations. Furthermore, it is possible
@@ -521,8 +521,7 @@ To build a software it is necessary collect requisites, and a certain domain
 of the field must be addressed, at this case gait analysis. 
 Thankfully, nowadays, the theme is quite documented
 \cite{Perry2010}, \cite{Whittle2012}, \cite{Ferreira2009}, \cite{Vieira2015}, 
-\cite{Duhamel2004}, \cite{Ghoussayni2004}, \cite{Moraes2003}, \cite{Ghoussayni2004},
-\cite{Moreno2009}, \cite{Beynon2010}. 
+\cite{Duhamel2004}, \cite{Ghoussayni2004}, \cite{Moreno2009}, \cite{Beynon2010}. 
 Moreover, there are health professionals at the development team with much
 experience in gait analysis. With all this in mind, this paper describes the
 first implementation version of a gait analysis SaaS \cite{Lima2015}.
@@ -540,10 +539,10 @@ interact with the animation.
 \section{Materials and Methods}
 
 Two researches environments were used to undertake the project. 
-One was the Laboratório de Performance Humana (LPH) at 
-Faculdade Ceilandia (FCE) / Universidade de Brasilia (UnB), 
-and the other was the Laboratório de Informatica em Saude (LIS)
-at Faculdade Gama (FGA) / UnB. At LPH data was collected and at
+One was the \emph{Laboratório de Performance Humana} (LPH) at 
+\emph{Faculdade Ceilandia} (FCE) / \emph{Universidade de Brasilia} (UnB), 
+and the other was the \emph{Laboratorio de Informatica em Saude} (LIS)
+at \emph{Faculdade Gama (FGA)} / UnB. At LPH data was collected and at
 LIS the software version was developed.
 
 The next subsections presents the process for data acquisition,
@@ -553,34 +552,34 @@ view.
 \subsection{Data Acquisition}
 
 The data are acquired by sixteen Qualisys Oqus MRI cameras, using
-the Qualisy Track Manager Software (QTM). 
+the Qualisys Track Manager Software (QTM). 
 The data are relative to surface markers along a patient body.
 
 For this paper a healthy patient, male, with age between 20 and 30 years old
 was selected.
 Fig. \ref{data_acq_proc} summarizes the data acquisition process.
-First ther markers positions are defined. 
+First   markers positions are defined. 
 For this paper only the left trochanter, left knee and left tibia
 positions were considered. 
 So the surface markers must be fixed at defined positions on patient body.
-The next step is aqcuire data using the cameras and QTM software. In this
-step the patient executes a confortable gait cicle in front cameras.
+The next step is acquire data using the cameras and QTM software. In this
+step the patient executes a comfortable gait cycle in front cameras.
 Five gait samples were acquired.
 The last step is convert the acquired data to MATLAB format using the QTM
 software. It is necessary because this is the pattern of choice for 
 the gait analysis software.
 
-The process for data acquisition was aproved by 
-Faculdade de Saude da UnB ethics commitee, 
+The process for data acquisition was approved by 
+\emph{Faculdade de Saude da UnB} ethics committee, 
 process number N11911/12.
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=2in]{img/data_acq_proc.eps}
+	\includegraphics[width=1.5in]{img/data_acq_proc.eps}
 	\caption{Data acquisition process.
 		(a) Positions of markers to be fixed in patient body are defined.
 		(b) Markers are fixed at defined positions.
-		(c) Patient executes some confortable gait cicles in front of cameras.
+		(c) Patient executes some comfortable gait cycles in front of cameras.
 		QTM software is used;
 		(d) Data acquired are converted to MATLAB format using QTM software.
 	}
@@ -588,7 +587,125 @@ process number N11911/12.
 \end{figure}
 
 
-\subsection{Developement Process}
+\subsection{Development Process}
+
+A scrum \cite{Schwaber2001}, \cite{Schwaber2004}, \cite{Rubin2012} inspired process for development was implanted.
+The scrum is a agile method \cite{Beck2001} that has as mainly characteristics
+to be iterative, incremental and change friendly.
+These characteristics are essentials to deal with software requirements volatility
+and hence with so common software changes.
+
+The process flow is presented in Fig. \ref{dev_proc}.
+The process consists of iterations, called sprints.
+The sprints have a 2 weeks average duration.
+A product backlog is created and managed by the product owner.
+The product backlog is open to receive additions from all 
+project stakeholders, at any time, but only the product owner can prioritize him,
+based in important values for final users.
+Each item at product backlog is a user story \cite{cohn2004}.
+Before a new iteration begin, there are a two phases meeting between the development team members. 
+In the first phase, the last increment is presented and impediments occurred in last iteration are uncovered.
+In the second phase the development team selects items from the product backlog.
+These items will be implemented in the sprint and are called the sprint backlog.
+Last, a increment consisting in a piece of working software is delivered.
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=3in]{img/dev_proc.eps}
+	\caption{Development process overview.
+		Every two weeks a new increment, working software, is delivered.
+		Adapted from \cite{Schwaber2004}.
+	}
+	\label{dev_proc}
+\end{figure}
+
+\subsection{Software Architecture General View}
+The Fig. \ref{app_layers} shows the software architecture layered high level view.
+The layer web applications is responsible by application user interactions, see Section \ref{web_application_layer}.
+The layer REST web API is responsible by business logic, see Section \ref{rest_web_api_layer}.
+The document base layer is responsible by data application persistence, see Section \ref{document_base_layer}.
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=1.5in]{img/app_layers.eps}
+	\caption{Software architecture layered high level view.
+	}
+	\label{app_layers}
+\end{figure}
+
+\subsubsection{Web Application Layer}
+\label{web_application_layer}
+
+These layer was designed to run in web browsers with HTML5 support.
+It was developed using Javascript, CSS and HTML languages. 
+Moreover, the web development framework AngularJS \cite{Branas2014}, \cite{Freeman2014},  was adopted. 
+A AngularJS adoption advantage is the directive creation possibility. 
+Directives are developed components which can be embedded in a HTML template.
+Also, it was chosen to use the Angular-Material directive library. 
+This library is based in the Material Design specification from Google, which
+describes about graphical design patterns and user interaction, it is based in the material metaphor
+\cite{Google2015a}. The Angular-Material use, facilitates to build a user experience acceptable by 
+health professionals.
+
+To run graphical 3D animations, the ThreeJS library was chosen \cite{Dirksen2015}.
+This is a high level library  which takes advantage from WebGL implementation in modern web browsers.
+The WebGL specification \cite{Matsuda2013} uses the computer Graphical Processor Unit (GPU) natively, 
+allowing to build applications which needs good performance to generate animations and graphics.
+
+\begin{figure*}[tb]
+	\centering
+	{\includegraphics[width=\textwidth]{img/web_components.eps}}
+	\caption{Main web components interactions.
+		All these components, except the component backend, run inside the web browses.
+		The component backend correspond to the infrastructure and components of REST web API layer.
+		(a) A user interacts with the application, maybe click a button on screen;
+		(b) The AngularJS framework detects the event, selects a controller component and
+		dispatch the evento for him;
+		(c) The selected controller process the event;
+		(d) If it is necessary to execute some action, how request more data, the controller 
+		requests to a facade component to requests the backend;
+		(e) The selected facade component prepares and send a HTTP request to the backend,
+		which sends a JSON object as response;
+		(f) The controller updates the model, variables used by the framework to show data at screen,
+		and signals to the AngularJS framework to update the screen.
+	}
+	\label{web_components}
+\end{figure*}
+
+Fig. \ref{web_components} shows the interaction between  main components in web application layer.
+Note that this is only a logic representation.
+When a user interacts with the application using a web browser, they dispatches events detected by the 
+AngularJS framework. The interaction can be a button click event, a mouse over event, a drag event or
+other. So the framework selects a controller component to process the event.
+Controllers components are components developed to the application, they are responsible to coordinate
+data access to the model and to update the view. 
+AngularJS applications uses a famous designe pattern called Model-View-Controller \cite{Fowler2002}. 
+In practice, this means that controllers update the application state, so the AngularJS framework
+can update the screen to users.
+If new data or busines logic execution are necessary the controller request to a facade component,
+to comunicate with the backend. 
+Facade is a design pattern which hides complex logic necessary to perform some action \cite{Fowler2002}, 
+in this case is the comunication over HTTP protocol to the backend.
+After the backend receives the request, it process him and send a HTTP response with a JSON object inside.
+JavaScript Object Notation (JSON) are a specification to represent and exchange data.
+
+\subsubsection{REST Web API}
+\label{rest_web_api_layer}
+
+This layer is responsible to execute business logic, for example,
+calculate angles, extract data provenient from QTM software, among others.
+The layer was implemented using the archtectural style Representational Estate Trasnfer (REST) 
+\cite{Grinberg2014}.
+The main advantage of this technology is the high decopling with the web application layer.
+This decoupling promotes concepts separation between these layers, improving development process
+and application manutenability.
+To implement the REST style, was chosen the framework Flask \cite{Maia2015}.
+Flask is implented in Python language, it is known by his minimalist filosofy, 
+allowing to create a simple project, evolving him to more complex models, according with
+requisits at moment.
+
+\subsubsection{Document Base layer}
+\label{document_base_layer}
+
 
 
 % An example of a floating figure using the graphicx package.
@@ -597,8 +714,7 @@ process number N11911/12.
 % Note that IEEEtran v1.7 and later has special internal code that
 % is designed to preserve the operation of \label within \caption
 % even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
+% of issues like this, it may be the safest practice to put all your % \label just after \caption rather than within \caption{}.
 %
 % Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
 % option should be used if it is desired that the figures are to be

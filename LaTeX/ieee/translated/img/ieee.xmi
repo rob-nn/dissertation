@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2015-10-22T16:47:55" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2015-10-23T00:50:18" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -30,6 +30,11 @@
         <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="dhj0uL7KlDZE" name="string"/>
        </UML:Namespace.ownedElement>
       </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Ymp6uk1wu93m" name="AngularJS Application"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="kZpKBxMddws0" name="AngularJS Framework"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="z6YnmP1h94Ek" name="Controller"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="XrgrzEZXIPn9" name="Facade"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Mj2mU8SEvYVO" name="Backend"/>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
@@ -81,11 +86,59 @@
          </assocwidget>
         </associations>
        </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="web_components" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="642" canvaswidth="1210" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="81" xmi.id="EwmCqEZAY8xx" documentation="Response with a JSON object." showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-232" decon="0" showstereotype="1" y="21" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="539Joua2pMFf" width="49" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="2A86rq2ejQQv" height="59" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-77" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="x3OfUpaZqhqe" width="150" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="Ymp6uk1wu93m" height="24" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="224" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="OmxFNGtqcs0o" width="149" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="kZpKBxMddws0" height="24" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="409" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="4XZpPTV9jpI9" width="81" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="z6YnmP1h94Ek" height="24" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="704.2839506172839" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="YB9hIzlSZejO" width="64" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="XrgrzEZXIPn9" height="24" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="888.5802469135803" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="KA10e7FKYb0w" width="73" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="Mj2mU8SEvYVO" height="24" drawasactor="0"/>
+         <notewidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="732" showstereotype="1" y="222" text="HTTP response with a JSON object&#xa;" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Zq0tUwBScrP4" width="139" isinstance="0" noteType="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="oA7l4lSZqGvC" height="65"/>
+         <notewidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="107.4691358024691" showstereotype="1" y="283.0493827160494" text="Update browser content" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="9NOp41kd7Vwe" width="119" isinstance="0" noteType="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="vRWDbICn5fA0" height="40"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="0" widgetbid="x3OfUpaZqhqe" textid="VM09DPknpEJM" operation="interacts with application" linewidth="0" seqnum="(a)" textcolor="#000000" usesdiagramusefillcolor="0" x="-207" showstereotype="1" y="139" widgetaid="539Joua2pMFf" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ZRhOnu3MgrQb" width="213" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="bQVWXWGVae84" height="116" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-202" showstereotype="1" y="121" text="interacts with application" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="RibHPSwwtbLe" pretext="" role="704" width="185" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="VM09DPknpEJM" height="18"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="0" widgetbid="OmxFNGtqcs0o" textid="mGM9SMjZgvKw" operation="Identify the event and selects a controller" linewidth="0" seqnum="(b)" textcolor="#000000" usesdiagramusefillcolor="0" x="-2" showstereotype="1" y="154" widgetaid="x3OfUpaZqhqe" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Fib4wsOhPCza" width="308" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="9MBlI4leqgtE" height="89" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="3" showstereotype="1" y="136" text="Identify the event and selects a controller" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="wk2Xc2Jrluth" pretext="" role="704" width="284" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="mGM9SMjZgvKw" height="18"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="0" widgetbid="4XZpPTV9jpI9" textid="AZvHraAVElJv" operation="Process the event" linewidth="0" seqnum="(c)" textcolor="#000000" usesdiagramusefillcolor="0" x="298" showstereotype="1" y="159" widgetaid="OmxFNGtqcs0o" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="B1ipu3jr9Hft" width="159" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="ggaqioYlJ7ai" height="78" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="303" showstereotype="1" y="141" text="Process the event" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Y3rHt9Q297q3" pretext="" role="704" width="139" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="AZvHraAVElJv" height="18"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="0" widgetbid="YB9hIzlSZejO" textid="fRNgQJdem88e" operation="Request / updated data from backend" linewidth="0" seqnum="(d)" textcolor="#000000" usesdiagramusefillcolor="0" x="449" showstereotype="1" y="167" widgetaid="4XZpPTV9jpI9" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="EsrSbBL601xz" width="295" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="EVVUsGdQPm6g" height="24" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="454" showstereotype="1" y="149" text="Request / updated data from backend" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="kp6JToffgW5H" pretext="" role="704" width="260" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="fRNgQJdem88e" height="18"/>
+         </messagewidget>
+         <messagewidget linecolor="none" usesdiagramfillcolor="1" widgetbid="KA10e7FKYb0w" textid="GVKYVFi6MevI" operation="HTTP request to Backend" linewidth="none" seqnum="(e)" textcolor="none" usesdiagramusefillcolor="1" x="736" showstereotype="1" y="171" widgetaid="YB9hIzlSZejO" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="LDu1syOdH0vC" width="197" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="d9yrwLnQxnIs" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="741" showstereotype="1" y="153" text="HTTP request to Backend" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="a06cmfQ7qI9g" pretext="" role="704" width="184" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="GVKYVFi6MevI" height="18"/>
+         </messagewidget>
+         <messagewidget linecolor="none" usesdiagramfillcolor="1" widgetbid="4XZpPTV9jpI9" textid="DnVPujenQQWJ" operation="Executes logic to update browser content" linewidth="none" seqnum="(f)" textcolor="none" usesdiagramusefillcolor="1" x="447" showstereotype="1" y="208" widgetaid="4XZpPTV9jpI9" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Lsexh32VC7EG" width="50" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="sgojvjt5ghfx" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="452" showstereotype="1" y="190" text="Executes logic to update browser content" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="b6lJXSXsIAnz" pretext="" role="705" width="280" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="DnVPujenQQWJ" height="18"/>
+         </messagewidget>
+        </messages>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="d9yrwLnQxnIs" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="oA7l4lSZqGvC" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="513">
+          <linepath layout="Polyline">
+           <startpoint startx="776" starty="222"/>
+           <endpoint endx="776" endy="191"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="vRWDbICn5fA0" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="9MBlI4leqgtE" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="513">
+          <linepath layout="Polyline">
+           <startpoint startx="154" starty="243"/>
+           <endpoint endx="154" endy="283.0493827160494"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
       </diagrams>
      </XMI.extension>
     </UML:Model>
     <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
-     <UML:Namespace.ownedElement/>
+     <UML:Namespace.ownedElement>
+      <UML:Actor visibility="public" isSpecification="false" namespace="Use Case View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="2A86rq2ejQQv" name="User"/>
+     </UML:Namespace.ownedElement>
     </UML:Model>
     <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
      <UML:Namespace.ownedElement/>
@@ -100,14 +153,18 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="N9lrn2BKTdQj" uniqueid="ptQmDhcEDnnJ" documentation=""/>
+  <docsettings viewid="EwmCqEZAY8xx" uniqueid="vRWDbICn5fA0" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
     <listitem open="1" type="827" id="Deployment View"/>
     <listitem open="1" type="836" id="Entity Relationship Model"/>
     <listitem open="1" type="801" id="Logical View">
+     <listitem open="1" type="813" id="Ymp6uk1wu93m"/>
+     <listitem open="1" type="813" id="kZpKBxMddws0"/>
+     <listitem open="1" type="813" id="Mj2mU8SEvYVO"/>
      <listitem open="0" type="807" id="bXZwXCKxYILx" label="class diagram"/>
+     <listitem open="1" type="813" id="z6YnmP1h94Ek"/>
      <listitem open="0" type="809" id="N9lrn2BKTdQj" label="data_acq_proc"/>
      <listitem open="0" type="830" id="Datatypes">
       <listitem open="1" type="829" id="cYlAo68UZlXy"/>
@@ -122,8 +179,12 @@
       <listitem open="1" type="829" id="XQU8IHq2WHFy"/>
       <listitem open="1" type="829" id="SQ5FTCbZUeJJ"/>
      </listitem>
+     <listitem open="1" type="813" id="XrgrzEZXIPn9"/>
+     <listitem open="0" type="810" id="EwmCqEZAY8xx" label="web_components"/>
     </listitem>
-    <listitem open="1" type="802" id="Use Case View"/>
+    <listitem open="1" type="802" id="Use Case View">
+     <listitem open="1" type="811" id="2A86rq2ejQQv"/>
+    </listitem>
    </listitem>
   </listview>
   <codegeneration>

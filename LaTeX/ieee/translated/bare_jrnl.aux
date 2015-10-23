@@ -8,14 +8,36 @@
 \citation{Vieira2015}
 \citation{Duhamel2004}
 \citation{Ghoussayni2004}
-\citation{Moraes2003}
-\citation{Ghoussayni2004}
 \citation{Moreno2009}
 \citation{Beynon2010}
 \citation{Lima2015}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {II}Materials and Methods}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Data Acquisition}{1}}
+\citation{Schwaber2001}
+\citation{Schwaber2004}
+\citation{Rubin2012}
+\citation{Beck2001}
+\citation{cohn2004}
+\citation{Schwaber2004}
+\citation{Schwaber2004}
+\citation{Branas2014}
+\citation{Freeman2014}
+\citation{Google2015a}
+\citation{Dirksen2015}
+\citation{Matsuda2013}
+\citation{Fowler2002}
+\citation{Fowler2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Data acquisition process. (a) Positions of markers to be fixed in patient body are defined. (b) Markers are fixed at defined positions. (c) Patient executes some comfortable gait cycles in front of cameras. QTM software is used; (d) Data acquired are converted to MATLAB format using QTM software. }}{2}}
+\newlabel{data_acq_proc}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Development Process}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Software Architecture General View}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Development process overview. Every two weeks a new increment, working software, is delivered. Adapted from \cite  {Schwaber2004}. }}{2}}
+\newlabel{dev_proc}{{2}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Software architecture layered high level view. }}{2}}
+\newlabel{app_layers}{{3}{2}}
+\newlabel{web_application_layer}{{\unhbox \voidb@x \hbox {II-C}1}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}1}Web Application Layer}{2}}
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,./IEEE.bib}
 \bibcite{Fox2012}{1}
@@ -30,12 +52,26 @@
 \bibcite{Moreno2009}{10}
 \bibcite{Beynon2010}{11}
 \bibcite{Lima2015}{12}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Data acquisition process. (a) Positions of markers to be fixed in patient body are defined. (b) Markers are fixed at defined positions. (c) Patient executes some comfortable gait cycles in front of cameras. QTM software is used; (d) Data acquired are converted to MATLAB format using QTM software. }}{2}}
-\newlabel{data_acq_proc}{{1}{2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Development Process}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}Conclusion}{2}}
-\@writefile{toc}{\contentsline {section}{References}{2}}
-\@writefile{toc}{\contentsline {section}{Biographies}{2}}
-\@writefile{toc}{\contentsline {subsection}{Michael Shell}{2}}
-\@writefile{toc}{\contentsline {subsection}{John Doe}{2}}
-\@writefile{toc}{\contentsline {subsection}{Jane Doe}{2}}
+\bibcite{Schwaber2001}{13}
+\bibcite{Schwaber2004}{14}
+\bibcite{Rubin2012}{15}
+\bibcite{Beck2001}{16}
+\bibcite{cohn2004}{17}
+\bibcite{Branas2014}{18}
+\bibcite{Freeman2014}{19}
+\bibcite{Google2015a}{20}
+\bibcite{Dirksen2015}{21}
+\bibcite{Matsuda2013}{22}
+\bibcite{Fowler2002}{23}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Main web components interactions. All these components, except the component backend, run inside the web browses. The component backend correspond to the infrastructure and components of REST web API layer. (a) A user interacts with the application, maybe click a button on screen; (b) The AngularJS framework detects the event, selects a controller component and dispatch the evento for him; (c) The selected controller process the event; (d) If it is necessary to execute some action, how request more data, the controller requests to a facade component to requests the backend; (e) The selected facade component prepares and send a HTTP request to the backend, which sends a JSON object as response; (f) The controller updates the model, variables used by the framework to show data at screen, and signals to the AngularJS framework to update the screen. }}{3}}
+\newlabel{web_components}{{4}{3}}
+\newlabel{rest_web_api_layer}{{\unhbox \voidb@x \hbox {II-C}2}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}2}REST Web API}{3}}
+\newlabel{document_base_layer}{{\unhbox \voidb@x \hbox {II-C}3}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}3}Document Base layer}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Conclusion}{3}}
+\@writefile{toc}{\contentsline {section}{References}{3}}
+\@writefile{toc}{\contentsline {section}{Biographies}{4}}
+\@writefile{toc}{\contentsline {subsection}{Michael Shell}{4}}
+\@writefile{toc}{\contentsline {subsection}{John Doe}{4}}
+\@writefile{toc}{\contentsline {subsection}{Jane Doe}{4}}
