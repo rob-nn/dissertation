@@ -379,10 +379,14 @@
 	Roberto~Aguiar~Lima,
 	Vera~Regina~Da~Silva~Maraes,
 	Jairo Simao Santana Melo,
+	Vladimir Franca Nogueira,
         and~Lourdes~Mattos~Brasil,~\IEEEmembership{Member,~IEEE.}
-	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, \emph{Faculdade Gama / Universidade de Brasilia}, Gama, DF.}
-	\thanks{J. S. S. Melo is with \emph{Tribunal de Justiça do Distrito Federal}, Brasilia, DF.}
-\thanks{Manuscript received October 23, 2015; revised December 1, 2015.}}
+	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, University of Brasilia at Gama, DF.}
+	\thanks{J. S. S. Melo is with Federal District Court of Law, Brasilia, DF.}
+	\thanks{V. F. Nogueira is with Universidade of Brasilia at Gama, DF.}
+	\thanks{Manuscript received October ??, ????; revised December ?, ????.}
+}
+
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -611,7 +615,7 @@ Last, a increment consisting in a piece of working software is delivered.
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=3in]{img/dev_proc.eps}
+	\includegraphics[width=0.48\textwidth]{img/dev_proc.eps}
 	\caption{Development process overview.
 		Every two weeks a new increment, working software, is delivered.
 		Adapted from \cite{Schwaber2004}.
@@ -637,8 +641,8 @@ The document base layer is responsible by data application persistence, see Sect
 
 These layer was designed to run in web browsers with HTML5 support.
 It was developed using Javascript, CSS and HTML languages. 
-Moreover, the web development framework AngularJS \cite{Branas2014}, \cite{Freeman2014},  was adopted. 
-A AngularJS adoption advantage is the directive creation possibility. 
+Moreover, the web development framework AngularJS was adopted \cite{Branas2014}, \cite{Freeman2014}. 
+An AngularJS adoption advantage is the directive creation possibility. 
 Directives are developed components which can be embedded in a HTML template.
 Also, it was chosen to use the Angular-Material directive library. 
 This library is based in the Material Design specification from Google, which
@@ -653,8 +657,8 @@ allowing to build applications which needs good performance to generate animatio
 
 \begin{figure*}[tb]
 	\centering
-	{\includegraphics[width=\textwidth]{img/web_components.eps}}
-	\caption{Main web components interactions.
+	{\includegraphics[width=0.95\textwidth]{img/web_components.eps}}
+	\caption{Main web application layer components interactions.
 		All these components, except the component backend, run inside the web browses.
 		The component backend correspond to the infrastructure and components of REST web API layer.
 		(a) A user interacts with the application, maybe click a button on screen;
@@ -670,6 +674,35 @@ allowing to build applications which needs good performance to generate animatio
 	}
 	\label{web_components}
 \end{figure*}
+
+\begin{figure*}[tb]
+	\centering
+	{\includegraphics[width=0.95\textwidth]{img/rest_web_api_components.eps}}
+	\caption{Main REST web API layer components interactions.
+		(a) From the user web browser a HTTP request is sent to the  webserver running the web API;
+		(b) The web server redirects the request to the Flask Application, in this case the REST 
+		web API implementation;
+		(c) The flask application routes the request to the appropriate handling function;
+		(d) If necessary the handling function access specialized libraries, like NumPy,
+		Matplotlib or a library for business logic, for example,
+		to calculate kinematics from gait data;
+		(e) If data manipulation from document base layer is necessary, calls to PyMongo, a library for
+		access the document base manager MongoDB, can be made;
+		(f) The function handling can implement business logic too, but it is only advise for simple
+		things. The return data is encapsulated like a JSON object end sent to the webserver to
+		complete the original request from the web browser.
+	}
+	\label{rest_web_api_components}
+\end{figure*}
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=1.5in]{img/mongo_oga.eps}
+	\caption{Application document base. The data base name is "oga". 
+	This database has two collections: patients and positionals\_data. 
+	}
+	\label{mongo_oga}
+\end{figure}
+
 
 Fig. \ref{web_components} shows the interaction between  main components in web application layer.
 Note that this is only a logic representation.
@@ -688,12 +721,12 @@ in this case is the communication over HTTP protocol to the backend.
 After the backend receives the request, it process him and send a HTTP response with a JSON object inside.
 JavaScript Object Notation (JSON) are a specification to represent and exchange data.
 
-\subsubsection{REST Web API}
+\subsubsection{REST Web API Layer}
 \label{rest_web_api_layer}
 
 This layer is responsible to execute business logic, for example,
 calculate angles, extract data   from QTM software, among others.
-The layer was implemented using the architectural style Representational Estate Transfer (REST) 
+The layer was implemented using the architectural style Representational State Transfer (REST) 
 \cite{Grinberg2014}.
 The main advantage of this technology is the high decoupling with the web application layer.
 This decoupling promotes concepts separation between these layers, improving development process
@@ -703,12 +736,178 @@ Flask is implemented in Python language, it is known by his minimalist philosoph
 allowing to create a simple project, evolving him to more complex models, according with
 requisites at moment.
 
-Fig. \ref{rest_web_api_components} shows the interaction between  main components in REST web API layer.
+\begin{figure*}[tb]
+	\centering
+	{\includegraphics[width=0.7\textwidth]{img/qtm_data.eps}}
+	\caption{Gait analysis screen. 
+		(a) Patient name;
+		(b) Gait samples acquired from the patient and imported to the software;
+		(c) Initial contact and terminal swing frames. Must be informed by the user,
+		which can use the animation feature to know the correct frames;
+		(d) QTM imported file summary.
+	}
+	\label{qtm_data}
+\end{figure*}
 
-\subsubsection{Document Base layer}
+Fig. \ref{rest_web_api_components} shows the interaction between  main components in REST web API layer.
+This representation is only a logic view.
+After a user intact with web application running at web browser and a action from the REST web API is
+needed, a HTTP request is sent to the webserver. This request is a REST style request.
+The webserver receives the request, verifies if is a request to the web API, and if yes the
+request is dispatched to the web API implementation, this is written using the framework Flask.
+The framework Flask identifies the request and selects the appropriate handling function. 
+This function is written in Python language. 
+The request handling function can them access a lot of libraries, like NumPy for number crunching,
+Matplotlib for generate scientific graphics that can be sent to the user. 
+Business logic application specific libraries can also be used, like libraries to calculate
+cinematic information;
+A very important library that can be used by the handling function too, is the PyMongo library.
+This component is used to access the document base manager MongoDB, see Section \ref{document_base_layer},
+so is possible manipulate and persist the application data.
+The request handling also can implement business logic, but is advise implement a specific library for
+complex logic. 
+When all needed processing is done a response is generated as a JSON object and sent back to 
+the web application running at the user browser.
+\subsubsection{Document Base Layer}
 \label{document_base_layer}
 
 
+The data persistence and basic manipulation is done by the document base layer.
+This layer comprises a server running the document base manager MongoDB 
+\cite{Plugge2014}, \cite{Plugge2014}.
+This technology was chosen instead of a relational database management system, 
+because the application multidimensional data nature more  easily  modeled with
+a document base, and so because the facilities for MongoDB scalability.
+MongoDB don't use tables like relational databases, it uses the collection concept.
+A collection is a set of objects. Objects of a collection can have different structures
+or types, although this is a bad practice. A MongoDB database can have multiple collections.
+Objects are expressed using de BSON notation, that is very similar to JSON.
+
+The Fig. \ref{mongo_oga} shows the application data base.
+It have two data collections: patients and positionals\_data.
+The patients collections has basic data from the patient.
+The positionals\_data collection has spatial and markers 
+data imported from a QTM/MATLAB file.
+
+\section{Results}
+
+The developed software permits to register patients.
+After the patient is registered, the user can include gait samples to these patient
+This is done importing a MATLAB formatted file exported from QTM. 
+After the file is imported the screen described in Fig. \ref{qtm_data} is shown.
+From this screen is possible to run a 3D animation including the markers acquired (Fig. \ref{animation}).
+Here is possible accelerate or slowdown the animation, to apply zoom in or Zion out, to controller pan
+and to see a specific frame in the animation.
+To see a frame is am important feature, because it can be used to visualize the initial contact
+and terminal swing frames, 
+so is possible to update these fields in the screen shown at Fig. \ref{qtm_data}(c).
+These data fields must be correctly filled or the graphics will be incorrect.
+
+\begin{figure*}[tb]
+  \centering
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{img/animation1.eps}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{img/animation2.eps}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{img/animation3.eps}
+  \end{minipage}
+  \caption{Markers 3D animation. 
+	  (a) Left inferior limb initial contact;
+	  (b) Left inferior limb terminal instance;
+	  (c) Left inferior limb terminal swing.
+  }
+  \label{animation}
+\end{figure*}
+
+The software has an option to name markers. After a marker is named, a graphic showing the 
+marker's spatial progression can be plotted (Fig. \ref{spatial_progression}). 
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{img/spatial_progression.eps}}
+	\caption{Left tibial spatial progression.}
+	\label{spatial_progression}
+\end{figure}
+
+Another important feature is the angle registering tool (Fig.~\ref{angles_tool}). 
+After a angle is registered, angles (Fig.~\ref{angles}), angular velocities (Fig.~\ref{av}) 
+and angular accelerations (Fig.~\ref{aa}) can be plotted.
+
+\section{Discussion}
+
+A software for gait analysis fully available at web is a innovation in the field.
+The bigger advantage which this approach does is the easy access to the software,
+because after the application is implanted in an internet webserver, 
+any user with a recent HTML5 browser can use the application, independent from
+his location.
+
+Another theme that raises from this project is the creation of a centralized 
+base, with data collected around world. Such endeavor would be priceless
+to gait analysis researchers. This would require a more profound care with 
+information security.
+
+The software is available as free software. The intention is to attract
+developers and health professionals to contribute and to use the software.
+These profiles already exists in the project, but to fully reach the 
+project potential, some more people will be necessary.
+
+As future works, new data acquisition methods cold be implemented, as plate force, electromyography (EMG)
+and inertial measurement unit (IMU). 
+The inclusion of automatic detection events at gait cycle could be a plus, for example,
+detect the initial contact and terminal swing.
+Furthermore, a simulation module is being developed. 
+It will support machine learning methods to regression and classification.
+
+
+\section{Conclusion}
+This paper presented a gait analysis SaaS. His source code is available as free software 
+under the MIT license \cite{MIT2015} ate web address http://github.com/rob-nn/open\_gait\_analytics.
+
+The software offers data importation from the third party software QTM from Qualisys.
+These data are about surface markers fixed in a patient body.
+The software permits name markers, plot a spatial progression from them.
+Also is possible to register angles and show graphics with angular velocities and accelerations.
+A 3D animation showing the markers is available. 
+All graphics are visualized according the gait cycle phase.
+
+The software will continue receive more features, and gradually will be available for more users.
+Anyway is possible to other people implant him by themselves.
+
+% use section* for acknowledgment
+\section*{Acknowledgment}
+
+The first author would like to thank the financial support granted by CAPES.
+The authors wold like to thank LIS UnB at Gama and LPH UnB at Ceilandia,
+by use of its resources.
+
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{img/angles_tool.eps}}
+	\caption{Angle registering tool.}
+	\label{angles_tool}
+\end{figure}
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{img/angles.eps}}
+	\caption{Angles.}
+	\label{angles}
+\end{figure}
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{img/av.eps}}
+	\caption{Angular velocities.}
+	\label{av}
+\end{figure}
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{img/aa.eps}}
+	\caption{Angular accelerations.}
+	\label{aa}
+\end{figure}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -806,10 +1005,6 @@ Fig. \ref{rest_web_api_components} shows the interaction between  main component
 
 
 
-\section{Conclusion}
-The conclusion goes here.
-
-
 
 
 
@@ -837,12 +1032,6 @@ The conclusion goes here.
 %\section{}
 %Appendix two text goes here.
 
-
-% use section* for acknowledgment
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -894,24 +1083,54 @@ The authors would like to thank...
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}{Michael Shell}
-Biography text here.
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{roberto}}]{Roberto Aguiar Lima}
+	is graduated in computer science from Brasilia Catholic University (2000).
+	He attends the University of Brasilia Biomedical Engineering M.Sc. Program.
+	He has more than twenty years as software developer.
+
+	He is envolved in gait analisys research and has interest in machine learning and software engineering.
 \end{IEEEbiography}
 
-% if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vera}}]{Vera Regina Da Silva Marães}
+	is graduated in physioterapy by Sao Carlos Federal University (1995). She has a M.Sc. degree in 
+	celular and structural biology by Campinas State University, and a Ph.D. degree in physioterapy
+	from Sao Carlos Federal University. 
+	Actually she is  adjunct professor III at: University of Brasilia at Ceilandia; 
+	University of Brasilia Biomedical Engineering M.Sc. Program;
+	and University of Brasilia Health Pro-Education.
+
+	She has experience in physioterapy, acting mainly in: health teatching, amputee prosthesis adaptation,
+	human functionality, exercice phisiology, cardiac rehabilitation and cardiac frequency variability.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{jairo}}]{Jairo Simao Santana Melo}
+	?????
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vladimir}}]{Vladimir Franca Nogueira}
+	?????
+\end{IEEEbiography}
+
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{lourdes}}]{Lourdes Mattos Brasil}.Electrical Engineer, Federal University of
+Santa Catarina (1984), Master of Science in Electrical
+Engineering/Biomedical Engineering, Federal University of Santa
+Catarina (1994), Sandwich Doctorate in Mathematical Applied from
+Facultes Universitaires Notre Dame de La Paix (FUNDP), Belgium
+(1997–1998) and D.Sc. in Electrical Engineering/Biomedical Engineering
+(1999). She is currently professor/researcher/head of the Lato Sensu
+in Clinical Engineering Course, besides being professor of the Course
+of Electronic Engineering, at the University of Brasilia at Gama,
+Brazil. Her scientific works concern: artificial intelligence, data
+mining, machine learning, knowledge acquisition, knowledge based
+systems, hybrid expert systems, virtual reality, intelligent tutoring
+systems, informatics in health, e–learning and nanotechnology.
+\end{IEEEbiography}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
 
-\begin{IEEEbiographynophoto}{Jane Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
-
-% You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate
 % use of \vfill depends on what kind of text is
 % on the last page and whether or not the columns

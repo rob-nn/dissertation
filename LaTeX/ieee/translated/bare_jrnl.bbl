@@ -137,4 +137,22 @@ K.~Matsuda and R.~Lea, \emph{{WebGL Programming Guide: Interactive 3D Graphics
 M.~Fowler, \emph{{Patterns of Enterprise Application Architecture}}.\hskip 1em
   plus 0.5em minus 0.4em\relax Addison-Wesley Professional, 2002.
 
+\bibitem{Grinberg2014}
+M.~Grinberg, \emph{{Flask Web Development}}, 1st~ed.\hskip 1em plus 0.5em minus
+  0.4em\relax O'Reilly Media, Inc., 2014.
+
+\bibitem{Maia2015}
+I.~Maia, \emph{{Building Web Applications with Flask}}, 1st~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Packt Publishing, 2015.
+
+\bibitem{Plugge2014}
+E.~Plugge, P.~Membrey, and D.~Hows, \emph{{MongoDB Basics MongoDB Basics}},
+  1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Apress, 2014.
+
+\bibitem{MIT2015}
+\BIBentryALTinterwordspacing
+MIT, ``{The MIT License (MIT)},'' 2015. [Online]. Available:
+  \url{https://opensource.org/licenses/MIT}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
