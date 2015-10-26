@@ -9,7 +9,7 @@
 \abntrefinfo{Albus}{ALBUS}{1975a}
 {ALBUS, J. {A New Approach to Manipulator Control: The Cerebellar Model
   Articulation Controller (CMAC)}.
-\emph{\ldots Systems, Measurement, and Control}, n. SEPTEMBER, p. 220--227,
+\emph{{\ldots} Systems, Measurement, and Control}, n. SEPTEMBER, p. 220--227,
   1975.
 Dispon{\'\i}vel em:
   \url{http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1402197}.}
@@ -18,7 +18,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Albus}{ALBUS}{1975b}
 {ALBUS, J. {Data Storage in The Cerebellar Model Articulation Controller
   (CMAC)}.
-\emph{\ldots Systems, Measurement, and Control}, 1975.
+\emph{{\ldots} Systems, Measurement, and Control}, 1975.
 Dispon{\'\i}vel em:
   \url{http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1402199}.}
 
@@ -46,9 +46,9 @@ v.~10, p. 25--61, 1971.}
 \bibitem[Andrade et al. 2014]{Andrade2014}
 \abntrefinfo{Andrade et al.}{ANDRADE et al.}{2014}
 {ANDRADE, J. A.~A. et al. {Proposta de estudo de redes neuro- fuzzy para
-  aplica\c{c}\~{o}es em um controle de pr\'{o}tese ativa transtibial}. In:
-  \emph{XXIII Congresso Brasileiro em Engenharia Biom\'{e}dica}. [S.l.]: CBEB,
-  2014.}
+  aplica{\c{c}}{\~{o}}es em um controle de pr{\'{o}}tese ativa transtibial}.
+  In:  \emph{XXIII Congresso Brasileiro em Engenharia Biom{\'{e}}dica}. [S.l.]:
+  CBEB, 2014.}
 
 \bibitem[Baker 2007]{Baker2007}
 \abntrefinfo{Baker}{BAKER}{2007}
@@ -65,8 +65,8 @@ ISBN 9780321278654.}
 
 \bibitem[Beck et al. 2001]{Beck2001}
 \abntrefinfo{Beck et al.}{BECK et al.}{2001}
-{BECK, K. et al. \emph{{Manifesto para Desenvolvimento \'{A}gil de Software}}.
-  2001.
+{BECK, K. et al. \emph{{Manifesto para Desenvolvimento {\'{A}}gil de
+  Software}}. 2001.
 Dispon{\'\i}vel em: \url{http://www.agilemanifesto.org/iso/ptbr/}.}
 
 \bibitem[Beynon et al. 2010]{Beynon2010}
@@ -132,8 +132,8 @@ ISBN 978-0-547-16702-2.}
 \bibitem[Ferreira, Crisostomo e Coimbra 2009]{Ferreira2009}
 \abntrefinfo{Ferreira, Crisostomo e Coimbra}{FERREIRA; CRISOSTOMO;
   COIMBRA}{2009}
-{FERREIRA, J.~a.~P.; CRISOSTOMO, M.~M.; COIMBRA, a.~P. {Human gait acquisition
-  and characterization}.
+{FERREIRA, J.~P.; CRISOSTOMO, M.~M.; COIMBRA, a.~P. {Human gait acquisition and
+  characterization}.
 \emph{IEEE Transactions on Instrumentation and Measurement}, v.~58, n.~9, p.
   2979--2988, 2009.
 ISSN 00189456.}
@@ -145,7 +145,7 @@ ISSN 00189456.}
   Architectures}}.
 Tese (Doutorado) --- UNIVERSITY OF CALIFORNIA, 2000.
 Dispon{\'\i}vel em:
-  \url{http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm}.}
+  \url{http://www.ics.uci.edu/{~}fielding/pubs/dissertation/top.h}.}
 
 \bibitem[Fox e Patterson 2012]{Fox2012}
 \abntrefinfo{Fox e Patterson}{FOX; PATTERSON}{2012}
@@ -161,7 +161,7 @@ ISBN 9781430264484.}
 
 \bibitem[Garcia 2009]{Garcia2009b}
 \abntrefinfo{Garcia}{GARCIA}{2009}
-{GARCIA, C. \emph{{Modelagem e Simula\c{c}\~{a}o}}. 2. ed. S\~{a}o Paulo:
+{GARCIA, C. \emph{{Modelagem e Simula{\c{c}}{\~{a}}o}}. 2. ed. S{\~{a}}o Paulo:
   edUSP, 2009.
 ISBN 9788531409042.}
 
@@ -201,10 +201,10 @@ ISBN 9781449331924.}
   Inc., 2014.
 ISBN 9781449372620.}
 
-\bibitem[Grip e H\"{a}ger 2013]{Grip2013}
-\abntrefinfo{Grip e H\"{a}ger}{GRIP; H\"{a}GER}{2013}
-{GRIP, H.; H\"{a}GER, C. {A new approach to measure functional stability of the
-  knee based on changes in knee axis orientation}.
+\bibitem[Grip e H{\"{a}}ger 2013]{Grip2013}
+\abntrefinfo{Grip e H{\"{a}}ger}{GRIP; H{\"{A}}GER}{2013}
+{GRIP, H.; H{\"{A}}GER, C. {A new approach to measure functional stability of
+  the knee based on changes in knee axis orientation}.
 \emph{Journal of Biomechanics}, v.~46, n.~5, p. 855--862, 2013.
 ISSN 00219290.}
 
@@ -238,17 +238,17 @@ ISBN 9781118235850.}
 
 \bibitem[Leite et al. 2014]{Leite2014}
 \abntrefinfo{Leite et al.}{LEITE et al.}{2014}
-{LEITE, W.~V. et al. {Avalia\c{c}\~{a}o cinem\'{a}tica comparativa da marcha
-  humana por meio de unidade inercial e sistema de video}. In:  \emph{XXIV
-  Congresso Brasileiro de Engenharia Biom\'{e}dica-CBEB 2014}. Uberl\^{a}ndia:
-  CBEB, 2014. p.~1--4.}
+{LEITE, W.~V. et al. {Avalia{\c{c}}{\~{a}}o cinem{\'{a}}tica comparativa da
+  marcha humana por meio de unidade inercial e sistema de video}. In:
+  \emph{XXIV Congresso Brasileiro de Engenharia Biom{\'{e}}dica-CBEB 2014}.
+  Uberl{\^{a}}ndia: CBEB, 2014. p.~1--4.}
 
 \bibitem[Lin e Song 2002]{Lin2002a}
 \abntrefinfo{Lin e Song}{LIN; SONG}{2002}
 {LIN, J.-n.; SONG, S.-m. {Modeling gait transitions of quadrupeds and their
   generalization with CMAC neural networks}.
 \emph{IEEE Transactions on Systems, Man and Cybernetics, Part C (Applications
-  and Reviews)}, v.~32, n.~3, p. 177--189, ago. 2002.
+  and Reviews)}, v.~32, n.~3, p. 177--189, aug 2002.
 ISSN 1094-6977.
 Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1097731}.}
@@ -268,11 +268,11 @@ Dispon{\'\i}vel em: \url{http://www.oandp.org/reading/gaitfunction.asp}.}
 \bibitem[Maraes 1999]{VeraReg}
 \abntrefinfo{Maraes}{MARAES}{1999}
 {MARAES, V. R. F. d.~S.
-\emph{{Estudo da Variabilidade da Frequ\^{e}ncia Card\'{\i}aca Durante o
-  Exerc\'{\i}cio F\'{\i}sico Din\^{a}micos em Volunt\'{a}rios Sadios}}.
+\emph{{Estudo da Variabilidade da Frequ{\^{e}}ncia Card{\'{\i}}aca Durante o
+  Exerc{\'{\i}}cio F{\'{\i}}sico Din{\^{a}}micos em Volunt{\'{a}}rios Sadios}}.
 174~p. Tese (Doutorado) --- UNICAMP, 1999.
 Dispon{\'\i}vel em:
-  \url{http://www.bibliotecadigital.unicamp.br/document/?code=vtls000178242\&fd=y}.}
+  \url{http://www.bibliotecadigital.unicamp.br/document/?code=vtls000178242{\&}f}.}
 
 \bibitem[Masse 2011]{Masse2011}
 \abntrefinfo{Masse}{MASSE}{2011}
@@ -305,7 +305,7 @@ ISSN 1094-687X.}
 
 \bibitem[Muybridge 1885]{Muybridge1885}
 \abntrefinfo{Muybridge}{MUYBRIDGE}{1885}
-{MUYBRIDGE, E. \emph{{The Human Figure In Motion}}. London: Chapman \& Hall,
+{MUYBRIDGE, E. \emph{{The Human Figure In Motion}}. London: Chapman {\&} Hall,
   1885.}
 
 \bibitem[Ng 2015]{Ng2015}
@@ -350,11 +350,11 @@ ISBN 978-0078022128.}
   all kind of movements}.
 \emph{Qualisys.Com}, 2010.
 Dispon{\'\i}vel em:
-  \url{http://www.qualisys.com/wp-content/uploads/2012/11/pi\\_qtm.pdf}.}
+  \url{http://www.qualisys.com/wp-content/uploads/2012/11/pi{\\_}qtm.}}
 
 \bibitem[Qualisys 2013]{Qualisys2013a}
 \abntrefinfo{Qualisys}{QUALISYS}{2013a}
-{QUALISYS. \emph{{Gait analysis \& Rehabilitation}}. 2013.
+{QUALISYS. \emph{{Gait analysis {\&} Rehabilitation}}. 2013.
 Dispon{\'\i}vel em:
   \url{http://www.qualisys.com/applications/biomechanics/gait-analysis-and-rehabilitation/}.}
 
@@ -378,7 +378,7 @@ ISBN 9780137043293.}
 \abntrefinfo{Sabourin}{SABOURIN}{2006}
 {SABOURIN, C. {Control Strategy for the Robust Dynamic Walk of a Biped Robot}.
 \emph{The International Journal of Robotics Research}, v.~25, n.~9, p.
-  843--860, set. 2006.
+  843--860, sep 2006.
 ISSN 0278-3649.
 Dispon{\'\i}vel em:
   \url{http://ijr.sagepub.com/cgi/doi/10.1177/0278364906069151}.}
@@ -387,7 +387,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Sabourin, Yu e Madani}{SABOURIN; YU; MADANI}{2012}
 {SABOURIN, C.; YU, W.; MADANI, K. {Gait Pattern Based on CMAC Neural Network
   for Robotic Applications}.
-\emph{Neural Processing Letters}, v.~38, n.~2, p. 261--279, nov. 2012.
+\emph{Neural Processing Letters}, v.~38, n.~2, p. 261--279, nov 2012.
 ISSN 1370-4621.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s11063-012-9257-6}.}
 

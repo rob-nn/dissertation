@@ -2,27 +2,17 @@
 \citation{Fox2012}
 \citation{Baker2007}
 \citation{Moraes2003}
-\citation{Perry2010}
-\citation{Whittle2012}
-\citation{Ferreira2009}
-\citation{Vieira2015}
-\citation{Duhamel2004}
-\citation{Ghoussayni2004}
-\citation{Moreno2009}
-\citation{Beynon2010}
+\citation{Perry2010,Whittle2012,Ferreira2009,Vieira2015,Duhamel2004,Ghoussayni2004,Moreno2009,Beynon2010}
 \citation{Lima2015}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {II}Materials and Methods}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Data Acquisition}{1}}
-\citation{Schwaber2001}
-\citation{Schwaber2004}
-\citation{Rubin2012}
+\citation{Schwaber2001,Schwaber2004,Rubin2012}
 \citation{Beck2001}
 \citation{cohn2004}
 \citation{Schwaber2004}
 \citation{Schwaber2004}
-\citation{Branas2014}
-\citation{Freeman2014}
+\citation{Branas2014,Freeman2014}
 \citation{Google2015a}
 \citation{Dirksen2015}
 \citation{Matsuda2013}
@@ -40,7 +30,7 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}1}Web Application Layer}{2}}
 \citation{Grinberg2014}
 \citation{Maia2015}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Main web application layer components interactions. All these components, except the component backend, run inside the web browses. The component backend correspond to the infrastructure and components of REST web API layer. (a) A user interacts with the application, maybe click a button on screen; (b) The AngularJS framework detects the event, selects a controller component and dispatch the event for him; (c) The selected controller process the event; (d) If it is necessary to execute some action, how request more data, the controller requests to a facade component to requests the backend; (e) The selected facade component prepares and send a HTTP request to the backend, which sends a JSON object as response; (f) The controller updates the model, variables used by the framework to show data at screen, and signals to the AngularJS framework to update the screen. }}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Main web application layer components interactions. All these components, except the component backend, run inside the web browses. The component backend correspond to the infrastructure and components of REST web API layer. (a) A user interacts with the application, maybe click a button on screen; (b) The AngularJS framework detects the event, selects a controller component and dispatch the event for him; (c) The selected controller process the event; (d) If it is necessary to execute some action, as request more data, the controller requests to a facade component to requests the backend; (e) The selected facade component prepares and send a HTTP request to the backend, which responds with a JSON object; (f) The controller updates the model, variables used by the framework to show data at screen, and signals to the AngularJS framework to update the screen. }}{3}}
 \newlabel{web_components}{{4}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Main REST web API layer components interactions. (a) From the user web browser a HTTP request is sent to the webserver running the web API; (b) The web server redirects the request to the Flask Application, in this case the REST web API implementation; (c) The flask application routes the request to the appropriate handling function; (d) If necessary the handling function access specialized libraries, like NumPy, Matplotlib or a library for business logic, for example, to calculate kinematics from gait data; (e) If data manipulation from document base layer is necessary, calls to PyMongo, a library for access the document base manager MongoDB, can be made; (f) The function handling can implement business logic too, but it is only advise for simple things. The return data is encapsulated like a JSON object end sent to the webserver to complete the original request from the web browser. }}{3}}
 \newlabel{rest_web_api_components}{{5}{3}}

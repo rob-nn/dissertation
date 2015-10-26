@@ -92,7 +92,7 @@
 
 % *** CITATION PACKAGES ***
 %
-%\usepackage{cite}
+\usepackage{cite}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of IEEE. Loading the cite package will
@@ -524,8 +524,8 @@ All these problems can be minimized or until eliminated with a SaaS.
 To build a software it is necessary collect requisites, and a certain domain
 of the field must be addressed, at this case gait analysis. 
 Thankfully, nowadays, the theme is quite documented
-\cite{Perry2010}, \cite{Whittle2012}, \cite{Ferreira2009}, \cite{Vieira2015}, 
-\cite{Duhamel2004}, \cite{Ghoussayni2004}, \cite{Moreno2009}, \cite{Beynon2010}. 
+\cite{Perry2010, Whittle2012, Ferreira2009, Vieira2015, 
+Duhamel2004, Ghoussayni2004, Moreno2009, Beynon2010}. 
 Moreover, there are health professionals at the development team with much
 experience in gait analysis. With all this in mind, this paper describes the
 first implementation version of a gait analysis SaaS \cite{Lima2015}.
@@ -533,8 +533,8 @@ This software version can import data from a third party motion capture system, 
 case data collected from video cameras using surface markers, the software
 also can name markers, define angles, using data from the markers, and plot 
 markers progression at space, angles, angular velocities and angular accelerations.
-Moreover, the software presents a 3D animation from data and allows user 
-interact with the animation.
+Moreover, the software presents a 3D animation from imported data and allows user 
+interact with him.
 
 
 % needed in second column of first page if using \IEEEpubid
@@ -543,21 +543,21 @@ interact with the animation.
 \section{Materials and Methods}
 
 Two researches environments were used to undertake the project. 
-One was the \emph{Laboratório de Performance Humana} (LPH) at 
-\emph{Faculdade Ceilandia} (FCE) / \emph{Universidade de Brasilia} (UnB), 
-and the other was the \emph{Laboratorio de Informatica em Saude} (LIS)
-at \emph{Faculdade Gama (FGA)} / UnB. At LPH data was collected and at
-LIS the software version was developed.
+One was the Human Performance Lab (\emph{Laboratório de Performance Humana} - LPH) in
+Universty of Brasilia (\emph{Universidade de Brasilia} - UnB) at Gama, 
+and the other was the Health Informatics Lab (\emph{Laboratorio de Informatica em Saude} - LIS)
+in UnB ant Ceilandia. 
+Data acquisition was made in LPH and software development tasks at LIS.
 
 The next subsections presents the process for data acquisition,
-the development process and the software architecture general
+the development process and software architecture general
 view.
 
 \subsection{Data Acquisition}
 
 The data are acquired by sixteen Qualisys Oqus MRI cameras, using
 the Qualisys Track Manager Software (QTM). 
-The data are relative to surface markers along a patient body.
+The data are relative to surface markers along a patient's body.
 
 For this paper a healthy patient, male, with age between 20 and 30 years old
 was selected.
@@ -565,9 +565,9 @@ Fig. \ref{data_acq_proc} summarizes the data acquisition process.
 First   markers positions are defined. 
 For this paper only the left trochanter, left knee and left tibia
 positions were considered. 
-So the surface markers must be fixed at defined positions on patient body.
+So the surface markers must be fixed at defined positions on patient'body body.
 The next step is acquire data using the cameras and QTM software. In this
-step the patient executes a comfortable gait cycle in front cameras.
+step the patient executes a comfortable gait cycle in front of cameras.
 Five gait samples were acquired.
 The last step is convert the acquired data to MATLAB format using the QTM
 software. It is necessary because this is the pattern of choice for 
@@ -593,7 +593,7 @@ process number N11911/12.
 
 \subsection{Development Process}
 
-A scrum \cite{Schwaber2001}, \cite{Schwaber2004}, \cite{Rubin2012} inspired process for development was implanted.
+A scrum \cite{Schwaber2001, Schwaber2004, Rubin2012} inspired process for development was implanted.
 The scrum is a agile method \cite{Beck2001} that has as mainly characteristics
 to be iterative, incremental and change friendly.
 These characteristics are essentials to deal with software requirements volatility
@@ -605,13 +605,14 @@ The sprints have a 2 weeks average duration.
 A product backlog is created and managed by the product owner.
 The product backlog is open to receive additions from all 
 project stakeholders, at any time, but only the product owner can prioritize him,
-based in important values for final users.
+based in expected values for final users.
 Each item at product backlog is a user story \cite{cohn2004}.
-Before a new iteration begin, there are a two phases meeting between the development team members. 
-In the first phase, the last increment is presented and impediments occurred in last iteration are uncovered.
+Before a new iteration begins, there are a two phases meeting between the development team members. 
+In the first phase, the last increment is presented and 
+impediments occurred in last iteration are uncovered.
 In the second phase the development team selects items from the product backlog.
 These items will be implemented in the sprint and are called the sprint backlog.
-Last, a increment consisting in a piece of working software is delivered.
+Lastly, an increment consisting in a piece of working software is delivered.
 
 \begin{figure}[!t]
 	\centering
@@ -625,9 +626,9 @@ Last, a increment consisting in a piece of working software is delivered.
 
 \subsection{Software Architecture General View}
 The Fig. \ref{app_layers} shows the software architecture layered high level view.
-The layer web applications is responsible by application user interactions, see Section \ref{web_application_layer}.
-The layer REST web API is responsible by business logic, see Section \ref{rest_web_api_layer}.
-The document base layer is responsible by data application persistence, see Section \ref{document_base_layer}.
+The layer web applications is responsible by application user interactions (Section \ref{web_application_layer}).
+The layer REST web API is responsible by business logic, (Section \ref{rest_web_api_layer}).
+The document base layer is responsible by data application persistence (Section \ref{document_base_layer}).
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=1.5in]{./app_layers.eps}
@@ -639,10 +640,10 @@ The document base layer is responsible by data application persistence, see Sect
 \subsubsection{Web Application Layer}
 \label{web_application_layer}
 
-These layer was designed to run in web browsers with HTML5 support.
+This layer was designed to run in web browsers with HTML5 support.
 It was developed using Javascript, CSS and HTML languages. 
-Moreover, the web development framework AngularJS was adopted \cite{Branas2014}, \cite{Freeman2014}. 
-An AngularJS adoption advantage is the directive creation possibility. 
+Moreover, the web development framework AngularJS was adopted \cite{Branas2014,Freeman2014}. 
+A great AngularJS adoption advantage is the directive creation possibility. 
 Directives are developed components which can be embedded in a HTML template.
 Also, it was chosen to use the Angular-Material directive library. 
 This library is based in the Material Design specification from Google, which
@@ -651,7 +652,8 @@ describes about graphical design patterns and user interaction, it is based in t
 health professionals.
 
 To run graphical 3D animations, the ThreeJS library was chosen \cite{Dirksen2015}.
-This is a high level library  which takes advantage from WebGL implementation in modern web browsers.
+This is a high level library for computer graphics, 
+which takes advantage from WebGL implementation in modern web browsers.
 The WebGL specification \cite{Matsuda2013} uses the computer Graphical Processor Unit (GPU) natively, 
 allowing to build applications which needs good performance to generate animations and graphics.
 
@@ -665,10 +667,10 @@ allowing to build applications which needs good performance to generate animatio
 		(b) The AngularJS framework detects the event, selects a controller component and
 		dispatch the event for him;
 		(c) The selected controller process the event;
-		(d) If it is necessary to execute some action, how request more data, the controller 
+		(d) If it is necessary to execute some action, as request more data, the controller 
 		requests to a facade component to requests the backend;
 		(e) The selected facade component prepares and send a HTTP request to the backend,
-		which sends a JSON object as response;
+		which responds sending a JSON object;
 		(f) The controller updates the model, variables used by the framework to show data at screen,
 		and signals to the AngularJS framework to update the screen.
 	}
