@@ -43,7 +43,6 @@
 %%                    bare_jrnl_compsoc.tex, bare_jrnl_transmag.tex
 %%*************************************************************************
 
-
 % *** Authors should verify (and, if needed, correct) their LaTeX system  ***
 % *** with the testflow diagnostic prior to trusting their LaTeX platform ***
 % *** with production work. IEEE's font choices and paper sizes can       ***
@@ -51,21 +50,14 @@
 % The testflow support page is at:
 % http://www.michaelshell.org/tex/testflow/
 
-
-
 \documentclass[journal]{IEEEtran}
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
 % \documentclass[journal]{../sty/IEEEtran}
 
-
-
-
-
 % Some very useful LaTeX packages include:
 % (uncomment the ones you want to load)
-
 
 % *** MISC UTILITY PACKAGES ***
 %
@@ -92,7 +84,7 @@
 
 % *** CITATION PACKAGES ***
 %
-%\usepackage{cite}
+\usepackage{cite}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of IEEE. Loading the cite package will
@@ -379,10 +371,14 @@
 	Roberto~Aguiar~Lima,
 	Vera~Regina~Da~Silva~Maraes,
 	Jairo Simao Santana Melo,
+	Vladimir Franca Nogueira,
         and~Lourdes~Mattos~Brasil,~\IEEEmembership{Member,~IEEE.}
-	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, \emph{Faculdade Gama / Universidade de Brasilia}, Gama, DF.}
-	\thanks{J. S. S. Melo is with \emph{Tribunal de Justiça do Distrito Federal}, Brasilia, DF.}
-\thanks{Manuscript received October 23, 2015; revised December 1, 2015.}}
+	\thanks{R. A. Lima, V. R. S. Maraes and L. M. Brasil are with Biomedical Engineering Post Graduate Program, University of Brasilia at Gama, DF.}
+	\thanks{J. S. S. Melo is with Federal District Court of Law, Brasilia, DF.}
+	\thanks{V. F. Nogueira is with Universidade of Brasilia at Gama, DF.}
+	\thanks{Manuscript received October ??, ????; revised December ?, ????.}
+}
+
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -438,18 +434,18 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
-	This paper describes the first implementation version of a human gait analysis Software as a Service (SaaS).
-	This approach has as advantage, the software availability at web.
-	After the software is implanted at a web server, users can access him from a recent
-	web browser with support to HTML5.
-	The software objective is to minimize the code development efforts by gait analysis researchers, 
-	as well as to be a useful tool for health professionals interested in human gait analysis.
-	The software allows import positionals data from a third party motion captures system,
+	This paper presents the implementation of a human gait analysis Software as a Service (SaaS).
+	This approach has as advantage, the software availability at the web.
+	After the software is implanted at a webserver, users may access it from a recent
+	web browser with HTML5 support.
+	The goal of software is to minimize code development efforts of researchers from gait analysis, 
+	as well as to be useful tool for health professionals interested in the human gait analysis.
+	The software allows import positional data from a third party motion captures system,
 	that uses surface markers and video cameras, to plot markers spatial progression, 
 	angles, angular velocities and angular accelerations. Furthermore, it is possible
 	to see and to interact with a 3D animation from markers. 
 	The software source code is available as free software,
-	often receive new features and a new community is being created to maintain him.
+	often receive new features and a new community is being created to maintain it.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -485,18 +481,18 @@ Gait analysis, software as a service, SaaS.
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{W}{ith} the software web advent now is possible to create services,
-put them at central web servers and use them from any part of world.
-Furthermore, modern web browsers have become a truly platform, allowing
-rich interfaces creation, including graphics presentation and 3D animations, 
-without the necessity of plugins installations.
+\IEEEPARstart{W}{ith} the advent of software web, is possible to create services
+that are placed at webservers and access it  from anywhere.
+Furthermore, modern web browsers have become a truly platform, which allows
+create rich interfaces that include graphical presentation and 3D animations
+without the need of plugins installations.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-These two technologies, web browsers and web servers, can be used to build
+These two technologies, web browsers and webservers, may be used to build
 what is known as Software as a Service (SaaS). The SaaS advantages for 
 customers and software developers are \cite{Fox2012}: customers do not need
-to install the application; data associated with the service is kept centralized,
-so it is more protected; data can be collectively accessed by a group of users;
+to install the application; data associated with the service should be kept centralized,
+so it is protected; data may be collectively accessed by a group of users;
 big datasets and data that is frequently updated, are kept centralized 
 and remote access to them are offered; only a single copy of the server software
 runs in a controlled hardware and operating system environment, which avoids
@@ -504,33 +500,34 @@ compatibility problems, in addition, new versions of the software can be
 tested with a small fraction of the real customers without disturbing most
 customers.
 
-Although there was gait analysis advancements by the middle of century XX, 
+Although there was advances on the gait analysis by the middle of century XX, 
 clinic gait analysis became broadly available only
 with the modern computer advent \cite{Baker2007}.
-Actually there are a lot of software packages for this finality \cite{Moraes2003},
-but until now at century XXI, no software provider committed to deliver a 
-gait analysis SaaS, in other words, health professionals or gait analysis researchers
-who want use software, have to use software installed at specifics hardware and
-operating systems, they have to be responsible by data backup, if new features are
-incorporated to new software versions, the software must be installed again, if they
-want share data, they must copy and send them to the destiny and others
-security concerns must be addressed too.
-All these problems can be minimized or until eliminated with a SaaS.
+Actually, there are a lot of software packages for this porpouse \cite{Moraes2003}.
+But until now there are no software provider committed to deliver a 
+gait analysis SaaS. in other words, health professionals or gait analysis researchers
+who need to use software, must install it at specific hardware and
+operating system. Furthermore, they have to be responsible by data backup and if there are
+new software versions, it must be installed again. Whether they
+need to share data, then must copy and send it to the destiny. In addition, others
+security concerns must be addressed as well.
+These problems may be minimized or even eliminated with a SaaS.
 
-To build a software it is necessary collect requisites, and a certain domain
-of the field must be addressed, at this case gait analysis. 
-Thankfully, nowadays, the theme is quite documented
-\cite{Perry2010}, \cite{Whittle2012}, \cite{Ferreira2009}, \cite{Vieira2015}, 
-\cite{Duhamel2004}, \cite{Ghoussayni2004}, \cite{Moreno2009}, \cite{Beynon2010}. 
-Moreover, there are health professionals at the development team with much
-experience in gait analysis. With all this in mind, this paper describes the
+In order to implement a software is essential to accomplish the requirements elicitation 
+and a certain domain of the field should be understood, in this case gait analysis. 
+Nowadays, the theme is quite documented
+\cite{Perry2010, Whittle2012, Ferreira2009, Vieira2015, 
+Duhamel2004, Ghoussayni2004, Moreno2009, Beynon2010}. 
+Moreover, there are experienced health professionals in the development
+with knowledge on gait analysis. 
+Then, this paper presents the
 first implementation version of a gait analysis SaaS \cite{Lima2015}.
-This software version can import data from a third party motion capture system, at this
-case data collected from video cameras using surface markers, the software
-also can name markers, define angles, using data from the markers, and plot 
+This software version may import data from a third party motion capture system, in this
+case data collected from video cameras using surface markers. Also the software
+may name markers, define angles, and plot 
 markers progression at space, angles, angular velocities and angular accelerations.
-Moreover, the software presents a 3D animation from data and allows user 
-interact with the animation.
+So, the software presents a 3D animation from imported data and allows user 
+interact with it.
 
 
 % needed in second column of first page if using \IEEEpubid
@@ -538,47 +535,47 @@ interact with the animation.
 
 \section{Materials and Methods}
 
-Two researches environments were used to undertake the project. 
-One was the \emph{Laboratório de Performance Humana} (LPH) at 
-\emph{Faculdade Ceilandia} (FCE) / \emph{Universidade de Brasilia} (UnB), 
-and the other was the \emph{Laboratorio de Informatica em Saude} (LIS)
-at \emph{Faculdade Gama (FGA)} / UnB. At LPH data was collected and at
-LIS the software version was developed.
+Two researche environments were used to undertake the project. 
+One was the Human Performance Lab (\emph{Laboratório de Performance Humana} - LPH) in
+Universty of Brasilia (\emph{Universidade de Brasilia} - UnB) at Ceilandia, 
+and the other was the Health Informatics Lab (\emph{Laboratorio de Informatica em Saude} - LIS)
+in UnB at Gama. 
+Data acquisition was made in LPH and software development tasks at LIS.
 
 The next subsections presents the process for data acquisition,
-the development process and the software architecture general
-view.
+the development process and the general
+view of the software architecture.
 
 \subsection{Data Acquisition}
 
-The data are acquired by sixteen Qualisys Oqus MRI cameras, using
+The data are acquired by sixteen Qualisys Oqus cameras that use
 the Qualisys Track Manager Software (QTM). 
-The data are relative to surface markers along a patient body.
+The data are relative to surface markers along a patient's body.
 
 For this paper a healthy patient, male, with age between 20 and 30 years old
 was selected.
 Fig. \ref{data_acq_proc} summarizes the data acquisition process.
-First   markers positions are defined. 
-For this paper only the left trochanter, left knee and left tibia
+First,  the  markers positions are defined by the gait analisys specialist. 
+For this paper, only the left trochanter, left knee and left tibia
 positions were considered. 
-So the surface markers must be fixed at defined positions on patient body.
-The next step is acquire data using the cameras and QTM software. In this
-step the patient executes a comfortable gait cycle in front cameras.
-Five gait samples were acquired.
-The last step is convert the acquired data to MATLAB format using the QTM
-software. It is necessary because this is the pattern of choice for 
+So the surface markers must be setted at defined positions on patient's body.
+The next step is acquire data from the cameras and QTM software. In this
+step, the patient perfoms a comfortable gait cycle in front of the cameras.
+Then, five gait samples were acquired.
+The last step is convert the acquired data to MATLAB format that use the QTM
+software. Furthermore, it is important due to the standard choosen for 
 the gait analysis software.
 
-The process for data acquisition was approved by 
-\emph{Faculdade de Saude da UnB} ethics committee, 
+The process for data acquisition was approved by Ethics Committee from Faculty of Health 
+\emph{Faculdade de Saude} / UnB  
 process number N11911/12.
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=1.5in]{img/data_acq_proc.eps}
+	\includegraphics[width=1.5in]{./data_acq_proc.eps}
 	\caption{Data acquisition process.
-		(a) Positions of markers to be fixed in patient body are defined.
-		(b) Markers are fixed at defined positions.
+		(a) Positions of markers to be fixed in patient body are defined;
+		(b) Markers are fixed at defined positions;
 		(c) Patient executes some comfortable gait cycles in front of cameras.
 		QTM software is used;
 		(d) Data acquired are converted to MATLAB format using QTM software.
@@ -589,29 +586,31 @@ process number N11911/12.
 
 \subsection{Development Process}
 
-A scrum \cite{Schwaber2001}, \cite{Schwaber2004}, \cite{Rubin2012} inspired process for development was implanted.
+A scrum \cite{Schwaber2001, Schwaber2004, Rubin2012} inspired process for development was implanted.
 The scrum is a agile method \cite{Beck2001} that has as mainly characteristics
 to be iterative, incremental and change friendly.
 These characteristics are essentials to deal with software requirements volatility
-and hence with so common software changes.
+and, hence, with software changes.
 
 The process flow is presented in Fig. \ref{dev_proc}.
-The process consists of iterations, called sprints.
+These process consist of iterations called sprints.
 The sprints have a 2 weeks average duration.
-A product backlog is created and managed by the product owner.
-The product backlog is open to receive additions from all 
-project stakeholders, at any time, but only the product owner can prioritize him,
-based in important values for final users.
-Each item at product backlog is a user story \cite{cohn2004}.
-Before a new iteration begin, there are a two phases meeting between the development team members. 
-In the first phase, the last increment is presented and impediments occurred in last iteration are uncovered.
-In the second phase the development team selects items from the product backlog.
+Therefore, a product backlog is created and managed by the product owner.
+Also the product backlog is open to receive additions from any
+project stakeholders, at any time, but only the product owner may prioritize it,
+that are based in expected values for final users.
+Each item at the product backlog is a user story \cite{cohn2004}.
+
+Before a new iteration begins, there are a two phases meeting between the development team members. 
+In the first phase, the last increment is presented and 
+impediments occurred in the last iteration are revealed.
+In the second phase, the development team selects items from the product backlog.
 These items will be implemented in the sprint and are called the sprint backlog.
-Last, a increment consisting in a piece of working software is delivered.
+Finally , is delivered an increment that consist in a piece of working software.
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=0.48\textwidth]{img/dev_proc.eps}
+	\includegraphics[width=0.48\textwidth]{./dev_proc.eps}
 	\caption{Development process overview.
 		Every two weeks a new increment, working software, is delivered.
 		Adapted from \cite{Schwaber2004}.
@@ -621,13 +620,13 @@ Last, a increment consisting in a piece of working software is delivered.
 
 \subsection{Software Architecture General View}
 The Fig. \ref{app_layers} shows the software architecture layered high level view.
-The layer web applications is responsible by application user interactions, see Section \ref{web_application_layer}.
-The layer REST web API is responsible by business logic, see Section \ref{rest_web_api_layer}.
-The document base layer is responsible by data application persistence, see Section \ref{document_base_layer}.
+The web applications layer is responsible by application user interactions (Section \ref{web_application_layer}).
+The layer REST web API is responsible by business logic, (Section \ref{rest_web_api_layer}).
+The document base layer is responsible by data application persistence (Section \ref{document_base_layer}).
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=1.5in]{img/app_layers.eps}
-	\caption{Software architecture layered high level view.
+	\includegraphics[width=2in]{./app_layers.eps}
+	\caption{The high level view of the software architecture layered.
 	}
 	\label{app_layers}
 \end{figure}
@@ -635,36 +634,36 @@ The document base layer is responsible by data application persistence, see Sect
 \subsubsection{Web Application Layer}
 \label{web_application_layer}
 
-These layer was designed to run in web browsers with HTML5 support.
-It was developed using Javascript, CSS and HTML languages. 
-Moreover, the web development framework AngularJS was adopted \cite{Branas2014}, \cite{Freeman2014}. 
-An AngularJS adoption advantage is the directive creation possibility. 
-Directives are developed components which can be embedded in a HTML template.
+This layer was designed to run in web browsers with HTML5 support.
+It was developed with Javascript, CSS and HTML languages. 
+Moreover, the web development framework AngularJS was adopted \cite{Branas2014,Freeman2014}. 
+A great AngularJS adoption advantage is the directive creation possibility. 
+Directives are developed components which may be embedded in a HTML template.
 Also, it was chosen to use the Angular-Material directive library. 
 This library is based in the Material Design specification from Google, which
 describes about graphical design patterns and user interaction, it is based in the material metaphor
-\cite{Google2015a}. The Angular-Material use, facilitates to build a user experience acceptable by 
-health professionals.
+\cite{Google2015a}. The Angular-Material use, so it is possible to build a user experience that are acceptable by health professionals.
 
-To run graphical 3D animations, the ThreeJS library was chosen \cite{Dirksen2015}.
-This is a high level library  which takes advantage from WebGL implementation in modern web browsers.
+The ThreeJS library was chosen to run graphical 3D animations \cite{Dirksen2015}.
+This is a high level library for computer graphics, 
+which takes advantage from WebGL implementation in modern web browsers.
 The WebGL specification \cite{Matsuda2013} uses the computer Graphical Processor Unit (GPU) natively, 
-allowing to build applications which needs good performance to generate animations and graphics.
+that allows to build applications which needs good performance to generate animations and graphics.
 
 \begin{figure*}[tb]
 	\centering
-	{\includegraphics[width=0.95\textwidth]{img/web_components.eps}}
+	{\includegraphics[width=0.95\textwidth]{./web_components.eps}}
 	\caption{Main web application layer components interactions.
 		All these components, except the component backend, run inside the web browses.
 		The component backend correspond to the infrastructure and components of REST web API layer.
-		(a) A user interacts with the application, maybe click a button on screen;
+		(a) A user interacts with the application, for example, a click button on screen;
 		(b) The AngularJS framework detects the event, selects a controller component and
-		dispatch the event for him;
+		dispatch the event for it;
 		(c) The selected controller process the event;
-		(d) If it is necessary to execute some action, how request more data, the controller 
+		(d) If it is necessary to execute some action, as request more data, the controller 
 		requests to a facade component to requests the backend;
 		(e) The selected facade component prepares and send a HTTP request to the backend,
-		which sends a JSON object as response;
+		which returns a JSON object;
 		(f) The controller updates the model, variables used by the framework to show data at screen,
 		and signals to the AngularJS framework to update the screen.
 	}
@@ -673,48 +672,38 @@ allowing to build applications which needs good performance to generate animatio
 
 \begin{figure*}[tb]
 	\centering
-	{\includegraphics[width=0.95\textwidth]{img/rest_web_api_components.eps}}
+	{\includegraphics[width=0.95\textwidth]{./rest_web_api_components.eps}}
 	\caption{Main REST web API layer components interactions.
-		(a) From the user web browser a HTTP request is sent to the  webserver running the web API;
-		(b) The web server redirects the request to the Flask Application, in this case the REST 
-		web API implementation;
+		(a) From the user web browser, a HTTP request is sent to the  webserver that runs the web API;
+		(b) The webserver redirects the request to the Flask Application.  
 		(c) The flask application routes the request to the appropriate handling function;
 		(d) If necessary the handling function access specialized libraries, like NumPy,
 		Matplotlib or a library for business logic, for example,
-		to calculate kinematics from gait data;
-		(e) If data manipulation from document base layer is necessary, calls to PyMongo, a library for
-		access the document base manager MongoDB, can be made;
-		(f) The function handling can implement business logic too, but it is only advise for simple
+		to calculate cinematics from gait data;
+		(e) If data manipulation from document base layer is nedeed, calls to PyMongo can be made; 
+		(f) The function handling may implement business logic too, but it is only advise for simple
 		things. The return data is encapsulated like a JSON object end sent to the webserver to
 		complete the original request from the web browser.
 	}
 	\label{rest_web_api_components}
 \end{figure*}
-\begin{figure}[!t]
-	\centering
-	\includegraphics[width=1.5in]{img/mongo_oga.eps}
-	\caption{Application document base. The data base name is "oga". 
-	This database has two collections: patients and positionals\_data. 
-	}
-	\label{mongo_oga}
-\end{figure}
-
 
 Fig. \ref{web_components} shows the interaction between  main components in web application layer.
-Note that this is only a logic representation.
-When a user interacts with the application using a web browser, they dispatches events detected by the 
-AngularJS framework. The interaction can be a button click event, a mouse over event, a drag event or
-other. So the framework selects a controller component to process the event.
-Controllers components are components developed to the application, they are responsible to coordinate
+It can be observed that this is only a logic representation.
+When a user interacts with the application in the web browser, it produces events detected by the 
+AngularJS framework. The interaction may be a button click event, a mouse over event, a drag event or
+other. So, the framework selects a controller component to process the event.
+Controllers are components developed to the application, these are responsible to coordinate
 data access to the model and to update the view. 
-AngularJS applications uses a famous design pattern called Model-View-Controller \cite{Fowler2002}. 
+
+AngularJS applications use a famous design pattern called Model-View-Controller \cite{Fowler2002}. 
 In practice, this means that controllers update the application state, so the AngularJS framework
-can update the screen to users.
-If new data or business logic execution are necessary the controller request to a facade component,
-to communicate with the backend. 
-Facade is a design pattern which hides complex logic necessary to perform some action \cite{Fowler2002}, 
-in this case is the communication over HTTP protocol to the backend.
-After the backend receives the request, it process him and send a HTTP response with a JSON object inside.
+should update the screen to users.
+If new data or business logic execution are relevant, the controller request to a facade component
+that communicate with the backend. 
+Facade is a design pattern which hides complex logic required to perform some action \cite{Fowler2002}. 
+Iin this case is the communication over HTTP protocol to the backend.
+After the backend receives the request, it process and sends a HTTP response with a JSON object inside.
 JavaScript Object Notation (JSON) are a specification to represent and exchange data.
 
 \subsubsection{REST Web API Layer}
@@ -728,118 +717,89 @@ The main advantage of this technology is the high decoupling with the web applic
 This decoupling promotes concepts separation between these layers, improving development process
 and application maintainability.
 To implement the REST style, was chosen the framework Flask \cite{Maia2015}.
-Flask is implemented in Python language, it is known by his minimalist philosophy, 
-allowing to create a simple project, evolving him to more complex models, according with
+Flask is implemented in Python language, it is known by minimalist philosophy 
+that allows to create a simple project, which evolves into more complex models, according with
 requisites at moment.
-
-\begin{figure*}[tb]
-	\centering
-	{\includegraphics[width=0.7\textwidth]{img/qtm_data.eps}}
-	\caption{Gait analysis screen. 
-		(a) Patient name;
-		(b) Gait samples acquired from the patient and imported to the software;
-		(c) Initial contact and terminal swing frames. Must be informed by the user,
-		which can use the animation feature to know the correct frames;
-		(d) QTM imported file summary.
-	}
-	\label{qtm_data}
-\end{figure*}
 
 Fig. \ref{rest_web_api_components} shows the interaction between  main components in REST web API layer.
 This representation is only a logic view.
-After a user intact with web application running at web browser and a action from the REST web API is
-needed, a HTTP request is sent to the webserver. This request is a REST style request.
-The webserver receives the request, verifies if is a request to the web API, and if yes the
-request is dispatched to the web API implementation, this is written using the framework Flask.
+After a user interacts with web application run at web browser and an action from the REST web API is
+needed, a HTTP request is sent to the webserver. This is a REST style request.
+The webserver receives the request and verify it. If, this request to the web API is  yes, the
+request is dispatched to the web API implementation, that is written by the framework Flask.
 The framework Flask identifies the request and selects the appropriate handling function. 
 This function is written in Python language. 
-The request handling function can them access a lot of libraries, like NumPy for number crunching,
-Matplotlib for generate scientific graphics that can be sent to the user. 
-Business logic application specific libraries can also be used, like libraries to calculate
+The request handling function may access many libraries, like NumPy for number crunching,
+Matplotlib for generate scientific graphics that are be sent to the user. 
+Business logic application specific libraries may also be used, like libraries to calculate
 cinematic information;
-A very important library that can be used by the handling function too, is the PyMongo library.
-This component is used to access the document base manager MongoDB, see Section \ref{document_base_layer},
+The PyMongo is an important library that may be used by the handling function as well.
+This component will access the document base manager MongoDB (Section \ref{document_base_layer}),
 so is possible manipulate and persist the application data.
-The request handling also can implement business logic, but is advise implement a specific library for
-complex logic. 
-When all needed processing is done a response is generated as a JSON object and sent back to 
-the web application running at the user browser.
+The request handling also implements business logic, but is advised to implement complex logic in a specific
+library.
+When entire processing is done, a response is generated as a JSON object and sent back to 
+the web application that runs at the user browser.
 \subsubsection{Document Base Layer}
 \label{document_base_layer}
-
 
 The data persistence and basic manipulation is done by the document base layer.
 This layer comprises a server running the document base manager MongoDB 
 \cite{Plugge2014}, \cite{Plugge2014}.
 This technology was chosen instead of a relational database management system, 
-because the application multidimensional data nature more  easily  modeled with
-a document base, and so because the facilities for MongoDB scalability.
-MongoDB don't use tables like relational databases, it uses the collection concept.
-A collection is a set of objects. Objects of a collection can have different structures
+because the multidimensional data scope of the application is easily  modeled with
+a document base. Also MongoDB is more easily scalable than a relational dabase management system.
+MongoDB does not use tables like relational databases, it uses the collection concept.
+A collection is a set of objects. Objects of a collection may have different structures
 or types, although this is a bad practice. A MongoDB database can have multiple collections.
-Objects are expressed using de BSON notation, that is very similar to JSON.
+Objects are expressed using de BSON notation, which are very similar to JSON.
 
 The Fig. \ref{mongo_oga} shows the application data base.
 It have two data collections: patients and positionals\_data.
-The patients collections has basic data from the patient.
+The patients collections have basic data from the patient.
 The positionals\_data collection has spatial and markers 
 data imported from a QTM/MATLAB file.
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=1.5in]{./mongo_oga.eps}
+	\caption{Application document base. The data base name is "oga". 
+	This database has two collections: patients and positionals\_data. 
+	}
+	\label{mongo_oga}
+\end{figure}
+
 
 \section{Results}
 
-The developed software permits to register patients.
-After the patient is registered, the user can include gait samples to these patient
-This is done importing a MATLAB formatted file exported from QTM. 
+The developed software allows to register patients.
+After the patient is registered, the user may include gait samples to this patient.
+This sample is imported to the software from a MATLAB file generated by the QTM software.
 After the file is imported the screen described in Fig. \ref{qtm_data} is shown.
 From this screen is possible to run a 3D animation including the markers acquired (Fig. \ref{animation}).
-Here is possible accelerate or slowdown the animation, to apply zoom in or Zion out, to controller pan
+There is possible accelerate or slowdown the animation, to apply zoom in or zoom out, to controller pan
 and to see a specific frame in the animation.
-To see a frame is am important feature, because it can be used to visualize the initial contact
-and terminal swing frames, 
-so is possible to update these fields in the screen shown at Fig. \ref{qtm_data}(c).
-These data fields must be correctly filled or the graphics will be incorrect.
+It is am important feature to see a frame because may be used to visualize the initial contact
+and terminal swing frames. 
+So, it is possible to update these fields in the screen shown at Fig. \ref{qtm_data}(c).
+These data fields must be correctly filled otherwise the graphics will be incorrect.
 
-\begin{figure*}[tb]
-  \centering
-  \begin{minipage}[b]{0.32\textwidth}
-    \includegraphics[width=\textwidth]{img/animation1.eps}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.32\textwidth}
-    \includegraphics[width=\textwidth]{img/animation2.eps}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.32\textwidth}
-    \includegraphics[width=\textwidth]{img/animation3.eps}
-  \end{minipage}
-  \caption{Markers 3D animation. 
-	  (a) Left inferior limb initial contact;
-	  (b) Left inferior limb terminal instance;
-	  (c) Left inferior limb terminal swing.
-  }
-  \label{animation}
-\end{figure*}
 
 The software has an option to name markers. After a marker is named, a graphic showing the 
-marker's spatial progression can be plotted (Fig. \ref{spatial_progression}). 
-\begin{figure}[!t]
-	\centering
-	{\includegraphics[width=0.48\textwidth]{img/spatial_progression.eps}}
-	\caption{Left tibial spatial progression.}
-	\label{spatial_progression}
-\end{figure}
-
+marker's spatial progression will be plotted (Fig. \ref{spatial_progression}). 
 Another important feature is the angle registering tool (Fig.~\ref{angles_tool}). 
-After a angle is registered, angles (Fig.~\ref{angles}), angular velocities (Fig.~\ref{av}) 
-and angular accelerations (Fig.~\ref{aa}) can be plotted.
+After an angle is registered (Fig.~\ref{angles}), angular velocities (Fig.~\ref{av}) 
+and angular accelerations (Fig.~\ref{aa}) will be plotted.
+
+Another advantage of AngularJS and Material-Angular is the seamless adaptation of their components to samall screens. This characteristic turns possiblie with little efort to adapt the application to mobile phones.
+The Fig. \ref{iphone} shows the application running in a mobile phone.
 
 \section{Discussion}
 
 A software for gait analysis fully available at web is a innovation in the field.
-The bigger advantage which this approach does is the easy access to the software,
+The bigger advantage is the easy access to the software,
 because after the application is implanted in an internet webserver, 
-any user with a recent HTML5 browser can use the application, independent from
-his location.
+a user with a recent HTML5 browser can use the application, independent from
+the location.
 
 Another theme that raises from this project is the creation of a centralized 
 base, with data collected around world. Such endeavor would be priceless
@@ -848,10 +808,8 @@ information security.
 
 The software is available as free software. The intention is to attract
 developers and health professionals to contribute and to use the software.
-These profiles already exists in the project, but to fully reach the 
-project potential, some more people will be necessary.
 
-As future works, new data acquisition methods cold be implemented, as plate force, electromyography (EMG)
+As future works, new data acquisition methods should be implemented, as plate force, electromyography (EMG)
 and inertial measurement unit (IMU). 
 The inclusion of automatic detection events at gait cycle could be a plus, for example,
 detect the initial contact and terminal swing.
@@ -860,50 +818,99 @@ It will support machine learning methods to regression and classification.
 
 
 \section{Conclusion}
-This paper presented a gait analysis SaaS. His source code is available as free software 
-under the MIT license \cite{MIT2015} ate web address http://github.com/rob-nn/open\_gait\_analytics.
+This paper presented a gait analysis SaaS. It source code is available as free software 
+under the MIT license \cite{MIT2015} at the web address <http://github.com/rob-nn/open\_gait\_analytics>.
 
 The software offers data importation from the third party software QTM from Qualisys.
 These data are about surface markers fixed in a patient body.
-The software permits name markers, plot a spatial progression from them.
-Also is possible to register angles and show graphics with angular velocities and accelerations.
-A 3D animation showing the markers is available. 
-All graphics are visualized according the gait cycle phase.
+The software allows name markers, plot a spatial progression from it.
+Also is possible to register angles and show graphics with angular velocities and angular accelerations.
+The markers may be viewed by 3D animation.
+All graphics are displayed according to the gait cycle phases.
 
 The software will continue receive more features, and gradually will be available for more users.
-Anyway is possible to other people implant him by themselves.
+It is possible to other people implant or use the software as they wish.
 
 % use section* for acknowledgment
 \section*{Acknowledgment}
 
-The first author would like to thank the financial suport granted by CAPES.
-The authors wold like to thank LIS UnB at Gama and LPH UnB at Ceilandia,
+The first author would like to thank the financial support granted by CAPES.
+The authors would like to thank LIS UnB at Gama and LPH UnB at Ceilandia,
 by use of its resources.
+
+\begin{figure*}[tb]
+	\centering
+	{\includegraphics[width=0.6\textwidth]{./qtm_data.eps}}
+	\caption{Gait analysis screen. 
+		(a) Patient name;
+		(b) Gait samples acquired from the patient and imported to the software;
+		(c) Initial contact and terminal swing frames must be informed by the user,
+		which may use the animation feature to know the correct frames;
+		(d) QTM imported file summary.
+	}
+	\label{qtm_data}
+\end{figure*}
+
+
+\begin{figure*}[tb]
+  \centering
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{./animation1.eps}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{./animation2.eps}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{./animation3.eps}
+  \end{minipage}
+  \caption{Markers 3D animation. 
+	  (a) Left inferior limb initial contact;
+	  (b) Left inferior limb terminal instance;
+	  (c) Left inferior limb terminal swing.
+  }
+  \label{animation}
+\end{figure*}
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.48\textwidth]{./spatial_progression.eps}}
+	\caption{Left tibial spatial progression.}
+	\label{spatial_progression}
+\end{figure}
+
 
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=0.48\textwidth]{img/angles_tool.eps}}
+	{\includegraphics[width=0.46\textwidth]{./angles_tool.eps}}
 	\caption{Angle registering tool.}
 	\label{angles_tool}
 \end{figure}
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=0.48\textwidth]{img/angles.eps}}
+	{\includegraphics[width=0.49\textwidth]{./angles.eps}}
 	\caption{Angles.}
 	\label{angles}
 \end{figure}
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=0.48\textwidth]{img/av.eps}}
+	{\includegraphics[width=0.49\textwidth]{./av.eps}}
 	\caption{Angular velocities.}
 	\label{av}
 \end{figure}
 \begin{figure}[!t]
 	\centering
-	{\includegraphics[width=0.48\textwidth]{img/aa.eps}}
+	{\includegraphics[width=0.49\textwidth]{./aa.eps}}
 	\caption{Angular accelerations.}
 	\label{aa}
 \end{figure}
+\begin{figure}[!t]
+	\centering
+	{\includegraphics[width=0.46\textwidth]{./iphone.eps}}
+	\caption{Application running at a mobile phone.}
+	\label{iphone}
+\end{figure}
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -1079,24 +1086,54 @@ by use of its resources.
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}{Michael Shell}
-Biography text here.
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{roberto}}]{Roberto Aguiar Lima}
+	is graduated in computer science from Brasilia Catholic University (2000).
+	He attends the University of Brasilia Biomedical Engineering M.Sc. Program.
+	He has more than twenty years as software developer.
+
+	He is envolved in gait analisys research and has interest in machine learning and software engineering.
 \end{IEEEbiography}
 
-% if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vera}}]{Vera Regina Da Silva Marães}
+	is graduated in physioterapy by Sao Carlos Federal University (1995). She has a M.Sc. degree in 
+	celular and structural biology by Campinas State University, and a Ph.D. degree in physioterapy
+	from Sao Carlos Federal University. 
+	Actually she is  adjunct professor III at: University of Brasilia at Ceilandia; 
+	University of Brasilia Biomedical Engineering M.Sc. Program;
+	and University of Brasilia Health Pro-Education.
+
+	She has experience in physioterapy, acting mainly in: health teatching, amputee prosthesis adaptation,
+	human functionality, exercice phisiology, cardiac rehabilitation and cardiac frequency variability.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{jairo}}]{Jairo Simao Santana Melo}
+	?????
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{vladimir}}]{Vladimir Franca Nogueira}
+	
+\end{IEEEbiography}
+
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{lourdes}}]{Lourdes Mattos Brasil}.Electrical Engineer, Federal University of
+Santa Catarina (1984), Master of Science in Electrical
+Engineering/Biomedical Engineering, Federal University of Santa
+Catarina (1994), Sandwich Doctorate in Mathematical Applied from
+Facultes Universitaires Notre Dame de La Paix (FUNDP), Belgium
+(1997–1998) and D.Sc. in Electrical Engineering/Biomedical Engineering
+(1999). She is currently professor/researcher/head of the Lato Sensu
+in Clinical Engineering Course, besides being professor of the Course
+of Electronic Engineering, at the University of Brasilia at Gama,
+Brazil. Her scientific works concern: artificial intelligence, data
+mining, machine learning, knowledge acquisition, knowledge based
+systems, hybrid expert systems, virtual reality, intelligent tutoring
+systems, informatics in health, e–learning and nanotechnology.
+\end{IEEEbiography}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
 
-\begin{IEEEbiographynophoto}{Jane Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
-
-% You can push biographies down or up by placing
 % a \vfill before or after them. The appropriate
 % use of \vfill depends on what kind of text is
 % on the last page and whether or not the columns
@@ -1112,5 +1149,3 @@ Biography text here.
 
 % that's all folks
 \end{document}
-
-

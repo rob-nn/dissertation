@@ -16,54 +16,63 @@
 \citation{Google2015a}
 \citation{Dirksen2015}
 \citation{Matsuda2013}
-\citation{Fowler2002}
-\citation{Fowler2002}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Data acquisition process. (a) Positions of markers to be fixed in patient body are defined. (b) Markers are fixed at defined positions. (c) Patient executes some comfortable gait cycles in front of cameras. QTM software is used; (d) Data acquired are converted to MATLAB format using QTM software. }}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Data acquisition process. (a) Positions of markers to be fixed in patient body are defined; (b) Markers are fixed at defined positions; (c) Patient executes some comfortable gait cycles in front of cameras. QTM software is used; (d) Data acquired are converted to MATLAB format using QTM software. }}{2}}
 \newlabel{data_acq_proc}{{1}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Development Process}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Software Architecture General View}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Development process overview. Every two weeks a new increment, working software, is delivered. Adapted from \cite  {Schwaber2004}. }}{2}}
 \newlabel{dev_proc}{{2}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Software architecture layered high level view. }}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The high level view of the software architecture layered. }}{2}}
 \newlabel{app_layers}{{3}{2}}
 \newlabel{web_application_layer}{{\unhbox \voidb@x \hbox {II-C}1}{2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}1}Web Application Layer}{2}}
+\citation{Fowler2002}
+\citation{Fowler2002}
 \citation{Grinberg2014}
 \citation{Maia2015}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Main web application layer components interactions. All these components, except the component backend, run inside the web browses. The component backend correspond to the infrastructure and components of REST web API layer. (a) A user interacts with the application, maybe click a button on screen; (b) The AngularJS framework detects the event, selects a controller component and dispatch the event for him; (c) The selected controller process the event; (d) If it is necessary to execute some action, as request more data, the controller requests to a facade component to requests the backend; (e) The selected facade component prepares and send a HTTP request to the backend, which responds with a JSON object; (f) The controller updates the model, variables used by the framework to show data at screen, and signals to the AngularJS framework to update the screen. }}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Main web application layer components interactions. All these components, except the component backend, run inside the web browses. The component backend correspond to the infrastructure and components of REST web API layer. (a) A user interacts with the application, for example, a click button on screen; (b) The AngularJS framework detects the event, selects a controller component and dispatch the event for it; (c) The selected controller process the event; (d) If it is necessary to execute some action, as request more data, the controller requests to a facade component to requests the backend; (e) The selected facade component prepares and send a HTTP request to the backend, which returns a JSON object; (f) The controller updates the model, variables used by the framework to show data at screen, and signals to the AngularJS framework to update the screen. }}{3}}
 \newlabel{web_components}{{4}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Main REST web API layer components interactions. (a) From the user web browser a HTTP request is sent to the webserver running the web API; (b) The web server redirects the request to the Flask Application, in this case the REST web API implementation; (c) The flask application routes the request to the appropriate handling function; (d) If necessary the handling function access specialized libraries, like NumPy, Matplotlib or a library for business logic, for example, to calculate kinematics from gait data; (e) If data manipulation from document base layer is necessary, calls to PyMongo, a library for access the document base manager MongoDB, can be made; (f) The function handling can implement business logic too, but it is only advise for simple things. The return data is encapsulated like a JSON object end sent to the webserver to complete the original request from the web browser. }}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Main REST web API layer components interactions. (a) From the user web browser, a HTTP request is sent to the webserver that runs the web API; (b) The webserver redirects the request to the Flask Application. (c) The flask application routes the request to the appropriate handling function; (d) If necessary the handling function access specialized libraries, like NumPy, Matplotlib or a library for business logic, for example, to calculate kinematics from gait data; (e) If data manipulation from document base layer is needed, calls to PyMongo can be made; (f) The function handling may implement business logic too, but it is only advise for simple things. The return data is encapsulated like a JSON object end sent to the webserver to complete the original request from the web browser. }}{3}}
 \newlabel{rest_web_api_components}{{5}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Application document base. The data base name is "oga". This database has two collections: patients and positionals\_data. }}{3}}
-\newlabel{mongo_oga}{{6}{3}}
 \newlabel{rest_web_api_layer}{{\unhbox \voidb@x \hbox {II-C}2}{3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}2}REST Web API Layer}{3}}
 \citation{Plugge2014}
 \citation{Plugge2014}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Gait analysis screen. (a) Patient name; (b) Gait samples acquired from the patient and imported to the software; (c) Initial contact and terminal swing frames. Must be informed by the user, which can use the animation feature to know the correct frames; (d) QTM imported file summary. }}{4}}
-\newlabel{qtm_data}{{7}{4}}
-\newlabel{document_base_layer}{{\unhbox \voidb@x \hbox {II-C}3}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}3}Document Base Layer}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{4}}
 \citation{MIT2015}
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,./IEEE.bib}
 \bibcite{Fox2012}{1}
-\bibcite{Baker2007}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Application document base. The data base name is "oga". This database has two collections: patients and positionals\_data. }}{4}}
+\newlabel{mongo_oga}{{6}{4}}
+\newlabel{document_base_layer}{{\unhbox \voidb@x \hbox {II-C}3}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}3}Document Base Layer}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Discussion}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Gait analysis screen. (a) Patient name; (b) Gait samples acquired from the patient and imported to the software; (c) Initial contact and terminal swing frames must be informed by the user, which may use the animation feature to know the correct frames; (d) QTM imported file summary. }}{5}}
+\newlabel{qtm_data}{{7}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Markers 3D animation. (a) Left inferior limb initial contact; (b) Left inferior limb terminal instance; (c) Left inferior limb terminal swing. }}{5}}
 \newlabel{animation}{{8}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Left tibial spatial progression.}}{5}}
 \newlabel{spatial_progression}{{9}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Discussion}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Angle registering tool.}}{5}}
 \newlabel{angles_tool}{{10}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{5}}
+\bibcite{Baker2007}{2}
 \bibcite{Moraes2003}{3}
 \bibcite{Perry2010}{4}
 \bibcite{Whittle2012}{5}
 \bibcite{Ferreira2009}{6}
 \bibcite{Vieira2015}{7}
 \bibcite{Duhamel2004}{8}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Angles.}}{6}}
+\newlabel{angles}{{11}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Angular velocities.}}{6}}
+\newlabel{av}{{12}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Angular accelerations.}}{6}}
+\newlabel{aa}{{13}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Application running at a mobile phone.}}{6}}
+\newlabel{iphone}{{14}{6}}
 \bibcite{Ghoussayni2004}{9}
 \bibcite{Moreno2009}{10}
 \bibcite{Beynon2010}{11}
@@ -83,16 +92,9 @@
 \bibcite{Maia2015}{25}
 \bibcite{Plugge2014}{26}
 \bibcite{MIT2015}{27}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Angles.}}{6}}
-\newlabel{angles}{{11}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Angular velocities.}}{6}}
-\newlabel{av}{{12}{6}}
-\@writefile{toc}{\contentsline {section}{References}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Angular accelerations.}}{6}}
-\newlabel{aa}{{13}{6}}
 \@writefile{toc}{\contentsline {section}{Biographies}{7}}
 \@writefile{toc}{\contentsline {subsection}{Roberto Aguiar Lima}{7}}
-\@writefile{toc}{\contentsline {subsection}{Vera Regina Da Silva Marães}{7}}
+\@writefile{toc}{\contentsline {subsection}{Vera Regina Da Silva Maraes}{7}}
 \@writefile{toc}{\contentsline {subsection}{Jairo Simao Santana Melo}{7}}
 \@writefile{toc}{\contentsline {subsection}{Vladimir Franca Nogueira}{7}}
 \@writefile{toc}{\contentsline {subsection}{Lourdes Mattos Brasil}{7}}
