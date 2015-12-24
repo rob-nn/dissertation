@@ -1,9 +1,0 @@
-reset
-f(x)=x*exp(-x/10)
-set grid
-set xrange [0:5]
-plot f(x)
-set terminal postcript color
-set output "test.eps"
-replot
-
